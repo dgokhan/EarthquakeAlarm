@@ -3,4 +3,8 @@ Get notifications from the moment you set formed by the provinces and the earthq
 
 [★ Google Play Store](https://play.google.com/store/apps/details?id=f8.earthquake&amp;hl=tr) | Click and go to the Play Store!
 
+## NuGet Packages
+
+[★ FreshMvvm](https://github.com/rid00z/FreshMvvm) 
+
 ![ss1.png](https://i.hizliresim.com/1IcFvo.png) 
