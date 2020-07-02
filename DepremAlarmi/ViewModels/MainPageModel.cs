@@ -1,5 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Threading.Tasks;
+using DepremAlarmi.Controls.Services;
 using DepremAlarmi.Models;
 using FreshMvvm;
 
@@ -32,14 +34,18 @@ namespace DepremAlarmi.ViewModels
 
         public MainPageModel()
         {
-            EarthQuakeList.Add(new EarthQuake {  CityInformation = "İzmir - Konak" , Date = "2020.07.01 - 19:01", Size = "4.3", Depth = "2.3"});
-            EarthQuakeList.Add(new EarthQuake { CityInformation = "Manisa - Konak", Date = "2020.07.01 - 20:06", Size = "6.4", Depth = "3.3" });
-            EarthQuakeList.Add(new EarthQuake { CityInformation = "Aydın - Konak", Date = "2020.07.01 - 21:05", Size = "2.4", Depth = "4.1" });
-            EarthQuakeList.Add(new EarthQuake { CityInformation = "İzmir - Konak", Date = "2020.07.01 - 19:01", Size = "5.3", Depth = "2.3" });
-            EarthQuakeList.Add(new EarthQuake { CityInformation = "İzmir - Konak", Date = "2020.07.01 - 19:01", Size = "5.3", Depth = "2.3" });
-            EarthQuakeList.Add(new EarthQuake { CityInformation = "İzmir - Konak", Date = "2020.07.01 - 19:01", Size = "5.3", Depth = "2.3" });
-            EarthQuakeList.Add(new EarthQuake { CityInformation = "İzmir - Konak", Date = "2020.07.01 - 19:01", Size = "5.3", Depth = "2.3" });
-            EarthQuakeList.Add(new EarthQuake { CityInformation = "İzmir - Konak", Date = "2020.07.01 - 19:01", Size = "5.3", Depth = "2.3" });
+            Task.Run(async () =>
+            {
+                var data = await EarthQuakeService.InfoEarthQuake(null);
+                foreach (var item in data)
+                {
+                    EarthQuakeList.Add(new EarthQuake {
+                        Location = item.Location,
+                        Date = item.Date + "-" +item.Time,
+                        Ml = item.Ml,
+                        Depth = item.Depth });
+                }
+            });
         }
     }
 }

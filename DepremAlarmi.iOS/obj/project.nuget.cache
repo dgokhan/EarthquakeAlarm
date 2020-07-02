@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "6J7PAnvUFwQliuO4O6JBgO+w+kD1PDW3m5AqT9TsknI53hOKaaACHE9lB9YRemFo+CP4/Ckk4aVd5luumM9Ofg==",
+  "dgSpecHash": "6C4/JYqhRtFTEfy1syj9QK3NRUcd5FidN0shTLrMNxPw47gaJJci5EO7t4VJ8qjYgb+4w87rQ4RPcq+Lnj+r2Q==",
   "success": true,
   "projectFilePath": "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi.iOS/DepremAlarmi.iOS.csproj",
   "expectedPackageFiles": [
     "/Users/heranarchy/.nuget/packages/freshmvvm/3.0.0/freshmvvm.3.0.0.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/system.reactive/4.0.0/system.reactive.4.0.0.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/system.runtime.interopservices.windowsruntime/4.3.0/system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/thrivegmbh.bottomnavigationbar.xf/1.0.2/thrivegmbh.bottomnavigationbar.xf.1.0.2.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/webp.touch/1.0.8/webp.touch.1.0.8.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/xamarin.ffimageloading/2.4.11.982/xamarin.ffimageloading.2.4.11.982.nupkg.sha512",

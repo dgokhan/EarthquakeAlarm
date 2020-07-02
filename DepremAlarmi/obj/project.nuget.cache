@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "42oyapdK84eoMQMPRuWkOeH5d7/xGk4iYu5ESCgWUZpQBmjDS5YKoU6oCrfYla1YrjzszwxX8GIPwILItuPBOQ==",
+  "dgSpecHash": "qejvfvWkaiZ9wRmrNFIxf8k8wyBJlIBV6XND8bYFay9qoT/GI5jK+5MYRhH30Uddpb0N9AXa45Xs91ra/AH8Nw==",
   "success": true,
   "projectFilePath": "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi/DepremAlarmi.csproj",
   "expectedPackageFiles": [
@@ -8,14 +8,27 @@
     "/Users/heranarchy/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/system.reactive/4.0.0/system.reactive.4.0.0.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/system.runtime.interopservices.windowsruntime/4.3.0/system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/thrivegmbh.bottomnavigationbar.xf/1.0.2/thrivegmbh.bottomnavigationbar.xf.1.0.2.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/xamarin.ffimageloading/2.4.11.982/xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/xamarin.ffimageloading.forms/2.4.11.982/xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/xamarin.forms/4.7.0.1080/xamarin.forms.4.7.0.1080.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ThriveGmbH.BottomNavigationBar.XF 1.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "ThriveGmbH.BottomNavigationBar.XF",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

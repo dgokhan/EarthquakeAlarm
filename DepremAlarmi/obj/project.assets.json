@@ -50,6 +50,15 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -91,6 +100,15 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Runtime.InteropServices.WindowsRuntime.dll": {}
+        }
+      },
+      "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll": {}
         }
       },
       "Xamarin.Essentials/1.5.3.2": {
@@ -323,6 +341,37 @@
         "netstandard.library.nuspec"
       ]
     },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -542,6 +591,21 @@
         "runtimes/aot/lib/netcore50/System.Runtime.InteropServices.WindowsRuntime.dll",
         "system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
         "system.runtime.interopservices.windowsruntime.nuspec"
+      ]
+    },
+    "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
+      "sha512": "CAxjraz7v27mWxrChvLLggDRq5Icf3OA0IL3lpGY+rfUGH488kZzBB3WJmfbgh7q5yfBbva51Iuv4tFleepV2A==",
+      "type": "package",
+      "path": "thrivegmbh.bottomnavigationbar.xf/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/BottomBar.Droid.dll",
+        "lib/MonoAndroid10/BottomBar.XamarinForms.dll",
+        "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll",
+        "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll",
+        "thrivegmbh.bottomnavigationbar.xf.1.0.2.nupkg.sha512",
+        "thrivegmbh.bottomnavigationbar.xf.nuspec"
       ]
     },
     "Xamarin.Essentials/1.5.3.2": {
@@ -1021,6 +1085,8 @@
     ".NETStandard,Version=v2.0": [
       "FreshMvvm >= 3.0.0",
       "NETStandard.Library >= 2.0.3",
+      "Newtonsoft.Json >= 12.0.3",
+      "ThriveGmbH.BottomNavigationBar.XF >= 1.0.2",
       "Xamarin.Essentials >= 1.5.3.2",
       "Xamarin.FFImageLoading.Forms >= 2.4.11.982",
       "Xamarin.Forms >= 4.7.0.1080"
@@ -1071,6 +1137,14 @@
             "version": "[2.0.3, )",
             "autoReferenced": true
           },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
+          },
+          "ThriveGmbH.BottomNavigationBar.XF": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.5.3.2, )"
@@ -1097,5 +1171,17 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ThriveGmbH.BottomNavigationBar.XF 1.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "ThriveGmbH.BottomNavigationBar.XF",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

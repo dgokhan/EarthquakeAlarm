@@ -25,6 +25,3097 @@ namespace DepremAlarmi.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::BottomBar.Droid.Resource.Animation.abc_fade_in = global::DepremAlarmi.Droid.Resource.Animation.abc_fade_in;
+			global::BottomBar.Droid.Resource.Animation.abc_fade_out = global::DepremAlarmi.Droid.Resource.Animation.abc_fade_out;
+			global::BottomBar.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::DepremAlarmi.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::BottomBar.Droid.Resource.Animation.abc_popup_enter = global::DepremAlarmi.Droid.Resource.Animation.abc_popup_enter;
+			global::BottomBar.Droid.Resource.Animation.abc_popup_exit = global::DepremAlarmi.Droid.Resource.Animation.abc_popup_exit;
+			global::BottomBar.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::DepremAlarmi.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::BottomBar.Droid.Resource.Animation.abc_slide_in_bottom = global::DepremAlarmi.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::BottomBar.Droid.Resource.Animation.abc_slide_in_top = global::DepremAlarmi.Droid.Resource.Animation.abc_slide_in_top;
+			global::BottomBar.Droid.Resource.Animation.abc_slide_out_bottom = global::DepremAlarmi.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::BottomBar.Droid.Resource.Animation.abc_slide_out_top = global::DepremAlarmi.Droid.Resource.Animation.abc_slide_out_top;
+			global::BottomBar.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::DepremAlarmi.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::BottomBar.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::DepremAlarmi.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::BottomBar.Droid.Resource.Animation.design_snackbar_in = global::DepremAlarmi.Droid.Resource.Animation.design_snackbar_in;
+			global::BottomBar.Droid.Resource.Animation.design_snackbar_out = global::DepremAlarmi.Droid.Resource.Animation.design_snackbar_out;
+			global::BottomBar.Droid.Resource.Attribute.actionBarDivider = global::DepremAlarmi.Droid.Resource.Attribute.actionBarDivider;
+			global::BottomBar.Droid.Resource.Attribute.actionBarItemBackground = global::DepremAlarmi.Droid.Resource.Attribute.actionBarItemBackground;
+			global::BottomBar.Droid.Resource.Attribute.actionBarPopupTheme = global::DepremAlarmi.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::BottomBar.Droid.Resource.Attribute.actionBarSize = global::DepremAlarmi.Droid.Resource.Attribute.actionBarSize;
+			global::BottomBar.Droid.Resource.Attribute.actionBarSplitStyle = global::DepremAlarmi.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::BottomBar.Droid.Resource.Attribute.actionBarStyle = global::DepremAlarmi.Droid.Resource.Attribute.actionBarStyle;
+			global::BottomBar.Droid.Resource.Attribute.actionBarTabBarStyle = global::DepremAlarmi.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::BottomBar.Droid.Resource.Attribute.actionBarTabStyle = global::DepremAlarmi.Droid.Resource.Attribute.actionBarTabStyle;
+			global::BottomBar.Droid.Resource.Attribute.actionBarTabTextStyle = global::DepremAlarmi.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::BottomBar.Droid.Resource.Attribute.actionBarTheme = global::DepremAlarmi.Droid.Resource.Attribute.actionBarTheme;
+			global::BottomBar.Droid.Resource.Attribute.actionBarWidgetTheme = global::DepremAlarmi.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::BottomBar.Droid.Resource.Attribute.actionButtonStyle = global::DepremAlarmi.Droid.Resource.Attribute.actionButtonStyle;
+			global::BottomBar.Droid.Resource.Attribute.actionDropDownStyle = global::DepremAlarmi.Droid.Resource.Attribute.actionDropDownStyle;
+			global::BottomBar.Droid.Resource.Attribute.actionLayout = global::DepremAlarmi.Droid.Resource.Attribute.actionLayout;
+			global::BottomBar.Droid.Resource.Attribute.actionMenuTextAppearance = global::DepremAlarmi.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::BottomBar.Droid.Resource.Attribute.actionMenuTextColor = global::DepremAlarmi.Droid.Resource.Attribute.actionMenuTextColor;
+			global::BottomBar.Droid.Resource.Attribute.actionModeBackground = global::DepremAlarmi.Droid.Resource.Attribute.actionModeBackground;
+			global::BottomBar.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::DepremAlarmi.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::BottomBar.Droid.Resource.Attribute.actionModeCloseDrawable = global::DepremAlarmi.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::BottomBar.Droid.Resource.Attribute.actionModeCopyDrawable = global::DepremAlarmi.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::BottomBar.Droid.Resource.Attribute.actionModeCutDrawable = global::DepremAlarmi.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::BottomBar.Droid.Resource.Attribute.actionModeFindDrawable = global::DepremAlarmi.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::BottomBar.Droid.Resource.Attribute.actionModePasteDrawable = global::DepremAlarmi.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::BottomBar.Droid.Resource.Attribute.actionModePopupWindowStyle = global::DepremAlarmi.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::BottomBar.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::DepremAlarmi.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::BottomBar.Droid.Resource.Attribute.actionModeShareDrawable = global::DepremAlarmi.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::BottomBar.Droid.Resource.Attribute.actionModeSplitBackground = global::DepremAlarmi.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::BottomBar.Droid.Resource.Attribute.actionModeStyle = global::DepremAlarmi.Droid.Resource.Attribute.actionModeStyle;
+			global::BottomBar.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::DepremAlarmi.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::BottomBar.Droid.Resource.Attribute.actionOverflowButtonStyle = global::DepremAlarmi.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::BottomBar.Droid.Resource.Attribute.actionOverflowMenuStyle = global::DepremAlarmi.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::BottomBar.Droid.Resource.Attribute.actionProviderClass = global::DepremAlarmi.Droid.Resource.Attribute.actionProviderClass;
+			global::BottomBar.Droid.Resource.Attribute.actionViewClass = global::DepremAlarmi.Droid.Resource.Attribute.actionViewClass;
+			global::BottomBar.Droid.Resource.Attribute.activityChooserViewStyle = global::DepremAlarmi.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::BottomBar.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::DepremAlarmi.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::BottomBar.Droid.Resource.Attribute.alertDialogCenterButtons = global::DepremAlarmi.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::BottomBar.Droid.Resource.Attribute.alertDialogStyle = global::DepremAlarmi.Droid.Resource.Attribute.alertDialogStyle;
+			global::BottomBar.Droid.Resource.Attribute.alertDialogTheme = global::DepremAlarmi.Droid.Resource.Attribute.alertDialogTheme;
+			global::BottomBar.Droid.Resource.Attribute.allowStacking = global::DepremAlarmi.Droid.Resource.Attribute.allowStacking;
+			global::BottomBar.Droid.Resource.Attribute.arrowHeadLength = global::DepremAlarmi.Droid.Resource.Attribute.arrowHeadLength;
+			global::BottomBar.Droid.Resource.Attribute.arrowShaftLength = global::DepremAlarmi.Droid.Resource.Attribute.arrowShaftLength;
+			global::BottomBar.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::DepremAlarmi.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::BottomBar.Droid.Resource.Attribute.background = global::DepremAlarmi.Droid.Resource.Attribute.background;
+			global::BottomBar.Droid.Resource.Attribute.backgroundSplit = global::DepremAlarmi.Droid.Resource.Attribute.backgroundSplit;
+			global::BottomBar.Droid.Resource.Attribute.backgroundStacked = global::DepremAlarmi.Droid.Resource.Attribute.backgroundStacked;
+			global::BottomBar.Droid.Resource.Attribute.backgroundTint = global::DepremAlarmi.Droid.Resource.Attribute.backgroundTint;
+			global::BottomBar.Droid.Resource.Attribute.backgroundTintMode = global::DepremAlarmi.Droid.Resource.Attribute.backgroundTintMode;
+			global::BottomBar.Droid.Resource.Attribute.barLength = global::DepremAlarmi.Droid.Resource.Attribute.barLength;
+			global::BottomBar.Droid.Resource.Attribute.behavior_hideable = global::DepremAlarmi.Droid.Resource.Attribute.behavior_hideable;
+			global::BottomBar.Droid.Resource.Attribute.behavior_overlapTop = global::DepremAlarmi.Droid.Resource.Attribute.behavior_overlapTop;
+			global::BottomBar.Droid.Resource.Attribute.behavior_peekHeight = global::DepremAlarmi.Droid.Resource.Attribute.behavior_peekHeight;
+			global::BottomBar.Droid.Resource.Attribute.borderWidth = global::DepremAlarmi.Droid.Resource.Attribute.borderWidth;
+			global::BottomBar.Droid.Resource.Attribute.borderlessButtonStyle = global::DepremAlarmi.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::BottomBar.Droid.Resource.Attribute.bottomSheetDialogTheme = global::DepremAlarmi.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::BottomBar.Droid.Resource.Attribute.bottomSheetStyle = global::DepremAlarmi.Droid.Resource.Attribute.bottomSheetStyle;
+			global::BottomBar.Droid.Resource.Attribute.buttonBarButtonStyle = global::DepremAlarmi.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::BottomBar.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::DepremAlarmi.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::BottomBar.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::DepremAlarmi.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::BottomBar.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::DepremAlarmi.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::BottomBar.Droid.Resource.Attribute.buttonBarStyle = global::DepremAlarmi.Droid.Resource.Attribute.buttonBarStyle;
+			global::BottomBar.Droid.Resource.Attribute.buttonPanelSideLayout = global::DepremAlarmi.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::BottomBar.Droid.Resource.Attribute.buttonStyle = global::DepremAlarmi.Droid.Resource.Attribute.buttonStyle;
+			global::BottomBar.Droid.Resource.Attribute.buttonStyleSmall = global::DepremAlarmi.Droid.Resource.Attribute.buttonStyleSmall;
+			global::BottomBar.Droid.Resource.Attribute.buttonTint = global::DepremAlarmi.Droid.Resource.Attribute.buttonTint;
+			global::BottomBar.Droid.Resource.Attribute.buttonTintMode = global::DepremAlarmi.Droid.Resource.Attribute.buttonTintMode;
+			global::BottomBar.Droid.Resource.Attribute.cardBackgroundColor = global::DepremAlarmi.Droid.Resource.Attribute.cardBackgroundColor;
+			global::BottomBar.Droid.Resource.Attribute.cardCornerRadius = global::DepremAlarmi.Droid.Resource.Attribute.cardCornerRadius;
+			global::BottomBar.Droid.Resource.Attribute.cardElevation = global::DepremAlarmi.Droid.Resource.Attribute.cardElevation;
+			global::BottomBar.Droid.Resource.Attribute.cardMaxElevation = global::DepremAlarmi.Droid.Resource.Attribute.cardMaxElevation;
+			global::BottomBar.Droid.Resource.Attribute.cardPreventCornerOverlap = global::DepremAlarmi.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::BottomBar.Droid.Resource.Attribute.cardUseCompatPadding = global::DepremAlarmi.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::BottomBar.Droid.Resource.Attribute.checkboxStyle = global::DepremAlarmi.Droid.Resource.Attribute.checkboxStyle;
+			global::BottomBar.Droid.Resource.Attribute.checkedTextViewStyle = global::DepremAlarmi.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::BottomBar.Droid.Resource.Attribute.closeIcon = global::DepremAlarmi.Droid.Resource.Attribute.closeIcon;
+			global::BottomBar.Droid.Resource.Attribute.closeItemLayout = global::DepremAlarmi.Droid.Resource.Attribute.closeItemLayout;
+			global::BottomBar.Droid.Resource.Attribute.collapseContentDescription = global::DepremAlarmi.Droid.Resource.Attribute.collapseContentDescription;
+			global::BottomBar.Droid.Resource.Attribute.collapseIcon = global::DepremAlarmi.Droid.Resource.Attribute.collapseIcon;
+			global::BottomBar.Droid.Resource.Attribute.collapsedTitleGravity = global::DepremAlarmi.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::BottomBar.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::DepremAlarmi.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::BottomBar.Droid.Resource.Attribute.color = global::DepremAlarmi.Droid.Resource.Attribute.color;
+			global::BottomBar.Droid.Resource.Attribute.colorAccent = global::DepremAlarmi.Droid.Resource.Attribute.colorAccent;
+			global::BottomBar.Droid.Resource.Attribute.colorButtonNormal = global::DepremAlarmi.Droid.Resource.Attribute.colorButtonNormal;
+			global::BottomBar.Droid.Resource.Attribute.colorControlActivated = global::DepremAlarmi.Droid.Resource.Attribute.colorControlActivated;
+			global::BottomBar.Droid.Resource.Attribute.colorControlHighlight = global::DepremAlarmi.Droid.Resource.Attribute.colorControlHighlight;
+			global::BottomBar.Droid.Resource.Attribute.colorControlNormal = global::DepremAlarmi.Droid.Resource.Attribute.colorControlNormal;
+			global::BottomBar.Droid.Resource.Attribute.colorPrimary = global::DepremAlarmi.Droid.Resource.Attribute.colorPrimary;
+			global::BottomBar.Droid.Resource.Attribute.colorPrimaryDark = global::DepremAlarmi.Droid.Resource.Attribute.colorPrimaryDark;
+			global::BottomBar.Droid.Resource.Attribute.colorSwitchThumbNormal = global::DepremAlarmi.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::BottomBar.Droid.Resource.Attribute.commitIcon = global::DepremAlarmi.Droid.Resource.Attribute.commitIcon;
+			global::BottomBar.Droid.Resource.Attribute.contentInsetEnd = global::DepremAlarmi.Droid.Resource.Attribute.contentInsetEnd;
+			global::BottomBar.Droid.Resource.Attribute.contentInsetLeft = global::DepremAlarmi.Droid.Resource.Attribute.contentInsetLeft;
+			global::BottomBar.Droid.Resource.Attribute.contentInsetRight = global::DepremAlarmi.Droid.Resource.Attribute.contentInsetRight;
+			global::BottomBar.Droid.Resource.Attribute.contentInsetStart = global::DepremAlarmi.Droid.Resource.Attribute.contentInsetStart;
+			global::BottomBar.Droid.Resource.Attribute.contentPadding = global::DepremAlarmi.Droid.Resource.Attribute.contentPadding;
+			global::BottomBar.Droid.Resource.Attribute.contentPaddingBottom = global::DepremAlarmi.Droid.Resource.Attribute.contentPaddingBottom;
+			global::BottomBar.Droid.Resource.Attribute.contentPaddingLeft = global::DepremAlarmi.Droid.Resource.Attribute.contentPaddingLeft;
+			global::BottomBar.Droid.Resource.Attribute.contentPaddingRight = global::DepremAlarmi.Droid.Resource.Attribute.contentPaddingRight;
+			global::BottomBar.Droid.Resource.Attribute.contentPaddingTop = global::DepremAlarmi.Droid.Resource.Attribute.contentPaddingTop;
+			global::BottomBar.Droid.Resource.Attribute.contentScrim = global::DepremAlarmi.Droid.Resource.Attribute.contentScrim;
+			global::BottomBar.Droid.Resource.Attribute.controlBackground = global::DepremAlarmi.Droid.Resource.Attribute.controlBackground;
+			global::BottomBar.Droid.Resource.Attribute.counterEnabled = global::DepremAlarmi.Droid.Resource.Attribute.counterEnabled;
+			global::BottomBar.Droid.Resource.Attribute.counterMaxLength = global::DepremAlarmi.Droid.Resource.Attribute.counterMaxLength;
+			global::BottomBar.Droid.Resource.Attribute.counterOverflowTextAppearance = global::DepremAlarmi.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::BottomBar.Droid.Resource.Attribute.counterTextAppearance = global::DepremAlarmi.Droid.Resource.Attribute.counterTextAppearance;
+			global::BottomBar.Droid.Resource.Attribute.customNavigationLayout = global::DepremAlarmi.Droid.Resource.Attribute.customNavigationLayout;
+			global::BottomBar.Droid.Resource.Attribute.defaultQueryHint = global::DepremAlarmi.Droid.Resource.Attribute.defaultQueryHint;
+			global::BottomBar.Droid.Resource.Attribute.dialogPreferredPadding = global::DepremAlarmi.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::BottomBar.Droid.Resource.Attribute.dialogTheme = global::DepremAlarmi.Droid.Resource.Attribute.dialogTheme;
+			global::BottomBar.Droid.Resource.Attribute.displayOptions = global::DepremAlarmi.Droid.Resource.Attribute.displayOptions;
+			global::BottomBar.Droid.Resource.Attribute.divider = global::DepremAlarmi.Droid.Resource.Attribute.divider;
+			global::BottomBar.Droid.Resource.Attribute.dividerHorizontal = global::DepremAlarmi.Droid.Resource.Attribute.dividerHorizontal;
+			global::BottomBar.Droid.Resource.Attribute.dividerPadding = global::DepremAlarmi.Droid.Resource.Attribute.dividerPadding;
+			global::BottomBar.Droid.Resource.Attribute.dividerVertical = global::DepremAlarmi.Droid.Resource.Attribute.dividerVertical;
+			global::BottomBar.Droid.Resource.Attribute.drawableSize = global::DepremAlarmi.Droid.Resource.Attribute.drawableSize;
+			global::BottomBar.Droid.Resource.Attribute.drawerArrowStyle = global::DepremAlarmi.Droid.Resource.Attribute.drawerArrowStyle;
+			global::BottomBar.Droid.Resource.Attribute.dropDownListViewStyle = global::DepremAlarmi.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::BottomBar.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::DepremAlarmi.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::BottomBar.Droid.Resource.Attribute.editTextBackground = global::DepremAlarmi.Droid.Resource.Attribute.editTextBackground;
+			global::BottomBar.Droid.Resource.Attribute.editTextColor = global::DepremAlarmi.Droid.Resource.Attribute.editTextColor;
+			global::BottomBar.Droid.Resource.Attribute.editTextStyle = global::DepremAlarmi.Droid.Resource.Attribute.editTextStyle;
+			global::BottomBar.Droid.Resource.Attribute.elevation = global::DepremAlarmi.Droid.Resource.Attribute.elevation;
+			global::BottomBar.Droid.Resource.Attribute.errorEnabled = global::DepremAlarmi.Droid.Resource.Attribute.errorEnabled;
+			global::BottomBar.Droid.Resource.Attribute.errorTextAppearance = global::DepremAlarmi.Droid.Resource.Attribute.errorTextAppearance;
+			global::BottomBar.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::DepremAlarmi.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::BottomBar.Droid.Resource.Attribute.expanded = global::DepremAlarmi.Droid.Resource.Attribute.expanded;
+			global::BottomBar.Droid.Resource.Attribute.expandedTitleGravity = global::DepremAlarmi.Droid.Resource.Attribute.expandedTitleGravity;
+			global::BottomBar.Droid.Resource.Attribute.expandedTitleMargin = global::DepremAlarmi.Droid.Resource.Attribute.expandedTitleMargin;
+			global::BottomBar.Droid.Resource.Attribute.expandedTitleMarginBottom = global::DepremAlarmi.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::BottomBar.Droid.Resource.Attribute.expandedTitleMarginEnd = global::DepremAlarmi.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::BottomBar.Droid.Resource.Attribute.expandedTitleMarginStart = global::DepremAlarmi.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::BottomBar.Droid.Resource.Attribute.expandedTitleMarginTop = global::DepremAlarmi.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::BottomBar.Droid.Resource.Attribute.expandedTitleTextAppearance = global::DepremAlarmi.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::BottomBar.Droid.Resource.Attribute.fabSize = global::DepremAlarmi.Droid.Resource.Attribute.fabSize;
+			global::BottomBar.Droid.Resource.Attribute.foregroundInsidePadding = global::DepremAlarmi.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::BottomBar.Droid.Resource.Attribute.gapBetweenBars = global::DepremAlarmi.Droid.Resource.Attribute.gapBetweenBars;
+			global::BottomBar.Droid.Resource.Attribute.goIcon = global::DepremAlarmi.Droid.Resource.Attribute.goIcon;
+			global::BottomBar.Droid.Resource.Attribute.headerLayout = global::DepremAlarmi.Droid.Resource.Attribute.headerLayout;
+			global::BottomBar.Droid.Resource.Attribute.height = global::DepremAlarmi.Droid.Resource.Attribute.height;
+			global::BottomBar.Droid.Resource.Attribute.hideOnContentScroll = global::DepremAlarmi.Droid.Resource.Attribute.hideOnContentScroll;
+			global::BottomBar.Droid.Resource.Attribute.hintAnimationEnabled = global::DepremAlarmi.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::BottomBar.Droid.Resource.Attribute.hintEnabled = global::DepremAlarmi.Droid.Resource.Attribute.hintEnabled;
+			global::BottomBar.Droid.Resource.Attribute.hintTextAppearance = global::DepremAlarmi.Droid.Resource.Attribute.hintTextAppearance;
+			global::BottomBar.Droid.Resource.Attribute.homeAsUpIndicator = global::DepremAlarmi.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::BottomBar.Droid.Resource.Attribute.homeLayout = global::DepremAlarmi.Droid.Resource.Attribute.homeLayout;
+			global::BottomBar.Droid.Resource.Attribute.icon = global::DepremAlarmi.Droid.Resource.Attribute.icon;
+			global::BottomBar.Droid.Resource.Attribute.iconifiedByDefault = global::DepremAlarmi.Droid.Resource.Attribute.iconifiedByDefault;
+			global::BottomBar.Droid.Resource.Attribute.imageButtonStyle = global::DepremAlarmi.Droid.Resource.Attribute.imageButtonStyle;
+			global::BottomBar.Droid.Resource.Attribute.indeterminateProgressStyle = global::DepremAlarmi.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::BottomBar.Droid.Resource.Attribute.initialActivityCount = global::DepremAlarmi.Droid.Resource.Attribute.initialActivityCount;
+			global::BottomBar.Droid.Resource.Attribute.insetForeground = global::DepremAlarmi.Droid.Resource.Attribute.insetForeground;
+			global::BottomBar.Droid.Resource.Attribute.isLightTheme = global::DepremAlarmi.Droid.Resource.Attribute.isLightTheme;
+			global::BottomBar.Droid.Resource.Attribute.itemBackground = global::DepremAlarmi.Droid.Resource.Attribute.itemBackground;
+			global::BottomBar.Droid.Resource.Attribute.itemIconTint = global::DepremAlarmi.Droid.Resource.Attribute.itemIconTint;
+			global::BottomBar.Droid.Resource.Attribute.itemPadding = global::DepremAlarmi.Droid.Resource.Attribute.itemPadding;
+			global::BottomBar.Droid.Resource.Attribute.itemTextAppearance = global::DepremAlarmi.Droid.Resource.Attribute.itemTextAppearance;
+			global::BottomBar.Droid.Resource.Attribute.itemTextColor = global::DepremAlarmi.Droid.Resource.Attribute.itemTextColor;
+			global::BottomBar.Droid.Resource.Attribute.keylines = global::DepremAlarmi.Droid.Resource.Attribute.keylines;
+			global::BottomBar.Droid.Resource.Attribute.layout = global::DepremAlarmi.Droid.Resource.Attribute.layout;
+			global::BottomBar.Droid.Resource.Attribute.layoutManager = global::DepremAlarmi.Droid.Resource.Attribute.layoutManager;
+			global::BottomBar.Droid.Resource.Attribute.layout_anchor = global::DepremAlarmi.Droid.Resource.Attribute.layout_anchor;
+			global::BottomBar.Droid.Resource.Attribute.layout_anchorGravity = global::DepremAlarmi.Droid.Resource.Attribute.layout_anchorGravity;
+			global::BottomBar.Droid.Resource.Attribute.layout_behavior = global::DepremAlarmi.Droid.Resource.Attribute.layout_behavior;
+			global::BottomBar.Droid.Resource.Attribute.layout_collapseMode = global::DepremAlarmi.Droid.Resource.Attribute.layout_collapseMode;
+			global::BottomBar.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::DepremAlarmi.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::BottomBar.Droid.Resource.Attribute.layout_keyline = global::DepremAlarmi.Droid.Resource.Attribute.layout_keyline;
+			global::BottomBar.Droid.Resource.Attribute.layout_scrollFlags = global::DepremAlarmi.Droid.Resource.Attribute.layout_scrollFlags;
+			global::BottomBar.Droid.Resource.Attribute.layout_scrollInterpolator = global::DepremAlarmi.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::BottomBar.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::DepremAlarmi.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::BottomBar.Droid.Resource.Attribute.listDividerAlertDialog = global::DepremAlarmi.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::BottomBar.Droid.Resource.Attribute.listItemLayout = global::DepremAlarmi.Droid.Resource.Attribute.listItemLayout;
+			global::BottomBar.Droid.Resource.Attribute.listLayout = global::DepremAlarmi.Droid.Resource.Attribute.listLayout;
+			global::BottomBar.Droid.Resource.Attribute.listPopupWindowStyle = global::DepremAlarmi.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::BottomBar.Droid.Resource.Attribute.listPreferredItemHeight = global::DepremAlarmi.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::BottomBar.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::DepremAlarmi.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::BottomBar.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::DepremAlarmi.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::BottomBar.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::DepremAlarmi.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::BottomBar.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::DepremAlarmi.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::BottomBar.Droid.Resource.Attribute.logo = global::DepremAlarmi.Droid.Resource.Attribute.logo;
+			global::BottomBar.Droid.Resource.Attribute.logoDescription = global::DepremAlarmi.Droid.Resource.Attribute.logoDescription;
+			global::BottomBar.Droid.Resource.Attribute.maxActionInlineWidth = global::DepremAlarmi.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::BottomBar.Droid.Resource.Attribute.maxButtonHeight = global::DepremAlarmi.Droid.Resource.Attribute.maxButtonHeight;
+			global::BottomBar.Droid.Resource.Attribute.measureWithLargestChild = global::DepremAlarmi.Droid.Resource.Attribute.measureWithLargestChild;
+			global::BottomBar.Droid.Resource.Attribute.menu = global::DepremAlarmi.Droid.Resource.Attribute.menu;
+			global::BottomBar.Droid.Resource.Attribute.multiChoiceItemLayout = global::DepremAlarmi.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::BottomBar.Droid.Resource.Attribute.navigationContentDescription = global::DepremAlarmi.Droid.Resource.Attribute.navigationContentDescription;
+			global::BottomBar.Droid.Resource.Attribute.navigationIcon = global::DepremAlarmi.Droid.Resource.Attribute.navigationIcon;
+			global::BottomBar.Droid.Resource.Attribute.navigationMode = global::DepremAlarmi.Droid.Resource.Attribute.navigationMode;
+			global::BottomBar.Droid.Resource.Attribute.overlapAnchor = global::DepremAlarmi.Droid.Resource.Attribute.overlapAnchor;
+			global::BottomBar.Droid.Resource.Attribute.paddingEnd = global::DepremAlarmi.Droid.Resource.Attribute.paddingEnd;
+			global::BottomBar.Droid.Resource.Attribute.paddingStart = global::DepremAlarmi.Droid.Resource.Attribute.paddingStart;
+			global::BottomBar.Droid.Resource.Attribute.panelBackground = global::DepremAlarmi.Droid.Resource.Attribute.panelBackground;
+			global::BottomBar.Droid.Resource.Attribute.panelMenuListTheme = global::DepremAlarmi.Droid.Resource.Attribute.panelMenuListTheme;
+			global::BottomBar.Droid.Resource.Attribute.panelMenuListWidth = global::DepremAlarmi.Droid.Resource.Attribute.panelMenuListWidth;
+			global::BottomBar.Droid.Resource.Attribute.popupMenuStyle = global::DepremAlarmi.Droid.Resource.Attribute.popupMenuStyle;
+			global::BottomBar.Droid.Resource.Attribute.popupTheme = global::DepremAlarmi.Droid.Resource.Attribute.popupTheme;
+			global::BottomBar.Droid.Resource.Attribute.popupWindowStyle = global::DepremAlarmi.Droid.Resource.Attribute.popupWindowStyle;
+			global::BottomBar.Droid.Resource.Attribute.preserveIconSpacing = global::DepremAlarmi.Droid.Resource.Attribute.preserveIconSpacing;
+			global::BottomBar.Droid.Resource.Attribute.pressedTranslationZ = global::DepremAlarmi.Droid.Resource.Attribute.pressedTranslationZ;
+			global::BottomBar.Droid.Resource.Attribute.progressBarPadding = global::DepremAlarmi.Droid.Resource.Attribute.progressBarPadding;
+			global::BottomBar.Droid.Resource.Attribute.progressBarStyle = global::DepremAlarmi.Droid.Resource.Attribute.progressBarStyle;
+			global::BottomBar.Droid.Resource.Attribute.queryBackground = global::DepremAlarmi.Droid.Resource.Attribute.queryBackground;
+			global::BottomBar.Droid.Resource.Attribute.queryHint = global::DepremAlarmi.Droid.Resource.Attribute.queryHint;
+			global::BottomBar.Droid.Resource.Attribute.radioButtonStyle = global::DepremAlarmi.Droid.Resource.Attribute.radioButtonStyle;
+			global::BottomBar.Droid.Resource.Attribute.ratingBarStyle = global::DepremAlarmi.Droid.Resource.Attribute.ratingBarStyle;
+			global::BottomBar.Droid.Resource.Attribute.ratingBarStyleIndicator = global::DepremAlarmi.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::BottomBar.Droid.Resource.Attribute.ratingBarStyleSmall = global::DepremAlarmi.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::BottomBar.Droid.Resource.Attribute.reverseLayout = global::DepremAlarmi.Droid.Resource.Attribute.reverseLayout;
+			global::BottomBar.Droid.Resource.Attribute.rippleColor = global::DepremAlarmi.Droid.Resource.Attribute.rippleColor;
+			global::BottomBar.Droid.Resource.Attribute.searchHintIcon = global::DepremAlarmi.Droid.Resource.Attribute.searchHintIcon;
+			global::BottomBar.Droid.Resource.Attribute.searchIcon = global::DepremAlarmi.Droid.Resource.Attribute.searchIcon;
+			global::BottomBar.Droid.Resource.Attribute.searchViewStyle = global::DepremAlarmi.Droid.Resource.Attribute.searchViewStyle;
+			global::BottomBar.Droid.Resource.Attribute.seekBarStyle = global::DepremAlarmi.Droid.Resource.Attribute.seekBarStyle;
+			global::BottomBar.Droid.Resource.Attribute.selectableItemBackground = global::DepremAlarmi.Droid.Resource.Attribute.selectableItemBackground;
+			global::BottomBar.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::DepremAlarmi.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::BottomBar.Droid.Resource.Attribute.showAsAction = global::DepremAlarmi.Droid.Resource.Attribute.showAsAction;
+			global::BottomBar.Droid.Resource.Attribute.showDividers = global::DepremAlarmi.Droid.Resource.Attribute.showDividers;
+			global::BottomBar.Droid.Resource.Attribute.showText = global::DepremAlarmi.Droid.Resource.Attribute.showText;
+			global::BottomBar.Droid.Resource.Attribute.singleChoiceItemLayout = global::DepremAlarmi.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::BottomBar.Droid.Resource.Attribute.spanCount = global::DepremAlarmi.Droid.Resource.Attribute.spanCount;
+			global::BottomBar.Droid.Resource.Attribute.spinBars = global::DepremAlarmi.Droid.Resource.Attribute.spinBars;
+			global::BottomBar.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::DepremAlarmi.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::BottomBar.Droid.Resource.Attribute.spinnerStyle = global::DepremAlarmi.Droid.Resource.Attribute.spinnerStyle;
+			global::BottomBar.Droid.Resource.Attribute.splitTrack = global::DepremAlarmi.Droid.Resource.Attribute.splitTrack;
+			global::BottomBar.Droid.Resource.Attribute.srcCompat = global::DepremAlarmi.Droid.Resource.Attribute.srcCompat;
+			global::BottomBar.Droid.Resource.Attribute.stackFromEnd = global::DepremAlarmi.Droid.Resource.Attribute.stackFromEnd;
+			global::BottomBar.Droid.Resource.Attribute.state_above_anchor = global::DepremAlarmi.Droid.Resource.Attribute.state_above_anchor;
+			global::BottomBar.Droid.Resource.Attribute.statusBarBackground = global::DepremAlarmi.Droid.Resource.Attribute.statusBarBackground;
+			global::BottomBar.Droid.Resource.Attribute.statusBarScrim = global::DepremAlarmi.Droid.Resource.Attribute.statusBarScrim;
+			global::BottomBar.Droid.Resource.Attribute.submitBackground = global::DepremAlarmi.Droid.Resource.Attribute.submitBackground;
+			global::BottomBar.Droid.Resource.Attribute.subtitle = global::DepremAlarmi.Droid.Resource.Attribute.subtitle;
+			global::BottomBar.Droid.Resource.Attribute.subtitleTextAppearance = global::DepremAlarmi.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::BottomBar.Droid.Resource.Attribute.subtitleTextColor = global::DepremAlarmi.Droid.Resource.Attribute.subtitleTextColor;
+			global::BottomBar.Droid.Resource.Attribute.subtitleTextStyle = global::DepremAlarmi.Droid.Resource.Attribute.subtitleTextStyle;
+			global::BottomBar.Droid.Resource.Attribute.suggestionRowLayout = global::DepremAlarmi.Droid.Resource.Attribute.suggestionRowLayout;
+			global::BottomBar.Droid.Resource.Attribute.switchMinWidth = global::DepremAlarmi.Droid.Resource.Attribute.switchMinWidth;
+			global::BottomBar.Droid.Resource.Attribute.switchPadding = global::DepremAlarmi.Droid.Resource.Attribute.switchPadding;
+			global::BottomBar.Droid.Resource.Attribute.switchStyle = global::DepremAlarmi.Droid.Resource.Attribute.switchStyle;
+			global::BottomBar.Droid.Resource.Attribute.switchTextAppearance = global::DepremAlarmi.Droid.Resource.Attribute.switchTextAppearance;
+			global::BottomBar.Droid.Resource.Attribute.tabBackground = global::DepremAlarmi.Droid.Resource.Attribute.tabBackground;
+			global::BottomBar.Droid.Resource.Attribute.tabContentStart = global::DepremAlarmi.Droid.Resource.Attribute.tabContentStart;
+			global::BottomBar.Droid.Resource.Attribute.tabGravity = global::DepremAlarmi.Droid.Resource.Attribute.tabGravity;
+			global::BottomBar.Droid.Resource.Attribute.tabIndicatorColor = global::DepremAlarmi.Droid.Resource.Attribute.tabIndicatorColor;
+			global::BottomBar.Droid.Resource.Attribute.tabIndicatorHeight = global::DepremAlarmi.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::BottomBar.Droid.Resource.Attribute.tabMaxWidth = global::DepremAlarmi.Droid.Resource.Attribute.tabMaxWidth;
+			global::BottomBar.Droid.Resource.Attribute.tabMinWidth = global::DepremAlarmi.Droid.Resource.Attribute.tabMinWidth;
+			global::BottomBar.Droid.Resource.Attribute.tabMode = global::DepremAlarmi.Droid.Resource.Attribute.tabMode;
+			global::BottomBar.Droid.Resource.Attribute.tabPadding = global::DepremAlarmi.Droid.Resource.Attribute.tabPadding;
+			global::BottomBar.Droid.Resource.Attribute.tabPaddingBottom = global::DepremAlarmi.Droid.Resource.Attribute.tabPaddingBottom;
+			global::BottomBar.Droid.Resource.Attribute.tabPaddingEnd = global::DepremAlarmi.Droid.Resource.Attribute.tabPaddingEnd;
+			global::BottomBar.Droid.Resource.Attribute.tabPaddingStart = global::DepremAlarmi.Droid.Resource.Attribute.tabPaddingStart;
+			global::BottomBar.Droid.Resource.Attribute.tabPaddingTop = global::DepremAlarmi.Droid.Resource.Attribute.tabPaddingTop;
+			global::BottomBar.Droid.Resource.Attribute.tabSelectedTextColor = global::DepremAlarmi.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::BottomBar.Droid.Resource.Attribute.tabTextAppearance = global::DepremAlarmi.Droid.Resource.Attribute.tabTextAppearance;
+			global::BottomBar.Droid.Resource.Attribute.tabTextColor = global::DepremAlarmi.Droid.Resource.Attribute.tabTextColor;
+			global::BottomBar.Droid.Resource.Attribute.textAllCaps = global::DepremAlarmi.Droid.Resource.Attribute.textAllCaps;
+			global::BottomBar.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::DepremAlarmi.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::BottomBar.Droid.Resource.Attribute.textAppearanceListItem = global::DepremAlarmi.Droid.Resource.Attribute.textAppearanceListItem;
+			global::BottomBar.Droid.Resource.Attribute.textAppearanceListItemSmall = global::DepremAlarmi.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::BottomBar.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::DepremAlarmi.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::BottomBar.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::DepremAlarmi.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::BottomBar.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::DepremAlarmi.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::BottomBar.Droid.Resource.Attribute.textColorAlertDialogListItem = global::DepremAlarmi.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::BottomBar.Droid.Resource.Attribute.textColorSearchUrl = global::DepremAlarmi.Droid.Resource.Attribute.textColorSearchUrl;
+			global::BottomBar.Droid.Resource.Attribute.theme = global::DepremAlarmi.Droid.Resource.Attribute.theme;
+			global::BottomBar.Droid.Resource.Attribute.thickness = global::DepremAlarmi.Droid.Resource.Attribute.thickness;
+			global::BottomBar.Droid.Resource.Attribute.thumbTextPadding = global::DepremAlarmi.Droid.Resource.Attribute.thumbTextPadding;
+			global::BottomBar.Droid.Resource.Attribute.title = global::DepremAlarmi.Droid.Resource.Attribute.title;
+			global::BottomBar.Droid.Resource.Attribute.titleEnabled = global::DepremAlarmi.Droid.Resource.Attribute.titleEnabled;
+			global::BottomBar.Droid.Resource.Attribute.titleMarginBottom = global::DepremAlarmi.Droid.Resource.Attribute.titleMarginBottom;
+			global::BottomBar.Droid.Resource.Attribute.titleMarginEnd = global::DepremAlarmi.Droid.Resource.Attribute.titleMarginEnd;
+			global::BottomBar.Droid.Resource.Attribute.titleMarginStart = global::DepremAlarmi.Droid.Resource.Attribute.titleMarginStart;
+			global::BottomBar.Droid.Resource.Attribute.titleMarginTop = global::DepremAlarmi.Droid.Resource.Attribute.titleMarginTop;
+			global::BottomBar.Droid.Resource.Attribute.titleMargins = global::DepremAlarmi.Droid.Resource.Attribute.titleMargins;
+			global::BottomBar.Droid.Resource.Attribute.titleTextAppearance = global::DepremAlarmi.Droid.Resource.Attribute.titleTextAppearance;
+			global::BottomBar.Droid.Resource.Attribute.titleTextColor = global::DepremAlarmi.Droid.Resource.Attribute.titleTextColor;
+			global::BottomBar.Droid.Resource.Attribute.titleTextStyle = global::DepremAlarmi.Droid.Resource.Attribute.titleTextStyle;
+			global::BottomBar.Droid.Resource.Attribute.toolbarId = global::DepremAlarmi.Droid.Resource.Attribute.toolbarId;
+			global::BottomBar.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::DepremAlarmi.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::BottomBar.Droid.Resource.Attribute.toolbarStyle = global::DepremAlarmi.Droid.Resource.Attribute.toolbarStyle;
+			global::BottomBar.Droid.Resource.Attribute.track = global::DepremAlarmi.Droid.Resource.Attribute.track;
+			global::BottomBar.Droid.Resource.Attribute.useCompatPadding = global::DepremAlarmi.Droid.Resource.Attribute.useCompatPadding;
+			global::BottomBar.Droid.Resource.Attribute.voiceIcon = global::DepremAlarmi.Droid.Resource.Attribute.voiceIcon;
+			global::BottomBar.Droid.Resource.Attribute.windowActionBar = global::DepremAlarmi.Droid.Resource.Attribute.windowActionBar;
+			global::BottomBar.Droid.Resource.Attribute.windowActionBarOverlay = global::DepremAlarmi.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::BottomBar.Droid.Resource.Attribute.windowActionModeOverlay = global::DepremAlarmi.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::BottomBar.Droid.Resource.Attribute.windowFixedHeightMajor = global::DepremAlarmi.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::BottomBar.Droid.Resource.Attribute.windowFixedHeightMinor = global::DepremAlarmi.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::BottomBar.Droid.Resource.Attribute.windowFixedWidthMajor = global::DepremAlarmi.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::BottomBar.Droid.Resource.Attribute.windowFixedWidthMinor = global::DepremAlarmi.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::BottomBar.Droid.Resource.Attribute.windowMinWidthMajor = global::DepremAlarmi.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::BottomBar.Droid.Resource.Attribute.windowMinWidthMinor = global::DepremAlarmi.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::BottomBar.Droid.Resource.Attribute.windowNoTitle = global::DepremAlarmi.Droid.Resource.Attribute.windowNoTitle;
+			global::BottomBar.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::DepremAlarmi.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::BottomBar.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::DepremAlarmi.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::BottomBar.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::DepremAlarmi.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::BottomBar.Droid.Resource.Boolean.bb_bottom_bar_is_tablet_mode = global::DepremAlarmi.Droid.Resource.Boolean.bb_bottom_bar_is_tablet_mode;
+			global::BottomBar.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::DepremAlarmi.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::BottomBar.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::DepremAlarmi.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::BottomBar.Droid.Resource.Color.abc_color_highlight_material = global::DepremAlarmi.Droid.Resource.Color.abc_color_highlight_material;
+			global::BottomBar.Droid.Resource.Color.abc_input_method_navigation_guard = global::DepremAlarmi.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::BottomBar.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::DepremAlarmi.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::BottomBar.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::DepremAlarmi.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::BottomBar.Droid.Resource.Color.abc_primary_text_material_dark = global::DepremAlarmi.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::BottomBar.Droid.Resource.Color.abc_primary_text_material_light = global::DepremAlarmi.Droid.Resource.Color.abc_primary_text_material_light;
+			global::BottomBar.Droid.Resource.Color.abc_search_url_text = global::DepremAlarmi.Droid.Resource.Color.abc_search_url_text;
+			global::BottomBar.Droid.Resource.Color.abc_search_url_text_normal = global::DepremAlarmi.Droid.Resource.Color.abc_search_url_text_normal;
+			global::BottomBar.Droid.Resource.Color.abc_search_url_text_pressed = global::DepremAlarmi.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::BottomBar.Droid.Resource.Color.abc_search_url_text_selected = global::DepremAlarmi.Droid.Resource.Color.abc_search_url_text_selected;
+			global::BottomBar.Droid.Resource.Color.abc_secondary_text_material_dark = global::DepremAlarmi.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::BottomBar.Droid.Resource.Color.abc_secondary_text_material_light = global::DepremAlarmi.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::BottomBar.Droid.Resource.Color.accent_material_dark = global::DepremAlarmi.Droid.Resource.Color.accent_material_dark;
+			global::BottomBar.Droid.Resource.Color.accent_material_light = global::DepremAlarmi.Droid.Resource.Color.accent_material_light;
+			global::BottomBar.Droid.Resource.Color.background_floating_material_dark = global::DepremAlarmi.Droid.Resource.Color.background_floating_material_dark;
+			global::BottomBar.Droid.Resource.Color.background_floating_material_light = global::DepremAlarmi.Droid.Resource.Color.background_floating_material_light;
+			global::BottomBar.Droid.Resource.Color.background_material_dark = global::DepremAlarmi.Droid.Resource.Color.background_material_dark;
+			global::BottomBar.Droid.Resource.Color.background_material_light = global::DepremAlarmi.Droid.Resource.Color.background_material_light;
+			global::BottomBar.Droid.Resource.Color.bb_darkBackgroundColor = global::DepremAlarmi.Droid.Resource.Color.bb_darkBackgroundColor;
+			global::BottomBar.Droid.Resource.Color.bb_inActiveBottomBarItemColor = global::DepremAlarmi.Droid.Resource.Color.bb_inActiveBottomBarItemColor;
+			global::BottomBar.Droid.Resource.Color.bb_tabletRightBorderDark = global::DepremAlarmi.Droid.Resource.Color.bb_tabletRightBorderDark;
+			global::BottomBar.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::DepremAlarmi.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::BottomBar.Droid.Resource.Color.bright_foreground_disabled_material_light = global::DepremAlarmi.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::BottomBar.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::DepremAlarmi.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::BottomBar.Droid.Resource.Color.bright_foreground_inverse_material_light = global::DepremAlarmi.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::BottomBar.Droid.Resource.Color.bright_foreground_material_dark = global::DepremAlarmi.Droid.Resource.Color.bright_foreground_material_dark;
+			global::BottomBar.Droid.Resource.Color.bright_foreground_material_light = global::DepremAlarmi.Droid.Resource.Color.bright_foreground_material_light;
+			global::BottomBar.Droid.Resource.Color.button_material_dark = global::DepremAlarmi.Droid.Resource.Color.button_material_dark;
+			global::BottomBar.Droid.Resource.Color.button_material_light = global::DepremAlarmi.Droid.Resource.Color.button_material_light;
+			global::BottomBar.Droid.Resource.Color.cardview_dark_background = global::DepremAlarmi.Droid.Resource.Color.cardview_dark_background;
+			global::BottomBar.Droid.Resource.Color.cardview_light_background = global::DepremAlarmi.Droid.Resource.Color.cardview_light_background;
+			global::BottomBar.Droid.Resource.Color.cardview_shadow_end_color = global::DepremAlarmi.Droid.Resource.Color.cardview_shadow_end_color;
+			global::BottomBar.Droid.Resource.Color.cardview_shadow_start_color = global::DepremAlarmi.Droid.Resource.Color.cardview_shadow_start_color;
+			global::BottomBar.Droid.Resource.Color.design_fab_shadow_end_color = global::DepremAlarmi.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::BottomBar.Droid.Resource.Color.design_fab_shadow_mid_color = global::DepremAlarmi.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::BottomBar.Droid.Resource.Color.design_fab_shadow_start_color = global::DepremAlarmi.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::BottomBar.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::DepremAlarmi.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::BottomBar.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::DepremAlarmi.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::BottomBar.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::DepremAlarmi.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::BottomBar.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::DepremAlarmi.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::BottomBar.Droid.Resource.Color.design_snackbar_background_color = global::DepremAlarmi.Droid.Resource.Color.design_snackbar_background_color;
+			global::BottomBar.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::DepremAlarmi.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::BottomBar.Droid.Resource.Color.dim_foreground_disabled_material_light = global::DepremAlarmi.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::BottomBar.Droid.Resource.Color.dim_foreground_material_dark = global::DepremAlarmi.Droid.Resource.Color.dim_foreground_material_dark;
+			global::BottomBar.Droid.Resource.Color.dim_foreground_material_light = global::DepremAlarmi.Droid.Resource.Color.dim_foreground_material_light;
+			global::BottomBar.Droid.Resource.Color.foreground_material_dark = global::DepremAlarmi.Droid.Resource.Color.foreground_material_dark;
+			global::BottomBar.Droid.Resource.Color.foreground_material_light = global::DepremAlarmi.Droid.Resource.Color.foreground_material_light;
+			global::BottomBar.Droid.Resource.Color.highlighted_text_material_dark = global::DepremAlarmi.Droid.Resource.Color.highlighted_text_material_dark;
+			global::BottomBar.Droid.Resource.Color.highlighted_text_material_light = global::DepremAlarmi.Droid.Resource.Color.highlighted_text_material_light;
+			global::BottomBar.Droid.Resource.Color.material_blue_grey_800 = global::DepremAlarmi.Droid.Resource.Color.material_blue_grey_800;
+			global::BottomBar.Droid.Resource.Color.material_blue_grey_900 = global::DepremAlarmi.Droid.Resource.Color.material_blue_grey_900;
+			global::BottomBar.Droid.Resource.Color.material_blue_grey_950 = global::DepremAlarmi.Droid.Resource.Color.material_blue_grey_950;
+			global::BottomBar.Droid.Resource.Color.material_deep_teal_200 = global::DepremAlarmi.Droid.Resource.Color.material_deep_teal_200;
+			global::BottomBar.Droid.Resource.Color.material_deep_teal_500 = global::DepremAlarmi.Droid.Resource.Color.material_deep_teal_500;
+			global::BottomBar.Droid.Resource.Color.material_grey_100 = global::DepremAlarmi.Droid.Resource.Color.material_grey_100;
+			global::BottomBar.Droid.Resource.Color.material_grey_300 = global::DepremAlarmi.Droid.Resource.Color.material_grey_300;
+			global::BottomBar.Droid.Resource.Color.material_grey_50 = global::DepremAlarmi.Droid.Resource.Color.material_grey_50;
+			global::BottomBar.Droid.Resource.Color.material_grey_600 = global::DepremAlarmi.Droid.Resource.Color.material_grey_600;
+			global::BottomBar.Droid.Resource.Color.material_grey_800 = global::DepremAlarmi.Droid.Resource.Color.material_grey_800;
+			global::BottomBar.Droid.Resource.Color.material_grey_850 = global::DepremAlarmi.Droid.Resource.Color.material_grey_850;
+			global::BottomBar.Droid.Resource.Color.material_grey_900 = global::DepremAlarmi.Droid.Resource.Color.material_grey_900;
+			global::BottomBar.Droid.Resource.Color.primary_dark_material_dark = global::DepremAlarmi.Droid.Resource.Color.primary_dark_material_dark;
+			global::BottomBar.Droid.Resource.Color.primary_dark_material_light = global::DepremAlarmi.Droid.Resource.Color.primary_dark_material_light;
+			global::BottomBar.Droid.Resource.Color.primary_material_dark = global::DepremAlarmi.Droid.Resource.Color.primary_material_dark;
+			global::BottomBar.Droid.Resource.Color.primary_material_light = global::DepremAlarmi.Droid.Resource.Color.primary_material_light;
+			global::BottomBar.Droid.Resource.Color.primary_text_default_material_dark = global::DepremAlarmi.Droid.Resource.Color.primary_text_default_material_dark;
+			global::BottomBar.Droid.Resource.Color.primary_text_default_material_light = global::DepremAlarmi.Droid.Resource.Color.primary_text_default_material_light;
+			global::BottomBar.Droid.Resource.Color.primary_text_disabled_material_dark = global::DepremAlarmi.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::BottomBar.Droid.Resource.Color.primary_text_disabled_material_light = global::DepremAlarmi.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::BottomBar.Droid.Resource.Color.ripple_material_dark = global::DepremAlarmi.Droid.Resource.Color.ripple_material_dark;
+			global::BottomBar.Droid.Resource.Color.ripple_material_light = global::DepremAlarmi.Droid.Resource.Color.ripple_material_light;
+			global::BottomBar.Droid.Resource.Color.secondary_text_default_material_dark = global::DepremAlarmi.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::BottomBar.Droid.Resource.Color.secondary_text_default_material_light = global::DepremAlarmi.Droid.Resource.Color.secondary_text_default_material_light;
+			global::BottomBar.Droid.Resource.Color.secondary_text_disabled_material_dark = global::DepremAlarmi.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::BottomBar.Droid.Resource.Color.secondary_text_disabled_material_light = global::DepremAlarmi.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::BottomBar.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::DepremAlarmi.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::BottomBar.Droid.Resource.Color.switch_thumb_disabled_material_light = global::DepremAlarmi.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::BottomBar.Droid.Resource.Color.switch_thumb_material_dark = global::DepremAlarmi.Droid.Resource.Color.switch_thumb_material_dark;
+			global::BottomBar.Droid.Resource.Color.switch_thumb_material_light = global::DepremAlarmi.Droid.Resource.Color.switch_thumb_material_light;
+			global::BottomBar.Droid.Resource.Color.switch_thumb_normal_material_dark = global::DepremAlarmi.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::BottomBar.Droid.Resource.Color.switch_thumb_normal_material_light = global::DepremAlarmi.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::BottomBar.Droid.Resource.Color.white = global::DepremAlarmi.Droid.Resource.Color.white;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_button_min_height_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_button_min_width_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::DepremAlarmi.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::BottomBar.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::DepremAlarmi.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::BottomBar.Droid.Resource.Dimension.abc_control_corner_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_control_corner_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_control_inset_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_control_inset_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_control_padding_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_control_padding_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::DepremAlarmi.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::BottomBar.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::DepremAlarmi.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::BottomBar.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::DepremAlarmi.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::BottomBar.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::DepremAlarmi.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::BottomBar.Droid.Resource.Dimension.abc_dialog_min_width_major = global::DepremAlarmi.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::BottomBar.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::DepremAlarmi.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::BottomBar.Droid.Resource.Dimension.abc_dialog_padding_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::DepremAlarmi.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::BottomBar.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::DepremAlarmi.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::BottomBar.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::DepremAlarmi.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::BottomBar.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::DepremAlarmi.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::BottomBar.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::DepremAlarmi.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::BottomBar.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_floating_window_z = global::DepremAlarmi.Droid.Resource.Dimension.abc_floating_window_z;
+			global::BottomBar.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_panel_menu_list_width = global::DepremAlarmi.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::BottomBar.Droid.Resource.Dimension.abc_search_view_preferred_width = global::DepremAlarmi.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::BottomBar.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_switch_padding = global::DepremAlarmi.Droid.Resource.Dimension.abc_switch_padding;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_body_1_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_body_2_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_button_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_caption_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_display_1_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_display_2_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_display_3_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_display_4_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_headline_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_large_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_medium_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_menu_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_small_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_subhead_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_title_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::BottomBar.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::BottomBar.Droid.Resource.Dimension.activity_horizontal_margin = global::DepremAlarmi.Droid.Resource.Dimension.activity_horizontal_margin;
+			global::BottomBar.Droid.Resource.Dimension.activity_vertical_margin = global::DepremAlarmi.Droid.Resource.Dimension.activity_vertical_margin;
+			global::BottomBar.Droid.Resource.Dimension.bb_height = global::DepremAlarmi.Droid.Resource.Dimension.bb_height;
+			global::BottomBar.Droid.Resource.Dimension.bottom_bar_elevation = global::DepremAlarmi.Droid.Resource.Dimension.bottom_bar_elevation;
+			global::BottomBar.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::DepremAlarmi.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::BottomBar.Droid.Resource.Dimension.cardview_default_elevation = global::DepremAlarmi.Droid.Resource.Dimension.cardview_default_elevation;
+			global::BottomBar.Droid.Resource.Dimension.cardview_default_radius = global::DepremAlarmi.Droid.Resource.Dimension.cardview_default_radius;
+			global::BottomBar.Droid.Resource.Dimension.design_appbar_elevation = global::DepremAlarmi.Droid.Resource.Dimension.design_appbar_elevation;
+			global::BottomBar.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::DepremAlarmi.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::BottomBar.Droid.Resource.Dimension.design_fab_border_width = global::DepremAlarmi.Droid.Resource.Dimension.design_fab_border_width;
+			global::BottomBar.Droid.Resource.Dimension.design_fab_elevation = global::DepremAlarmi.Droid.Resource.Dimension.design_fab_elevation;
+			global::BottomBar.Droid.Resource.Dimension.design_fab_image_size = global::DepremAlarmi.Droid.Resource.Dimension.design_fab_image_size;
+			global::BottomBar.Droid.Resource.Dimension.design_fab_size_mini = global::DepremAlarmi.Droid.Resource.Dimension.design_fab_size_mini;
+			global::BottomBar.Droid.Resource.Dimension.design_fab_size_normal = global::DepremAlarmi.Droid.Resource.Dimension.design_fab_size_normal;
+			global::BottomBar.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::DepremAlarmi.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::BottomBar.Droid.Resource.Dimension.design_navigation_elevation = global::DepremAlarmi.Droid.Resource.Dimension.design_navigation_elevation;
+			global::BottomBar.Droid.Resource.Dimension.design_navigation_icon_padding = global::DepremAlarmi.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::BottomBar.Droid.Resource.Dimension.design_navigation_icon_size = global::DepremAlarmi.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::BottomBar.Droid.Resource.Dimension.design_navigation_max_width = global::DepremAlarmi.Droid.Resource.Dimension.design_navigation_max_width;
+			global::BottomBar.Droid.Resource.Dimension.design_navigation_padding_bottom = global::DepremAlarmi.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::BottomBar.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::DepremAlarmi.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::BottomBar.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::DepremAlarmi.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::BottomBar.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::DepremAlarmi.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::BottomBar.Droid.Resource.Dimension.design_snackbar_elevation = global::DepremAlarmi.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::BottomBar.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::DepremAlarmi.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::BottomBar.Droid.Resource.Dimension.design_snackbar_max_width = global::DepremAlarmi.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::BottomBar.Droid.Resource.Dimension.design_snackbar_min_width = global::DepremAlarmi.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::BottomBar.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::DepremAlarmi.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::BottomBar.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::DepremAlarmi.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::BottomBar.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::DepremAlarmi.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::BottomBar.Droid.Resource.Dimension.design_snackbar_text_size = global::DepremAlarmi.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::BottomBar.Droid.Resource.Dimension.design_tab_max_width = global::DepremAlarmi.Droid.Resource.Dimension.design_tab_max_width;
+			global::BottomBar.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::DepremAlarmi.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::BottomBar.Droid.Resource.Dimension.design_tab_text_size = global::DepremAlarmi.Droid.Resource.Dimension.design_tab_text_size;
+			global::BottomBar.Droid.Resource.Dimension.design_tab_text_size_2line = global::DepremAlarmi.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::BottomBar.Droid.Resource.Dimension.disabled_alpha_material_dark = global::DepremAlarmi.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::BottomBar.Droid.Resource.Dimension.disabled_alpha_material_light = global::DepremAlarmi.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::BottomBar.Droid.Resource.Dimension.highlight_alpha_material_colored = global::DepremAlarmi.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::BottomBar.Droid.Resource.Dimension.highlight_alpha_material_dark = global::DepremAlarmi.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::BottomBar.Droid.Resource.Dimension.highlight_alpha_material_light = global::DepremAlarmi.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::BottomBar.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::DepremAlarmi.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::BottomBar.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::DepremAlarmi.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::BottomBar.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::DepremAlarmi.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::BottomBar.Droid.Resource.Dimension.notification_large_icon_height = global::DepremAlarmi.Droid.Resource.Dimension.notification_large_icon_height;
+			global::BottomBar.Droid.Resource.Dimension.notification_large_icon_width = global::DepremAlarmi.Droid.Resource.Dimension.notification_large_icon_width;
+			global::BottomBar.Droid.Resource.Dimension.notification_subtext_size = global::DepremAlarmi.Droid.Resource.Dimension.notification_subtext_size;
+			global::BottomBar.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_btn_borderless_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_btn_check_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_btn_check_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::DepremAlarmi.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::BottomBar.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::DepremAlarmi.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::BottomBar.Droid.Resource.Drawable.abc_btn_colored_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::DepremAlarmi.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::BottomBar.Droid.Resource.Drawable.abc_btn_radio_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::DepremAlarmi.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::BottomBar.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::DepremAlarmi.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::BottomBar.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::DepremAlarmi.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::BottomBar.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::DepremAlarmi.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::BottomBar.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::DepremAlarmi.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::BottomBar.Droid.Resource.Drawable.abc_cab_background_top_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_control_background_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_control_background_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_edit_text_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_edit_text_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::DepremAlarmi.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::BottomBar.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::DepremAlarmi.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::BottomBar.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::DepremAlarmi.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::BottomBar.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::DepremAlarmi.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::BottomBar.Droid.Resource.Drawable.abc_item_background_holo_dark = global::DepremAlarmi.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::BottomBar.Droid.Resource.Drawable.abc_item_background_holo_light = global::DepremAlarmi.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::BottomBar.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_list_focused_holo = global::DepremAlarmi.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::BottomBar.Droid.Resource.Drawable.abc_list_longpressed_holo = global::DepremAlarmi.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::BottomBar.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::DepremAlarmi.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::BottomBar.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::DepremAlarmi.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::BottomBar.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::DepremAlarmi.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::BottomBar.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::DepremAlarmi.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::BottomBar.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::DepremAlarmi.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::BottomBar.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::DepremAlarmi.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::BottomBar.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::DepremAlarmi.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::BottomBar.Droid.Resource.Drawable.abc_list_selector_holo_light = global::DepremAlarmi.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::BottomBar.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::DepremAlarmi.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::BottomBar.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::DepremAlarmi.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::BottomBar.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_ratingbar_small_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::DepremAlarmi.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::BottomBar.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::DepremAlarmi.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::BottomBar.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_seekbar_track_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_switch_thumb_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_tab_indicator_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_text_cursor_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::BottomBar.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::BottomBar.Droid.Resource.Drawable.abc_textfield_search_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::BottomBar.Droid.Resource.Drawable.bb_bottom_bar_top_shadow = global::DepremAlarmi.Droid.Resource.Drawable.bb_bottom_bar_top_shadow;
+			global::BottomBar.Droid.Resource.Drawable.design_fab_background = global::DepremAlarmi.Droid.Resource.Drawable.design_fab_background;
+			global::BottomBar.Droid.Resource.Drawable.design_snackbar_background = global::DepremAlarmi.Droid.Resource.Drawable.design_snackbar_background;
+			global::BottomBar.Droid.Resource.Drawable.notification_template_icon_bg = global::DepremAlarmi.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::BottomBar.Droid.Resource.Id.action0 = global::DepremAlarmi.Droid.Resource.Id.action0;
+			global::BottomBar.Droid.Resource.Id.action_bar = global::DepremAlarmi.Droid.Resource.Id.action_bar;
+			global::BottomBar.Droid.Resource.Id.action_bar_activity_content = global::DepremAlarmi.Droid.Resource.Id.action_bar_activity_content;
+			global::BottomBar.Droid.Resource.Id.action_bar_container = global::DepremAlarmi.Droid.Resource.Id.action_bar_container;
+			global::BottomBar.Droid.Resource.Id.action_bar_root = global::DepremAlarmi.Droid.Resource.Id.action_bar_root;
+			global::BottomBar.Droid.Resource.Id.action_bar_spinner = global::DepremAlarmi.Droid.Resource.Id.action_bar_spinner;
+			global::BottomBar.Droid.Resource.Id.action_bar_subtitle = global::DepremAlarmi.Droid.Resource.Id.action_bar_subtitle;
+			global::BottomBar.Droid.Resource.Id.action_bar_title = global::DepremAlarmi.Droid.Resource.Id.action_bar_title;
+			global::BottomBar.Droid.Resource.Id.action_context_bar = global::DepremAlarmi.Droid.Resource.Id.action_context_bar;
+			global::BottomBar.Droid.Resource.Id.action_divider = global::DepremAlarmi.Droid.Resource.Id.action_divider;
+			global::BottomBar.Droid.Resource.Id.action_menu_divider = global::DepremAlarmi.Droid.Resource.Id.action_menu_divider;
+			global::BottomBar.Droid.Resource.Id.action_menu_presenter = global::DepremAlarmi.Droid.Resource.Id.action_menu_presenter;
+			global::BottomBar.Droid.Resource.Id.action_mode_bar = global::DepremAlarmi.Droid.Resource.Id.action_mode_bar;
+			global::BottomBar.Droid.Resource.Id.action_mode_bar_stub = global::DepremAlarmi.Droid.Resource.Id.action_mode_bar_stub;
+			global::BottomBar.Droid.Resource.Id.action_mode_close_button = global::DepremAlarmi.Droid.Resource.Id.action_mode_close_button;
+			global::BottomBar.Droid.Resource.Id.activity_chooser_view_content = global::DepremAlarmi.Droid.Resource.Id.activity_chooser_view_content;
+			global::BottomBar.Droid.Resource.Id.alertTitle = global::DepremAlarmi.Droid.Resource.Id.alertTitle;
+			global::BottomBar.Droid.Resource.Id.always = global::DepremAlarmi.Droid.Resource.Id.always;
+			global::BottomBar.Droid.Resource.Id.bb_bottom_bar_background_overlay = global::DepremAlarmi.Droid.Resource.Id.bb_bottom_bar_background_overlay;
+			global::BottomBar.Droid.Resource.Id.bb_bottom_bar_background_view = global::DepremAlarmi.Droid.Resource.Id.bb_bottom_bar_background_view;
+			global::BottomBar.Droid.Resource.Id.bb_bottom_bar_icon = global::DepremAlarmi.Droid.Resource.Id.bb_bottom_bar_icon;
+			global::BottomBar.Droid.Resource.Id.bb_bottom_bar_item_container = global::DepremAlarmi.Droid.Resource.Id.bb_bottom_bar_item_container;
+			global::BottomBar.Droid.Resource.Id.bb_bottom_bar_outer_container = global::DepremAlarmi.Droid.Resource.Id.bb_bottom_bar_outer_container;
+			global::BottomBar.Droid.Resource.Id.bb_bottom_bar_shadow = global::DepremAlarmi.Droid.Resource.Id.bb_bottom_bar_shadow;
+			global::BottomBar.Droid.Resource.Id.bb_bottom_bar_title = global::DepremAlarmi.Droid.Resource.Id.bb_bottom_bar_title;
+			global::BottomBar.Droid.Resource.Id.bb_tablet_right_border = global::DepremAlarmi.Droid.Resource.Id.bb_tablet_right_border;
+			global::BottomBar.Droid.Resource.Id.bb_user_content_container = global::DepremAlarmi.Droid.Resource.Id.bb_user_content_container;
+			global::BottomBar.Droid.Resource.Id.beginning = global::DepremAlarmi.Droid.Resource.Id.beginning;
+			global::BottomBar.Droid.Resource.Id.bottom = global::DepremAlarmi.Droid.Resource.Id.bottom;
+			global::BottomBar.Droid.Resource.Id.buttonPanel = global::DepremAlarmi.Droid.Resource.Id.buttonPanel;
+			global::BottomBar.Droid.Resource.Id.cancel_action = global::DepremAlarmi.Droid.Resource.Id.cancel_action;
+			global::BottomBar.Droid.Resource.Id.center = global::DepremAlarmi.Droid.Resource.Id.center;
+			global::BottomBar.Droid.Resource.Id.center_horizontal = global::DepremAlarmi.Droid.Resource.Id.center_horizontal;
+			global::BottomBar.Droid.Resource.Id.center_vertical = global::DepremAlarmi.Droid.Resource.Id.center_vertical;
+			global::BottomBar.Droid.Resource.Id.checkbox = global::DepremAlarmi.Droid.Resource.Id.checkbox;
+			global::BottomBar.Droid.Resource.Id.chronometer = global::DepremAlarmi.Droid.Resource.Id.chronometer;
+			global::BottomBar.Droid.Resource.Id.clip_horizontal = global::DepremAlarmi.Droid.Resource.Id.clip_horizontal;
+			global::BottomBar.Droid.Resource.Id.clip_vertical = global::DepremAlarmi.Droid.Resource.Id.clip_vertical;
+			global::BottomBar.Droid.Resource.Id.collapseActionView = global::DepremAlarmi.Droid.Resource.Id.collapseActionView;
+			global::BottomBar.Droid.Resource.Id.contentPanel = global::DepremAlarmi.Droid.Resource.Id.contentPanel;
+			global::BottomBar.Droid.Resource.Id.custom = global::DepremAlarmi.Droid.Resource.Id.custom;
+			global::BottomBar.Droid.Resource.Id.customPanel = global::DepremAlarmi.Droid.Resource.Id.customPanel;
+			global::BottomBar.Droid.Resource.Id.decor_content_parent = global::DepremAlarmi.Droid.Resource.Id.decor_content_parent;
+			global::BottomBar.Droid.Resource.Id.default_activity_button = global::DepremAlarmi.Droid.Resource.Id.default_activity_button;
+			global::BottomBar.Droid.Resource.Id.design_bottom_sheet = global::DepremAlarmi.Droid.Resource.Id.design_bottom_sheet;
+			global::BottomBar.Droid.Resource.Id.design_menu_item_action_area = global::DepremAlarmi.Droid.Resource.Id.design_menu_item_action_area;
+			global::BottomBar.Droid.Resource.Id.design_menu_item_action_area_stub = global::DepremAlarmi.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::BottomBar.Droid.Resource.Id.design_menu_item_text = global::DepremAlarmi.Droid.Resource.Id.design_menu_item_text;
+			global::BottomBar.Droid.Resource.Id.design_navigation_view = global::DepremAlarmi.Droid.Resource.Id.design_navigation_view;
+			global::BottomBar.Droid.Resource.Id.disableHome = global::DepremAlarmi.Droid.Resource.Id.disableHome;
+			global::BottomBar.Droid.Resource.Id.edit_query = global::DepremAlarmi.Droid.Resource.Id.edit_query;
+			global::BottomBar.Droid.Resource.Id.end = global::DepremAlarmi.Droid.Resource.Id.end;
+			global::BottomBar.Droid.Resource.Id.end_padder = global::DepremAlarmi.Droid.Resource.Id.end_padder;
+			global::BottomBar.Droid.Resource.Id.enterAlways = global::DepremAlarmi.Droid.Resource.Id.enterAlways;
+			global::BottomBar.Droid.Resource.Id.enterAlwaysCollapsed = global::DepremAlarmi.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::BottomBar.Droid.Resource.Id.exitUntilCollapsed = global::DepremAlarmi.Droid.Resource.Id.exitUntilCollapsed;
+			global::BottomBar.Droid.Resource.Id.expand_activities_button = global::DepremAlarmi.Droid.Resource.Id.expand_activities_button;
+			global::BottomBar.Droid.Resource.Id.expanded_menu = global::DepremAlarmi.Droid.Resource.Id.expanded_menu;
+			global::BottomBar.Droid.Resource.Id.fill = global::DepremAlarmi.Droid.Resource.Id.fill;
+			global::BottomBar.Droid.Resource.Id.fill_horizontal = global::DepremAlarmi.Droid.Resource.Id.fill_horizontal;
+			global::BottomBar.Droid.Resource.Id.fill_vertical = global::DepremAlarmi.Droid.Resource.Id.fill_vertical;
+			global::BottomBar.Droid.Resource.Id.@fixed = global::DepremAlarmi.Droid.Resource.Id.@fixed;
+			global::BottomBar.Droid.Resource.Id.home = global::DepremAlarmi.Droid.Resource.Id.home;
+			global::BottomBar.Droid.Resource.Id.homeAsUp = global::DepremAlarmi.Droid.Resource.Id.homeAsUp;
+			global::BottomBar.Droid.Resource.Id.icon = global::DepremAlarmi.Droid.Resource.Id.icon;
+			global::BottomBar.Droid.Resource.Id.ifRoom = global::DepremAlarmi.Droid.Resource.Id.ifRoom;
+			global::BottomBar.Droid.Resource.Id.image = global::DepremAlarmi.Droid.Resource.Id.image;
+			global::BottomBar.Droid.Resource.Id.info = global::DepremAlarmi.Droid.Resource.Id.info;
+			global::BottomBar.Droid.Resource.Id.item_touch_helper_previous_elevation = global::DepremAlarmi.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::BottomBar.Droid.Resource.Id.left = global::DepremAlarmi.Droid.Resource.Id.left;
+			global::BottomBar.Droid.Resource.Id.line1 = global::DepremAlarmi.Droid.Resource.Id.line1;
+			global::BottomBar.Droid.Resource.Id.line3 = global::DepremAlarmi.Droid.Resource.Id.line3;
+			global::BottomBar.Droid.Resource.Id.listMode = global::DepremAlarmi.Droid.Resource.Id.listMode;
+			global::BottomBar.Droid.Resource.Id.list_item = global::DepremAlarmi.Droid.Resource.Id.list_item;
+			global::BottomBar.Droid.Resource.Id.media_actions = global::DepremAlarmi.Droid.Resource.Id.media_actions;
+			global::BottomBar.Droid.Resource.Id.middle = global::DepremAlarmi.Droid.Resource.Id.middle;
+			global::BottomBar.Droid.Resource.Id.mini = global::DepremAlarmi.Droid.Resource.Id.mini;
+			global::BottomBar.Droid.Resource.Id.multiply = global::DepremAlarmi.Droid.Resource.Id.multiply;
+			global::BottomBar.Droid.Resource.Id.navigation_header_container = global::DepremAlarmi.Droid.Resource.Id.navigation_header_container;
+			global::BottomBar.Droid.Resource.Id.never = global::DepremAlarmi.Droid.Resource.Id.never;
+			global::BottomBar.Droid.Resource.Id.none = global::DepremAlarmi.Droid.Resource.Id.none;
+			global::BottomBar.Droid.Resource.Id.normal = global::DepremAlarmi.Droid.Resource.Id.normal;
+			global::BottomBar.Droid.Resource.Id.parallax = global::DepremAlarmi.Droid.Resource.Id.parallax;
+			global::BottomBar.Droid.Resource.Id.parentPanel = global::DepremAlarmi.Droid.Resource.Id.parentPanel;
+			global::BottomBar.Droid.Resource.Id.pin = global::DepremAlarmi.Droid.Resource.Id.pin;
+			global::BottomBar.Droid.Resource.Id.progress_circular = global::DepremAlarmi.Droid.Resource.Id.progress_circular;
+			global::BottomBar.Droid.Resource.Id.progress_horizontal = global::DepremAlarmi.Droid.Resource.Id.progress_horizontal;
+			global::BottomBar.Droid.Resource.Id.radio = global::DepremAlarmi.Droid.Resource.Id.radio;
+			global::BottomBar.Droid.Resource.Id.right = global::DepremAlarmi.Droid.Resource.Id.right;
+			global::BottomBar.Droid.Resource.Id.screen = global::DepremAlarmi.Droid.Resource.Id.screen;
+			global::BottomBar.Droid.Resource.Id.scroll = global::DepremAlarmi.Droid.Resource.Id.scroll;
+			global::BottomBar.Droid.Resource.Id.scrollIndicatorDown = global::DepremAlarmi.Droid.Resource.Id.scrollIndicatorDown;
+			global::BottomBar.Droid.Resource.Id.scrollIndicatorUp = global::DepremAlarmi.Droid.Resource.Id.scrollIndicatorUp;
+			global::BottomBar.Droid.Resource.Id.scrollView = global::DepremAlarmi.Droid.Resource.Id.scrollView;
+			global::BottomBar.Droid.Resource.Id.scrollable = global::DepremAlarmi.Droid.Resource.Id.scrollable;
+			global::BottomBar.Droid.Resource.Id.search_badge = global::DepremAlarmi.Droid.Resource.Id.search_badge;
+			global::BottomBar.Droid.Resource.Id.search_bar = global::DepremAlarmi.Droid.Resource.Id.search_bar;
+			global::BottomBar.Droid.Resource.Id.search_button = global::DepremAlarmi.Droid.Resource.Id.search_button;
+			global::BottomBar.Droid.Resource.Id.search_close_btn = global::DepremAlarmi.Droid.Resource.Id.search_close_btn;
+			global::BottomBar.Droid.Resource.Id.search_edit_frame = global::DepremAlarmi.Droid.Resource.Id.search_edit_frame;
+			global::BottomBar.Droid.Resource.Id.search_go_btn = global::DepremAlarmi.Droid.Resource.Id.search_go_btn;
+			global::BottomBar.Droid.Resource.Id.search_mag_icon = global::DepremAlarmi.Droid.Resource.Id.search_mag_icon;
+			global::BottomBar.Droid.Resource.Id.search_plate = global::DepremAlarmi.Droid.Resource.Id.search_plate;
+			global::BottomBar.Droid.Resource.Id.search_src_text = global::DepremAlarmi.Droid.Resource.Id.search_src_text;
+			global::BottomBar.Droid.Resource.Id.search_voice_btn = global::DepremAlarmi.Droid.Resource.Id.search_voice_btn;
+			global::BottomBar.Droid.Resource.Id.select_dialog_listview = global::DepremAlarmi.Droid.Resource.Id.select_dialog_listview;
+			global::BottomBar.Droid.Resource.Id.shortcut = global::DepremAlarmi.Droid.Resource.Id.shortcut;
+			global::BottomBar.Droid.Resource.Id.showCustom = global::DepremAlarmi.Droid.Resource.Id.showCustom;
+			global::BottomBar.Droid.Resource.Id.showHome = global::DepremAlarmi.Droid.Resource.Id.showHome;
+			global::BottomBar.Droid.Resource.Id.showTitle = global::DepremAlarmi.Droid.Resource.Id.showTitle;
+			global::BottomBar.Droid.Resource.Id.snackbar_action = global::DepremAlarmi.Droid.Resource.Id.snackbar_action;
+			global::BottomBar.Droid.Resource.Id.snackbar_text = global::DepremAlarmi.Droid.Resource.Id.snackbar_text;
+			global::BottomBar.Droid.Resource.Id.snap = global::DepremAlarmi.Droid.Resource.Id.snap;
+			global::BottomBar.Droid.Resource.Id.spacer = global::DepremAlarmi.Droid.Resource.Id.spacer;
+			global::BottomBar.Droid.Resource.Id.split_action_bar = global::DepremAlarmi.Droid.Resource.Id.split_action_bar;
+			global::BottomBar.Droid.Resource.Id.src_atop = global::DepremAlarmi.Droid.Resource.Id.src_atop;
+			global::BottomBar.Droid.Resource.Id.src_in = global::DepremAlarmi.Droid.Resource.Id.src_in;
+			global::BottomBar.Droid.Resource.Id.src_over = global::DepremAlarmi.Droid.Resource.Id.src_over;
+			global::BottomBar.Droid.Resource.Id.start = global::DepremAlarmi.Droid.Resource.Id.start;
+			global::BottomBar.Droid.Resource.Id.status_bar_latest_event_content = global::DepremAlarmi.Droid.Resource.Id.status_bar_latest_event_content;
+			global::BottomBar.Droid.Resource.Id.submit_area = global::DepremAlarmi.Droid.Resource.Id.submit_area;
+			global::BottomBar.Droid.Resource.Id.tabMode = global::DepremAlarmi.Droid.Resource.Id.tabMode;
+			global::BottomBar.Droid.Resource.Id.text = global::DepremAlarmi.Droid.Resource.Id.text;
+			global::BottomBar.Droid.Resource.Id.text2 = global::DepremAlarmi.Droid.Resource.Id.text2;
+			global::BottomBar.Droid.Resource.Id.textSpacerNoButtons = global::DepremAlarmi.Droid.Resource.Id.textSpacerNoButtons;
+			global::BottomBar.Droid.Resource.Id.time = global::DepremAlarmi.Droid.Resource.Id.time;
+			global::BottomBar.Droid.Resource.Id.title = global::DepremAlarmi.Droid.Resource.Id.title;
+			global::BottomBar.Droid.Resource.Id.title_template = global::DepremAlarmi.Droid.Resource.Id.title_template;
+			global::BottomBar.Droid.Resource.Id.top = global::DepremAlarmi.Droid.Resource.Id.top;
+			global::BottomBar.Droid.Resource.Id.topPanel = global::DepremAlarmi.Droid.Resource.Id.topPanel;
+			global::BottomBar.Droid.Resource.Id.touch_outside = global::DepremAlarmi.Droid.Resource.Id.touch_outside;
+			global::BottomBar.Droid.Resource.Id.up = global::DepremAlarmi.Droid.Resource.Id.up;
+			global::BottomBar.Droid.Resource.Id.useLogo = global::DepremAlarmi.Droid.Resource.Id.useLogo;
+			global::BottomBar.Droid.Resource.Id.view_offset_helper = global::DepremAlarmi.Droid.Resource.Id.view_offset_helper;
+			global::BottomBar.Droid.Resource.Id.withText = global::DepremAlarmi.Droid.Resource.Id.withText;
+			global::BottomBar.Droid.Resource.Id.wrap_content = global::DepremAlarmi.Droid.Resource.Id.wrap_content;
+			global::BottomBar.Droid.Resource.Integer.abc_config_activityDefaultDur = global::DepremAlarmi.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::BottomBar.Droid.Resource.Integer.abc_config_activityShortDur = global::DepremAlarmi.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::BottomBar.Droid.Resource.Integer.bottom_sheet_slide_duration = global::DepremAlarmi.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::BottomBar.Droid.Resource.Integer.cancel_button_image_alpha = global::DepremAlarmi.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::BottomBar.Droid.Resource.Integer.design_snackbar_text_max_lines = global::DepremAlarmi.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::BottomBar.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::DepremAlarmi.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::BottomBar.Droid.Resource.Layout.abc_action_bar_title_item = global::DepremAlarmi.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::BottomBar.Droid.Resource.Layout.abc_action_bar_up_container = global::DepremAlarmi.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::BottomBar.Droid.Resource.Layout.abc_action_menu_item_layout = global::DepremAlarmi.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::BottomBar.Droid.Resource.Layout.abc_action_menu_layout = global::DepremAlarmi.Droid.Resource.Layout.abc_action_menu_layout;
+			global::BottomBar.Droid.Resource.Layout.abc_action_mode_bar = global::DepremAlarmi.Droid.Resource.Layout.abc_action_mode_bar;
+			global::BottomBar.Droid.Resource.Layout.abc_action_mode_close_item_material = global::DepremAlarmi.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::BottomBar.Droid.Resource.Layout.abc_activity_chooser_view = global::DepremAlarmi.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::BottomBar.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::DepremAlarmi.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::BottomBar.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::DepremAlarmi.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::BottomBar.Droid.Resource.Layout.abc_alert_dialog_material = global::DepremAlarmi.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::BottomBar.Droid.Resource.Layout.abc_dialog_title_material = global::DepremAlarmi.Droid.Resource.Layout.abc_dialog_title_material;
+			global::BottomBar.Droid.Resource.Layout.abc_expanded_menu_layout = global::DepremAlarmi.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::BottomBar.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::DepremAlarmi.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::BottomBar.Droid.Resource.Layout.abc_list_menu_item_icon = global::DepremAlarmi.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::BottomBar.Droid.Resource.Layout.abc_list_menu_item_layout = global::DepremAlarmi.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::BottomBar.Droid.Resource.Layout.abc_list_menu_item_radio = global::DepremAlarmi.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::BottomBar.Droid.Resource.Layout.abc_popup_menu_item_layout = global::DepremAlarmi.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::BottomBar.Droid.Resource.Layout.abc_screen_content_include = global::DepremAlarmi.Droid.Resource.Layout.abc_screen_content_include;
+			global::BottomBar.Droid.Resource.Layout.abc_screen_simple = global::DepremAlarmi.Droid.Resource.Layout.abc_screen_simple;
+			global::BottomBar.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::DepremAlarmi.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::BottomBar.Droid.Resource.Layout.abc_screen_toolbar = global::DepremAlarmi.Droid.Resource.Layout.abc_screen_toolbar;
+			global::BottomBar.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::DepremAlarmi.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::BottomBar.Droid.Resource.Layout.abc_search_view = global::DepremAlarmi.Droid.Resource.Layout.abc_search_view;
+			global::BottomBar.Droid.Resource.Layout.abc_select_dialog_material = global::DepremAlarmi.Droid.Resource.Layout.abc_select_dialog_material;
+			global::BottomBar.Droid.Resource.Layout.bb_bottom_bar_item_container = global::DepremAlarmi.Droid.Resource.Layout.bb_bottom_bar_item_container;
+			global::BottomBar.Droid.Resource.Layout.bb_bottom_bar_item_container_tablet = global::DepremAlarmi.Droid.Resource.Layout.bb_bottom_bar_item_container_tablet;
+			global::BottomBar.Droid.Resource.Layout.bb_bottom_bar_item_fixed = global::DepremAlarmi.Droid.Resource.Layout.bb_bottom_bar_item_fixed;
+			global::BottomBar.Droid.Resource.Layout.bb_bottom_bar_item_fixed_tablet = global::DepremAlarmi.Droid.Resource.Layout.bb_bottom_bar_item_fixed_tablet;
+			global::BottomBar.Droid.Resource.Layout.bb_bottom_bar_item_shifting = global::DepremAlarmi.Droid.Resource.Layout.bb_bottom_bar_item_shifting;
+			global::BottomBar.Droid.Resource.Layout.design_bottom_sheet_dialog = global::DepremAlarmi.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::BottomBar.Droid.Resource.Layout.design_layout_snackbar = global::DepremAlarmi.Droid.Resource.Layout.design_layout_snackbar;
+			global::BottomBar.Droid.Resource.Layout.design_layout_snackbar_include = global::DepremAlarmi.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::BottomBar.Droid.Resource.Layout.design_layout_tab_icon = global::DepremAlarmi.Droid.Resource.Layout.design_layout_tab_icon;
+			global::BottomBar.Droid.Resource.Layout.design_layout_tab_text = global::DepremAlarmi.Droid.Resource.Layout.design_layout_tab_text;
+			global::BottomBar.Droid.Resource.Layout.design_menu_item_action_area = global::DepremAlarmi.Droid.Resource.Layout.design_menu_item_action_area;
+			global::BottomBar.Droid.Resource.Layout.design_navigation_item = global::DepremAlarmi.Droid.Resource.Layout.design_navigation_item;
+			global::BottomBar.Droid.Resource.Layout.design_navigation_item_header = global::DepremAlarmi.Droid.Resource.Layout.design_navigation_item_header;
+			global::BottomBar.Droid.Resource.Layout.design_navigation_item_separator = global::DepremAlarmi.Droid.Resource.Layout.design_navigation_item_separator;
+			global::BottomBar.Droid.Resource.Layout.design_navigation_item_subheader = global::DepremAlarmi.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::BottomBar.Droid.Resource.Layout.design_navigation_menu = global::DepremAlarmi.Droid.Resource.Layout.design_navigation_menu;
+			global::BottomBar.Droid.Resource.Layout.design_navigation_menu_item = global::DepremAlarmi.Droid.Resource.Layout.design_navigation_menu_item;
+			global::BottomBar.Droid.Resource.Layout.notification_media_action = global::DepremAlarmi.Droid.Resource.Layout.notification_media_action;
+			global::BottomBar.Droid.Resource.Layout.notification_media_cancel_action = global::DepremAlarmi.Droid.Resource.Layout.notification_media_cancel_action;
+			global::BottomBar.Droid.Resource.Layout.notification_template_big_media = global::DepremAlarmi.Droid.Resource.Layout.notification_template_big_media;
+			global::BottomBar.Droid.Resource.Layout.notification_template_big_media_narrow = global::DepremAlarmi.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::BottomBar.Droid.Resource.Layout.notification_template_media = global::DepremAlarmi.Droid.Resource.Layout.notification_template_media;
+			global::BottomBar.Droid.Resource.Layout.notification_template_part_chronometer = global::DepremAlarmi.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::BottomBar.Droid.Resource.Layout.notification_template_part_time = global::DepremAlarmi.Droid.Resource.Layout.notification_template_part_time;
+			global::BottomBar.Droid.Resource.Layout.select_dialog_item_material = global::DepremAlarmi.Droid.Resource.Layout.select_dialog_item_material;
+			global::BottomBar.Droid.Resource.Layout.select_dialog_multichoice_material = global::DepremAlarmi.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::BottomBar.Droid.Resource.Layout.select_dialog_singlechoice_material = global::DepremAlarmi.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::BottomBar.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::DepremAlarmi.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::BottomBar.Droid.Resource.String.abc_action_bar_home_description = global::DepremAlarmi.Droid.Resource.String.abc_action_bar_home_description;
+			global::BottomBar.Droid.Resource.String.abc_action_bar_up_description = global::DepremAlarmi.Droid.Resource.String.abc_action_bar_up_description;
+			global::BottomBar.Droid.Resource.String.abc_action_menu_overflow_description = global::DepremAlarmi.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::BottomBar.Droid.Resource.String.abc_action_mode_done = global::DepremAlarmi.Droid.Resource.String.abc_action_mode_done;
+			global::BottomBar.Droid.Resource.String.abc_activity_chooser_view_see_all = global::DepremAlarmi.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::BottomBar.Droid.Resource.String.abc_activitychooserview_choose_application = global::DepremAlarmi.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::BottomBar.Droid.Resource.String.abc_capital_off = global::DepremAlarmi.Droid.Resource.String.abc_capital_off;
+			global::BottomBar.Droid.Resource.String.abc_capital_on = global::DepremAlarmi.Droid.Resource.String.abc_capital_on;
+			global::BottomBar.Droid.Resource.String.abc_search_hint = global::DepremAlarmi.Droid.Resource.String.abc_search_hint;
+			global::BottomBar.Droid.Resource.String.abc_searchview_description_clear = global::DepremAlarmi.Droid.Resource.String.abc_searchview_description_clear;
+			global::BottomBar.Droid.Resource.String.abc_searchview_description_query = global::DepremAlarmi.Droid.Resource.String.abc_searchview_description_query;
+			global::BottomBar.Droid.Resource.String.abc_searchview_description_search = global::DepremAlarmi.Droid.Resource.String.abc_searchview_description_search;
+			global::BottomBar.Droid.Resource.String.abc_searchview_description_submit = global::DepremAlarmi.Droid.Resource.String.abc_searchview_description_submit;
+			global::BottomBar.Droid.Resource.String.abc_searchview_description_voice = global::DepremAlarmi.Droid.Resource.String.abc_searchview_description_voice;
+			global::BottomBar.Droid.Resource.String.abc_shareactionprovider_share_with = global::DepremAlarmi.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::BottomBar.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::DepremAlarmi.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::BottomBar.Droid.Resource.String.abc_toolbar_collapse_description = global::DepremAlarmi.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::BottomBar.Droid.Resource.String.app_name = global::DepremAlarmi.Droid.Resource.String.app_name;
+			global::BottomBar.Droid.Resource.String.appbar_scrolling_view_behavior = global::DepremAlarmi.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::BottomBar.Droid.Resource.String.bottom_sheet_behavior = global::DepremAlarmi.Droid.Resource.String.bottom_sheet_behavior;
+			global::BottomBar.Droid.Resource.String.character_counter_pattern = global::DepremAlarmi.Droid.Resource.String.character_counter_pattern;
+			global::BottomBar.Droid.Resource.String.library_name = global::DepremAlarmi.Droid.Resource.String.library_name;
+			global::BottomBar.Droid.Resource.String.status_bar_notification_info_overflow = global::DepremAlarmi.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::BottomBar.Droid.Resource.Style.AlertDialog_AppCompat = global::DepremAlarmi.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::BottomBar.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::DepremAlarmi.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Animation_AppCompat_Dialog = global::DepremAlarmi.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::BottomBar.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::DepremAlarmi.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::BottomBar.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::DepremAlarmi.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::BottomBar.Droid.Resource.Style.BB_BottomBarBadge_Text = global::DepremAlarmi.Droid.Resource.Style.BB_BottomBarBadge_Text;
+			global::BottomBar.Droid.Resource.Style.BB_BottomBarItem = global::DepremAlarmi.Droid.Resource.Style.BB_BottomBarItem;
+			global::BottomBar.Droid.Resource.Style.BB_BottomBarItem_Fixed = global::DepremAlarmi.Droid.Resource.Style.BB_BottomBarItem_Fixed;
+			global::BottomBar.Droid.Resource.Style.BB_BottomBarItem_Fixed_TitleAppearance = global::DepremAlarmi.Droid.Resource.Style.BB_BottomBarItem_Fixed_TitleAppearance;
+			global::BottomBar.Droid.Resource.Style.BB_BottomBarItem_Shifting = global::DepremAlarmi.Droid.Resource.Style.BB_BottomBarItem_Shifting;
+			global::BottomBar.Droid.Resource.Style.BB_BottomBarItem_Shifting_TitleAppearance = global::DepremAlarmi.Droid.Resource.Style.BB_BottomBarItem_Shifting_TitleAppearance;
+			global::BottomBar.Droid.Resource.Style.BB_BottomBarItem_Tablet = global::DepremAlarmi.Droid.Resource.Style.BB_BottomBarItem_Tablet;
+			global::BottomBar.Droid.Resource.Style.BB_BottomBarItem_TitleStyle = global::DepremAlarmi.Droid.Resource.Style.BB_BottomBarItem_TitleStyle;
+			global::BottomBar.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::DepremAlarmi.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::DepremAlarmi.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::BottomBar.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::DepremAlarmi.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::BottomBar.Droid.Resource.Style.Base_CardView = global::DepremAlarmi.Droid.Resource.Style.Base_CardView;
+			global::BottomBar.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::BottomBar.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::BottomBar.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::BottomBar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::DepremAlarmi.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::BottomBar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::DepremAlarmi.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::BottomBar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::DepremAlarmi.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::BottomBar.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::DepremAlarmi.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::DepremAlarmi.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::BottomBar.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::DepremAlarmi.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::DepremAlarmi.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::BottomBar.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::DepremAlarmi.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::DepremAlarmi.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::DepremAlarmi.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::BottomBar.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::DepremAlarmi.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::DepremAlarmi.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::BottomBar.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::DepremAlarmi.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::BottomBar.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::DepremAlarmi.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::BottomBar.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::BottomBar.Droid.Resource.Style.CardView = global::DepremAlarmi.Droid.Resource.Style.CardView;
+			global::BottomBar.Droid.Resource.Style.CardView_Dark = global::DepremAlarmi.Droid.Resource.Style.CardView_Dark;
+			global::BottomBar.Droid.Resource.Style.CardView_Light = global::DepremAlarmi.Droid.Resource.Style.CardView_Light;
+			global::BottomBar.Droid.Resource.Style.Platform_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Platform_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Platform_AppCompat_Light = global::DepremAlarmi.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::DepremAlarmi.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::BottomBar.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::DepremAlarmi.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::DepremAlarmi.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::BottomBar.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::DepremAlarmi.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::BottomBar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::DepremAlarmi.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::BottomBar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::DepremAlarmi.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::BottomBar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::DepremAlarmi.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::BottomBar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::DepremAlarmi.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::BottomBar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::DepremAlarmi.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::BottomBar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::DepremAlarmi.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::BottomBar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::DepremAlarmi.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::BottomBar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::DepremAlarmi.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::BottomBar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::DepremAlarmi.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::BottomBar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::DepremAlarmi.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::BottomBar.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::DepremAlarmi.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::BottomBar.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::DepremAlarmi.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::BottomBar.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::DepremAlarmi.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_Design_Counter = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_Design_Error = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_Design_Hint = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_Design_Tab = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::BottomBar.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_DayNight = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_Dialog = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_Light = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::BottomBar.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::BottomBar.Droid.Resource.Style.Theme_Design = global::DepremAlarmi.Droid.Resource.Style.Theme_Design;
+			global::BottomBar.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::DepremAlarmi.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::BottomBar.Droid.Resource.Style.Theme_Design_Light = global::DepremAlarmi.Droid.Resource.Style.Theme_Design_Light;
+			global::BottomBar.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::DepremAlarmi.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::BottomBar.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::DepremAlarmi.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::BottomBar.Droid.Resource.Style.Theme_Design_NoActionBar = global::DepremAlarmi.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::BottomBar.Droid.Resource.Style.ThemeOverlay_AppCompat = global::DepremAlarmi.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::BottomBar.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::DepremAlarmi.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::BottomBar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::DepremAlarmi.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::BottomBar.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::DepremAlarmi.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::BottomBar.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::DepremAlarmi.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Button = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_EditText = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ListView = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_SearchView = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Spinner = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::BottomBar.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::BottomBar.Droid.Resource.Style.Widget_Design_AppBarLayout = global::DepremAlarmi.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::BottomBar.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::DepremAlarmi.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::BottomBar.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::DepremAlarmi.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::BottomBar.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::DepremAlarmi.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::BottomBar.Droid.Resource.Style.Widget_Design_NavigationView = global::DepremAlarmi.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::BottomBar.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::DepremAlarmi.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::BottomBar.Droid.Resource.Style.Widget_Design_Snackbar = global::DepremAlarmi.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::BottomBar.Droid.Resource.Style.Widget_Design_TabLayout = global::DepremAlarmi.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::BottomBar.Droid.Resource.Style.Widget_Design_TextInputLayout = global::DepremAlarmi.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_background = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_background;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_displayOptions = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_divider = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_divider;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_elevation = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_elevation;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_height = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_height;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_homeLayout = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_icon = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_icon;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_itemPadding = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_logo = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_logo;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_navigationMode = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_popupTheme = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_subtitle = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_title = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_title;
+			global::BottomBar.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::BottomBar.Droid.Resource.Styleable.ActionBarLayout = global::DepremAlarmi.Droid.Resource.Styleable.ActionBarLayout;
+			global::BottomBar.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::DepremAlarmi.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::BottomBar.Droid.Resource.Styleable.ActionMenuItemView = global::DepremAlarmi.Droid.Resource.Styleable.ActionMenuItemView;
+			global::BottomBar.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::DepremAlarmi.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::BottomBar.Droid.Resource.Styleable.ActionMenuView = global::DepremAlarmi.Droid.Resource.Styleable.ActionMenuView;
+			global::BottomBar.Droid.Resource.Styleable.ActionMode = global::DepremAlarmi.Droid.Resource.Styleable.ActionMode;
+			global::BottomBar.Droid.Resource.Styleable.ActionMode_background = global::DepremAlarmi.Droid.Resource.Styleable.ActionMode_background;
+			global::BottomBar.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::DepremAlarmi.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::BottomBar.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::DepremAlarmi.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::BottomBar.Droid.Resource.Styleable.ActionMode_height = global::DepremAlarmi.Droid.Resource.Styleable.ActionMode_height;
+			global::BottomBar.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::DepremAlarmi.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::BottomBar.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::DepremAlarmi.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::BottomBar.Droid.Resource.Styleable.ActivityChooserView = global::DepremAlarmi.Droid.Resource.Styleable.ActivityChooserView;
+			global::BottomBar.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::DepremAlarmi.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::BottomBar.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::DepremAlarmi.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::BottomBar.Droid.Resource.Styleable.AlertDialog = global::DepremAlarmi.Droid.Resource.Styleable.AlertDialog;
+			global::BottomBar.Droid.Resource.Styleable.AlertDialog_android_layout = global::DepremAlarmi.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::BottomBar.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::DepremAlarmi.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::BottomBar.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::DepremAlarmi.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::BottomBar.Droid.Resource.Styleable.AlertDialog_listLayout = global::DepremAlarmi.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::BottomBar.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::DepremAlarmi.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::BottomBar.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::DepremAlarmi.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::BottomBar.Droid.Resource.Styleable.AppBarLayout = global::DepremAlarmi.Droid.Resource.Styleable.AppBarLayout;
+			global::BottomBar.Droid.Resource.Styleable.AppBarLayout_android_background = global::DepremAlarmi.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::BottomBar.Droid.Resource.Styleable.AppBarLayout_elevation = global::DepremAlarmi.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::BottomBar.Droid.Resource.Styleable.AppBarLayout_expanded = global::DepremAlarmi.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatImageView = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatImageView;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatImageView_android_src = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTextView = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTextView;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::BottomBar.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::BottomBar.Droid.Resource.Styleable.ButtonBarLayout = global::DepremAlarmi.Droid.Resource.Styleable.ButtonBarLayout;
+			global::BottomBar.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::DepremAlarmi.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::BottomBar.Droid.Resource.Styleable.CardView = global::DepremAlarmi.Droid.Resource.Styleable.CardView;
+			global::BottomBar.Droid.Resource.Styleable.CardView_android_minHeight = global::DepremAlarmi.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::BottomBar.Droid.Resource.Styleable.CardView_android_minWidth = global::DepremAlarmi.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::BottomBar.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::DepremAlarmi.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::BottomBar.Droid.Resource.Styleable.CardView_cardCornerRadius = global::DepremAlarmi.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::BottomBar.Droid.Resource.Styleable.CardView_cardElevation = global::DepremAlarmi.Droid.Resource.Styleable.CardView_cardElevation;
+			global::BottomBar.Droid.Resource.Styleable.CardView_cardMaxElevation = global::DepremAlarmi.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::BottomBar.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::DepremAlarmi.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::BottomBar.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::DepremAlarmi.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::BottomBar.Droid.Resource.Styleable.CardView_contentPadding = global::DepremAlarmi.Droid.Resource.Styleable.CardView_contentPadding;
+			global::BottomBar.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::DepremAlarmi.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::BottomBar.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::DepremAlarmi.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::BottomBar.Droid.Resource.Styleable.CardView_contentPaddingRight = global::DepremAlarmi.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::BottomBar.Droid.Resource.Styleable.CardView_contentPaddingTop = global::DepremAlarmi.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::BottomBar.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::BottomBar.Droid.Resource.Styleable.CompoundButton = global::DepremAlarmi.Droid.Resource.Styleable.CompoundButton;
+			global::BottomBar.Droid.Resource.Styleable.CompoundButton_android_button = global::DepremAlarmi.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::BottomBar.Droid.Resource.Styleable.CompoundButton_buttonTint = global::DepremAlarmi.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::BottomBar.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::DepremAlarmi.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::BottomBar.Droid.Resource.Styleable.CoordinatorLayout = global::DepremAlarmi.Droid.Resource.Styleable.CoordinatorLayout;
+			global::BottomBar.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::DepremAlarmi.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::BottomBar.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::DepremAlarmi.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::BottomBar.Droid.Resource.Styleable.DesignTheme = global::DepremAlarmi.Droid.Resource.Styleable.DesignTheme;
+			global::BottomBar.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::DepremAlarmi.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::BottomBar.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::DepremAlarmi.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::BottomBar.Droid.Resource.Styleable.DrawerArrowToggle = global::DepremAlarmi.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::BottomBar.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::DepremAlarmi.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::BottomBar.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::DepremAlarmi.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::BottomBar.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::DepremAlarmi.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::BottomBar.Droid.Resource.Styleable.DrawerArrowToggle_color = global::DepremAlarmi.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::BottomBar.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::DepremAlarmi.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::BottomBar.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::DepremAlarmi.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::BottomBar.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::DepremAlarmi.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::BottomBar.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::DepremAlarmi.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::BottomBar.Droid.Resource.Styleable.FloatingActionButton = global::DepremAlarmi.Droid.Resource.Styleable.FloatingActionButton;
+			global::BottomBar.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::DepremAlarmi.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::BottomBar.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::DepremAlarmi.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::BottomBar.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::DepremAlarmi.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::BottomBar.Droid.Resource.Styleable.FloatingActionButton_elevation = global::DepremAlarmi.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::BottomBar.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::DepremAlarmi.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::BottomBar.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::DepremAlarmi.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::BottomBar.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::DepremAlarmi.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::BottomBar.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::DepremAlarmi.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::BottomBar.Droid.Resource.Styleable.ForegroundLinearLayout = global::DepremAlarmi.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::BottomBar.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::DepremAlarmi.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::BottomBar.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::DepremAlarmi.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::BottomBar.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::DepremAlarmi.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::BottomBar.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::BottomBar.Droid.Resource.Styleable.ListPopupWindow = global::DepremAlarmi.Droid.Resource.Styleable.ListPopupWindow;
+			global::BottomBar.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::DepremAlarmi.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::BottomBar.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::DepremAlarmi.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::BottomBar.Droid.Resource.Styleable.MenuGroup = global::DepremAlarmi.Droid.Resource.Styleable.MenuGroup;
+			global::BottomBar.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::DepremAlarmi.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::BottomBar.Droid.Resource.Styleable.MenuGroup_android_enabled = global::DepremAlarmi.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::BottomBar.Droid.Resource.Styleable.MenuGroup_android_id = global::DepremAlarmi.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::BottomBar.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::DepremAlarmi.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::BottomBar.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::DepremAlarmi.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::BottomBar.Droid.Resource.Styleable.MenuGroup_android_visible = global::DepremAlarmi.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_actionLayout = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_actionViewClass = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_checkable = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_checked = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_enabled = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_icon = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_id = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_id;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_onClick = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_title = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_title;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_android_visible = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::BottomBar.Droid.Resource.Styleable.MenuItem_showAsAction = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::BottomBar.Droid.Resource.Styleable.MenuView = global::DepremAlarmi.Droid.Resource.Styleable.MenuView;
+			global::BottomBar.Droid.Resource.Styleable.MenuView_android_headerBackground = global::DepremAlarmi.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::BottomBar.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::DepremAlarmi.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::BottomBar.Droid.Resource.Styleable.MenuView_android_itemBackground = global::DepremAlarmi.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::BottomBar.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::DepremAlarmi.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::BottomBar.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::DepremAlarmi.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::BottomBar.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::DepremAlarmi.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::BottomBar.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::DepremAlarmi.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::BottomBar.Droid.Resource.Styleable.NavigationView = global::DepremAlarmi.Droid.Resource.Styleable.NavigationView;
+			global::BottomBar.Droid.Resource.Styleable.NavigationView_android_background = global::DepremAlarmi.Droid.Resource.Styleable.NavigationView_android_background;
+			global::BottomBar.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::DepremAlarmi.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::BottomBar.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::DepremAlarmi.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::BottomBar.Droid.Resource.Styleable.NavigationView_elevation = global::DepremAlarmi.Droid.Resource.Styleable.NavigationView_elevation;
+			global::BottomBar.Droid.Resource.Styleable.NavigationView_headerLayout = global::DepremAlarmi.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::BottomBar.Droid.Resource.Styleable.NavigationView_itemBackground = global::DepremAlarmi.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::BottomBar.Droid.Resource.Styleable.NavigationView_itemIconTint = global::DepremAlarmi.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::BottomBar.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.NavigationView_itemTextColor = global::DepremAlarmi.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::BottomBar.Droid.Resource.Styleable.NavigationView_menu = global::DepremAlarmi.Droid.Resource.Styleable.NavigationView_menu;
+			global::BottomBar.Droid.Resource.Styleable.PopupWindow = global::DepremAlarmi.Droid.Resource.Styleable.PopupWindow;
+			global::BottomBar.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::DepremAlarmi.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::BottomBar.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::DepremAlarmi.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::BottomBar.Droid.Resource.Styleable.PopupWindowBackgroundState = global::DepremAlarmi.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::BottomBar.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::DepremAlarmi.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::BottomBar.Droid.Resource.Styleable.RecyclerView = global::DepremAlarmi.Droid.Resource.Styleable.RecyclerView;
+			global::BottomBar.Droid.Resource.Styleable.RecyclerView_android_orientation = global::DepremAlarmi.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::BottomBar.Droid.Resource.Styleable.RecyclerView_layoutManager = global::DepremAlarmi.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::BottomBar.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::DepremAlarmi.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::BottomBar.Droid.Resource.Styleable.RecyclerView_spanCount = global::DepremAlarmi.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::BottomBar.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::DepremAlarmi.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::BottomBar.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::DepremAlarmi.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::BottomBar.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::DepremAlarmi.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::BottomBar.Droid.Resource.Styleable.SearchView = global::DepremAlarmi.Droid.Resource.Styleable.SearchView;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_android_focusable = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_android_imeOptions = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_android_inputType = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_android_maxWidth = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_closeIcon = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_commitIcon = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_goIcon = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_goIcon;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_layout = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_layout;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_queryBackground = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_queryHint = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_queryHint;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_searchHintIcon = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_searchIcon = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_submitBackground = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::BottomBar.Droid.Resource.Styleable.SearchView_voiceIcon = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::BottomBar.Droid.Resource.Styleable.SnackbarLayout = global::DepremAlarmi.Droid.Resource.Styleable.SnackbarLayout;
+			global::BottomBar.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::DepremAlarmi.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::BottomBar.Droid.Resource.Styleable.SnackbarLayout_elevation = global::DepremAlarmi.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::BottomBar.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::DepremAlarmi.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::BottomBar.Droid.Resource.Styleable.Spinner = global::DepremAlarmi.Droid.Resource.Styleable.Spinner;
+			global::BottomBar.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::DepremAlarmi.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::BottomBar.Droid.Resource.Styleable.Spinner_android_entries = global::DepremAlarmi.Droid.Resource.Styleable.Spinner_android_entries;
+			global::BottomBar.Droid.Resource.Styleable.Spinner_android_popupBackground = global::DepremAlarmi.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::BottomBar.Droid.Resource.Styleable.Spinner_android_prompt = global::DepremAlarmi.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::BottomBar.Droid.Resource.Styleable.Spinner_popupTheme = global::DepremAlarmi.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::BottomBar.Droid.Resource.Styleable.SwitchCompat = global::DepremAlarmi.Droid.Resource.Styleable.SwitchCompat;
+			global::BottomBar.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::DepremAlarmi.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::BottomBar.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::DepremAlarmi.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::BottomBar.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::DepremAlarmi.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::BottomBar.Droid.Resource.Styleable.SwitchCompat_showText = global::DepremAlarmi.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::BottomBar.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::DepremAlarmi.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::BottomBar.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::DepremAlarmi.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::BottomBar.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::DepremAlarmi.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::BottomBar.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::DepremAlarmi.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::BottomBar.Droid.Resource.Styleable.SwitchCompat_track = global::DepremAlarmi.Droid.Resource.Styleable.SwitchCompat_track;
+			global::BottomBar.Droid.Resource.Styleable.TabItem = global::DepremAlarmi.Droid.Resource.Styleable.TabItem;
+			global::BottomBar.Droid.Resource.Styleable.TabItem_android_icon = global::DepremAlarmi.Droid.Resource.Styleable.TabItem_android_icon;
+			global::BottomBar.Droid.Resource.Styleable.TabItem_android_layout = global::DepremAlarmi.Droid.Resource.Styleable.TabItem_android_layout;
+			global::BottomBar.Droid.Resource.Styleable.TabItem_android_text = global::DepremAlarmi.Droid.Resource.Styleable.TabItem_android_text;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabBackground = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabContentStart = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabGravity = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabMode = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabPadding = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.TabLayout_tabTextColor = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::BottomBar.Droid.Resource.Styleable.TextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.TextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::DepremAlarmi.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::BottomBar.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::DepremAlarmi.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::BottomBar.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::DepremAlarmi.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::BottomBar.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::DepremAlarmi.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::BottomBar.Droid.Resource.Styleable.TextAppearance_android_textColor = global::DepremAlarmi.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::BottomBar.Droid.Resource.Styleable.TextAppearance_android_textSize = global::DepremAlarmi.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::BottomBar.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::DepremAlarmi.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::BottomBar.Droid.Resource.Styleable.TextAppearance_android_typeface = global::DepremAlarmi.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::BottomBar.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::DepremAlarmi.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::BottomBar.Droid.Resource.Styleable.TextInputLayout = global::DepremAlarmi.Droid.Resource.Styleable.TextInputLayout;
+			global::BottomBar.Droid.Resource.Styleable.TextInputLayout_android_hint = global::DepremAlarmi.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::BottomBar.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::DepremAlarmi.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::BottomBar.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::DepremAlarmi.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::BottomBar.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::DepremAlarmi.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::BottomBar.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::DepremAlarmi.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::BottomBar.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::DepremAlarmi.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::BottomBar.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::DepremAlarmi.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::BottomBar.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_android_gravity = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_android_minHeight = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_collapseIcon = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_logo = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_logo;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_logoDescription = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_navigationIcon = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_popupTheme = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_subtitle = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_title = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_title;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_titleMargins = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::BottomBar.Droid.Resource.Styleable.Toolbar_titleTextColor = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::BottomBar.Droid.Resource.Styleable.View = global::DepremAlarmi.Droid.Resource.Styleable.View;
+			global::BottomBar.Droid.Resource.Styleable.View_android_focusable = global::DepremAlarmi.Droid.Resource.Styleable.View_android_focusable;
+			global::BottomBar.Droid.Resource.Styleable.View_android_theme = global::DepremAlarmi.Droid.Resource.Styleable.View_android_theme;
+			global::BottomBar.Droid.Resource.Styleable.View_paddingEnd = global::DepremAlarmi.Droid.Resource.Styleable.View_paddingEnd;
+			global::BottomBar.Droid.Resource.Styleable.View_paddingStart = global::DepremAlarmi.Droid.Resource.Styleable.View_paddingStart;
+			global::BottomBar.Droid.Resource.Styleable.View_theme = global::DepremAlarmi.Droid.Resource.Styleable.View_theme;
+			global::BottomBar.Droid.Resource.Styleable.ViewBackgroundHelper = global::DepremAlarmi.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::BottomBar.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::DepremAlarmi.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::BottomBar.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::DepremAlarmi.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::BottomBar.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::DepremAlarmi.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::BottomBar.Droid.Resource.Styleable.ViewStubCompat = global::DepremAlarmi.Droid.Resource.Styleable.ViewStubCompat;
+			global::BottomBar.Droid.Resource.Styleable.ViewStubCompat_android_id = global::DepremAlarmi.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::BottomBar.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::DepremAlarmi.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::BottomBar.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::DepremAlarmi.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::BottomNavigationBar.Resource.Animation.abc_fade_in = global::DepremAlarmi.Droid.Resource.Animation.abc_fade_in;
+			global::BottomNavigationBar.Resource.Animation.abc_fade_out = global::DepremAlarmi.Droid.Resource.Animation.abc_fade_out;
+			global::BottomNavigationBar.Resource.Animation.abc_grow_fade_in_from_bottom = global::DepremAlarmi.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::BottomNavigationBar.Resource.Animation.abc_popup_enter = global::DepremAlarmi.Droid.Resource.Animation.abc_popup_enter;
+			global::BottomNavigationBar.Resource.Animation.abc_popup_exit = global::DepremAlarmi.Droid.Resource.Animation.abc_popup_exit;
+			global::BottomNavigationBar.Resource.Animation.abc_shrink_fade_out_from_bottom = global::DepremAlarmi.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::BottomNavigationBar.Resource.Animation.abc_slide_in_bottom = global::DepremAlarmi.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::BottomNavigationBar.Resource.Animation.abc_slide_in_top = global::DepremAlarmi.Droid.Resource.Animation.abc_slide_in_top;
+			global::BottomNavigationBar.Resource.Animation.abc_slide_out_bottom = global::DepremAlarmi.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::BottomNavigationBar.Resource.Animation.abc_slide_out_top = global::DepremAlarmi.Droid.Resource.Animation.abc_slide_out_top;
+			global::BottomNavigationBar.Resource.Animation.design_bottom_sheet_slide_in = global::DepremAlarmi.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::BottomNavigationBar.Resource.Animation.design_bottom_sheet_slide_out = global::DepremAlarmi.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::BottomNavigationBar.Resource.Animation.design_snackbar_in = global::DepremAlarmi.Droid.Resource.Animation.design_snackbar_in;
+			global::BottomNavigationBar.Resource.Animation.design_snackbar_out = global::DepremAlarmi.Droid.Resource.Animation.design_snackbar_out;
+			global::BottomNavigationBar.Resource.Attribute.actionBarDivider = global::DepremAlarmi.Droid.Resource.Attribute.actionBarDivider;
+			global::BottomNavigationBar.Resource.Attribute.actionBarItemBackground = global::DepremAlarmi.Droid.Resource.Attribute.actionBarItemBackground;
+			global::BottomNavigationBar.Resource.Attribute.actionBarPopupTheme = global::DepremAlarmi.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::BottomNavigationBar.Resource.Attribute.actionBarSize = global::DepremAlarmi.Droid.Resource.Attribute.actionBarSize;
+			global::BottomNavigationBar.Resource.Attribute.actionBarSplitStyle = global::DepremAlarmi.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::BottomNavigationBar.Resource.Attribute.actionBarStyle = global::DepremAlarmi.Droid.Resource.Attribute.actionBarStyle;
+			global::BottomNavigationBar.Resource.Attribute.actionBarTabBarStyle = global::DepremAlarmi.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::BottomNavigationBar.Resource.Attribute.actionBarTabStyle = global::DepremAlarmi.Droid.Resource.Attribute.actionBarTabStyle;
+			global::BottomNavigationBar.Resource.Attribute.actionBarTabTextStyle = global::DepremAlarmi.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::BottomNavigationBar.Resource.Attribute.actionBarTheme = global::DepremAlarmi.Droid.Resource.Attribute.actionBarTheme;
+			global::BottomNavigationBar.Resource.Attribute.actionBarWidgetTheme = global::DepremAlarmi.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::BottomNavigationBar.Resource.Attribute.actionButtonStyle = global::DepremAlarmi.Droid.Resource.Attribute.actionButtonStyle;
+			global::BottomNavigationBar.Resource.Attribute.actionDropDownStyle = global::DepremAlarmi.Droid.Resource.Attribute.actionDropDownStyle;
+			global::BottomNavigationBar.Resource.Attribute.actionLayout = global::DepremAlarmi.Droid.Resource.Attribute.actionLayout;
+			global::BottomNavigationBar.Resource.Attribute.actionMenuTextAppearance = global::DepremAlarmi.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::BottomNavigationBar.Resource.Attribute.actionMenuTextColor = global::DepremAlarmi.Droid.Resource.Attribute.actionMenuTextColor;
+			global::BottomNavigationBar.Resource.Attribute.actionModeBackground = global::DepremAlarmi.Droid.Resource.Attribute.actionModeBackground;
+			global::BottomNavigationBar.Resource.Attribute.actionModeCloseButtonStyle = global::DepremAlarmi.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::BottomNavigationBar.Resource.Attribute.actionModeCloseDrawable = global::DepremAlarmi.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::BottomNavigationBar.Resource.Attribute.actionModeCopyDrawable = global::DepremAlarmi.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::BottomNavigationBar.Resource.Attribute.actionModeCutDrawable = global::DepremAlarmi.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::BottomNavigationBar.Resource.Attribute.actionModeFindDrawable = global::DepremAlarmi.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::BottomNavigationBar.Resource.Attribute.actionModePasteDrawable = global::DepremAlarmi.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::BottomNavigationBar.Resource.Attribute.actionModePopupWindowStyle = global::DepremAlarmi.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::BottomNavigationBar.Resource.Attribute.actionModeSelectAllDrawable = global::DepremAlarmi.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::BottomNavigationBar.Resource.Attribute.actionModeShareDrawable = global::DepremAlarmi.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::BottomNavigationBar.Resource.Attribute.actionModeSplitBackground = global::DepremAlarmi.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::BottomNavigationBar.Resource.Attribute.actionModeStyle = global::DepremAlarmi.Droid.Resource.Attribute.actionModeStyle;
+			global::BottomNavigationBar.Resource.Attribute.actionModeWebSearchDrawable = global::DepremAlarmi.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::BottomNavigationBar.Resource.Attribute.actionOverflowButtonStyle = global::DepremAlarmi.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::BottomNavigationBar.Resource.Attribute.actionOverflowMenuStyle = global::DepremAlarmi.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::BottomNavigationBar.Resource.Attribute.actionProviderClass = global::DepremAlarmi.Droid.Resource.Attribute.actionProviderClass;
+			global::BottomNavigationBar.Resource.Attribute.actionViewClass = global::DepremAlarmi.Droid.Resource.Attribute.actionViewClass;
+			global::BottomNavigationBar.Resource.Attribute.activityChooserViewStyle = global::DepremAlarmi.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::BottomNavigationBar.Resource.Attribute.alertDialogButtonGroupStyle = global::DepremAlarmi.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::BottomNavigationBar.Resource.Attribute.alertDialogCenterButtons = global::DepremAlarmi.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::BottomNavigationBar.Resource.Attribute.alertDialogStyle = global::DepremAlarmi.Droid.Resource.Attribute.alertDialogStyle;
+			global::BottomNavigationBar.Resource.Attribute.alertDialogTheme = global::DepremAlarmi.Droid.Resource.Attribute.alertDialogTheme;
+			global::BottomNavigationBar.Resource.Attribute.allowStacking = global::DepremAlarmi.Droid.Resource.Attribute.allowStacking;
+			global::BottomNavigationBar.Resource.Attribute.arrowHeadLength = global::DepremAlarmi.Droid.Resource.Attribute.arrowHeadLength;
+			global::BottomNavigationBar.Resource.Attribute.arrowShaftLength = global::DepremAlarmi.Droid.Resource.Attribute.arrowShaftLength;
+			global::BottomNavigationBar.Resource.Attribute.autoCompleteTextViewStyle = global::DepremAlarmi.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::BottomNavigationBar.Resource.Attribute.background = global::DepremAlarmi.Droid.Resource.Attribute.background;
+			global::BottomNavigationBar.Resource.Attribute.backgroundSplit = global::DepremAlarmi.Droid.Resource.Attribute.backgroundSplit;
+			global::BottomNavigationBar.Resource.Attribute.backgroundStacked = global::DepremAlarmi.Droid.Resource.Attribute.backgroundStacked;
+			global::BottomNavigationBar.Resource.Attribute.backgroundTint = global::DepremAlarmi.Droid.Resource.Attribute.backgroundTint;
+			global::BottomNavigationBar.Resource.Attribute.backgroundTintMode = global::DepremAlarmi.Droid.Resource.Attribute.backgroundTintMode;
+			global::BottomNavigationBar.Resource.Attribute.barLength = global::DepremAlarmi.Droid.Resource.Attribute.barLength;
+			global::BottomNavigationBar.Resource.Attribute.behavior_hideable = global::DepremAlarmi.Droid.Resource.Attribute.behavior_hideable;
+			global::BottomNavigationBar.Resource.Attribute.behavior_overlapTop = global::DepremAlarmi.Droid.Resource.Attribute.behavior_overlapTop;
+			global::BottomNavigationBar.Resource.Attribute.behavior_peekHeight = global::DepremAlarmi.Droid.Resource.Attribute.behavior_peekHeight;
+			global::BottomNavigationBar.Resource.Attribute.borderWidth = global::DepremAlarmi.Droid.Resource.Attribute.borderWidth;
+			global::BottomNavigationBar.Resource.Attribute.borderlessButtonStyle = global::DepremAlarmi.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::BottomNavigationBar.Resource.Attribute.bottomSheetDialogTheme = global::DepremAlarmi.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::BottomNavigationBar.Resource.Attribute.bottomSheetStyle = global::DepremAlarmi.Droid.Resource.Attribute.bottomSheetStyle;
+			global::BottomNavigationBar.Resource.Attribute.buttonBarButtonStyle = global::DepremAlarmi.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::BottomNavigationBar.Resource.Attribute.buttonBarNegativeButtonStyle = global::DepremAlarmi.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::BottomNavigationBar.Resource.Attribute.buttonBarNeutralButtonStyle = global::DepremAlarmi.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::BottomNavigationBar.Resource.Attribute.buttonBarPositiveButtonStyle = global::DepremAlarmi.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::BottomNavigationBar.Resource.Attribute.buttonBarStyle = global::DepremAlarmi.Droid.Resource.Attribute.buttonBarStyle;
+			global::BottomNavigationBar.Resource.Attribute.buttonPanelSideLayout = global::DepremAlarmi.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::BottomNavigationBar.Resource.Attribute.buttonStyle = global::DepremAlarmi.Droid.Resource.Attribute.buttonStyle;
+			global::BottomNavigationBar.Resource.Attribute.buttonStyleSmall = global::DepremAlarmi.Droid.Resource.Attribute.buttonStyleSmall;
+			global::BottomNavigationBar.Resource.Attribute.buttonTint = global::DepremAlarmi.Droid.Resource.Attribute.buttonTint;
+			global::BottomNavigationBar.Resource.Attribute.buttonTintMode = global::DepremAlarmi.Droid.Resource.Attribute.buttonTintMode;
+			global::BottomNavigationBar.Resource.Attribute.checkboxStyle = global::DepremAlarmi.Droid.Resource.Attribute.checkboxStyle;
+			global::BottomNavigationBar.Resource.Attribute.checkedTextViewStyle = global::DepremAlarmi.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::BottomNavigationBar.Resource.Attribute.closeIcon = global::DepremAlarmi.Droid.Resource.Attribute.closeIcon;
+			global::BottomNavigationBar.Resource.Attribute.closeItemLayout = global::DepremAlarmi.Droid.Resource.Attribute.closeItemLayout;
+			global::BottomNavigationBar.Resource.Attribute.collapseContentDescription = global::DepremAlarmi.Droid.Resource.Attribute.collapseContentDescription;
+			global::BottomNavigationBar.Resource.Attribute.collapseIcon = global::DepremAlarmi.Droid.Resource.Attribute.collapseIcon;
+			global::BottomNavigationBar.Resource.Attribute.collapsedTitleGravity = global::DepremAlarmi.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::BottomNavigationBar.Resource.Attribute.collapsedTitleTextAppearance = global::DepremAlarmi.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::BottomNavigationBar.Resource.Attribute.color = global::DepremAlarmi.Droid.Resource.Attribute.color;
+			global::BottomNavigationBar.Resource.Attribute.colorAccent = global::DepremAlarmi.Droid.Resource.Attribute.colorAccent;
+			global::BottomNavigationBar.Resource.Attribute.colorButtonNormal = global::DepremAlarmi.Droid.Resource.Attribute.colorButtonNormal;
+			global::BottomNavigationBar.Resource.Attribute.colorControlActivated = global::DepremAlarmi.Droid.Resource.Attribute.colorControlActivated;
+			global::BottomNavigationBar.Resource.Attribute.colorControlHighlight = global::DepremAlarmi.Droid.Resource.Attribute.colorControlHighlight;
+			global::BottomNavigationBar.Resource.Attribute.colorControlNormal = global::DepremAlarmi.Droid.Resource.Attribute.colorControlNormal;
+			global::BottomNavigationBar.Resource.Attribute.colorPrimary = global::DepremAlarmi.Droid.Resource.Attribute.colorPrimary;
+			global::BottomNavigationBar.Resource.Attribute.colorPrimaryDark = global::DepremAlarmi.Droid.Resource.Attribute.colorPrimaryDark;
+			global::BottomNavigationBar.Resource.Attribute.colorSwitchThumbNormal = global::DepremAlarmi.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::BottomNavigationBar.Resource.Attribute.commitIcon = global::DepremAlarmi.Droid.Resource.Attribute.commitIcon;
+			global::BottomNavigationBar.Resource.Attribute.contentInsetEnd = global::DepremAlarmi.Droid.Resource.Attribute.contentInsetEnd;
+			global::BottomNavigationBar.Resource.Attribute.contentInsetLeft = global::DepremAlarmi.Droid.Resource.Attribute.contentInsetLeft;
+			global::BottomNavigationBar.Resource.Attribute.contentInsetRight = global::DepremAlarmi.Droid.Resource.Attribute.contentInsetRight;
+			global::BottomNavigationBar.Resource.Attribute.contentInsetStart = global::DepremAlarmi.Droid.Resource.Attribute.contentInsetStart;
+			global::BottomNavigationBar.Resource.Attribute.contentScrim = global::DepremAlarmi.Droid.Resource.Attribute.contentScrim;
+			global::BottomNavigationBar.Resource.Attribute.controlBackground = global::DepremAlarmi.Droid.Resource.Attribute.controlBackground;
+			global::BottomNavigationBar.Resource.Attribute.counterEnabled = global::DepremAlarmi.Droid.Resource.Attribute.counterEnabled;
+			global::BottomNavigationBar.Resource.Attribute.counterMaxLength = global::DepremAlarmi.Droid.Resource.Attribute.counterMaxLength;
+			global::BottomNavigationBar.Resource.Attribute.counterOverflowTextAppearance = global::DepremAlarmi.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::BottomNavigationBar.Resource.Attribute.counterTextAppearance = global::DepremAlarmi.Droid.Resource.Attribute.counterTextAppearance;
+			global::BottomNavigationBar.Resource.Attribute.customNavigationLayout = global::DepremAlarmi.Droid.Resource.Attribute.customNavigationLayout;
+			global::BottomNavigationBar.Resource.Attribute.defaultQueryHint = global::DepremAlarmi.Droid.Resource.Attribute.defaultQueryHint;
+			global::BottomNavigationBar.Resource.Attribute.dialogPreferredPadding = global::DepremAlarmi.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::BottomNavigationBar.Resource.Attribute.dialogTheme = global::DepremAlarmi.Droid.Resource.Attribute.dialogTheme;
+			global::BottomNavigationBar.Resource.Attribute.displayOptions = global::DepremAlarmi.Droid.Resource.Attribute.displayOptions;
+			global::BottomNavigationBar.Resource.Attribute.divider = global::DepremAlarmi.Droid.Resource.Attribute.divider;
+			global::BottomNavigationBar.Resource.Attribute.dividerHorizontal = global::DepremAlarmi.Droid.Resource.Attribute.dividerHorizontal;
+			global::BottomNavigationBar.Resource.Attribute.dividerPadding = global::DepremAlarmi.Droid.Resource.Attribute.dividerPadding;
+			global::BottomNavigationBar.Resource.Attribute.dividerVertical = global::DepremAlarmi.Droid.Resource.Attribute.dividerVertical;
+			global::BottomNavigationBar.Resource.Attribute.drawableSize = global::DepremAlarmi.Droid.Resource.Attribute.drawableSize;
+			global::BottomNavigationBar.Resource.Attribute.drawerArrowStyle = global::DepremAlarmi.Droid.Resource.Attribute.drawerArrowStyle;
+			global::BottomNavigationBar.Resource.Attribute.dropDownListViewStyle = global::DepremAlarmi.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::BottomNavigationBar.Resource.Attribute.dropdownListPreferredItemHeight = global::DepremAlarmi.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::BottomNavigationBar.Resource.Attribute.editTextBackground = global::DepremAlarmi.Droid.Resource.Attribute.editTextBackground;
+			global::BottomNavigationBar.Resource.Attribute.editTextColor = global::DepremAlarmi.Droid.Resource.Attribute.editTextColor;
+			global::BottomNavigationBar.Resource.Attribute.editTextStyle = global::DepremAlarmi.Droid.Resource.Attribute.editTextStyle;
+			global::BottomNavigationBar.Resource.Attribute.elevation = global::DepremAlarmi.Droid.Resource.Attribute.elevation;
+			global::BottomNavigationBar.Resource.Attribute.errorEnabled = global::DepremAlarmi.Droid.Resource.Attribute.errorEnabled;
+			global::BottomNavigationBar.Resource.Attribute.errorTextAppearance = global::DepremAlarmi.Droid.Resource.Attribute.errorTextAppearance;
+			global::BottomNavigationBar.Resource.Attribute.expandActivityOverflowButtonDrawable = global::DepremAlarmi.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::BottomNavigationBar.Resource.Attribute.expanded = global::DepremAlarmi.Droid.Resource.Attribute.expanded;
+			global::BottomNavigationBar.Resource.Attribute.expandedTitleGravity = global::DepremAlarmi.Droid.Resource.Attribute.expandedTitleGravity;
+			global::BottomNavigationBar.Resource.Attribute.expandedTitleMargin = global::DepremAlarmi.Droid.Resource.Attribute.expandedTitleMargin;
+			global::BottomNavigationBar.Resource.Attribute.expandedTitleMarginBottom = global::DepremAlarmi.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::BottomNavigationBar.Resource.Attribute.expandedTitleMarginEnd = global::DepremAlarmi.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::BottomNavigationBar.Resource.Attribute.expandedTitleMarginStart = global::DepremAlarmi.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::BottomNavigationBar.Resource.Attribute.expandedTitleMarginTop = global::DepremAlarmi.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::BottomNavigationBar.Resource.Attribute.expandedTitleTextAppearance = global::DepremAlarmi.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::BottomNavigationBar.Resource.Attribute.fabSize = global::DepremAlarmi.Droid.Resource.Attribute.fabSize;
+			global::BottomNavigationBar.Resource.Attribute.foregroundInsidePadding = global::DepremAlarmi.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::BottomNavigationBar.Resource.Attribute.gapBetweenBars = global::DepremAlarmi.Droid.Resource.Attribute.gapBetweenBars;
+			global::BottomNavigationBar.Resource.Attribute.goIcon = global::DepremAlarmi.Droid.Resource.Attribute.goIcon;
+			global::BottomNavigationBar.Resource.Attribute.headerLayout = global::DepremAlarmi.Droid.Resource.Attribute.headerLayout;
+			global::BottomNavigationBar.Resource.Attribute.height = global::DepremAlarmi.Droid.Resource.Attribute.height;
+			global::BottomNavigationBar.Resource.Attribute.hideOnContentScroll = global::DepremAlarmi.Droid.Resource.Attribute.hideOnContentScroll;
+			global::BottomNavigationBar.Resource.Attribute.hintAnimationEnabled = global::DepremAlarmi.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::BottomNavigationBar.Resource.Attribute.hintEnabled = global::DepremAlarmi.Droid.Resource.Attribute.hintEnabled;
+			global::BottomNavigationBar.Resource.Attribute.hintTextAppearance = global::DepremAlarmi.Droid.Resource.Attribute.hintTextAppearance;
+			global::BottomNavigationBar.Resource.Attribute.homeAsUpIndicator = global::DepremAlarmi.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::BottomNavigationBar.Resource.Attribute.homeLayout = global::DepremAlarmi.Droid.Resource.Attribute.homeLayout;
+			global::BottomNavigationBar.Resource.Attribute.icon = global::DepremAlarmi.Droid.Resource.Attribute.icon;
+			global::BottomNavigationBar.Resource.Attribute.iconifiedByDefault = global::DepremAlarmi.Droid.Resource.Attribute.iconifiedByDefault;
+			global::BottomNavigationBar.Resource.Attribute.imageButtonStyle = global::DepremAlarmi.Droid.Resource.Attribute.imageButtonStyle;
+			global::BottomNavigationBar.Resource.Attribute.indeterminateProgressStyle = global::DepremAlarmi.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::BottomNavigationBar.Resource.Attribute.initialActivityCount = global::DepremAlarmi.Droid.Resource.Attribute.initialActivityCount;
+			global::BottomNavigationBar.Resource.Attribute.insetForeground = global::DepremAlarmi.Droid.Resource.Attribute.insetForeground;
+			global::BottomNavigationBar.Resource.Attribute.isLightTheme = global::DepremAlarmi.Droid.Resource.Attribute.isLightTheme;
+			global::BottomNavigationBar.Resource.Attribute.itemBackground = global::DepremAlarmi.Droid.Resource.Attribute.itemBackground;
+			global::BottomNavigationBar.Resource.Attribute.itemIconTint = global::DepremAlarmi.Droid.Resource.Attribute.itemIconTint;
+			global::BottomNavigationBar.Resource.Attribute.itemPadding = global::DepremAlarmi.Droid.Resource.Attribute.itemPadding;
+			global::BottomNavigationBar.Resource.Attribute.itemTextAppearance = global::DepremAlarmi.Droid.Resource.Attribute.itemTextAppearance;
+			global::BottomNavigationBar.Resource.Attribute.itemTextColor = global::DepremAlarmi.Droid.Resource.Attribute.itemTextColor;
+			global::BottomNavigationBar.Resource.Attribute.keylines = global::DepremAlarmi.Droid.Resource.Attribute.keylines;
+			global::BottomNavigationBar.Resource.Attribute.layout = global::DepremAlarmi.Droid.Resource.Attribute.layout;
+			global::BottomNavigationBar.Resource.Attribute.layoutManager = global::DepremAlarmi.Droid.Resource.Attribute.layoutManager;
+			global::BottomNavigationBar.Resource.Attribute.layout_anchor = global::DepremAlarmi.Droid.Resource.Attribute.layout_anchor;
+			global::BottomNavigationBar.Resource.Attribute.layout_anchorGravity = global::DepremAlarmi.Droid.Resource.Attribute.layout_anchorGravity;
+			global::BottomNavigationBar.Resource.Attribute.layout_behavior = global::DepremAlarmi.Droid.Resource.Attribute.layout_behavior;
+			global::BottomNavigationBar.Resource.Attribute.layout_collapseMode = global::DepremAlarmi.Droid.Resource.Attribute.layout_collapseMode;
+			global::BottomNavigationBar.Resource.Attribute.layout_collapseParallaxMultiplier = global::DepremAlarmi.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::BottomNavigationBar.Resource.Attribute.layout_keyline = global::DepremAlarmi.Droid.Resource.Attribute.layout_keyline;
+			global::BottomNavigationBar.Resource.Attribute.layout_scrollFlags = global::DepremAlarmi.Droid.Resource.Attribute.layout_scrollFlags;
+			global::BottomNavigationBar.Resource.Attribute.layout_scrollInterpolator = global::DepremAlarmi.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::BottomNavigationBar.Resource.Attribute.listChoiceBackgroundIndicator = global::DepremAlarmi.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::BottomNavigationBar.Resource.Attribute.listDividerAlertDialog = global::DepremAlarmi.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::BottomNavigationBar.Resource.Attribute.listItemLayout = global::DepremAlarmi.Droid.Resource.Attribute.listItemLayout;
+			global::BottomNavigationBar.Resource.Attribute.listLayout = global::DepremAlarmi.Droid.Resource.Attribute.listLayout;
+			global::BottomNavigationBar.Resource.Attribute.listPopupWindowStyle = global::DepremAlarmi.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::BottomNavigationBar.Resource.Attribute.listPreferredItemHeight = global::DepremAlarmi.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::BottomNavigationBar.Resource.Attribute.listPreferredItemHeightLarge = global::DepremAlarmi.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::BottomNavigationBar.Resource.Attribute.listPreferredItemHeightSmall = global::DepremAlarmi.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::BottomNavigationBar.Resource.Attribute.listPreferredItemPaddingLeft = global::DepremAlarmi.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::BottomNavigationBar.Resource.Attribute.listPreferredItemPaddingRight = global::DepremAlarmi.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::BottomNavigationBar.Resource.Attribute.logo = global::DepremAlarmi.Droid.Resource.Attribute.logo;
+			global::BottomNavigationBar.Resource.Attribute.logoDescription = global::DepremAlarmi.Droid.Resource.Attribute.logoDescription;
+			global::BottomNavigationBar.Resource.Attribute.maxActionInlineWidth = global::DepremAlarmi.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::BottomNavigationBar.Resource.Attribute.maxButtonHeight = global::DepremAlarmi.Droid.Resource.Attribute.maxButtonHeight;
+			global::BottomNavigationBar.Resource.Attribute.measureWithLargestChild = global::DepremAlarmi.Droid.Resource.Attribute.measureWithLargestChild;
+			global::BottomNavigationBar.Resource.Attribute.menu = global::DepremAlarmi.Droid.Resource.Attribute.menu;
+			global::BottomNavigationBar.Resource.Attribute.multiChoiceItemLayout = global::DepremAlarmi.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::BottomNavigationBar.Resource.Attribute.navigationContentDescription = global::DepremAlarmi.Droid.Resource.Attribute.navigationContentDescription;
+			global::BottomNavigationBar.Resource.Attribute.navigationIcon = global::DepremAlarmi.Droid.Resource.Attribute.navigationIcon;
+			global::BottomNavigationBar.Resource.Attribute.navigationMode = global::DepremAlarmi.Droid.Resource.Attribute.navigationMode;
+			global::BottomNavigationBar.Resource.Attribute.overlapAnchor = global::DepremAlarmi.Droid.Resource.Attribute.overlapAnchor;
+			global::BottomNavigationBar.Resource.Attribute.paddingEnd = global::DepremAlarmi.Droid.Resource.Attribute.paddingEnd;
+			global::BottomNavigationBar.Resource.Attribute.paddingStart = global::DepremAlarmi.Droid.Resource.Attribute.paddingStart;
+			global::BottomNavigationBar.Resource.Attribute.panelBackground = global::DepremAlarmi.Droid.Resource.Attribute.panelBackground;
+			global::BottomNavigationBar.Resource.Attribute.panelMenuListTheme = global::DepremAlarmi.Droid.Resource.Attribute.panelMenuListTheme;
+			global::BottomNavigationBar.Resource.Attribute.panelMenuListWidth = global::DepremAlarmi.Droid.Resource.Attribute.panelMenuListWidth;
+			global::BottomNavigationBar.Resource.Attribute.popupMenuStyle = global::DepremAlarmi.Droid.Resource.Attribute.popupMenuStyle;
+			global::BottomNavigationBar.Resource.Attribute.popupTheme = global::DepremAlarmi.Droid.Resource.Attribute.popupTheme;
+			global::BottomNavigationBar.Resource.Attribute.popupWindowStyle = global::DepremAlarmi.Droid.Resource.Attribute.popupWindowStyle;
+			global::BottomNavigationBar.Resource.Attribute.preserveIconSpacing = global::DepremAlarmi.Droid.Resource.Attribute.preserveIconSpacing;
+			global::BottomNavigationBar.Resource.Attribute.pressedTranslationZ = global::DepremAlarmi.Droid.Resource.Attribute.pressedTranslationZ;
+			global::BottomNavigationBar.Resource.Attribute.progressBarPadding = global::DepremAlarmi.Droid.Resource.Attribute.progressBarPadding;
+			global::BottomNavigationBar.Resource.Attribute.progressBarStyle = global::DepremAlarmi.Droid.Resource.Attribute.progressBarStyle;
+			global::BottomNavigationBar.Resource.Attribute.queryBackground = global::DepremAlarmi.Droid.Resource.Attribute.queryBackground;
+			global::BottomNavigationBar.Resource.Attribute.queryHint = global::DepremAlarmi.Droid.Resource.Attribute.queryHint;
+			global::BottomNavigationBar.Resource.Attribute.radioButtonStyle = global::DepremAlarmi.Droid.Resource.Attribute.radioButtonStyle;
+			global::BottomNavigationBar.Resource.Attribute.ratingBarStyle = global::DepremAlarmi.Droid.Resource.Attribute.ratingBarStyle;
+			global::BottomNavigationBar.Resource.Attribute.ratingBarStyleIndicator = global::DepremAlarmi.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::BottomNavigationBar.Resource.Attribute.ratingBarStyleSmall = global::DepremAlarmi.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::BottomNavigationBar.Resource.Attribute.reverseLayout = global::DepremAlarmi.Droid.Resource.Attribute.reverseLayout;
+			global::BottomNavigationBar.Resource.Attribute.rippleColor = global::DepremAlarmi.Droid.Resource.Attribute.rippleColor;
+			global::BottomNavigationBar.Resource.Attribute.searchHintIcon = global::DepremAlarmi.Droid.Resource.Attribute.searchHintIcon;
+			global::BottomNavigationBar.Resource.Attribute.searchIcon = global::DepremAlarmi.Droid.Resource.Attribute.searchIcon;
+			global::BottomNavigationBar.Resource.Attribute.searchViewStyle = global::DepremAlarmi.Droid.Resource.Attribute.searchViewStyle;
+			global::BottomNavigationBar.Resource.Attribute.seekBarStyle = global::DepremAlarmi.Droid.Resource.Attribute.seekBarStyle;
+			global::BottomNavigationBar.Resource.Attribute.selectableItemBackground = global::DepremAlarmi.Droid.Resource.Attribute.selectableItemBackground;
+			global::BottomNavigationBar.Resource.Attribute.selectableItemBackgroundBorderless = global::DepremAlarmi.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::BottomNavigationBar.Resource.Attribute.showAsAction = global::DepremAlarmi.Droid.Resource.Attribute.showAsAction;
+			global::BottomNavigationBar.Resource.Attribute.showDividers = global::DepremAlarmi.Droid.Resource.Attribute.showDividers;
+			global::BottomNavigationBar.Resource.Attribute.showText = global::DepremAlarmi.Droid.Resource.Attribute.showText;
+			global::BottomNavigationBar.Resource.Attribute.singleChoiceItemLayout = global::DepremAlarmi.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::BottomNavigationBar.Resource.Attribute.spanCount = global::DepremAlarmi.Droid.Resource.Attribute.spanCount;
+			global::BottomNavigationBar.Resource.Attribute.spinBars = global::DepremAlarmi.Droid.Resource.Attribute.spinBars;
+			global::BottomNavigationBar.Resource.Attribute.spinnerDropDownItemStyle = global::DepremAlarmi.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::BottomNavigationBar.Resource.Attribute.spinnerStyle = global::DepremAlarmi.Droid.Resource.Attribute.spinnerStyle;
+			global::BottomNavigationBar.Resource.Attribute.splitTrack = global::DepremAlarmi.Droid.Resource.Attribute.splitTrack;
+			global::BottomNavigationBar.Resource.Attribute.srcCompat = global::DepremAlarmi.Droid.Resource.Attribute.srcCompat;
+			global::BottomNavigationBar.Resource.Attribute.stackFromEnd = global::DepremAlarmi.Droid.Resource.Attribute.stackFromEnd;
+			global::BottomNavigationBar.Resource.Attribute.state_above_anchor = global::DepremAlarmi.Droid.Resource.Attribute.state_above_anchor;
+			global::BottomNavigationBar.Resource.Attribute.statusBarBackground = global::DepremAlarmi.Droid.Resource.Attribute.statusBarBackground;
+			global::BottomNavigationBar.Resource.Attribute.statusBarScrim = global::DepremAlarmi.Droid.Resource.Attribute.statusBarScrim;
+			global::BottomNavigationBar.Resource.Attribute.submitBackground = global::DepremAlarmi.Droid.Resource.Attribute.submitBackground;
+			global::BottomNavigationBar.Resource.Attribute.subtitle = global::DepremAlarmi.Droid.Resource.Attribute.subtitle;
+			global::BottomNavigationBar.Resource.Attribute.subtitleTextAppearance = global::DepremAlarmi.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::BottomNavigationBar.Resource.Attribute.subtitleTextColor = global::DepremAlarmi.Droid.Resource.Attribute.subtitleTextColor;
+			global::BottomNavigationBar.Resource.Attribute.subtitleTextStyle = global::DepremAlarmi.Droid.Resource.Attribute.subtitleTextStyle;
+			global::BottomNavigationBar.Resource.Attribute.suggestionRowLayout = global::DepremAlarmi.Droid.Resource.Attribute.suggestionRowLayout;
+			global::BottomNavigationBar.Resource.Attribute.switchMinWidth = global::DepremAlarmi.Droid.Resource.Attribute.switchMinWidth;
+			global::BottomNavigationBar.Resource.Attribute.switchPadding = global::DepremAlarmi.Droid.Resource.Attribute.switchPadding;
+			global::BottomNavigationBar.Resource.Attribute.switchStyle = global::DepremAlarmi.Droid.Resource.Attribute.switchStyle;
+			global::BottomNavigationBar.Resource.Attribute.switchTextAppearance = global::DepremAlarmi.Droid.Resource.Attribute.switchTextAppearance;
+			global::BottomNavigationBar.Resource.Attribute.tabBackground = global::DepremAlarmi.Droid.Resource.Attribute.tabBackground;
+			global::BottomNavigationBar.Resource.Attribute.tabContentStart = global::DepremAlarmi.Droid.Resource.Attribute.tabContentStart;
+			global::BottomNavigationBar.Resource.Attribute.tabGravity = global::DepremAlarmi.Droid.Resource.Attribute.tabGravity;
+			global::BottomNavigationBar.Resource.Attribute.tabIndicatorColor = global::DepremAlarmi.Droid.Resource.Attribute.tabIndicatorColor;
+			global::BottomNavigationBar.Resource.Attribute.tabIndicatorHeight = global::DepremAlarmi.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::BottomNavigationBar.Resource.Attribute.tabMaxWidth = global::DepremAlarmi.Droid.Resource.Attribute.tabMaxWidth;
+			global::BottomNavigationBar.Resource.Attribute.tabMinWidth = global::DepremAlarmi.Droid.Resource.Attribute.tabMinWidth;
+			global::BottomNavigationBar.Resource.Attribute.tabMode = global::DepremAlarmi.Droid.Resource.Attribute.tabMode;
+			global::BottomNavigationBar.Resource.Attribute.tabPadding = global::DepremAlarmi.Droid.Resource.Attribute.tabPadding;
+			global::BottomNavigationBar.Resource.Attribute.tabPaddingBottom = global::DepremAlarmi.Droid.Resource.Attribute.tabPaddingBottom;
+			global::BottomNavigationBar.Resource.Attribute.tabPaddingEnd = global::DepremAlarmi.Droid.Resource.Attribute.tabPaddingEnd;
+			global::BottomNavigationBar.Resource.Attribute.tabPaddingStart = global::DepremAlarmi.Droid.Resource.Attribute.tabPaddingStart;
+			global::BottomNavigationBar.Resource.Attribute.tabPaddingTop = global::DepremAlarmi.Droid.Resource.Attribute.tabPaddingTop;
+			global::BottomNavigationBar.Resource.Attribute.tabSelectedTextColor = global::DepremAlarmi.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::BottomNavigationBar.Resource.Attribute.tabTextAppearance = global::DepremAlarmi.Droid.Resource.Attribute.tabTextAppearance;
+			global::BottomNavigationBar.Resource.Attribute.tabTextColor = global::DepremAlarmi.Droid.Resource.Attribute.tabTextColor;
+			global::BottomNavigationBar.Resource.Attribute.textAllCaps = global::DepremAlarmi.Droid.Resource.Attribute.textAllCaps;
+			global::BottomNavigationBar.Resource.Attribute.textAppearanceLargePopupMenu = global::DepremAlarmi.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::BottomNavigationBar.Resource.Attribute.textAppearanceListItem = global::DepremAlarmi.Droid.Resource.Attribute.textAppearanceListItem;
+			global::BottomNavigationBar.Resource.Attribute.textAppearanceListItemSmall = global::DepremAlarmi.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::BottomNavigationBar.Resource.Attribute.textAppearanceSearchResultSubtitle = global::DepremAlarmi.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::BottomNavigationBar.Resource.Attribute.textAppearanceSearchResultTitle = global::DepremAlarmi.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::BottomNavigationBar.Resource.Attribute.textAppearanceSmallPopupMenu = global::DepremAlarmi.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::BottomNavigationBar.Resource.Attribute.textColorAlertDialogListItem = global::DepremAlarmi.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::BottomNavigationBar.Resource.Attribute.textColorSearchUrl = global::DepremAlarmi.Droid.Resource.Attribute.textColorSearchUrl;
+			global::BottomNavigationBar.Resource.Attribute.theme = global::DepremAlarmi.Droid.Resource.Attribute.theme;
+			global::BottomNavigationBar.Resource.Attribute.thickness = global::DepremAlarmi.Droid.Resource.Attribute.thickness;
+			global::BottomNavigationBar.Resource.Attribute.thumbTextPadding = global::DepremAlarmi.Droid.Resource.Attribute.thumbTextPadding;
+			global::BottomNavigationBar.Resource.Attribute.title = global::DepremAlarmi.Droid.Resource.Attribute.title;
+			global::BottomNavigationBar.Resource.Attribute.titleEnabled = global::DepremAlarmi.Droid.Resource.Attribute.titleEnabled;
+			global::BottomNavigationBar.Resource.Attribute.titleMarginBottom = global::DepremAlarmi.Droid.Resource.Attribute.titleMarginBottom;
+			global::BottomNavigationBar.Resource.Attribute.titleMarginEnd = global::DepremAlarmi.Droid.Resource.Attribute.titleMarginEnd;
+			global::BottomNavigationBar.Resource.Attribute.titleMarginStart = global::DepremAlarmi.Droid.Resource.Attribute.titleMarginStart;
+			global::BottomNavigationBar.Resource.Attribute.titleMarginTop = global::DepremAlarmi.Droid.Resource.Attribute.titleMarginTop;
+			global::BottomNavigationBar.Resource.Attribute.titleMargins = global::DepremAlarmi.Droid.Resource.Attribute.titleMargins;
+			global::BottomNavigationBar.Resource.Attribute.titleTextAppearance = global::DepremAlarmi.Droid.Resource.Attribute.titleTextAppearance;
+			global::BottomNavigationBar.Resource.Attribute.titleTextColor = global::DepremAlarmi.Droid.Resource.Attribute.titleTextColor;
+			global::BottomNavigationBar.Resource.Attribute.titleTextStyle = global::DepremAlarmi.Droid.Resource.Attribute.titleTextStyle;
+			global::BottomNavigationBar.Resource.Attribute.toolbarId = global::DepremAlarmi.Droid.Resource.Attribute.toolbarId;
+			global::BottomNavigationBar.Resource.Attribute.toolbarNavigationButtonStyle = global::DepremAlarmi.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::BottomNavigationBar.Resource.Attribute.toolbarStyle = global::DepremAlarmi.Droid.Resource.Attribute.toolbarStyle;
+			global::BottomNavigationBar.Resource.Attribute.track = global::DepremAlarmi.Droid.Resource.Attribute.track;
+			global::BottomNavigationBar.Resource.Attribute.useCompatPadding = global::DepremAlarmi.Droid.Resource.Attribute.useCompatPadding;
+			global::BottomNavigationBar.Resource.Attribute.voiceIcon = global::DepremAlarmi.Droid.Resource.Attribute.voiceIcon;
+			global::BottomNavigationBar.Resource.Attribute.windowActionBar = global::DepremAlarmi.Droid.Resource.Attribute.windowActionBar;
+			global::BottomNavigationBar.Resource.Attribute.windowActionBarOverlay = global::DepremAlarmi.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::BottomNavigationBar.Resource.Attribute.windowActionModeOverlay = global::DepremAlarmi.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::BottomNavigationBar.Resource.Attribute.windowFixedHeightMajor = global::DepremAlarmi.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::BottomNavigationBar.Resource.Attribute.windowFixedHeightMinor = global::DepremAlarmi.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::BottomNavigationBar.Resource.Attribute.windowFixedWidthMajor = global::DepremAlarmi.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::BottomNavigationBar.Resource.Attribute.windowFixedWidthMinor = global::DepremAlarmi.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::BottomNavigationBar.Resource.Attribute.windowMinWidthMajor = global::DepremAlarmi.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::BottomNavigationBar.Resource.Attribute.windowMinWidthMinor = global::DepremAlarmi.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::BottomNavigationBar.Resource.Attribute.windowNoTitle = global::DepremAlarmi.Droid.Resource.Attribute.windowNoTitle;
+			global::BottomNavigationBar.Resource.Boolean.abc_action_bar_embed_tabs = global::DepremAlarmi.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::BottomNavigationBar.Resource.Boolean.abc_allow_stacked_button_bar = global::DepremAlarmi.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::BottomNavigationBar.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::DepremAlarmi.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::BottomNavigationBar.Resource.Boolean.bb_bottom_bar_is_tablet_mode = global::DepremAlarmi.Droid.Resource.Boolean.bb_bottom_bar_is_tablet_mode;
+			global::BottomNavigationBar.Resource.Color.abc_background_cache_hint_selector_material_dark = global::DepremAlarmi.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::BottomNavigationBar.Resource.Color.abc_background_cache_hint_selector_material_light = global::DepremAlarmi.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::BottomNavigationBar.Resource.Color.abc_color_highlight_material = global::DepremAlarmi.Droid.Resource.Color.abc_color_highlight_material;
+			global::BottomNavigationBar.Resource.Color.abc_input_method_navigation_guard = global::DepremAlarmi.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::BottomNavigationBar.Resource.Color.abc_primary_text_disable_only_material_dark = global::DepremAlarmi.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::BottomNavigationBar.Resource.Color.abc_primary_text_disable_only_material_light = global::DepremAlarmi.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::BottomNavigationBar.Resource.Color.abc_primary_text_material_dark = global::DepremAlarmi.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::BottomNavigationBar.Resource.Color.abc_primary_text_material_light = global::DepremAlarmi.Droid.Resource.Color.abc_primary_text_material_light;
+			global::BottomNavigationBar.Resource.Color.abc_search_url_text = global::DepremAlarmi.Droid.Resource.Color.abc_search_url_text;
+			global::BottomNavigationBar.Resource.Color.abc_search_url_text_normal = global::DepremAlarmi.Droid.Resource.Color.abc_search_url_text_normal;
+			global::BottomNavigationBar.Resource.Color.abc_search_url_text_pressed = global::DepremAlarmi.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::BottomNavigationBar.Resource.Color.abc_search_url_text_selected = global::DepremAlarmi.Droid.Resource.Color.abc_search_url_text_selected;
+			global::BottomNavigationBar.Resource.Color.abc_secondary_text_material_dark = global::DepremAlarmi.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::BottomNavigationBar.Resource.Color.abc_secondary_text_material_light = global::DepremAlarmi.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::BottomNavigationBar.Resource.Color.accent_material_dark = global::DepremAlarmi.Droid.Resource.Color.accent_material_dark;
+			global::BottomNavigationBar.Resource.Color.accent_material_light = global::DepremAlarmi.Droid.Resource.Color.accent_material_light;
+			global::BottomNavigationBar.Resource.Color.background_floating_material_dark = global::DepremAlarmi.Droid.Resource.Color.background_floating_material_dark;
+			global::BottomNavigationBar.Resource.Color.background_floating_material_light = global::DepremAlarmi.Droid.Resource.Color.background_floating_material_light;
+			global::BottomNavigationBar.Resource.Color.background_material_dark = global::DepremAlarmi.Droid.Resource.Color.background_material_dark;
+			global::BottomNavigationBar.Resource.Color.background_material_light = global::DepremAlarmi.Droid.Resource.Color.background_material_light;
+			global::BottomNavigationBar.Resource.Color.bb_darkBackgroundColor = global::DepremAlarmi.Droid.Resource.Color.bb_darkBackgroundColor;
+			global::BottomNavigationBar.Resource.Color.bb_inActiveBottomBarItemColor = global::DepremAlarmi.Droid.Resource.Color.bb_inActiveBottomBarItemColor;
+			global::BottomNavigationBar.Resource.Color.bb_tabletRightBorderDark = global::DepremAlarmi.Droid.Resource.Color.bb_tabletRightBorderDark;
+			global::BottomNavigationBar.Resource.Color.bright_foreground_disabled_material_dark = global::DepremAlarmi.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::BottomNavigationBar.Resource.Color.bright_foreground_disabled_material_light = global::DepremAlarmi.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::BottomNavigationBar.Resource.Color.bright_foreground_inverse_material_dark = global::DepremAlarmi.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::BottomNavigationBar.Resource.Color.bright_foreground_inverse_material_light = global::DepremAlarmi.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::BottomNavigationBar.Resource.Color.bright_foreground_material_dark = global::DepremAlarmi.Droid.Resource.Color.bright_foreground_material_dark;
+			global::BottomNavigationBar.Resource.Color.bright_foreground_material_light = global::DepremAlarmi.Droid.Resource.Color.bright_foreground_material_light;
+			global::BottomNavigationBar.Resource.Color.button_material_dark = global::DepremAlarmi.Droid.Resource.Color.button_material_dark;
+			global::BottomNavigationBar.Resource.Color.button_material_light = global::DepremAlarmi.Droid.Resource.Color.button_material_light;
+			global::BottomNavigationBar.Resource.Color.design_fab_shadow_end_color = global::DepremAlarmi.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::BottomNavigationBar.Resource.Color.design_fab_shadow_mid_color = global::DepremAlarmi.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::BottomNavigationBar.Resource.Color.design_fab_shadow_start_color = global::DepremAlarmi.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::BottomNavigationBar.Resource.Color.design_fab_stroke_end_inner_color = global::DepremAlarmi.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::BottomNavigationBar.Resource.Color.design_fab_stroke_end_outer_color = global::DepremAlarmi.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::BottomNavigationBar.Resource.Color.design_fab_stroke_top_inner_color = global::DepremAlarmi.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::BottomNavigationBar.Resource.Color.design_fab_stroke_top_outer_color = global::DepremAlarmi.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::BottomNavigationBar.Resource.Color.design_snackbar_background_color = global::DepremAlarmi.Droid.Resource.Color.design_snackbar_background_color;
+			global::BottomNavigationBar.Resource.Color.dim_foreground_disabled_material_dark = global::DepremAlarmi.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::BottomNavigationBar.Resource.Color.dim_foreground_disabled_material_light = global::DepremAlarmi.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::BottomNavigationBar.Resource.Color.dim_foreground_material_dark = global::DepremAlarmi.Droid.Resource.Color.dim_foreground_material_dark;
+			global::BottomNavigationBar.Resource.Color.dim_foreground_material_light = global::DepremAlarmi.Droid.Resource.Color.dim_foreground_material_light;
+			global::BottomNavigationBar.Resource.Color.foreground_material_dark = global::DepremAlarmi.Droid.Resource.Color.foreground_material_dark;
+			global::BottomNavigationBar.Resource.Color.foreground_material_light = global::DepremAlarmi.Droid.Resource.Color.foreground_material_light;
+			global::BottomNavigationBar.Resource.Color.highlighted_text_material_dark = global::DepremAlarmi.Droid.Resource.Color.highlighted_text_material_dark;
+			global::BottomNavigationBar.Resource.Color.highlighted_text_material_light = global::DepremAlarmi.Droid.Resource.Color.highlighted_text_material_light;
+			global::BottomNavigationBar.Resource.Color.material_blue_grey_800 = global::DepremAlarmi.Droid.Resource.Color.material_blue_grey_800;
+			global::BottomNavigationBar.Resource.Color.material_blue_grey_900 = global::DepremAlarmi.Droid.Resource.Color.material_blue_grey_900;
+			global::BottomNavigationBar.Resource.Color.material_blue_grey_950 = global::DepremAlarmi.Droid.Resource.Color.material_blue_grey_950;
+			global::BottomNavigationBar.Resource.Color.material_deep_teal_200 = global::DepremAlarmi.Droid.Resource.Color.material_deep_teal_200;
+			global::BottomNavigationBar.Resource.Color.material_deep_teal_500 = global::DepremAlarmi.Droid.Resource.Color.material_deep_teal_500;
+			global::BottomNavigationBar.Resource.Color.material_grey_100 = global::DepremAlarmi.Droid.Resource.Color.material_grey_100;
+			global::BottomNavigationBar.Resource.Color.material_grey_300 = global::DepremAlarmi.Droid.Resource.Color.material_grey_300;
+			global::BottomNavigationBar.Resource.Color.material_grey_50 = global::DepremAlarmi.Droid.Resource.Color.material_grey_50;
+			global::BottomNavigationBar.Resource.Color.material_grey_600 = global::DepremAlarmi.Droid.Resource.Color.material_grey_600;
+			global::BottomNavigationBar.Resource.Color.material_grey_800 = global::DepremAlarmi.Droid.Resource.Color.material_grey_800;
+			global::BottomNavigationBar.Resource.Color.material_grey_850 = global::DepremAlarmi.Droid.Resource.Color.material_grey_850;
+			global::BottomNavigationBar.Resource.Color.material_grey_900 = global::DepremAlarmi.Droid.Resource.Color.material_grey_900;
+			global::BottomNavigationBar.Resource.Color.primary_dark_material_dark = global::DepremAlarmi.Droid.Resource.Color.primary_dark_material_dark;
+			global::BottomNavigationBar.Resource.Color.primary_dark_material_light = global::DepremAlarmi.Droid.Resource.Color.primary_dark_material_light;
+			global::BottomNavigationBar.Resource.Color.primary_material_dark = global::DepremAlarmi.Droid.Resource.Color.primary_material_dark;
+			global::BottomNavigationBar.Resource.Color.primary_material_light = global::DepremAlarmi.Droid.Resource.Color.primary_material_light;
+			global::BottomNavigationBar.Resource.Color.primary_text_default_material_dark = global::DepremAlarmi.Droid.Resource.Color.primary_text_default_material_dark;
+			global::BottomNavigationBar.Resource.Color.primary_text_default_material_light = global::DepremAlarmi.Droid.Resource.Color.primary_text_default_material_light;
+			global::BottomNavigationBar.Resource.Color.primary_text_disabled_material_dark = global::DepremAlarmi.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::BottomNavigationBar.Resource.Color.primary_text_disabled_material_light = global::DepremAlarmi.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::BottomNavigationBar.Resource.Color.ripple_material_dark = global::DepremAlarmi.Droid.Resource.Color.ripple_material_dark;
+			global::BottomNavigationBar.Resource.Color.ripple_material_light = global::DepremAlarmi.Droid.Resource.Color.ripple_material_light;
+			global::BottomNavigationBar.Resource.Color.secondary_text_default_material_dark = global::DepremAlarmi.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::BottomNavigationBar.Resource.Color.secondary_text_default_material_light = global::DepremAlarmi.Droid.Resource.Color.secondary_text_default_material_light;
+			global::BottomNavigationBar.Resource.Color.secondary_text_disabled_material_dark = global::DepremAlarmi.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::BottomNavigationBar.Resource.Color.secondary_text_disabled_material_light = global::DepremAlarmi.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::BottomNavigationBar.Resource.Color.switch_thumb_disabled_material_dark = global::DepremAlarmi.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::BottomNavigationBar.Resource.Color.switch_thumb_disabled_material_light = global::DepremAlarmi.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::BottomNavigationBar.Resource.Color.switch_thumb_material_dark = global::DepremAlarmi.Droid.Resource.Color.switch_thumb_material_dark;
+			global::BottomNavigationBar.Resource.Color.switch_thumb_material_light = global::DepremAlarmi.Droid.Resource.Color.switch_thumb_material_light;
+			global::BottomNavigationBar.Resource.Color.switch_thumb_normal_material_dark = global::DepremAlarmi.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::BottomNavigationBar.Resource.Color.switch_thumb_normal_material_light = global::DepremAlarmi.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::BottomNavigationBar.Resource.Color.white = global::DepremAlarmi.Droid.Resource.Color.white;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_content_inset_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_default_height_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_default_padding_end_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_default_padding_start_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_stacked_max_height = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_button_min_height_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_button_min_width_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_action_button_min_width_overflow_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_alert_dialog_button_bar_height = global::DepremAlarmi.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::BottomNavigationBar.Resource.Dimension.abc_button_inset_horizontal_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_button_inset_vertical_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_button_padding_horizontal_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_button_padding_vertical_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_config_prefDialogWidth = global::DepremAlarmi.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::BottomNavigationBar.Resource.Dimension.abc_control_corner_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_control_corner_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_control_inset_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_control_inset_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_control_padding_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_control_padding_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_dialog_fixed_height_major = global::DepremAlarmi.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::BottomNavigationBar.Resource.Dimension.abc_dialog_fixed_height_minor = global::DepremAlarmi.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::BottomNavigationBar.Resource.Dimension.abc_dialog_fixed_width_major = global::DepremAlarmi.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::BottomNavigationBar.Resource.Dimension.abc_dialog_fixed_width_minor = global::DepremAlarmi.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::BottomNavigationBar.Resource.Dimension.abc_dialog_min_width_major = global::DepremAlarmi.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::BottomNavigationBar.Resource.Dimension.abc_dialog_min_width_minor = global::DepremAlarmi.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::BottomNavigationBar.Resource.Dimension.abc_dialog_padding_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_dialog_padding_top_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_disabled_alpha_material_dark = global::DepremAlarmi.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::BottomNavigationBar.Resource.Dimension.abc_disabled_alpha_material_light = global::DepremAlarmi.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::BottomNavigationBar.Resource.Dimension.abc_dropdownitem_icon_width = global::DepremAlarmi.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::BottomNavigationBar.Resource.Dimension.abc_dropdownitem_text_padding_left = global::DepremAlarmi.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::BottomNavigationBar.Resource.Dimension.abc_dropdownitem_text_padding_right = global::DepremAlarmi.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::BottomNavigationBar.Resource.Dimension.abc_edit_text_inset_bottom_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_edit_text_inset_top_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_floating_window_z = global::DepremAlarmi.Droid.Resource.Dimension.abc_floating_window_z;
+			global::BottomNavigationBar.Resource.Dimension.abc_list_item_padding_horizontal_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_panel_menu_list_width = global::DepremAlarmi.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::BottomNavigationBar.Resource.Dimension.abc_search_view_preferred_width = global::DepremAlarmi.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::BottomNavigationBar.Resource.Dimension.abc_seekbar_track_background_height_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_seekbar_track_progress_height_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_select_dialog_padding_start_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_switch_padding = global::DepremAlarmi.Droid.Resource.Dimension.abc_switch_padding;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_body_1_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_body_2_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_button_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_caption_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_display_1_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_display_2_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_display_3_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_display_4_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_headline_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_large_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_medium_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_menu_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_small_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_subhead_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_title_material = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::BottomNavigationBar.Resource.Dimension.abc_text_size_title_material_toolbar = global::DepremAlarmi.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::BottomNavigationBar.Resource.Dimension.activity_horizontal_margin = global::DepremAlarmi.Droid.Resource.Dimension.activity_horizontal_margin;
+			global::BottomNavigationBar.Resource.Dimension.activity_vertical_margin = global::DepremAlarmi.Droid.Resource.Dimension.activity_vertical_margin;
+			global::BottomNavigationBar.Resource.Dimension.bb_height = global::DepremAlarmi.Droid.Resource.Dimension.bb_height;
+			global::BottomNavigationBar.Resource.Dimension.bottom_bar_elevation = global::DepremAlarmi.Droid.Resource.Dimension.bottom_bar_elevation;
+			global::BottomNavigationBar.Resource.Dimension.design_appbar_elevation = global::DepremAlarmi.Droid.Resource.Dimension.design_appbar_elevation;
+			global::BottomNavigationBar.Resource.Dimension.design_bottom_sheet_modal_elevation = global::DepremAlarmi.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::BottomNavigationBar.Resource.Dimension.design_fab_border_width = global::DepremAlarmi.Droid.Resource.Dimension.design_fab_border_width;
+			global::BottomNavigationBar.Resource.Dimension.design_fab_elevation = global::DepremAlarmi.Droid.Resource.Dimension.design_fab_elevation;
+			global::BottomNavigationBar.Resource.Dimension.design_fab_image_size = global::DepremAlarmi.Droid.Resource.Dimension.design_fab_image_size;
+			global::BottomNavigationBar.Resource.Dimension.design_fab_size_mini = global::DepremAlarmi.Droid.Resource.Dimension.design_fab_size_mini;
+			global::BottomNavigationBar.Resource.Dimension.design_fab_size_normal = global::DepremAlarmi.Droid.Resource.Dimension.design_fab_size_normal;
+			global::BottomNavigationBar.Resource.Dimension.design_fab_translation_z_pressed = global::DepremAlarmi.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::BottomNavigationBar.Resource.Dimension.design_navigation_elevation = global::DepremAlarmi.Droid.Resource.Dimension.design_navigation_elevation;
+			global::BottomNavigationBar.Resource.Dimension.design_navigation_icon_padding = global::DepremAlarmi.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::BottomNavigationBar.Resource.Dimension.design_navigation_icon_size = global::DepremAlarmi.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::BottomNavigationBar.Resource.Dimension.design_navigation_max_width = global::DepremAlarmi.Droid.Resource.Dimension.design_navigation_max_width;
+			global::BottomNavigationBar.Resource.Dimension.design_navigation_padding_bottom = global::DepremAlarmi.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::BottomNavigationBar.Resource.Dimension.design_navigation_separator_vertical_padding = global::DepremAlarmi.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::BottomNavigationBar.Resource.Dimension.design_snackbar_action_inline_max_width = global::DepremAlarmi.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::BottomNavigationBar.Resource.Dimension.design_snackbar_background_corner_radius = global::DepremAlarmi.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::BottomNavigationBar.Resource.Dimension.design_snackbar_elevation = global::DepremAlarmi.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::BottomNavigationBar.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::DepremAlarmi.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::BottomNavigationBar.Resource.Dimension.design_snackbar_max_width = global::DepremAlarmi.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::BottomNavigationBar.Resource.Dimension.design_snackbar_min_width = global::DepremAlarmi.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::BottomNavigationBar.Resource.Dimension.design_snackbar_padding_horizontal = global::DepremAlarmi.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::BottomNavigationBar.Resource.Dimension.design_snackbar_padding_vertical = global::DepremAlarmi.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::BottomNavigationBar.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::DepremAlarmi.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::BottomNavigationBar.Resource.Dimension.design_snackbar_text_size = global::DepremAlarmi.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::BottomNavigationBar.Resource.Dimension.design_tab_max_width = global::DepremAlarmi.Droid.Resource.Dimension.design_tab_max_width;
+			global::BottomNavigationBar.Resource.Dimension.design_tab_scrollable_min_width = global::DepremAlarmi.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::BottomNavigationBar.Resource.Dimension.design_tab_text_size = global::DepremAlarmi.Droid.Resource.Dimension.design_tab_text_size;
+			global::BottomNavigationBar.Resource.Dimension.design_tab_text_size_2line = global::DepremAlarmi.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::BottomNavigationBar.Resource.Dimension.disabled_alpha_material_dark = global::DepremAlarmi.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::BottomNavigationBar.Resource.Dimension.disabled_alpha_material_light = global::DepremAlarmi.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::BottomNavigationBar.Resource.Dimension.highlight_alpha_material_colored = global::DepremAlarmi.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::BottomNavigationBar.Resource.Dimension.highlight_alpha_material_dark = global::DepremAlarmi.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::BottomNavigationBar.Resource.Dimension.highlight_alpha_material_light = global::DepremAlarmi.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::BottomNavigationBar.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::DepremAlarmi.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::BottomNavigationBar.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::DepremAlarmi.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::BottomNavigationBar.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::DepremAlarmi.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::BottomNavigationBar.Resource.Dimension.notification_large_icon_height = global::DepremAlarmi.Droid.Resource.Dimension.notification_large_icon_height;
+			global::BottomNavigationBar.Resource.Dimension.notification_large_icon_width = global::DepremAlarmi.Droid.Resource.Dimension.notification_large_icon_width;
+			global::BottomNavigationBar.Resource.Dimension.notification_subtext_size = global::DepremAlarmi.Droid.Resource.Dimension.notification_subtext_size;
+			global::BottomNavigationBar.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_action_bar_item_background_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_btn_borderless_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_btn_check_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_btn_check_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::DepremAlarmi.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::BottomNavigationBar.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::DepremAlarmi.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::BottomNavigationBar.Resource.Drawable.abc_btn_colored_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_btn_default_mtrl_shape = global::DepremAlarmi.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::BottomNavigationBar.Resource.Drawable.abc_btn_radio_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::DepremAlarmi.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::BottomNavigationBar.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::DepremAlarmi.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::BottomNavigationBar.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::DepremAlarmi.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::BottomNavigationBar.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::DepremAlarmi.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::BottomNavigationBar.Resource.Drawable.abc_cab_background_internal_bg = global::DepremAlarmi.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::BottomNavigationBar.Resource.Drawable.abc_cab_background_top_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_control_background_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_control_background_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_edit_text_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_edit_text_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_black_16dp = global::DepremAlarmi.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_black_36dp = global::DepremAlarmi.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_half_black_16dp = global::DepremAlarmi.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::BottomNavigationBar.Resource.Drawable.abc_ic_star_half_black_36dp = global::DepremAlarmi.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::BottomNavigationBar.Resource.Drawable.abc_item_background_holo_dark = global::DepremAlarmi.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::BottomNavigationBar.Resource.Drawable.abc_item_background_holo_light = global::DepremAlarmi.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::BottomNavigationBar.Resource.Drawable.abc_list_divider_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_list_focused_holo = global::DepremAlarmi.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::BottomNavigationBar.Resource.Drawable.abc_list_longpressed_holo = global::DepremAlarmi.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::BottomNavigationBar.Resource.Drawable.abc_list_pressed_holo_dark = global::DepremAlarmi.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::BottomNavigationBar.Resource.Drawable.abc_list_pressed_holo_light = global::DepremAlarmi.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::BottomNavigationBar.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::DepremAlarmi.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::BottomNavigationBar.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::DepremAlarmi.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::BottomNavigationBar.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::DepremAlarmi.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::BottomNavigationBar.Resource.Drawable.abc_list_selector_disabled_holo_light = global::DepremAlarmi.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::BottomNavigationBar.Resource.Drawable.abc_list_selector_holo_dark = global::DepremAlarmi.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::BottomNavigationBar.Resource.Drawable.abc_list_selector_holo_light = global::DepremAlarmi.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::BottomNavigationBar.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::DepremAlarmi.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::BottomNavigationBar.Resource.Drawable.abc_popup_background_mtrl_mult = global::DepremAlarmi.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::BottomNavigationBar.Resource.Drawable.abc_ratingbar_indicator_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_ratingbar_small_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::DepremAlarmi.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::BottomNavigationBar.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::DepremAlarmi.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::BottomNavigationBar.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_seekbar_thumb_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_seekbar_track_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_spinner_textfield_background_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_switch_thumb_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_switch_track_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_tab_indicator_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_text_cursor_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::BottomNavigationBar.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::DepremAlarmi.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::BottomNavigationBar.Resource.Drawable.abc_textfield_search_material = global::DepremAlarmi.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::BottomNavigationBar.Resource.Drawable.bb_bottom_bar_top_shadow = global::DepremAlarmi.Droid.Resource.Drawable.bb_bottom_bar_top_shadow;
+			global::BottomNavigationBar.Resource.Drawable.design_fab_background = global::DepremAlarmi.Droid.Resource.Drawable.design_fab_background;
+			global::BottomNavigationBar.Resource.Drawable.design_snackbar_background = global::DepremAlarmi.Droid.Resource.Drawable.design_snackbar_background;
+			global::BottomNavigationBar.Resource.Drawable.notification_template_icon_bg = global::DepremAlarmi.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::BottomNavigationBar.Resource.Id.action0 = global::DepremAlarmi.Droid.Resource.Id.action0;
+			global::BottomNavigationBar.Resource.Id.action_bar = global::DepremAlarmi.Droid.Resource.Id.action_bar;
+			global::BottomNavigationBar.Resource.Id.action_bar_activity_content = global::DepremAlarmi.Droid.Resource.Id.action_bar_activity_content;
+			global::BottomNavigationBar.Resource.Id.action_bar_container = global::DepremAlarmi.Droid.Resource.Id.action_bar_container;
+			global::BottomNavigationBar.Resource.Id.action_bar_root = global::DepremAlarmi.Droid.Resource.Id.action_bar_root;
+			global::BottomNavigationBar.Resource.Id.action_bar_spinner = global::DepremAlarmi.Droid.Resource.Id.action_bar_spinner;
+			global::BottomNavigationBar.Resource.Id.action_bar_subtitle = global::DepremAlarmi.Droid.Resource.Id.action_bar_subtitle;
+			global::BottomNavigationBar.Resource.Id.action_bar_title = global::DepremAlarmi.Droid.Resource.Id.action_bar_title;
+			global::BottomNavigationBar.Resource.Id.action_context_bar = global::DepremAlarmi.Droid.Resource.Id.action_context_bar;
+			global::BottomNavigationBar.Resource.Id.action_divider = global::DepremAlarmi.Droid.Resource.Id.action_divider;
+			global::BottomNavigationBar.Resource.Id.action_menu_divider = global::DepremAlarmi.Droid.Resource.Id.action_menu_divider;
+			global::BottomNavigationBar.Resource.Id.action_menu_presenter = global::DepremAlarmi.Droid.Resource.Id.action_menu_presenter;
+			global::BottomNavigationBar.Resource.Id.action_mode_bar = global::DepremAlarmi.Droid.Resource.Id.action_mode_bar;
+			global::BottomNavigationBar.Resource.Id.action_mode_bar_stub = global::DepremAlarmi.Droid.Resource.Id.action_mode_bar_stub;
+			global::BottomNavigationBar.Resource.Id.action_mode_close_button = global::DepremAlarmi.Droid.Resource.Id.action_mode_close_button;
+			global::BottomNavigationBar.Resource.Id.activity_chooser_view_content = global::DepremAlarmi.Droid.Resource.Id.activity_chooser_view_content;
+			global::BottomNavigationBar.Resource.Id.alertTitle = global::DepremAlarmi.Droid.Resource.Id.alertTitle;
+			global::BottomNavigationBar.Resource.Id.always = global::DepremAlarmi.Droid.Resource.Id.always;
+			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_background_overlay = global::DepremAlarmi.Droid.Resource.Id.bb_bottom_bar_background_overlay;
+			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_background_view = global::DepremAlarmi.Droid.Resource.Id.bb_bottom_bar_background_view;
+			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_icon = global::DepremAlarmi.Droid.Resource.Id.bb_bottom_bar_icon;
+			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_item_container = global::DepremAlarmi.Droid.Resource.Id.bb_bottom_bar_item_container;
+			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_outer_container = global::DepremAlarmi.Droid.Resource.Id.bb_bottom_bar_outer_container;
+			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_shadow = global::DepremAlarmi.Droid.Resource.Id.bb_bottom_bar_shadow;
+			global::BottomNavigationBar.Resource.Id.bb_bottom_bar_title = global::DepremAlarmi.Droid.Resource.Id.bb_bottom_bar_title;
+			global::BottomNavigationBar.Resource.Id.bb_tablet_right_border = global::DepremAlarmi.Droid.Resource.Id.bb_tablet_right_border;
+			global::BottomNavigationBar.Resource.Id.bb_user_content_container = global::DepremAlarmi.Droid.Resource.Id.bb_user_content_container;
+			global::BottomNavigationBar.Resource.Id.beginning = global::DepremAlarmi.Droid.Resource.Id.beginning;
+			global::BottomNavigationBar.Resource.Id.bottom = global::DepremAlarmi.Droid.Resource.Id.bottom;
+			global::BottomNavigationBar.Resource.Id.buttonPanel = global::DepremAlarmi.Droid.Resource.Id.buttonPanel;
+			global::BottomNavigationBar.Resource.Id.cancel_action = global::DepremAlarmi.Droid.Resource.Id.cancel_action;
+			global::BottomNavigationBar.Resource.Id.center = global::DepremAlarmi.Droid.Resource.Id.center;
+			global::BottomNavigationBar.Resource.Id.center_horizontal = global::DepremAlarmi.Droid.Resource.Id.center_horizontal;
+			global::BottomNavigationBar.Resource.Id.center_vertical = global::DepremAlarmi.Droid.Resource.Id.center_vertical;
+			global::BottomNavigationBar.Resource.Id.checkbox = global::DepremAlarmi.Droid.Resource.Id.checkbox;
+			global::BottomNavigationBar.Resource.Id.chronometer = global::DepremAlarmi.Droid.Resource.Id.chronometer;
+			global::BottomNavigationBar.Resource.Id.clip_horizontal = global::DepremAlarmi.Droid.Resource.Id.clip_horizontal;
+			global::BottomNavigationBar.Resource.Id.clip_vertical = global::DepremAlarmi.Droid.Resource.Id.clip_vertical;
+			global::BottomNavigationBar.Resource.Id.collapseActionView = global::DepremAlarmi.Droid.Resource.Id.collapseActionView;
+			global::BottomNavigationBar.Resource.Id.contentPanel = global::DepremAlarmi.Droid.Resource.Id.contentPanel;
+			global::BottomNavigationBar.Resource.Id.custom = global::DepremAlarmi.Droid.Resource.Id.custom;
+			global::BottomNavigationBar.Resource.Id.customPanel = global::DepremAlarmi.Droid.Resource.Id.customPanel;
+			global::BottomNavigationBar.Resource.Id.decor_content_parent = global::DepremAlarmi.Droid.Resource.Id.decor_content_parent;
+			global::BottomNavigationBar.Resource.Id.default_activity_button = global::DepremAlarmi.Droid.Resource.Id.default_activity_button;
+			global::BottomNavigationBar.Resource.Id.design_bottom_sheet = global::DepremAlarmi.Droid.Resource.Id.design_bottom_sheet;
+			global::BottomNavigationBar.Resource.Id.design_menu_item_action_area = global::DepremAlarmi.Droid.Resource.Id.design_menu_item_action_area;
+			global::BottomNavigationBar.Resource.Id.design_menu_item_action_area_stub = global::DepremAlarmi.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::BottomNavigationBar.Resource.Id.design_menu_item_text = global::DepremAlarmi.Droid.Resource.Id.design_menu_item_text;
+			global::BottomNavigationBar.Resource.Id.design_navigation_view = global::DepremAlarmi.Droid.Resource.Id.design_navigation_view;
+			global::BottomNavigationBar.Resource.Id.disableHome = global::DepremAlarmi.Droid.Resource.Id.disableHome;
+			global::BottomNavigationBar.Resource.Id.edit_query = global::DepremAlarmi.Droid.Resource.Id.edit_query;
+			global::BottomNavigationBar.Resource.Id.end = global::DepremAlarmi.Droid.Resource.Id.end;
+			global::BottomNavigationBar.Resource.Id.end_padder = global::DepremAlarmi.Droid.Resource.Id.end_padder;
+			global::BottomNavigationBar.Resource.Id.enterAlways = global::DepremAlarmi.Droid.Resource.Id.enterAlways;
+			global::BottomNavigationBar.Resource.Id.enterAlwaysCollapsed = global::DepremAlarmi.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::BottomNavigationBar.Resource.Id.exitUntilCollapsed = global::DepremAlarmi.Droid.Resource.Id.exitUntilCollapsed;
+			global::BottomNavigationBar.Resource.Id.expand_activities_button = global::DepremAlarmi.Droid.Resource.Id.expand_activities_button;
+			global::BottomNavigationBar.Resource.Id.expanded_menu = global::DepremAlarmi.Droid.Resource.Id.expanded_menu;
+			global::BottomNavigationBar.Resource.Id.fill = global::DepremAlarmi.Droid.Resource.Id.fill;
+			global::BottomNavigationBar.Resource.Id.fill_horizontal = global::DepremAlarmi.Droid.Resource.Id.fill_horizontal;
+			global::BottomNavigationBar.Resource.Id.fill_vertical = global::DepremAlarmi.Droid.Resource.Id.fill_vertical;
+			global::BottomNavigationBar.Resource.Id.@fixed = global::DepremAlarmi.Droid.Resource.Id.@fixed;
+			global::BottomNavigationBar.Resource.Id.home = global::DepremAlarmi.Droid.Resource.Id.home;
+			global::BottomNavigationBar.Resource.Id.homeAsUp = global::DepremAlarmi.Droid.Resource.Id.homeAsUp;
+			global::BottomNavigationBar.Resource.Id.icon = global::DepremAlarmi.Droid.Resource.Id.icon;
+			global::BottomNavigationBar.Resource.Id.ifRoom = global::DepremAlarmi.Droid.Resource.Id.ifRoom;
+			global::BottomNavigationBar.Resource.Id.image = global::DepremAlarmi.Droid.Resource.Id.image;
+			global::BottomNavigationBar.Resource.Id.info = global::DepremAlarmi.Droid.Resource.Id.info;
+			global::BottomNavigationBar.Resource.Id.item_touch_helper_previous_elevation = global::DepremAlarmi.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::BottomNavigationBar.Resource.Id.left = global::DepremAlarmi.Droid.Resource.Id.left;
+			global::BottomNavigationBar.Resource.Id.line1 = global::DepremAlarmi.Droid.Resource.Id.line1;
+			global::BottomNavigationBar.Resource.Id.line3 = global::DepremAlarmi.Droid.Resource.Id.line3;
+			global::BottomNavigationBar.Resource.Id.listMode = global::DepremAlarmi.Droid.Resource.Id.listMode;
+			global::BottomNavigationBar.Resource.Id.list_item = global::DepremAlarmi.Droid.Resource.Id.list_item;
+			global::BottomNavigationBar.Resource.Id.media_actions = global::DepremAlarmi.Droid.Resource.Id.media_actions;
+			global::BottomNavigationBar.Resource.Id.middle = global::DepremAlarmi.Droid.Resource.Id.middle;
+			global::BottomNavigationBar.Resource.Id.mini = global::DepremAlarmi.Droid.Resource.Id.mini;
+			global::BottomNavigationBar.Resource.Id.multiply = global::DepremAlarmi.Droid.Resource.Id.multiply;
+			global::BottomNavigationBar.Resource.Id.navigation_header_container = global::DepremAlarmi.Droid.Resource.Id.navigation_header_container;
+			global::BottomNavigationBar.Resource.Id.never = global::DepremAlarmi.Droid.Resource.Id.never;
+			global::BottomNavigationBar.Resource.Id.none = global::DepremAlarmi.Droid.Resource.Id.none;
+			global::BottomNavigationBar.Resource.Id.normal = global::DepremAlarmi.Droid.Resource.Id.normal;
+			global::BottomNavigationBar.Resource.Id.parallax = global::DepremAlarmi.Droid.Resource.Id.parallax;
+			global::BottomNavigationBar.Resource.Id.parentPanel = global::DepremAlarmi.Droid.Resource.Id.parentPanel;
+			global::BottomNavigationBar.Resource.Id.pin = global::DepremAlarmi.Droid.Resource.Id.pin;
+			global::BottomNavigationBar.Resource.Id.progress_circular = global::DepremAlarmi.Droid.Resource.Id.progress_circular;
+			global::BottomNavigationBar.Resource.Id.progress_horizontal = global::DepremAlarmi.Droid.Resource.Id.progress_horizontal;
+			global::BottomNavigationBar.Resource.Id.radio = global::DepremAlarmi.Droid.Resource.Id.radio;
+			global::BottomNavigationBar.Resource.Id.right = global::DepremAlarmi.Droid.Resource.Id.right;
+			global::BottomNavigationBar.Resource.Id.screen = global::DepremAlarmi.Droid.Resource.Id.screen;
+			global::BottomNavigationBar.Resource.Id.scroll = global::DepremAlarmi.Droid.Resource.Id.scroll;
+			global::BottomNavigationBar.Resource.Id.scrollIndicatorDown = global::DepremAlarmi.Droid.Resource.Id.scrollIndicatorDown;
+			global::BottomNavigationBar.Resource.Id.scrollIndicatorUp = global::DepremAlarmi.Droid.Resource.Id.scrollIndicatorUp;
+			global::BottomNavigationBar.Resource.Id.scrollView = global::DepremAlarmi.Droid.Resource.Id.scrollView;
+			global::BottomNavigationBar.Resource.Id.scrollable = global::DepremAlarmi.Droid.Resource.Id.scrollable;
+			global::BottomNavigationBar.Resource.Id.search_badge = global::DepremAlarmi.Droid.Resource.Id.search_badge;
+			global::BottomNavigationBar.Resource.Id.search_bar = global::DepremAlarmi.Droid.Resource.Id.search_bar;
+			global::BottomNavigationBar.Resource.Id.search_button = global::DepremAlarmi.Droid.Resource.Id.search_button;
+			global::BottomNavigationBar.Resource.Id.search_close_btn = global::DepremAlarmi.Droid.Resource.Id.search_close_btn;
+			global::BottomNavigationBar.Resource.Id.search_edit_frame = global::DepremAlarmi.Droid.Resource.Id.search_edit_frame;
+			global::BottomNavigationBar.Resource.Id.search_go_btn = global::DepremAlarmi.Droid.Resource.Id.search_go_btn;
+			global::BottomNavigationBar.Resource.Id.search_mag_icon = global::DepremAlarmi.Droid.Resource.Id.search_mag_icon;
+			global::BottomNavigationBar.Resource.Id.search_plate = global::DepremAlarmi.Droid.Resource.Id.search_plate;
+			global::BottomNavigationBar.Resource.Id.search_src_text = global::DepremAlarmi.Droid.Resource.Id.search_src_text;
+			global::BottomNavigationBar.Resource.Id.search_voice_btn = global::DepremAlarmi.Droid.Resource.Id.search_voice_btn;
+			global::BottomNavigationBar.Resource.Id.select_dialog_listview = global::DepremAlarmi.Droid.Resource.Id.select_dialog_listview;
+			global::BottomNavigationBar.Resource.Id.shortcut = global::DepremAlarmi.Droid.Resource.Id.shortcut;
+			global::BottomNavigationBar.Resource.Id.showCustom = global::DepremAlarmi.Droid.Resource.Id.showCustom;
+			global::BottomNavigationBar.Resource.Id.showHome = global::DepremAlarmi.Droid.Resource.Id.showHome;
+			global::BottomNavigationBar.Resource.Id.showTitle = global::DepremAlarmi.Droid.Resource.Id.showTitle;
+			global::BottomNavigationBar.Resource.Id.snackbar_action = global::DepremAlarmi.Droid.Resource.Id.snackbar_action;
+			global::BottomNavigationBar.Resource.Id.snackbar_text = global::DepremAlarmi.Droid.Resource.Id.snackbar_text;
+			global::BottomNavigationBar.Resource.Id.snap = global::DepremAlarmi.Droid.Resource.Id.snap;
+			global::BottomNavigationBar.Resource.Id.spacer = global::DepremAlarmi.Droid.Resource.Id.spacer;
+			global::BottomNavigationBar.Resource.Id.split_action_bar = global::DepremAlarmi.Droid.Resource.Id.split_action_bar;
+			global::BottomNavigationBar.Resource.Id.src_atop = global::DepremAlarmi.Droid.Resource.Id.src_atop;
+			global::BottomNavigationBar.Resource.Id.src_in = global::DepremAlarmi.Droid.Resource.Id.src_in;
+			global::BottomNavigationBar.Resource.Id.src_over = global::DepremAlarmi.Droid.Resource.Id.src_over;
+			global::BottomNavigationBar.Resource.Id.start = global::DepremAlarmi.Droid.Resource.Id.start;
+			global::BottomNavigationBar.Resource.Id.status_bar_latest_event_content = global::DepremAlarmi.Droid.Resource.Id.status_bar_latest_event_content;
+			global::BottomNavigationBar.Resource.Id.submit_area = global::DepremAlarmi.Droid.Resource.Id.submit_area;
+			global::BottomNavigationBar.Resource.Id.tabMode = global::DepremAlarmi.Droid.Resource.Id.tabMode;
+			global::BottomNavigationBar.Resource.Id.text = global::DepremAlarmi.Droid.Resource.Id.text;
+			global::BottomNavigationBar.Resource.Id.text2 = global::DepremAlarmi.Droid.Resource.Id.text2;
+			global::BottomNavigationBar.Resource.Id.textSpacerNoButtons = global::DepremAlarmi.Droid.Resource.Id.textSpacerNoButtons;
+			global::BottomNavigationBar.Resource.Id.time = global::DepremAlarmi.Droid.Resource.Id.time;
+			global::BottomNavigationBar.Resource.Id.title = global::DepremAlarmi.Droid.Resource.Id.title;
+			global::BottomNavigationBar.Resource.Id.title_template = global::DepremAlarmi.Droid.Resource.Id.title_template;
+			global::BottomNavigationBar.Resource.Id.top = global::DepremAlarmi.Droid.Resource.Id.top;
+			global::BottomNavigationBar.Resource.Id.topPanel = global::DepremAlarmi.Droid.Resource.Id.topPanel;
+			global::BottomNavigationBar.Resource.Id.touch_outside = global::DepremAlarmi.Droid.Resource.Id.touch_outside;
+			global::BottomNavigationBar.Resource.Id.up = global::DepremAlarmi.Droid.Resource.Id.up;
+			global::BottomNavigationBar.Resource.Id.useLogo = global::DepremAlarmi.Droid.Resource.Id.useLogo;
+			global::BottomNavigationBar.Resource.Id.view_offset_helper = global::DepremAlarmi.Droid.Resource.Id.view_offset_helper;
+			global::BottomNavigationBar.Resource.Id.withText = global::DepremAlarmi.Droid.Resource.Id.withText;
+			global::BottomNavigationBar.Resource.Id.wrap_content = global::DepremAlarmi.Droid.Resource.Id.wrap_content;
+			global::BottomNavigationBar.Resource.Integer.abc_config_activityDefaultDur = global::DepremAlarmi.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::BottomNavigationBar.Resource.Integer.abc_config_activityShortDur = global::DepremAlarmi.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::BottomNavigationBar.Resource.Integer.bottom_sheet_slide_duration = global::DepremAlarmi.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::BottomNavigationBar.Resource.Integer.cancel_button_image_alpha = global::DepremAlarmi.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::BottomNavigationBar.Resource.Integer.design_snackbar_text_max_lines = global::DepremAlarmi.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::BottomNavigationBar.Resource.Integer.status_bar_notification_info_maxnum = global::DepremAlarmi.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::BottomNavigationBar.Resource.Layout.abc_action_bar_title_item = global::DepremAlarmi.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::BottomNavigationBar.Resource.Layout.abc_action_bar_up_container = global::DepremAlarmi.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::BottomNavigationBar.Resource.Layout.abc_action_menu_item_layout = global::DepremAlarmi.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::BottomNavigationBar.Resource.Layout.abc_action_menu_layout = global::DepremAlarmi.Droid.Resource.Layout.abc_action_menu_layout;
+			global::BottomNavigationBar.Resource.Layout.abc_action_mode_bar = global::DepremAlarmi.Droid.Resource.Layout.abc_action_mode_bar;
+			global::BottomNavigationBar.Resource.Layout.abc_action_mode_close_item_material = global::DepremAlarmi.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::BottomNavigationBar.Resource.Layout.abc_activity_chooser_view = global::DepremAlarmi.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::BottomNavigationBar.Resource.Layout.abc_activity_chooser_view_list_item = global::DepremAlarmi.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::BottomNavigationBar.Resource.Layout.abc_alert_dialog_button_bar_material = global::DepremAlarmi.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::BottomNavigationBar.Resource.Layout.abc_alert_dialog_material = global::DepremAlarmi.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::BottomNavigationBar.Resource.Layout.abc_dialog_title_material = global::DepremAlarmi.Droid.Resource.Layout.abc_dialog_title_material;
+			global::BottomNavigationBar.Resource.Layout.abc_expanded_menu_layout = global::DepremAlarmi.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::BottomNavigationBar.Resource.Layout.abc_list_menu_item_checkbox = global::DepremAlarmi.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::BottomNavigationBar.Resource.Layout.abc_list_menu_item_icon = global::DepremAlarmi.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::BottomNavigationBar.Resource.Layout.abc_list_menu_item_layout = global::DepremAlarmi.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::BottomNavigationBar.Resource.Layout.abc_list_menu_item_radio = global::DepremAlarmi.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::BottomNavigationBar.Resource.Layout.abc_popup_menu_item_layout = global::DepremAlarmi.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::BottomNavigationBar.Resource.Layout.abc_screen_content_include = global::DepremAlarmi.Droid.Resource.Layout.abc_screen_content_include;
+			global::BottomNavigationBar.Resource.Layout.abc_screen_simple = global::DepremAlarmi.Droid.Resource.Layout.abc_screen_simple;
+			global::BottomNavigationBar.Resource.Layout.abc_screen_simple_overlay_action_mode = global::DepremAlarmi.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::BottomNavigationBar.Resource.Layout.abc_screen_toolbar = global::DepremAlarmi.Droid.Resource.Layout.abc_screen_toolbar;
+			global::BottomNavigationBar.Resource.Layout.abc_search_dropdown_item_icons_2line = global::DepremAlarmi.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::BottomNavigationBar.Resource.Layout.abc_search_view = global::DepremAlarmi.Droid.Resource.Layout.abc_search_view;
+			global::BottomNavigationBar.Resource.Layout.abc_select_dialog_material = global::DepremAlarmi.Droid.Resource.Layout.abc_select_dialog_material;
+			global::BottomNavigationBar.Resource.Layout.bb_bottom_bar_item_container = global::DepremAlarmi.Droid.Resource.Layout.bb_bottom_bar_item_container;
+			global::BottomNavigationBar.Resource.Layout.bb_bottom_bar_item_container_tablet = global::DepremAlarmi.Droid.Resource.Layout.bb_bottom_bar_item_container_tablet;
+			global::BottomNavigationBar.Resource.Layout.bb_bottom_bar_item_fixed = global::DepremAlarmi.Droid.Resource.Layout.bb_bottom_bar_item_fixed;
+			global::BottomNavigationBar.Resource.Layout.bb_bottom_bar_item_fixed_tablet = global::DepremAlarmi.Droid.Resource.Layout.bb_bottom_bar_item_fixed_tablet;
+			global::BottomNavigationBar.Resource.Layout.bb_bottom_bar_item_shifting = global::DepremAlarmi.Droid.Resource.Layout.bb_bottom_bar_item_shifting;
+			global::BottomNavigationBar.Resource.Layout.design_bottom_sheet_dialog = global::DepremAlarmi.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::BottomNavigationBar.Resource.Layout.design_layout_snackbar = global::DepremAlarmi.Droid.Resource.Layout.design_layout_snackbar;
+			global::BottomNavigationBar.Resource.Layout.design_layout_snackbar_include = global::DepremAlarmi.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::BottomNavigationBar.Resource.Layout.design_layout_tab_icon = global::DepremAlarmi.Droid.Resource.Layout.design_layout_tab_icon;
+			global::BottomNavigationBar.Resource.Layout.design_layout_tab_text = global::DepremAlarmi.Droid.Resource.Layout.design_layout_tab_text;
+			global::BottomNavigationBar.Resource.Layout.design_menu_item_action_area = global::DepremAlarmi.Droid.Resource.Layout.design_menu_item_action_area;
+			global::BottomNavigationBar.Resource.Layout.design_navigation_item = global::DepremAlarmi.Droid.Resource.Layout.design_navigation_item;
+			global::BottomNavigationBar.Resource.Layout.design_navigation_item_header = global::DepremAlarmi.Droid.Resource.Layout.design_navigation_item_header;
+			global::BottomNavigationBar.Resource.Layout.design_navigation_item_separator = global::DepremAlarmi.Droid.Resource.Layout.design_navigation_item_separator;
+			global::BottomNavigationBar.Resource.Layout.design_navigation_item_subheader = global::DepremAlarmi.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::BottomNavigationBar.Resource.Layout.design_navigation_menu = global::DepremAlarmi.Droid.Resource.Layout.design_navigation_menu;
+			global::BottomNavigationBar.Resource.Layout.design_navigation_menu_item = global::DepremAlarmi.Droid.Resource.Layout.design_navigation_menu_item;
+			global::BottomNavigationBar.Resource.Layout.notification_media_action = global::DepremAlarmi.Droid.Resource.Layout.notification_media_action;
+			global::BottomNavigationBar.Resource.Layout.notification_media_cancel_action = global::DepremAlarmi.Droid.Resource.Layout.notification_media_cancel_action;
+			global::BottomNavigationBar.Resource.Layout.notification_template_big_media = global::DepremAlarmi.Droid.Resource.Layout.notification_template_big_media;
+			global::BottomNavigationBar.Resource.Layout.notification_template_big_media_narrow = global::DepremAlarmi.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::BottomNavigationBar.Resource.Layout.notification_template_media = global::DepremAlarmi.Droid.Resource.Layout.notification_template_media;
+			global::BottomNavigationBar.Resource.Layout.notification_template_part_chronometer = global::DepremAlarmi.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::BottomNavigationBar.Resource.Layout.notification_template_part_time = global::DepremAlarmi.Droid.Resource.Layout.notification_template_part_time;
+			global::BottomNavigationBar.Resource.Layout.select_dialog_item_material = global::DepremAlarmi.Droid.Resource.Layout.select_dialog_item_material;
+			global::BottomNavigationBar.Resource.Layout.select_dialog_multichoice_material = global::DepremAlarmi.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::BottomNavigationBar.Resource.Layout.select_dialog_singlechoice_material = global::DepremAlarmi.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::BottomNavigationBar.Resource.Layout.support_simple_spinner_dropdown_item = global::DepremAlarmi.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::BottomNavigationBar.Resource.String.abc_action_bar_home_description = global::DepremAlarmi.Droid.Resource.String.abc_action_bar_home_description;
+			global::BottomNavigationBar.Resource.String.abc_action_bar_up_description = global::DepremAlarmi.Droid.Resource.String.abc_action_bar_up_description;
+			global::BottomNavigationBar.Resource.String.abc_action_menu_overflow_description = global::DepremAlarmi.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::BottomNavigationBar.Resource.String.abc_action_mode_done = global::DepremAlarmi.Droid.Resource.String.abc_action_mode_done;
+			global::BottomNavigationBar.Resource.String.abc_activity_chooser_view_see_all = global::DepremAlarmi.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::BottomNavigationBar.Resource.String.abc_activitychooserview_choose_application = global::DepremAlarmi.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::BottomNavigationBar.Resource.String.abc_capital_off = global::DepremAlarmi.Droid.Resource.String.abc_capital_off;
+			global::BottomNavigationBar.Resource.String.abc_capital_on = global::DepremAlarmi.Droid.Resource.String.abc_capital_on;
+			global::BottomNavigationBar.Resource.String.abc_search_hint = global::DepremAlarmi.Droid.Resource.String.abc_search_hint;
+			global::BottomNavigationBar.Resource.String.abc_searchview_description_clear = global::DepremAlarmi.Droid.Resource.String.abc_searchview_description_clear;
+			global::BottomNavigationBar.Resource.String.abc_searchview_description_query = global::DepremAlarmi.Droid.Resource.String.abc_searchview_description_query;
+			global::BottomNavigationBar.Resource.String.abc_searchview_description_search = global::DepremAlarmi.Droid.Resource.String.abc_searchview_description_search;
+			global::BottomNavigationBar.Resource.String.abc_searchview_description_submit = global::DepremAlarmi.Droid.Resource.String.abc_searchview_description_submit;
+			global::BottomNavigationBar.Resource.String.abc_searchview_description_voice = global::DepremAlarmi.Droid.Resource.String.abc_searchview_description_voice;
+			global::BottomNavigationBar.Resource.String.abc_shareactionprovider_share_with = global::DepremAlarmi.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::BottomNavigationBar.Resource.String.abc_shareactionprovider_share_with_application = global::DepremAlarmi.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::BottomNavigationBar.Resource.String.abc_toolbar_collapse_description = global::DepremAlarmi.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::BottomNavigationBar.Resource.String.app_name = global::DepremAlarmi.Droid.Resource.String.app_name;
+			global::BottomNavigationBar.Resource.String.appbar_scrolling_view_behavior = global::DepremAlarmi.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::BottomNavigationBar.Resource.String.bottom_sheet_behavior = global::DepremAlarmi.Droid.Resource.String.bottom_sheet_behavior;
+			global::BottomNavigationBar.Resource.String.character_counter_pattern = global::DepremAlarmi.Droid.Resource.String.character_counter_pattern;
+			global::BottomNavigationBar.Resource.String.status_bar_notification_info_overflow = global::DepremAlarmi.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::BottomNavigationBar.Resource.Style.AlertDialog_AppCompat = global::DepremAlarmi.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::BottomNavigationBar.Resource.Style.AlertDialog_AppCompat_Light = global::DepremAlarmi.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Animation_AppCompat_Dialog = global::DepremAlarmi.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::BottomNavigationBar.Resource.Style.Animation_AppCompat_DropDownUp = global::DepremAlarmi.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::BottomNavigationBar.Resource.Style.Animation_Design_BottomSheetDialog = global::DepremAlarmi.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::BottomNavigationBar.Resource.Style.BB_BottomBarBadge_Text = global::DepremAlarmi.Droid.Resource.Style.BB_BottomBarBadge_Text;
+			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem = global::DepremAlarmi.Droid.Resource.Style.BB_BottomBarItem;
+			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem_Fixed = global::DepremAlarmi.Droid.Resource.Style.BB_BottomBarItem_Fixed;
+			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem_Fixed_TitleAppearance = global::DepremAlarmi.Droid.Resource.Style.BB_BottomBarItem_Fixed_TitleAppearance;
+			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem_Shifting = global::DepremAlarmi.Droid.Resource.Style.BB_BottomBarItem_Shifting;
+			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem_Shifting_TitleAppearance = global::DepremAlarmi.Droid.Resource.Style.BB_BottomBarItem_Shifting_TitleAppearance;
+			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem_Tablet = global::DepremAlarmi.Droid.Resource.Style.BB_BottomBarItem_Tablet;
+			global::BottomNavigationBar.Resource.Style.BB_BottomBarItem_TitleStyle = global::DepremAlarmi.Droid.Resource.Style.BB_BottomBarItem_TitleStyle;
+			global::BottomNavigationBar.Resource.Style.Base_AlertDialog_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Base_AlertDialog_AppCompat_Light = global::DepremAlarmi.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Base_Animation_AppCompat_Dialog = global::DepremAlarmi.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::BottomNavigationBar.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::DepremAlarmi.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::BottomNavigationBar.Resource.Style.Base_DialogWindowTitle_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Button = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Large = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Small = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Title = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::BottomNavigationBar.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::DepremAlarmi.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Dialog = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::BottomNavigationBar.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::DepremAlarmi.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::DepremAlarmi.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::DepremAlarmi.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::DepremAlarmi.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::BottomNavigationBar.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::DepremAlarmi.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Base_V21_Theme_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::DepremAlarmi.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::BottomNavigationBar.Resource.Style.Base_V21_Theme_AppCompat_Light = global::DepremAlarmi.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::DepremAlarmi.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::BottomNavigationBar.Resource.Style.Base_V22_Theme_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Base_V22_Theme_AppCompat_Light = global::DepremAlarmi.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Base_V23_Theme_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Base_V23_Theme_AppCompat_Light = global::DepremAlarmi.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Base_V7_Theme_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::DepremAlarmi.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::BottomNavigationBar.Resource.Style.Base_V7_Theme_AppCompat_Light = global::DepremAlarmi.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::DepremAlarmi.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::BottomNavigationBar.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::DepremAlarmi.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::BottomNavigationBar.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::DepremAlarmi.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionBar = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionButton = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActionMode = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Button = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Button_Small = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_EditText = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ImageButton = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ListView = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_RatingBar = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_SearchView = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_SeekBar = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Spinner = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Toolbar = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::BottomNavigationBar.Resource.Style.Base_Widget_Design_TabLayout = global::DepremAlarmi.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::BottomNavigationBar.Resource.Style.Platform_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Platform_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Platform_AppCompat_Light = global::DepremAlarmi.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Platform_ThemeOverlay_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::DepremAlarmi.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::BottomNavigationBar.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::DepremAlarmi.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Platform_Widget_AppCompat_Spinner = global::DepremAlarmi.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::BottomNavigationBar.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::DepremAlarmi.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::DepremAlarmi.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::DepremAlarmi.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::DepremAlarmi.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::DepremAlarmi.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::DepremAlarmi.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::DepremAlarmi.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::DepremAlarmi.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::DepremAlarmi.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::DepremAlarmi.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::DepremAlarmi.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::BottomNavigationBar.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::DepremAlarmi.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::BottomNavigationBar.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::DepremAlarmi.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::BottomNavigationBar.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::DepremAlarmi.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Body1 = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Body2 = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Button = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Caption = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Display1 = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Display2 = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Display3 = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Display4 = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Headline = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Inverse = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Large = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Medium = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Menu = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Small = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Subhead = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Title = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_Counter = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_Counter_Overflow = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_Error = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_Hint = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_Snackbar_Message = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_Design_Tab = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::BottomNavigationBar.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::DepremAlarmi.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_CompactMenu = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Dialog = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Dialog_Alert = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light_Dialog = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::BottomNavigationBar.Resource.Style.Theme_AppCompat_NoActionBar = global::DepremAlarmi.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::BottomNavigationBar.Resource.Style.Theme_Design = global::DepremAlarmi.Droid.Resource.Style.Theme_Design;
+			global::BottomNavigationBar.Resource.Style.Theme_Design_BottomSheetDialog = global::DepremAlarmi.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::BottomNavigationBar.Resource.Style.Theme_Design_Light = global::DepremAlarmi.Droid.Resource.Style.Theme_Design_Light;
+			global::BottomNavigationBar.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::DepremAlarmi.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::BottomNavigationBar.Resource.Style.Theme_Design_Light_NoActionBar = global::DepremAlarmi.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::BottomNavigationBar.Resource.Style.Theme_Design_NoActionBar = global::DepremAlarmi.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat = global::DepremAlarmi.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::DepremAlarmi.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_Dark = global::DepremAlarmi.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::DepremAlarmi.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::BottomNavigationBar.Resource.Style.ThemeOverlay_AppCompat_Light = global::DepremAlarmi.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionBar = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionButton = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActionMode = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ActivityChooserView = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Button = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Button_Borderless = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Button_Colored = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Button_Small = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ButtonBar = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_EditText = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ImageButton = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionButton = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_SearchView = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ListPopupWindow = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ListView = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ListView_DropDown = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ListView_Menu = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_PopupMenu = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_PopupWindow = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ProgressBar = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_RatingBar = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_RatingBar_Small = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_SearchView = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_SeekBar = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Spinner = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Toolbar = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::BottomNavigationBar.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::DepremAlarmi.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::BottomNavigationBar.Resource.Style.Widget_Design_AppBarLayout = global::DepremAlarmi.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::BottomNavigationBar.Resource.Style.Widget_Design_BottomSheet_Modal = global::DepremAlarmi.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::BottomNavigationBar.Resource.Style.Widget_Design_CollapsingToolbar = global::DepremAlarmi.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::BottomNavigationBar.Resource.Style.Widget_Design_FloatingActionButton = global::DepremAlarmi.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::BottomNavigationBar.Resource.Style.Widget_Design_NavigationView = global::DepremAlarmi.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::BottomNavigationBar.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::DepremAlarmi.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::BottomNavigationBar.Resource.Style.Widget_Design_Snackbar = global::DepremAlarmi.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::BottomNavigationBar.Resource.Style.Widget_Design_TabLayout = global::DepremAlarmi.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::BottomNavigationBar.Resource.Style.Widget_Design_TextInputLayout = global::DepremAlarmi.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_background = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_background;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_backgroundSplit = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_backgroundStacked = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetEnd = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetLeft = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetRight = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_contentInsetStart = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_customNavigationLayout = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_displayOptions = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_divider = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_divider;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_elevation = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_elevation;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_height = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_height;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_hideOnContentScroll = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_homeAsUpIndicator = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_homeLayout = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_icon = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_icon;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_itemPadding = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_logo = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_logo;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_navigationMode = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_popupTheme = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_progressBarPadding = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_progressBarStyle = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_subtitle = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_subtitleTextStyle = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_title = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_title;
+			global::BottomNavigationBar.Resource.Styleable.ActionBar_titleTextStyle = global::DepremAlarmi.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::BottomNavigationBar.Resource.Styleable.ActionBarLayout = global::DepremAlarmi.Droid.Resource.Styleable.ActionBarLayout;
+			global::BottomNavigationBar.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::DepremAlarmi.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::BottomNavigationBar.Resource.Styleable.ActionMenuItemView = global::DepremAlarmi.Droid.Resource.Styleable.ActionMenuItemView;
+			global::BottomNavigationBar.Resource.Styleable.ActionMenuItemView_android_minWidth = global::DepremAlarmi.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::BottomNavigationBar.Resource.Styleable.ActionMenuView = global::DepremAlarmi.Droid.Resource.Styleable.ActionMenuView;
+			global::BottomNavigationBar.Resource.Styleable.ActionMode = global::DepremAlarmi.Droid.Resource.Styleable.ActionMode;
+			global::BottomNavigationBar.Resource.Styleable.ActionMode_background = global::DepremAlarmi.Droid.Resource.Styleable.ActionMode_background;
+			global::BottomNavigationBar.Resource.Styleable.ActionMode_backgroundSplit = global::DepremAlarmi.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::BottomNavigationBar.Resource.Styleable.ActionMode_closeItemLayout = global::DepremAlarmi.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::BottomNavigationBar.Resource.Styleable.ActionMode_height = global::DepremAlarmi.Droid.Resource.Styleable.ActionMode_height;
+			global::BottomNavigationBar.Resource.Styleable.ActionMode_subtitleTextStyle = global::DepremAlarmi.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::BottomNavigationBar.Resource.Styleable.ActionMode_titleTextStyle = global::DepremAlarmi.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::BottomNavigationBar.Resource.Styleable.ActivityChooserView = global::DepremAlarmi.Droid.Resource.Styleable.ActivityChooserView;
+			global::BottomNavigationBar.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::DepremAlarmi.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::BottomNavigationBar.Resource.Styleable.ActivityChooserView_initialActivityCount = global::DepremAlarmi.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::BottomNavigationBar.Resource.Styleable.AlertDialog = global::DepremAlarmi.Droid.Resource.Styleable.AlertDialog;
+			global::BottomNavigationBar.Resource.Styleable.AlertDialog_android_layout = global::DepremAlarmi.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::BottomNavigationBar.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::DepremAlarmi.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::BottomNavigationBar.Resource.Styleable.AlertDialog_listItemLayout = global::DepremAlarmi.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::BottomNavigationBar.Resource.Styleable.AlertDialog_listLayout = global::DepremAlarmi.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::BottomNavigationBar.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::DepremAlarmi.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::BottomNavigationBar.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::DepremAlarmi.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::BottomNavigationBar.Resource.Styleable.AppBarLayout = global::DepremAlarmi.Droid.Resource.Styleable.AppBarLayout;
+			global::BottomNavigationBar.Resource.Styleable.AppBarLayout_android_background = global::DepremAlarmi.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::BottomNavigationBar.Resource.Styleable.AppBarLayout_elevation = global::DepremAlarmi.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::BottomNavigationBar.Resource.Styleable.AppBarLayout_expanded = global::DepremAlarmi.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatImageView = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatImageView;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatImageView_android_src = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatImageView_srcCompat = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTextView = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTextView;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTextView_android_textAppearance = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTextView_textAllCaps = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarDivider = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarSize = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarTheme = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeBackground = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_checkboxStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorAccent = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorControlActivated = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorControlNormal = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorPrimary = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_controlBackground = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_dialogTheme = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_dividerVertical = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_editTextBackground = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_editTextColor = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_editTextStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_panelBackground = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_searchViewStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_seekBarStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_spinnerStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_switchStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_toolbarStyle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowActionBar = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::BottomNavigationBar.Resource.Styleable.AppCompatTheme_windowNoTitle = global::DepremAlarmi.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::BottomNavigationBar.Resource.Styleable.ButtonBarLayout = global::DepremAlarmi.Droid.Resource.Styleable.ButtonBarLayout;
+			global::BottomNavigationBar.Resource.Styleable.ButtonBarLayout_allowStacking = global::DepremAlarmi.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_title = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::BottomNavigationBar.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::DepremAlarmi.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::BottomNavigationBar.Resource.Styleable.CompoundButton = global::DepremAlarmi.Droid.Resource.Styleable.CompoundButton;
+			global::BottomNavigationBar.Resource.Styleable.CompoundButton_android_button = global::DepremAlarmi.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::BottomNavigationBar.Resource.Styleable.CompoundButton_buttonTint = global::DepremAlarmi.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::BottomNavigationBar.Resource.Styleable.CompoundButton_buttonTintMode = global::DepremAlarmi.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout = global::DepremAlarmi.Droid.Resource.Styleable.CoordinatorLayout;
+			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_keylines = global::DepremAlarmi.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::BottomNavigationBar.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::DepremAlarmi.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::BottomNavigationBar.Resource.Styleable.DesignTheme = global::DepremAlarmi.Droid.Resource.Styleable.DesignTheme;
+			global::BottomNavigationBar.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::DepremAlarmi.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::BottomNavigationBar.Resource.Styleable.DesignTheme_bottomSheetStyle = global::DepremAlarmi.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle = global::DepremAlarmi.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::DepremAlarmi.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::DepremAlarmi.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_barLength = global::DepremAlarmi.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_color = global::DepremAlarmi.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_drawableSize = global::DepremAlarmi.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::DepremAlarmi.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_spinBars = global::DepremAlarmi.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::BottomNavigationBar.Resource.Styleable.DrawerArrowToggle_thickness = global::DepremAlarmi.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton = global::DepremAlarmi.Droid.Resource.Styleable.FloatingActionButton;
+			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_backgroundTint = global::DepremAlarmi.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::DepremAlarmi.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_borderWidth = global::DepremAlarmi.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_elevation = global::DepremAlarmi.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_fabSize = global::DepremAlarmi.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::DepremAlarmi.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_rippleColor = global::DepremAlarmi.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::BottomNavigationBar.Resource.Styleable.FloatingActionButton_useCompatPadding = global::DepremAlarmi.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::BottomNavigationBar.Resource.Styleable.ForegroundLinearLayout = global::DepremAlarmi.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::BottomNavigationBar.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::DepremAlarmi.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::BottomNavigationBar.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::DepremAlarmi.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::BottomNavigationBar.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::DepremAlarmi.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_android_gravity = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_android_orientation = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_divider = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_showDividers = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_Layout = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::BottomNavigationBar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::DepremAlarmi.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::BottomNavigationBar.Resource.Styleable.ListPopupWindow = global::DepremAlarmi.Droid.Resource.Styleable.ListPopupWindow;
+			global::BottomNavigationBar.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::DepremAlarmi.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::BottomNavigationBar.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::DepremAlarmi.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::BottomNavigationBar.Resource.Styleable.MenuGroup = global::DepremAlarmi.Droid.Resource.Styleable.MenuGroup;
+			global::BottomNavigationBar.Resource.Styleable.MenuGroup_android_checkableBehavior = global::DepremAlarmi.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::BottomNavigationBar.Resource.Styleable.MenuGroup_android_enabled = global::DepremAlarmi.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::BottomNavigationBar.Resource.Styleable.MenuGroup_android_id = global::DepremAlarmi.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::BottomNavigationBar.Resource.Styleable.MenuGroup_android_menuCategory = global::DepremAlarmi.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::BottomNavigationBar.Resource.Styleable.MenuGroup_android_orderInCategory = global::DepremAlarmi.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::BottomNavigationBar.Resource.Styleable.MenuGroup_android_visible = global::DepremAlarmi.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_actionLayout = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_actionProviderClass = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_actionViewClass = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_checkable = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_checked = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_enabled = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_icon = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_id = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_id;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_menuCategory = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_numericShortcut = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_onClick = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_orderInCategory = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_title = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_title;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_titleCondensed = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_android_visible = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::BottomNavigationBar.Resource.Styleable.MenuItem_showAsAction = global::DepremAlarmi.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::BottomNavigationBar.Resource.Styleable.MenuView = global::DepremAlarmi.Droid.Resource.Styleable.MenuView;
+			global::BottomNavigationBar.Resource.Styleable.MenuView_android_headerBackground = global::DepremAlarmi.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::BottomNavigationBar.Resource.Styleable.MenuView_android_horizontalDivider = global::DepremAlarmi.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::BottomNavigationBar.Resource.Styleable.MenuView_android_itemBackground = global::DepremAlarmi.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::BottomNavigationBar.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::DepremAlarmi.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::BottomNavigationBar.Resource.Styleable.MenuView_android_itemTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.MenuView_android_verticalDivider = global::DepremAlarmi.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::BottomNavigationBar.Resource.Styleable.MenuView_android_windowAnimationStyle = global::DepremAlarmi.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::BottomNavigationBar.Resource.Styleable.MenuView_preserveIconSpacing = global::DepremAlarmi.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::BottomNavigationBar.Resource.Styleable.NavigationView = global::DepremAlarmi.Droid.Resource.Styleable.NavigationView;
+			global::BottomNavigationBar.Resource.Styleable.NavigationView_android_background = global::DepremAlarmi.Droid.Resource.Styleable.NavigationView_android_background;
+			global::BottomNavigationBar.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::DepremAlarmi.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::BottomNavigationBar.Resource.Styleable.NavigationView_android_maxWidth = global::DepremAlarmi.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::BottomNavigationBar.Resource.Styleable.NavigationView_elevation = global::DepremAlarmi.Droid.Resource.Styleable.NavigationView_elevation;
+			global::BottomNavigationBar.Resource.Styleable.NavigationView_headerLayout = global::DepremAlarmi.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::BottomNavigationBar.Resource.Styleable.NavigationView_itemBackground = global::DepremAlarmi.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::BottomNavigationBar.Resource.Styleable.NavigationView_itemIconTint = global::DepremAlarmi.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::BottomNavigationBar.Resource.Styleable.NavigationView_itemTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.NavigationView_itemTextColor = global::DepremAlarmi.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::BottomNavigationBar.Resource.Styleable.NavigationView_menu = global::DepremAlarmi.Droid.Resource.Styleable.NavigationView_menu;
+			global::BottomNavigationBar.Resource.Styleable.PopupWindow = global::DepremAlarmi.Droid.Resource.Styleable.PopupWindow;
+			global::BottomNavigationBar.Resource.Styleable.PopupWindow_android_popupBackground = global::DepremAlarmi.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::BottomNavigationBar.Resource.Styleable.PopupWindow_overlapAnchor = global::DepremAlarmi.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::BottomNavigationBar.Resource.Styleable.PopupWindowBackgroundState = global::DepremAlarmi.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::BottomNavigationBar.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::DepremAlarmi.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::BottomNavigationBar.Resource.Styleable.RecyclerView = global::DepremAlarmi.Droid.Resource.Styleable.RecyclerView;
+			global::BottomNavigationBar.Resource.Styleable.RecyclerView_android_orientation = global::DepremAlarmi.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::BottomNavigationBar.Resource.Styleable.RecyclerView_layoutManager = global::DepremAlarmi.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::BottomNavigationBar.Resource.Styleable.RecyclerView_reverseLayout = global::DepremAlarmi.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::BottomNavigationBar.Resource.Styleable.RecyclerView_spanCount = global::DepremAlarmi.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::BottomNavigationBar.Resource.Styleable.RecyclerView_stackFromEnd = global::DepremAlarmi.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::BottomNavigationBar.Resource.Styleable.ScrimInsetsFrameLayout = global::DepremAlarmi.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::BottomNavigationBar.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::DepremAlarmi.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::BottomNavigationBar.Resource.Styleable.SearchView = global::DepremAlarmi.Droid.Resource.Styleable.SearchView;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_android_focusable = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_android_imeOptions = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_android_inputType = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_android_maxWidth = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_closeIcon = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_commitIcon = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_defaultQueryHint = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_goIcon = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_goIcon;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_iconifiedByDefault = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_layout = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_layout;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_queryBackground = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_queryHint = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_queryHint;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_searchHintIcon = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_searchIcon = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_submitBackground = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_suggestionRowLayout = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::BottomNavigationBar.Resource.Styleable.SearchView_voiceIcon = global::DepremAlarmi.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::BottomNavigationBar.Resource.Styleable.SnackbarLayout = global::DepremAlarmi.Droid.Resource.Styleable.SnackbarLayout;
+			global::BottomNavigationBar.Resource.Styleable.SnackbarLayout_android_maxWidth = global::DepremAlarmi.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::BottomNavigationBar.Resource.Styleable.SnackbarLayout_elevation = global::DepremAlarmi.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::BottomNavigationBar.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::DepremAlarmi.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::BottomNavigationBar.Resource.Styleable.Spinner = global::DepremAlarmi.Droid.Resource.Styleable.Spinner;
+			global::BottomNavigationBar.Resource.Styleable.Spinner_android_dropDownWidth = global::DepremAlarmi.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::BottomNavigationBar.Resource.Styleable.Spinner_android_entries = global::DepremAlarmi.Droid.Resource.Styleable.Spinner_android_entries;
+			global::BottomNavigationBar.Resource.Styleable.Spinner_android_popupBackground = global::DepremAlarmi.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::BottomNavigationBar.Resource.Styleable.Spinner_android_prompt = global::DepremAlarmi.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::BottomNavigationBar.Resource.Styleable.Spinner_popupTheme = global::DepremAlarmi.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat = global::DepremAlarmi.Droid.Resource.Styleable.SwitchCompat;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_android_textOff = global::DepremAlarmi.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_android_textOn = global::DepremAlarmi.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_android_thumb = global::DepremAlarmi.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_showText = global::DepremAlarmi.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_splitTrack = global::DepremAlarmi.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_switchMinWidth = global::DepremAlarmi.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_switchPadding = global::DepremAlarmi.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_switchTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_thumbTextPadding = global::DepremAlarmi.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::BottomNavigationBar.Resource.Styleable.SwitchCompat_track = global::DepremAlarmi.Droid.Resource.Styleable.SwitchCompat_track;
+			global::BottomNavigationBar.Resource.Styleable.TabItem = global::DepremAlarmi.Droid.Resource.Styleable.TabItem;
+			global::BottomNavigationBar.Resource.Styleable.TabItem_android_icon = global::DepremAlarmi.Droid.Resource.Styleable.TabItem_android_icon;
+			global::BottomNavigationBar.Resource.Styleable.TabItem_android_layout = global::DepremAlarmi.Droid.Resource.Styleable.TabItem_android_layout;
+			global::BottomNavigationBar.Resource.Styleable.TabItem_android_text = global::DepremAlarmi.Droid.Resource.Styleable.TabItem_android_text;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabBackground = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabContentStart = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabGravity = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabIndicatorColor = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabIndicatorHeight = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabMaxWidth = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabMinWidth = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabMode = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabPadding = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabPaddingBottom = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabPaddingEnd = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabPaddingStart = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabPaddingTop = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabSelectedTextColor = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.TabLayout_tabTextColor = global::DepremAlarmi.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::BottomNavigationBar.Resource.Styleable.TextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.TextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_shadowColor = global::DepremAlarmi.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_shadowDx = global::DepremAlarmi.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_shadowDy = global::DepremAlarmi.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_shadowRadius = global::DepremAlarmi.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_textColor = global::DepremAlarmi.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_textSize = global::DepremAlarmi.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_textStyle = global::DepremAlarmi.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::BottomNavigationBar.Resource.Styleable.TextAppearance_android_typeface = global::DepremAlarmi.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::BottomNavigationBar.Resource.Styleable.TextAppearance_textAllCaps = global::DepremAlarmi.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout = global::DepremAlarmi.Droid.Resource.Styleable.TextInputLayout;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_android_hint = global::DepremAlarmi.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_android_textColorHint = global::DepremAlarmi.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_counterEnabled = global::DepremAlarmi.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_counterMaxLength = global::DepremAlarmi.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_counterTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_errorEnabled = global::DepremAlarmi.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_errorTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::DepremAlarmi.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_hintEnabled = global::DepremAlarmi.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::BottomNavigationBar.Resource.Styleable.TextInputLayout_hintTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_android_gravity = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_android_minHeight = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_collapseContentDescription = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_collapseIcon = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetEnd = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetLeft = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetRight = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_contentInsetStart = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_logo = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_logo;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_logoDescription = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_maxButtonHeight = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_navigationContentDescription = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_navigationIcon = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_popupTheme = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_subtitle = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_subtitleTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_subtitleTextColor = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_title = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_title;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMarginBottom = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMarginEnd = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMarginStart = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMarginTop = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleMargins = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleTextAppearance = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::BottomNavigationBar.Resource.Styleable.Toolbar_titleTextColor = global::DepremAlarmi.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::BottomNavigationBar.Resource.Styleable.View = global::DepremAlarmi.Droid.Resource.Styleable.View;
+			global::BottomNavigationBar.Resource.Styleable.View_android_focusable = global::DepremAlarmi.Droid.Resource.Styleable.View_android_focusable;
+			global::BottomNavigationBar.Resource.Styleable.View_android_theme = global::DepremAlarmi.Droid.Resource.Styleable.View_android_theme;
+			global::BottomNavigationBar.Resource.Styleable.View_paddingEnd = global::DepremAlarmi.Droid.Resource.Styleable.View_paddingEnd;
+			global::BottomNavigationBar.Resource.Styleable.View_paddingStart = global::DepremAlarmi.Droid.Resource.Styleable.View_paddingStart;
+			global::BottomNavigationBar.Resource.Styleable.View_theme = global::DepremAlarmi.Droid.Resource.Styleable.View_theme;
+			global::BottomNavigationBar.Resource.Styleable.ViewBackgroundHelper = global::DepremAlarmi.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::BottomNavigationBar.Resource.Styleable.ViewBackgroundHelper_android_background = global::DepremAlarmi.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::BottomNavigationBar.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::DepremAlarmi.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::BottomNavigationBar.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::DepremAlarmi.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::BottomNavigationBar.Resource.Styleable.ViewStubCompat = global::DepremAlarmi.Droid.Resource.Styleable.ViewStubCompat;
+			global::BottomNavigationBar.Resource.Styleable.ViewStubCompat_android_id = global::DepremAlarmi.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::BottomNavigationBar.Resource.Styleable.ViewStubCompat_android_inflatedId = global::DepremAlarmi.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::BottomNavigationBar.Resource.Styleable.ViewStubCompat_android_layout = global::DepremAlarmi.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::DepremAlarmi.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::DepremAlarmi.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::DepremAlarmi.Droid.Resource.Attribute.font;
@@ -6923,7 +10014,10 @@ namespace DepremAlarmi.Droid
 			public const int abc_config_actionMenuItemAllCaps = 2130968578;
 			
 			// aapt resource value: 0x7F040003
-			public const int mtrl_btn_textappearance_all_caps = 2130968579;
+			public const int bb_bottom_bar_is_tablet_mode = 2130968579;
+			
+			// aapt resource value: 0x7F040004
+			public const int mtrl_btn_textappearance_all_caps = 2130968580;
 			
 			static Boolean()
 			{
@@ -7029,322 +10123,334 @@ namespace DepremAlarmi.Droid
 			public const int background_material_light = 2131034141;
 			
 			// aapt resource value: 0x7F05001E
-			public const int bright_foreground_disabled_material_dark = 2131034142;
+			public const int bb_darkBackgroundColor = 2131034142;
 			
 			// aapt resource value: 0x7F05001F
-			public const int bright_foreground_disabled_material_light = 2131034143;
+			public const int bb_inActiveBottomBarItemColor = 2131034143;
 			
 			// aapt resource value: 0x7F050020
-			public const int bright_foreground_inverse_material_dark = 2131034144;
+			public const int bb_tabletRightBorderDark = 2131034144;
 			
 			// aapt resource value: 0x7F050021
-			public const int bright_foreground_inverse_material_light = 2131034145;
+			public const int bright_foreground_disabled_material_dark = 2131034145;
 			
 			// aapt resource value: 0x7F050022
-			public const int bright_foreground_material_dark = 2131034146;
+			public const int bright_foreground_disabled_material_light = 2131034146;
 			
 			// aapt resource value: 0x7F050023
-			public const int bright_foreground_material_light = 2131034147;
+			public const int bright_foreground_inverse_material_dark = 2131034147;
 			
 			// aapt resource value: 0x7F050024
-			public const int browser_actions_bg_grey = 2131034148;
+			public const int bright_foreground_inverse_material_light = 2131034148;
 			
 			// aapt resource value: 0x7F050025
-			public const int browser_actions_divider_color = 2131034149;
+			public const int bright_foreground_material_dark = 2131034149;
 			
 			// aapt resource value: 0x7F050026
-			public const int browser_actions_text_color = 2131034150;
+			public const int bright_foreground_material_light = 2131034150;
 			
 			// aapt resource value: 0x7F050027
-			public const int browser_actions_title_color = 2131034151;
+			public const int browser_actions_bg_grey = 2131034151;
 			
 			// aapt resource value: 0x7F050028
-			public const int button_material_dark = 2131034152;
+			public const int browser_actions_divider_color = 2131034152;
 			
 			// aapt resource value: 0x7F050029
-			public const int button_material_light = 2131034153;
+			public const int browser_actions_text_color = 2131034153;
 			
 			// aapt resource value: 0x7F05002A
-			public const int cardview_dark_background = 2131034154;
+			public const int browser_actions_title_color = 2131034154;
 			
 			// aapt resource value: 0x7F05002B
-			public const int cardview_light_background = 2131034155;
+			public const int button_material_dark = 2131034155;
 			
 			// aapt resource value: 0x7F05002C
-			public const int cardview_shadow_end_color = 2131034156;
+			public const int button_material_light = 2131034156;
 			
 			// aapt resource value: 0x7F05002D
-			public const int cardview_shadow_start_color = 2131034157;
+			public const int cardview_dark_background = 2131034157;
 			
 			// aapt resource value: 0x7F05002E
-			public const int colorAccent = 2131034158;
+			public const int cardview_light_background = 2131034158;
 			
 			// aapt resource value: 0x7F05002F
-			public const int colorPrimary = 2131034159;
+			public const int cardview_shadow_end_color = 2131034159;
 			
 			// aapt resource value: 0x7F050030
-			public const int colorPrimaryDark = 2131034160;
+			public const int cardview_shadow_start_color = 2131034160;
 			
 			// aapt resource value: 0x7F050031
-			public const int design_bottom_navigation_shadow_color = 2131034161;
+			public const int colorAccent = 2131034161;
 			
 			// aapt resource value: 0x7F050032
-			public const int design_default_color_primary = 2131034162;
+			public const int colorPrimary = 2131034162;
 			
 			// aapt resource value: 0x7F050033
-			public const int design_default_color_primary_dark = 2131034163;
+			public const int colorPrimaryDark = 2131034163;
 			
 			// aapt resource value: 0x7F050034
-			public const int design_error = 2131034164;
+			public const int design_bottom_navigation_shadow_color = 2131034164;
 			
 			// aapt resource value: 0x7F050035
-			public const int design_fab_shadow_end_color = 2131034165;
+			public const int design_default_color_primary = 2131034165;
 			
 			// aapt resource value: 0x7F050036
-			public const int design_fab_shadow_mid_color = 2131034166;
+			public const int design_default_color_primary_dark = 2131034166;
 			
 			// aapt resource value: 0x7F050037
-			public const int design_fab_shadow_start_color = 2131034167;
+			public const int design_error = 2131034167;
 			
 			// aapt resource value: 0x7F050038
-			public const int design_fab_stroke_end_inner_color = 2131034168;
+			public const int design_fab_shadow_end_color = 2131034168;
 			
 			// aapt resource value: 0x7F050039
-			public const int design_fab_stroke_end_outer_color = 2131034169;
+			public const int design_fab_shadow_mid_color = 2131034169;
 			
 			// aapt resource value: 0x7F05003A
-			public const int design_fab_stroke_top_inner_color = 2131034170;
+			public const int design_fab_shadow_start_color = 2131034170;
 			
 			// aapt resource value: 0x7F05003B
-			public const int design_fab_stroke_top_outer_color = 2131034171;
+			public const int design_fab_stroke_end_inner_color = 2131034171;
 			
 			// aapt resource value: 0x7F05003C
-			public const int design_snackbar_background_color = 2131034172;
+			public const int design_fab_stroke_end_outer_color = 2131034172;
 			
 			// aapt resource value: 0x7F05003D
-			public const int design_tint_password_toggle = 2131034173;
+			public const int design_fab_stroke_top_inner_color = 2131034173;
 			
 			// aapt resource value: 0x7F05003E
-			public const int dim_foreground_disabled_material_dark = 2131034174;
+			public const int design_fab_stroke_top_outer_color = 2131034174;
 			
 			// aapt resource value: 0x7F05003F
-			public const int dim_foreground_disabled_material_light = 2131034175;
+			public const int design_snackbar_background_color = 2131034175;
 			
 			// aapt resource value: 0x7F050040
-			public const int dim_foreground_material_dark = 2131034176;
+			public const int design_tint_password_toggle = 2131034176;
 			
 			// aapt resource value: 0x7F050041
-			public const int dim_foreground_material_light = 2131034177;
+			public const int dim_foreground_disabled_material_dark = 2131034177;
 			
 			// aapt resource value: 0x7F050042
-			public const int error_color_material_dark = 2131034178;
+			public const int dim_foreground_disabled_material_light = 2131034178;
 			
 			// aapt resource value: 0x7F050043
-			public const int error_color_material_light = 2131034179;
+			public const int dim_foreground_material_dark = 2131034179;
 			
 			// aapt resource value: 0x7F050044
-			public const int foreground_material_dark = 2131034180;
+			public const int dim_foreground_material_light = 2131034180;
 			
 			// aapt resource value: 0x7F050045
-			public const int foreground_material_light = 2131034181;
+			public const int error_color_material_dark = 2131034181;
 			
 			// aapt resource value: 0x7F050046
-			public const int highlighted_text_material_dark = 2131034182;
+			public const int error_color_material_light = 2131034182;
 			
 			// aapt resource value: 0x7F050047
-			public const int highlighted_text_material_light = 2131034183;
+			public const int foreground_material_dark = 2131034183;
 			
 			// aapt resource value: 0x7F050048
-			public const int launcher_background = 2131034184;
+			public const int foreground_material_light = 2131034184;
 			
 			// aapt resource value: 0x7F050049
-			public const int material_blue_grey_800 = 2131034185;
+			public const int highlighted_text_material_dark = 2131034185;
 			
 			// aapt resource value: 0x7F05004A
-			public const int material_blue_grey_900 = 2131034186;
+			public const int highlighted_text_material_light = 2131034186;
 			
 			// aapt resource value: 0x7F05004B
-			public const int material_blue_grey_950 = 2131034187;
+			public const int launcher_background = 2131034187;
 			
 			// aapt resource value: 0x7F05004C
-			public const int material_deep_teal_200 = 2131034188;
+			public const int material_blue_grey_800 = 2131034188;
 			
 			// aapt resource value: 0x7F05004D
-			public const int material_deep_teal_500 = 2131034189;
+			public const int material_blue_grey_900 = 2131034189;
 			
 			// aapt resource value: 0x7F05004E
-			public const int material_grey_100 = 2131034190;
+			public const int material_blue_grey_950 = 2131034190;
 			
 			// aapt resource value: 0x7F05004F
-			public const int material_grey_300 = 2131034191;
+			public const int material_deep_teal_200 = 2131034191;
 			
 			// aapt resource value: 0x7F050050
-			public const int material_grey_50 = 2131034192;
+			public const int material_deep_teal_500 = 2131034192;
 			
 			// aapt resource value: 0x7F050051
-			public const int material_grey_600 = 2131034193;
+			public const int material_grey_100 = 2131034193;
 			
 			// aapt resource value: 0x7F050052
-			public const int material_grey_800 = 2131034194;
+			public const int material_grey_300 = 2131034194;
 			
 			// aapt resource value: 0x7F050053
-			public const int material_grey_850 = 2131034195;
+			public const int material_grey_50 = 2131034195;
 			
 			// aapt resource value: 0x7F050054
-			public const int material_grey_900 = 2131034196;
+			public const int material_grey_600 = 2131034196;
 			
 			// aapt resource value: 0x7F050055
-			public const int mtrl_bottom_nav_colored_item_tint = 2131034197;
+			public const int material_grey_800 = 2131034197;
 			
 			// aapt resource value: 0x7F050056
-			public const int mtrl_bottom_nav_item_tint = 2131034198;
+			public const int material_grey_850 = 2131034198;
 			
 			// aapt resource value: 0x7F050057
-			public const int mtrl_btn_bg_color_disabled = 2131034199;
+			public const int material_grey_900 = 2131034199;
 			
 			// aapt resource value: 0x7F050058
-			public const int mtrl_btn_bg_color_selector = 2131034200;
+			public const int mtrl_bottom_nav_colored_item_tint = 2131034200;
 			
 			// aapt resource value: 0x7F050059
-			public const int mtrl_btn_ripple_color = 2131034201;
+			public const int mtrl_bottom_nav_item_tint = 2131034201;
 			
 			// aapt resource value: 0x7F05005A
-			public const int mtrl_btn_stroke_color_selector = 2131034202;
+			public const int mtrl_btn_bg_color_disabled = 2131034202;
 			
 			// aapt resource value: 0x7F05005B
-			public const int mtrl_btn_text_btn_ripple_color = 2131034203;
+			public const int mtrl_btn_bg_color_selector = 2131034203;
 			
 			// aapt resource value: 0x7F05005C
-			public const int mtrl_btn_text_color_disabled = 2131034204;
+			public const int mtrl_btn_ripple_color = 2131034204;
 			
 			// aapt resource value: 0x7F05005D
-			public const int mtrl_btn_text_color_selector = 2131034205;
+			public const int mtrl_btn_stroke_color_selector = 2131034205;
 			
 			// aapt resource value: 0x7F05005E
-			public const int mtrl_btn_transparent_bg_color = 2131034206;
+			public const int mtrl_btn_text_btn_ripple_color = 2131034206;
 			
 			// aapt resource value: 0x7F05005F
-			public const int mtrl_chip_background_color = 2131034207;
+			public const int mtrl_btn_text_color_disabled = 2131034207;
 			
 			// aapt resource value: 0x7F050060
-			public const int mtrl_chip_close_icon_tint = 2131034208;
+			public const int mtrl_btn_text_color_selector = 2131034208;
 			
 			// aapt resource value: 0x7F050061
-			public const int mtrl_chip_ripple_color = 2131034209;
+			public const int mtrl_btn_transparent_bg_color = 2131034209;
 			
 			// aapt resource value: 0x7F050062
-			public const int mtrl_chip_text_color = 2131034210;
+			public const int mtrl_chip_background_color = 2131034210;
 			
 			// aapt resource value: 0x7F050063
-			public const int mtrl_fab_ripple_color = 2131034211;
+			public const int mtrl_chip_close_icon_tint = 2131034211;
 			
 			// aapt resource value: 0x7F050064
-			public const int mtrl_scrim_color = 2131034212;
+			public const int mtrl_chip_ripple_color = 2131034212;
 			
 			// aapt resource value: 0x7F050065
-			public const int mtrl_tabs_colored_ripple_color = 2131034213;
+			public const int mtrl_chip_text_color = 2131034213;
 			
 			// aapt resource value: 0x7F050066
-			public const int mtrl_tabs_icon_color_selector = 2131034214;
+			public const int mtrl_fab_ripple_color = 2131034214;
 			
 			// aapt resource value: 0x7F050067
-			public const int mtrl_tabs_icon_color_selector_colored = 2131034215;
+			public const int mtrl_scrim_color = 2131034215;
 			
 			// aapt resource value: 0x7F050068
-			public const int mtrl_tabs_legacy_text_color_selector = 2131034216;
+			public const int mtrl_tabs_colored_ripple_color = 2131034216;
 			
 			// aapt resource value: 0x7F050069
-			public const int mtrl_tabs_ripple_color = 2131034217;
-			
-			// aapt resource value: 0x7F05006B
-			public const int mtrl_textinput_default_box_stroke_color = 2131034219;
-			
-			// aapt resource value: 0x7F05006C
-			public const int mtrl_textinput_disabled_color = 2131034220;
-			
-			// aapt resource value: 0x7F05006D
-			public const int mtrl_textinput_filled_box_default_background_color = 2131034221;
-			
-			// aapt resource value: 0x7F05006E
-			public const int mtrl_textinput_hovered_box_stroke_color = 2131034222;
+			public const int mtrl_tabs_icon_color_selector = 2131034217;
 			
 			// aapt resource value: 0x7F05006A
-			public const int mtrl_text_btn_text_color_selector = 2131034218;
+			public const int mtrl_tabs_icon_color_selector_colored = 2131034218;
+			
+			// aapt resource value: 0x7F05006B
+			public const int mtrl_tabs_legacy_text_color_selector = 2131034219;
+			
+			// aapt resource value: 0x7F05006C
+			public const int mtrl_tabs_ripple_color = 2131034220;
+			
+			// aapt resource value: 0x7F05006E
+			public const int mtrl_textinput_default_box_stroke_color = 2131034222;
 			
 			// aapt resource value: 0x7F05006F
-			public const int notification_action_color_filter = 2131034223;
+			public const int mtrl_textinput_disabled_color = 2131034223;
 			
 			// aapt resource value: 0x7F050070
-			public const int notification_icon_bg_color = 2131034224;
+			public const int mtrl_textinput_filled_box_default_background_color = 2131034224;
 			
 			// aapt resource value: 0x7F050071
-			public const int notification_material_background_media_default_color = 2131034225;
+			public const int mtrl_textinput_hovered_box_stroke_color = 2131034225;
+			
+			// aapt resource value: 0x7F05006D
+			public const int mtrl_text_btn_text_color_selector = 2131034221;
 			
 			// aapt resource value: 0x7F050072
-			public const int primary_dark_material_dark = 2131034226;
+			public const int notification_action_color_filter = 2131034226;
 			
 			// aapt resource value: 0x7F050073
-			public const int primary_dark_material_light = 2131034227;
+			public const int notification_icon_bg_color = 2131034227;
 			
 			// aapt resource value: 0x7F050074
-			public const int primary_material_dark = 2131034228;
+			public const int notification_material_background_media_default_color = 2131034228;
 			
 			// aapt resource value: 0x7F050075
-			public const int primary_material_light = 2131034229;
+			public const int primary_dark_material_dark = 2131034229;
 			
 			// aapt resource value: 0x7F050076
-			public const int primary_text_default_material_dark = 2131034230;
+			public const int primary_dark_material_light = 2131034230;
 			
 			// aapt resource value: 0x7F050077
-			public const int primary_text_default_material_light = 2131034231;
+			public const int primary_material_dark = 2131034231;
 			
 			// aapt resource value: 0x7F050078
-			public const int primary_text_disabled_material_dark = 2131034232;
+			public const int primary_material_light = 2131034232;
 			
 			// aapt resource value: 0x7F050079
-			public const int primary_text_disabled_material_light = 2131034233;
+			public const int primary_text_default_material_dark = 2131034233;
 			
 			// aapt resource value: 0x7F05007A
-			public const int ripple_material_dark = 2131034234;
+			public const int primary_text_default_material_light = 2131034234;
 			
 			// aapt resource value: 0x7F05007B
-			public const int ripple_material_light = 2131034235;
+			public const int primary_text_disabled_material_dark = 2131034235;
 			
 			// aapt resource value: 0x7F05007C
-			public const int secondary_text_default_material_dark = 2131034236;
+			public const int primary_text_disabled_material_light = 2131034236;
 			
 			// aapt resource value: 0x7F05007D
-			public const int secondary_text_default_material_light = 2131034237;
+			public const int ripple_material_dark = 2131034237;
 			
 			// aapt resource value: 0x7F05007E
-			public const int secondary_text_disabled_material_dark = 2131034238;
+			public const int ripple_material_light = 2131034238;
 			
 			// aapt resource value: 0x7F05007F
-			public const int secondary_text_disabled_material_light = 2131034239;
+			public const int secondary_text_default_material_dark = 2131034239;
 			
 			// aapt resource value: 0x7F050080
-			public const int switch_thumb_disabled_material_dark = 2131034240;
+			public const int secondary_text_default_material_light = 2131034240;
 			
 			// aapt resource value: 0x7F050081
-			public const int switch_thumb_disabled_material_light = 2131034241;
+			public const int secondary_text_disabled_material_dark = 2131034241;
 			
 			// aapt resource value: 0x7F050082
-			public const int switch_thumb_material_dark = 2131034242;
+			public const int secondary_text_disabled_material_light = 2131034242;
 			
 			// aapt resource value: 0x7F050083
-			public const int switch_thumb_material_light = 2131034243;
+			public const int switch_thumb_disabled_material_dark = 2131034243;
 			
 			// aapt resource value: 0x7F050084
-			public const int switch_thumb_normal_material_dark = 2131034244;
+			public const int switch_thumb_disabled_material_light = 2131034244;
 			
 			// aapt resource value: 0x7F050085
-			public const int switch_thumb_normal_material_light = 2131034245;
+			public const int switch_thumb_material_dark = 2131034245;
 			
 			// aapt resource value: 0x7F050086
-			public const int tooltip_background_dark = 2131034246;
+			public const int switch_thumb_material_light = 2131034246;
 			
 			// aapt resource value: 0x7F050087
-			public const int tooltip_background_light = 2131034247;
+			public const int switch_thumb_normal_material_dark = 2131034247;
+			
+			// aapt resource value: 0x7F050088
+			public const int switch_thumb_normal_material_light = 2131034248;
+			
+			// aapt resource value: 0x7F050089
+			public const int tooltip_background_dark = 2131034249;
+			
+			// aapt resource value: 0x7F05008A
+			public const int tooltip_background_light = 2131034250;
+			
+			// aapt resource value: 0x7F05008B
+			public const int white = 2131034251;
 			
 			static Color()
 			{
@@ -7585,442 +10691,454 @@ namespace DepremAlarmi.Droid
 			public const int abc_text_size_title_material_toolbar = 2131099722;
 			
 			// aapt resource value: 0x7F06004B
-			public const int browser_actions_context_menu_max_width = 2131099723;
+			public const int activity_horizontal_margin = 2131099723;
 			
 			// aapt resource value: 0x7F06004C
-			public const int browser_actions_context_menu_min_padding = 2131099724;
+			public const int activity_vertical_margin = 2131099724;
 			
 			// aapt resource value: 0x7F06004D
-			public const int cardview_compat_inset_shadow = 2131099725;
+			public const int bb_height = 2131099725;
 			
 			// aapt resource value: 0x7F06004E
-			public const int cardview_default_elevation = 2131099726;
+			public const int bottom_bar_elevation = 2131099726;
 			
 			// aapt resource value: 0x7F06004F
-			public const int cardview_default_radius = 2131099727;
+			public const int browser_actions_context_menu_max_width = 2131099727;
 			
 			// aapt resource value: 0x7F060050
-			public const int compat_button_inset_horizontal_material = 2131099728;
+			public const int browser_actions_context_menu_min_padding = 2131099728;
 			
 			// aapt resource value: 0x7F060051
-			public const int compat_button_inset_vertical_material = 2131099729;
+			public const int cardview_compat_inset_shadow = 2131099729;
 			
 			// aapt resource value: 0x7F060052
-			public const int compat_button_padding_horizontal_material = 2131099730;
+			public const int cardview_default_elevation = 2131099730;
 			
 			// aapt resource value: 0x7F060053
-			public const int compat_button_padding_vertical_material = 2131099731;
+			public const int cardview_default_radius = 2131099731;
 			
 			// aapt resource value: 0x7F060054
-			public const int compat_control_corner_material = 2131099732;
+			public const int compat_button_inset_horizontal_material = 2131099732;
 			
 			// aapt resource value: 0x7F060055
-			public const int compat_notification_large_icon_max_height = 2131099733;
+			public const int compat_button_inset_vertical_material = 2131099733;
 			
 			// aapt resource value: 0x7F060056
-			public const int compat_notification_large_icon_max_width = 2131099734;
+			public const int compat_button_padding_horizontal_material = 2131099734;
 			
 			// aapt resource value: 0x7F060057
-			public const int design_appbar_elevation = 2131099735;
+			public const int compat_button_padding_vertical_material = 2131099735;
 			
 			// aapt resource value: 0x7F060058
-			public const int design_bottom_navigation_active_item_max_width = 2131099736;
+			public const int compat_control_corner_material = 2131099736;
 			
 			// aapt resource value: 0x7F060059
-			public const int design_bottom_navigation_active_item_min_width = 2131099737;
+			public const int compat_notification_large_icon_max_height = 2131099737;
 			
 			// aapt resource value: 0x7F06005A
-			public const int design_bottom_navigation_active_text_size = 2131099738;
+			public const int compat_notification_large_icon_max_width = 2131099738;
 			
 			// aapt resource value: 0x7F06005B
-			public const int design_bottom_navigation_elevation = 2131099739;
+			public const int design_appbar_elevation = 2131099739;
 			
 			// aapt resource value: 0x7F06005C
-			public const int design_bottom_navigation_height = 2131099740;
+			public const int design_bottom_navigation_active_item_max_width = 2131099740;
 			
 			// aapt resource value: 0x7F06005D
-			public const int design_bottom_navigation_icon_size = 2131099741;
+			public const int design_bottom_navigation_active_item_min_width = 2131099741;
 			
 			// aapt resource value: 0x7F06005E
-			public const int design_bottom_navigation_item_max_width = 2131099742;
+			public const int design_bottom_navigation_active_text_size = 2131099742;
 			
 			// aapt resource value: 0x7F06005F
-			public const int design_bottom_navigation_item_min_width = 2131099743;
+			public const int design_bottom_navigation_elevation = 2131099743;
 			
 			// aapt resource value: 0x7F060060
-			public const int design_bottom_navigation_margin = 2131099744;
+			public const int design_bottom_navigation_height = 2131099744;
 			
 			// aapt resource value: 0x7F060061
-			public const int design_bottom_navigation_shadow_height = 2131099745;
+			public const int design_bottom_navigation_icon_size = 2131099745;
 			
 			// aapt resource value: 0x7F060062
-			public const int design_bottom_navigation_text_size = 2131099746;
+			public const int design_bottom_navigation_item_max_width = 2131099746;
 			
 			// aapt resource value: 0x7F060063
-			public const int design_bottom_sheet_modal_elevation = 2131099747;
+			public const int design_bottom_navigation_item_min_width = 2131099747;
 			
 			// aapt resource value: 0x7F060064
-			public const int design_bottom_sheet_peek_height_min = 2131099748;
+			public const int design_bottom_navigation_margin = 2131099748;
 			
 			// aapt resource value: 0x7F060065
-			public const int design_fab_border_width = 2131099749;
+			public const int design_bottom_navigation_shadow_height = 2131099749;
 			
 			// aapt resource value: 0x7F060066
-			public const int design_fab_elevation = 2131099750;
+			public const int design_bottom_navigation_text_size = 2131099750;
 			
 			// aapt resource value: 0x7F060067
-			public const int design_fab_image_size = 2131099751;
+			public const int design_bottom_sheet_modal_elevation = 2131099751;
 			
 			// aapt resource value: 0x7F060068
-			public const int design_fab_size_mini = 2131099752;
+			public const int design_bottom_sheet_peek_height_min = 2131099752;
 			
 			// aapt resource value: 0x7F060069
-			public const int design_fab_size_normal = 2131099753;
+			public const int design_fab_border_width = 2131099753;
 			
 			// aapt resource value: 0x7F06006A
-			public const int design_fab_translation_z_hovered_focused = 2131099754;
+			public const int design_fab_elevation = 2131099754;
 			
 			// aapt resource value: 0x7F06006B
-			public const int design_fab_translation_z_pressed = 2131099755;
+			public const int design_fab_image_size = 2131099755;
 			
 			// aapt resource value: 0x7F06006C
-			public const int design_navigation_elevation = 2131099756;
+			public const int design_fab_size_mini = 2131099756;
 			
 			// aapt resource value: 0x7F06006D
-			public const int design_navigation_icon_padding = 2131099757;
+			public const int design_fab_size_normal = 2131099757;
 			
 			// aapt resource value: 0x7F06006E
-			public const int design_navigation_icon_size = 2131099758;
+			public const int design_fab_translation_z_hovered_focused = 2131099758;
 			
 			// aapt resource value: 0x7F06006F
-			public const int design_navigation_item_horizontal_padding = 2131099759;
+			public const int design_fab_translation_z_pressed = 2131099759;
 			
 			// aapt resource value: 0x7F060070
-			public const int design_navigation_item_icon_padding = 2131099760;
+			public const int design_navigation_elevation = 2131099760;
 			
 			// aapt resource value: 0x7F060071
-			public const int design_navigation_max_width = 2131099761;
+			public const int design_navigation_icon_padding = 2131099761;
 			
 			// aapt resource value: 0x7F060072
-			public const int design_navigation_padding_bottom = 2131099762;
+			public const int design_navigation_icon_size = 2131099762;
 			
 			// aapt resource value: 0x7F060073
-			public const int design_navigation_separator_vertical_padding = 2131099763;
+			public const int design_navigation_item_horizontal_padding = 2131099763;
 			
 			// aapt resource value: 0x7F060074
-			public const int design_snackbar_action_inline_max_width = 2131099764;
+			public const int design_navigation_item_icon_padding = 2131099764;
 			
 			// aapt resource value: 0x7F060075
-			public const int design_snackbar_background_corner_radius = 2131099765;
+			public const int design_navigation_max_width = 2131099765;
 			
 			// aapt resource value: 0x7F060076
-			public const int design_snackbar_elevation = 2131099766;
+			public const int design_navigation_padding_bottom = 2131099766;
 			
 			// aapt resource value: 0x7F060077
-			public const int design_snackbar_extra_spacing_horizontal = 2131099767;
+			public const int design_navigation_separator_vertical_padding = 2131099767;
 			
 			// aapt resource value: 0x7F060078
-			public const int design_snackbar_max_width = 2131099768;
+			public const int design_snackbar_action_inline_max_width = 2131099768;
 			
 			// aapt resource value: 0x7F060079
-			public const int design_snackbar_min_width = 2131099769;
+			public const int design_snackbar_background_corner_radius = 2131099769;
 			
 			// aapt resource value: 0x7F06007A
-			public const int design_snackbar_padding_horizontal = 2131099770;
+			public const int design_snackbar_elevation = 2131099770;
 			
 			// aapt resource value: 0x7F06007B
-			public const int design_snackbar_padding_vertical = 2131099771;
+			public const int design_snackbar_extra_spacing_horizontal = 2131099771;
 			
 			// aapt resource value: 0x7F06007C
-			public const int design_snackbar_padding_vertical_2lines = 2131099772;
+			public const int design_snackbar_max_width = 2131099772;
 			
 			// aapt resource value: 0x7F06007D
-			public const int design_snackbar_text_size = 2131099773;
+			public const int design_snackbar_min_width = 2131099773;
 			
 			// aapt resource value: 0x7F06007E
-			public const int design_tab_max_width = 2131099774;
+			public const int design_snackbar_padding_horizontal = 2131099774;
 			
 			// aapt resource value: 0x7F06007F
-			public const int design_tab_scrollable_min_width = 2131099775;
+			public const int design_snackbar_padding_vertical = 2131099775;
 			
 			// aapt resource value: 0x7F060080
-			public const int design_tab_text_size = 2131099776;
+			public const int design_snackbar_padding_vertical_2lines = 2131099776;
 			
 			// aapt resource value: 0x7F060081
-			public const int design_tab_text_size_2line = 2131099777;
+			public const int design_snackbar_text_size = 2131099777;
 			
 			// aapt resource value: 0x7F060082
-			public const int design_textinput_caption_translate_y = 2131099778;
+			public const int design_tab_max_width = 2131099778;
 			
 			// aapt resource value: 0x7F060083
-			public const int disabled_alpha_material_dark = 2131099779;
+			public const int design_tab_scrollable_min_width = 2131099779;
 			
 			// aapt resource value: 0x7F060084
-			public const int disabled_alpha_material_light = 2131099780;
+			public const int design_tab_text_size = 2131099780;
 			
 			// aapt resource value: 0x7F060085
-			public const int fastscroll_default_thickness = 2131099781;
+			public const int design_tab_text_size_2line = 2131099781;
 			
 			// aapt resource value: 0x7F060086
-			public const int fastscroll_margin = 2131099782;
+			public const int design_textinput_caption_translate_y = 2131099782;
 			
 			// aapt resource value: 0x7F060087
-			public const int fastscroll_minimum_range = 2131099783;
+			public const int disabled_alpha_material_dark = 2131099783;
 			
 			// aapt resource value: 0x7F060088
-			public const int highlight_alpha_material_colored = 2131099784;
+			public const int disabled_alpha_material_light = 2131099784;
 			
 			// aapt resource value: 0x7F060089
-			public const int highlight_alpha_material_dark = 2131099785;
+			public const int fastscroll_default_thickness = 2131099785;
 			
 			// aapt resource value: 0x7F06008A
-			public const int highlight_alpha_material_light = 2131099786;
+			public const int fastscroll_margin = 2131099786;
 			
 			// aapt resource value: 0x7F06008B
-			public const int hint_alpha_material_dark = 2131099787;
+			public const int fastscroll_minimum_range = 2131099787;
 			
 			// aapt resource value: 0x7F06008C
-			public const int hint_alpha_material_light = 2131099788;
+			public const int highlight_alpha_material_colored = 2131099788;
 			
 			// aapt resource value: 0x7F06008D
-			public const int hint_pressed_alpha_material_dark = 2131099789;
+			public const int highlight_alpha_material_dark = 2131099789;
 			
 			// aapt resource value: 0x7F06008E
-			public const int hint_pressed_alpha_material_light = 2131099790;
+			public const int highlight_alpha_material_light = 2131099790;
 			
 			// aapt resource value: 0x7F06008F
-			public const int item_touch_helper_max_drag_scroll_per_frame = 2131099791;
+			public const int hint_alpha_material_dark = 2131099791;
 			
 			// aapt resource value: 0x7F060090
-			public const int item_touch_helper_swipe_escape_max_velocity = 2131099792;
+			public const int hint_alpha_material_light = 2131099792;
 			
 			// aapt resource value: 0x7F060091
-			public const int item_touch_helper_swipe_escape_velocity = 2131099793;
+			public const int hint_pressed_alpha_material_dark = 2131099793;
 			
 			// aapt resource value: 0x7F060092
-			public const int mtrl_bottomappbar_fabOffsetEndMode = 2131099794;
+			public const int hint_pressed_alpha_material_light = 2131099794;
 			
 			// aapt resource value: 0x7F060093
-			public const int mtrl_bottomappbar_fab_cradle_margin = 2131099795;
+			public const int item_touch_helper_max_drag_scroll_per_frame = 2131099795;
 			
 			// aapt resource value: 0x7F060094
-			public const int mtrl_bottomappbar_fab_cradle_rounded_corner_radius = 2131099796;
+			public const int item_touch_helper_swipe_escape_max_velocity = 2131099796;
 			
 			// aapt resource value: 0x7F060095
-			public const int mtrl_bottomappbar_fab_cradle_vertical_offset = 2131099797;
+			public const int item_touch_helper_swipe_escape_velocity = 2131099797;
 			
 			// aapt resource value: 0x7F060096
-			public const int mtrl_bottomappbar_height = 2131099798;
+			public const int mtrl_bottomappbar_fabOffsetEndMode = 2131099798;
 			
 			// aapt resource value: 0x7F060097
-			public const int mtrl_btn_corner_radius = 2131099799;
+			public const int mtrl_bottomappbar_fab_cradle_margin = 2131099799;
 			
 			// aapt resource value: 0x7F060098
-			public const int mtrl_btn_dialog_btn_min_width = 2131099800;
+			public const int mtrl_bottomappbar_fab_cradle_rounded_corner_radius = 2131099800;
 			
 			// aapt resource value: 0x7F060099
-			public const int mtrl_btn_disabled_elevation = 2131099801;
+			public const int mtrl_bottomappbar_fab_cradle_vertical_offset = 2131099801;
 			
 			// aapt resource value: 0x7F06009A
-			public const int mtrl_btn_disabled_z = 2131099802;
+			public const int mtrl_bottomappbar_height = 2131099802;
 			
 			// aapt resource value: 0x7F06009B
-			public const int mtrl_btn_elevation = 2131099803;
+			public const int mtrl_btn_corner_radius = 2131099803;
 			
 			// aapt resource value: 0x7F06009C
-			public const int mtrl_btn_focused_z = 2131099804;
+			public const int mtrl_btn_dialog_btn_min_width = 2131099804;
 			
 			// aapt resource value: 0x7F06009D
-			public const int mtrl_btn_hovered_z = 2131099805;
+			public const int mtrl_btn_disabled_elevation = 2131099805;
 			
 			// aapt resource value: 0x7F06009E
-			public const int mtrl_btn_icon_btn_padding_left = 2131099806;
+			public const int mtrl_btn_disabled_z = 2131099806;
 			
 			// aapt resource value: 0x7F06009F
-			public const int mtrl_btn_icon_padding = 2131099807;
+			public const int mtrl_btn_elevation = 2131099807;
 			
 			// aapt resource value: 0x7F0600A0
-			public const int mtrl_btn_inset = 2131099808;
+			public const int mtrl_btn_focused_z = 2131099808;
 			
 			// aapt resource value: 0x7F0600A1
-			public const int mtrl_btn_letter_spacing = 2131099809;
+			public const int mtrl_btn_hovered_z = 2131099809;
 			
 			// aapt resource value: 0x7F0600A2
-			public const int mtrl_btn_padding_bottom = 2131099810;
+			public const int mtrl_btn_icon_btn_padding_left = 2131099810;
 			
 			// aapt resource value: 0x7F0600A3
-			public const int mtrl_btn_padding_left = 2131099811;
+			public const int mtrl_btn_icon_padding = 2131099811;
 			
 			// aapt resource value: 0x7F0600A4
-			public const int mtrl_btn_padding_right = 2131099812;
+			public const int mtrl_btn_inset = 2131099812;
 			
 			// aapt resource value: 0x7F0600A5
-			public const int mtrl_btn_padding_top = 2131099813;
+			public const int mtrl_btn_letter_spacing = 2131099813;
 			
 			// aapt resource value: 0x7F0600A6
-			public const int mtrl_btn_pressed_z = 2131099814;
+			public const int mtrl_btn_padding_bottom = 2131099814;
 			
 			// aapt resource value: 0x7F0600A7
-			public const int mtrl_btn_stroke_size = 2131099815;
+			public const int mtrl_btn_padding_left = 2131099815;
 			
 			// aapt resource value: 0x7F0600A8
-			public const int mtrl_btn_text_btn_icon_padding = 2131099816;
+			public const int mtrl_btn_padding_right = 2131099816;
 			
 			// aapt resource value: 0x7F0600A9
-			public const int mtrl_btn_text_btn_padding_left = 2131099817;
+			public const int mtrl_btn_padding_top = 2131099817;
 			
 			// aapt resource value: 0x7F0600AA
-			public const int mtrl_btn_text_btn_padding_right = 2131099818;
+			public const int mtrl_btn_pressed_z = 2131099818;
 			
 			// aapt resource value: 0x7F0600AB
-			public const int mtrl_btn_text_size = 2131099819;
+			public const int mtrl_btn_stroke_size = 2131099819;
 			
 			// aapt resource value: 0x7F0600AC
-			public const int mtrl_btn_z = 2131099820;
+			public const int mtrl_btn_text_btn_icon_padding = 2131099820;
 			
 			// aapt resource value: 0x7F0600AD
-			public const int mtrl_card_elevation = 2131099821;
+			public const int mtrl_btn_text_btn_padding_left = 2131099821;
 			
 			// aapt resource value: 0x7F0600AE
-			public const int mtrl_card_spacing = 2131099822;
+			public const int mtrl_btn_text_btn_padding_right = 2131099822;
 			
 			// aapt resource value: 0x7F0600AF
-			public const int mtrl_chip_pressed_translation_z = 2131099823;
+			public const int mtrl_btn_text_size = 2131099823;
 			
 			// aapt resource value: 0x7F0600B0
-			public const int mtrl_chip_text_size = 2131099824;
+			public const int mtrl_btn_z = 2131099824;
 			
 			// aapt resource value: 0x7F0600B1
-			public const int mtrl_fab_elevation = 2131099825;
+			public const int mtrl_card_elevation = 2131099825;
 			
 			// aapt resource value: 0x7F0600B2
-			public const int mtrl_fab_translation_z_hovered_focused = 2131099826;
+			public const int mtrl_card_spacing = 2131099826;
 			
 			// aapt resource value: 0x7F0600B3
-			public const int mtrl_fab_translation_z_pressed = 2131099827;
+			public const int mtrl_chip_pressed_translation_z = 2131099827;
 			
 			// aapt resource value: 0x7F0600B4
-			public const int mtrl_navigation_elevation = 2131099828;
+			public const int mtrl_chip_text_size = 2131099828;
 			
 			// aapt resource value: 0x7F0600B5
-			public const int mtrl_navigation_item_horizontal_padding = 2131099829;
+			public const int mtrl_fab_elevation = 2131099829;
 			
 			// aapt resource value: 0x7F0600B6
-			public const int mtrl_navigation_item_icon_padding = 2131099830;
+			public const int mtrl_fab_translation_z_hovered_focused = 2131099830;
 			
 			// aapt resource value: 0x7F0600B7
-			public const int mtrl_snackbar_background_corner_radius = 2131099831;
+			public const int mtrl_fab_translation_z_pressed = 2131099831;
 			
 			// aapt resource value: 0x7F0600B8
-			public const int mtrl_snackbar_margin = 2131099832;
+			public const int mtrl_navigation_elevation = 2131099832;
 			
 			// aapt resource value: 0x7F0600B9
-			public const int mtrl_textinput_box_bottom_offset = 2131099833;
+			public const int mtrl_navigation_item_horizontal_padding = 2131099833;
 			
 			// aapt resource value: 0x7F0600BA
-			public const int mtrl_textinput_box_corner_radius_medium = 2131099834;
+			public const int mtrl_navigation_item_icon_padding = 2131099834;
 			
 			// aapt resource value: 0x7F0600BB
-			public const int mtrl_textinput_box_corner_radius_small = 2131099835;
+			public const int mtrl_snackbar_background_corner_radius = 2131099835;
 			
 			// aapt resource value: 0x7F0600BC
-			public const int mtrl_textinput_box_label_cutout_padding = 2131099836;
+			public const int mtrl_snackbar_margin = 2131099836;
 			
 			// aapt resource value: 0x7F0600BD
-			public const int mtrl_textinput_box_padding_end = 2131099837;
+			public const int mtrl_textinput_box_bottom_offset = 2131099837;
 			
 			// aapt resource value: 0x7F0600BE
-			public const int mtrl_textinput_box_stroke_width_default = 2131099838;
+			public const int mtrl_textinput_box_corner_radius_medium = 2131099838;
 			
 			// aapt resource value: 0x7F0600BF
-			public const int mtrl_textinput_box_stroke_width_focused = 2131099839;
+			public const int mtrl_textinput_box_corner_radius_small = 2131099839;
 			
 			// aapt resource value: 0x7F0600C0
-			public const int mtrl_textinput_outline_box_expanded_padding = 2131099840;
+			public const int mtrl_textinput_box_label_cutout_padding = 2131099840;
 			
 			// aapt resource value: 0x7F0600C1
-			public const int mtrl_toolbar_default_height = 2131099841;
+			public const int mtrl_textinput_box_padding_end = 2131099841;
 			
 			// aapt resource value: 0x7F0600C2
-			public const int notification_action_icon_size = 2131099842;
+			public const int mtrl_textinput_box_stroke_width_default = 2131099842;
 			
 			// aapt resource value: 0x7F0600C3
-			public const int notification_action_text_size = 2131099843;
+			public const int mtrl_textinput_box_stroke_width_focused = 2131099843;
 			
 			// aapt resource value: 0x7F0600C4
-			public const int notification_big_circle_margin = 2131099844;
+			public const int mtrl_textinput_outline_box_expanded_padding = 2131099844;
 			
 			// aapt resource value: 0x7F0600C5
-			public const int notification_content_margin_start = 2131099845;
+			public const int mtrl_toolbar_default_height = 2131099845;
 			
 			// aapt resource value: 0x7F0600C6
-			public const int notification_large_icon_height = 2131099846;
+			public const int notification_action_icon_size = 2131099846;
 			
 			// aapt resource value: 0x7F0600C7
-			public const int notification_large_icon_width = 2131099847;
+			public const int notification_action_text_size = 2131099847;
 			
 			// aapt resource value: 0x7F0600C8
-			public const int notification_main_column_padding_top = 2131099848;
+			public const int notification_big_circle_margin = 2131099848;
 			
 			// aapt resource value: 0x7F0600C9
-			public const int notification_media_narrow_margin = 2131099849;
+			public const int notification_content_margin_start = 2131099849;
 			
 			// aapt resource value: 0x7F0600CA
-			public const int notification_right_icon_size = 2131099850;
+			public const int notification_large_icon_height = 2131099850;
 			
 			// aapt resource value: 0x7F0600CB
-			public const int notification_right_side_padding_top = 2131099851;
+			public const int notification_large_icon_width = 2131099851;
 			
 			// aapt resource value: 0x7F0600CC
-			public const int notification_small_icon_background_padding = 2131099852;
+			public const int notification_main_column_padding_top = 2131099852;
 			
 			// aapt resource value: 0x7F0600CD
-			public const int notification_small_icon_size_as_large = 2131099853;
+			public const int notification_media_narrow_margin = 2131099853;
 			
 			// aapt resource value: 0x7F0600CE
-			public const int notification_subtext_size = 2131099854;
+			public const int notification_right_icon_size = 2131099854;
 			
 			// aapt resource value: 0x7F0600CF
-			public const int notification_top_pad = 2131099855;
+			public const int notification_right_side_padding_top = 2131099855;
 			
 			// aapt resource value: 0x7F0600D0
-			public const int notification_top_pad_large_text = 2131099856;
+			public const int notification_small_icon_background_padding = 2131099856;
 			
 			// aapt resource value: 0x7F0600D1
-			public const int subtitle_corner_radius = 2131099857;
+			public const int notification_small_icon_size_as_large = 2131099857;
 			
 			// aapt resource value: 0x7F0600D2
-			public const int subtitle_outline_width = 2131099858;
+			public const int notification_subtext_size = 2131099858;
 			
 			// aapt resource value: 0x7F0600D3
-			public const int subtitle_shadow_offset = 2131099859;
+			public const int notification_top_pad = 2131099859;
 			
 			// aapt resource value: 0x7F0600D4
-			public const int subtitle_shadow_radius = 2131099860;
+			public const int notification_top_pad_large_text = 2131099860;
 			
 			// aapt resource value: 0x7F0600D5
-			public const int tooltip_corner_radius = 2131099861;
+			public const int subtitle_corner_radius = 2131099861;
 			
 			// aapt resource value: 0x7F0600D6
-			public const int tooltip_horizontal_padding = 2131099862;
+			public const int subtitle_outline_width = 2131099862;
 			
 			// aapt resource value: 0x7F0600D7
-			public const int tooltip_margin = 2131099863;
+			public const int subtitle_shadow_offset = 2131099863;
 			
 			// aapt resource value: 0x7F0600D8
-			public const int tooltip_precise_anchor_extra_offset = 2131099864;
+			public const int subtitle_shadow_radius = 2131099864;
 			
 			// aapt resource value: 0x7F0600D9
-			public const int tooltip_precise_anchor_threshold = 2131099865;
+			public const int tooltip_corner_radius = 2131099865;
 			
 			// aapt resource value: 0x7F0600DA
-			public const int tooltip_vertical_padding = 2131099866;
+			public const int tooltip_horizontal_padding = 2131099866;
 			
 			// aapt resource value: 0x7F0600DB
-			public const int tooltip_y_offset_non_touch = 2131099867;
+			public const int tooltip_margin = 2131099867;
 			
 			// aapt resource value: 0x7F0600DC
-			public const int tooltip_y_offset_touch = 2131099868;
+			public const int tooltip_precise_anchor_extra_offset = 2131099868;
+			
+			// aapt resource value: 0x7F0600DD
+			public const int tooltip_precise_anchor_threshold = 2131099869;
+			
+			// aapt resource value: 0x7F0600DE
+			public const int tooltip_vertical_padding = 2131099870;
+			
+			// aapt resource value: 0x7F0600DF
+			public const int tooltip_y_offset_non_touch = 2131099871;
+			
+			// aapt resource value: 0x7F0600E0
+			public const int tooltip_y_offset_touch = 2131099872;
 			
 			static Dimension()
 			{
@@ -8294,82 +11412,88 @@ namespace DepremAlarmi.Droid
 			public const int avd_show_password = 2131165275;
 			
 			// aapt resource value: 0x7F07005C
-			public const int design_bottom_navigation_item_background = 2131165276;
+			public const int bb_bottom_bar_top_shadow = 2131165276;
 			
 			// aapt resource value: 0x7F07005D
-			public const int design_fab_background = 2131165277;
+			public const int design_bottom_navigation_item_background = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int design_ic_visibility = 2131165278;
+			public const int design_fab_background = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int design_ic_visibility_off = 2131165279;
+			public const int design_ic_visibility = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int design_password_eye = 2131165280;
+			public const int design_ic_visibility_off = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int design_snackbar_background = 2131165281;
+			public const int design_password_eye = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int ic_mtrl_chip_checked_black = 2131165282;
+			public const int design_snackbar_background = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int ic_mtrl_chip_checked_circle = 2131165283;
+			public const int ic_mtrl_chip_checked_black = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int ic_mtrl_chip_close_circle = 2131165284;
+			public const int ic_mtrl_chip_checked_circle = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int mtrl_snackbar_background = 2131165285;
+			public const int ic_mtrl_chip_close_circle = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int mtrl_tabs_default_indicator = 2131165286;
+			public const int menu_tr = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int navigation_empty_icon = 2131165287;
+			public const int mtrl_snackbar_background = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int notification_action_background = 2131165288;
+			public const int mtrl_tabs_default_indicator = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int notification_bg = 2131165289;
+			public const int navigation_empty_icon = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int notification_bg_low = 2131165290;
+			public const int notification_action_background = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int notification_bg_low_normal = 2131165291;
+			public const int notification_bg = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int notification_bg_low_pressed = 2131165292;
+			public const int notification_bg_low = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int notification_bg_normal = 2131165293;
+			public const int notification_bg_low_normal = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int notification_bg_normal_pressed = 2131165294;
+			public const int notification_bg_low_pressed = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int notification_icon_background = 2131165295;
+			public const int notification_bg_normal = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int notification_template_icon_bg = 2131165296;
+			public const int notification_bg_normal_pressed = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int notification_template_icon_low_bg = 2131165297;
+			public const int notification_icon_background = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int notification_tile_bg = 2131165298;
+			public const int notification_template_icon_bg = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int notify_panel_notification_icon_bg = 2131165299;
+			public const int notification_template_icon_low_bg = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int tooltip_frame_dark = 2131165300;
+			public const int notification_tile_bg = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int tooltip_frame_light = 2131165301;
+			public const int notify_panel_notification_icon_bg = 2131165301;
+			
+			// aapt resource value: 0x7F070076
+			public const int tooltip_frame_dark = 2131165302;
+			
+			// aapt resource value: 0x7F070077
+			public const int tooltip_frame_light = 2131165303;
 			
 			static Drawable()
 			{
@@ -8466,544 +11590,571 @@ namespace DepremAlarmi.Droid
 			public const int auto = 2131230751;
 			
 			// aapt resource value: 0x7F080020
-			public const int beginning = 2131230752;
+			public const int bb_bottom_bar_background_overlay = 2131230752;
 			
 			// aapt resource value: 0x7F080021
-			public const int blocking = 2131230753;
+			public const int bb_bottom_bar_background_view = 2131230753;
 			
 			// aapt resource value: 0x7F080022
-			public const int bottom = 2131230754;
+			public const int bb_bottom_bar_icon = 2131230754;
 			
 			// aapt resource value: 0x7F080023
-			public const int bottomtab_navarea = 2131230755;
+			public const int bb_bottom_bar_item_container = 2131230755;
 			
 			// aapt resource value: 0x7F080024
-			public const int bottomtab_tabbar = 2131230756;
+			public const int bb_bottom_bar_outer_container = 2131230756;
 			
 			// aapt resource value: 0x7F080025
-			public const int browser_actions_header_text = 2131230757;
-			
-			// aapt resource value: 0x7F080028
-			public const int browser_actions_menu_items = 2131230760;
+			public const int bb_bottom_bar_shadow = 2131230757;
 			
 			// aapt resource value: 0x7F080026
-			public const int browser_actions_menu_item_icon = 2131230758;
+			public const int bb_bottom_bar_title = 2131230758;
 			
 			// aapt resource value: 0x7F080027
-			public const int browser_actions_menu_item_text = 2131230759;
+			public const int bb_tablet_right_border = 2131230759;
+			
+			// aapt resource value: 0x7F080028
+			public const int bb_user_content_container = 2131230760;
 			
 			// aapt resource value: 0x7F080029
-			public const int browser_actions_menu_view = 2131230761;
+			public const int beginning = 2131230761;
 			
 			// aapt resource value: 0x7F08002A
-			public const int buttonPanel = 2131230762;
+			public const int blocking = 2131230762;
 			
 			// aapt resource value: 0x7F08002B
-			public const int cancel_action = 2131230763;
+			public const int bottom = 2131230763;
 			
 			// aapt resource value: 0x7F08002C
-			public const int center = 2131230764;
+			public const int bottomtab_navarea = 2131230764;
 			
 			// aapt resource value: 0x7F08002D
-			public const int center_horizontal = 2131230765;
+			public const int bottomtab_tabbar = 2131230765;
 			
 			// aapt resource value: 0x7F08002E
-			public const int center_vertical = 2131230766;
-			
-			// aapt resource value: 0x7F08002F
-			public const int checkbox = 2131230767;
-			
-			// aapt resource value: 0x7F080030
-			public const int chronometer = 2131230768;
+			public const int browser_actions_header_text = 2131230766;
 			
 			// aapt resource value: 0x7F080031
-			public const int clip_horizontal = 2131230769;
+			public const int browser_actions_menu_items = 2131230769;
+			
+			// aapt resource value: 0x7F08002F
+			public const int browser_actions_menu_item_icon = 2131230767;
+			
+			// aapt resource value: 0x7F080030
+			public const int browser_actions_menu_item_text = 2131230768;
 			
 			// aapt resource value: 0x7F080032
-			public const int clip_vertical = 2131230770;
+			public const int browser_actions_menu_view = 2131230770;
 			
 			// aapt resource value: 0x7F080033
-			public const int collapseActionView = 2131230771;
+			public const int buttonPanel = 2131230771;
 			
 			// aapt resource value: 0x7F080034
-			public const int container = 2131230772;
+			public const int cancel_action = 2131230772;
 			
 			// aapt resource value: 0x7F080035
-			public const int content = 2131230773;
+			public const int center = 2131230773;
 			
 			// aapt resource value: 0x7F080036
-			public const int contentPanel = 2131230774;
+			public const int center_horizontal = 2131230774;
 			
 			// aapt resource value: 0x7F080037
-			public const int coordinator = 2131230775;
+			public const int center_vertical = 2131230775;
+			
+			// aapt resource value: 0x7F080038
+			public const int checkbox = 2131230776;
+			
+			// aapt resource value: 0x7F080039
+			public const int chronometer = 2131230777;
+			
+			// aapt resource value: 0x7F08003A
+			public const int clip_horizontal = 2131230778;
+			
+			// aapt resource value: 0x7F08003B
+			public const int clip_vertical = 2131230779;
+			
+			// aapt resource value: 0x7F08003C
+			public const int collapseActionView = 2131230780;
+			
+			// aapt resource value: 0x7F08003D
+			public const int container = 2131230781;
+			
+			// aapt resource value: 0x7F08003E
+			public const int content = 2131230782;
+			
+			// aapt resource value: 0x7F08003F
+			public const int contentPanel = 2131230783;
+			
+			// aapt resource value: 0x7F080040
+			public const int coordinator = 2131230784;
 			
 			// aapt resource value: 0x7F080001
 			public const int CTRL = 2131230721;
 			
-			// aapt resource value: 0x7F080038
-			public const int custom = 2131230776;
-			
-			// aapt resource value: 0x7F080039
-			public const int customPanel = 2131230777;
-			
-			// aapt resource value: 0x7F08003A
-			public const int decor_content_parent = 2131230778;
-			
-			// aapt resource value: 0x7F08003B
-			public const int default_activity_button = 2131230779;
-			
-			// aapt resource value: 0x7F08003C
-			public const int design_bottom_sheet = 2131230780;
-			
-			// aapt resource value: 0x7F08003D
-			public const int design_menu_item_action_area = 2131230781;
-			
-			// aapt resource value: 0x7F08003E
-			public const int design_menu_item_action_area_stub = 2131230782;
-			
-			// aapt resource value: 0x7F08003F
-			public const int design_menu_item_text = 2131230783;
-			
-			// aapt resource value: 0x7F080040
-			public const int design_navigation_view = 2131230784;
-			
 			// aapt resource value: 0x7F080041
-			public const int disableHome = 2131230785;
+			public const int custom = 2131230785;
 			
 			// aapt resource value: 0x7F080042
-			public const int edit_query = 2131230786;
+			public const int customPanel = 2131230786;
 			
 			// aapt resource value: 0x7F080043
-			public const int end = 2131230787;
+			public const int decor_content_parent = 2131230787;
 			
 			// aapt resource value: 0x7F080044
-			public const int end_padder = 2131230788;
+			public const int default_activity_button = 2131230788;
 			
 			// aapt resource value: 0x7F080045
-			public const int enterAlways = 2131230789;
+			public const int design_bottom_sheet = 2131230789;
 			
 			// aapt resource value: 0x7F080046
-			public const int enterAlwaysCollapsed = 2131230790;
+			public const int design_menu_item_action_area = 2131230790;
 			
 			// aapt resource value: 0x7F080047
-			public const int exitUntilCollapsed = 2131230791;
-			
-			// aapt resource value: 0x7F080049
-			public const int expanded_menu = 2131230793;
+			public const int design_menu_item_action_area_stub = 2131230791;
 			
 			// aapt resource value: 0x7F080048
-			public const int expand_activities_button = 2131230792;
+			public const int design_menu_item_text = 2131230792;
+			
+			// aapt resource value: 0x7F080049
+			public const int design_navigation_view = 2131230793;
 			
 			// aapt resource value: 0x7F08004A
-			public const int fill = 2131230794;
-			
-			// aapt resource value: 0x7F08004D
-			public const int filled = 2131230797;
+			public const int disableHome = 2131230794;
 			
 			// aapt resource value: 0x7F08004B
-			public const int fill_horizontal = 2131230795;
+			public const int edit_query = 2131230795;
 			
 			// aapt resource value: 0x7F08004C
-			public const int fill_vertical = 2131230796;
+			public const int end = 2131230796;
+			
+			// aapt resource value: 0x7F08004D
+			public const int end_padder = 2131230797;
 			
 			// aapt resource value: 0x7F08004E
-			public const int @fixed = 2131230798;
+			public const int enterAlways = 2131230798;
 			
 			// aapt resource value: 0x7F08004F
-			public const int flyoutcontent_appbar = 2131230799;
+			public const int enterAlwaysCollapsed = 2131230799;
 			
 			// aapt resource value: 0x7F080050
-			public const int flyoutcontent_recycler = 2131230800;
+			public const int exitUntilCollapsed = 2131230800;
+			
+			// aapt resource value: 0x7F080052
+			public const int expanded_menu = 2131230802;
 			
 			// aapt resource value: 0x7F080051
-			public const int forever = 2131230801;
+			public const int expand_activities_button = 2131230801;
+			
+			// aapt resource value: 0x7F080053
+			public const int fill = 2131230803;
+			
+			// aapt resource value: 0x7F080056
+			public const int filled = 2131230806;
+			
+			// aapt resource value: 0x7F080054
+			public const int fill_horizontal = 2131230804;
+			
+			// aapt resource value: 0x7F080055
+			public const int fill_vertical = 2131230805;
+			
+			// aapt resource value: 0x7F080057
+			public const int @fixed = 2131230807;
+			
+			// aapt resource value: 0x7F080058
+			public const int flyoutcontent_appbar = 2131230808;
+			
+			// aapt resource value: 0x7F080059
+			public const int flyoutcontent_recycler = 2131230809;
+			
+			// aapt resource value: 0x7F08005A
+			public const int forever = 2131230810;
 			
 			// aapt resource value: 0x7F080002
 			public const int FUNCTION = 2131230722;
 			
-			// aapt resource value: 0x7F080052
-			public const int ghost_view = 2131230802;
-			
-			// aapt resource value: 0x7F080053
-			public const int group_divider = 2131230803;
-			
-			// aapt resource value: 0x7F080054
-			public const int home = 2131230804;
-			
-			// aapt resource value: 0x7F080055
-			public const int homeAsUp = 2131230805;
-			
-			// aapt resource value: 0x7F080056
-			public const int icon = 2131230806;
-			
-			// aapt resource value: 0x7F080057
-			public const int icon_group = 2131230807;
-			
-			// aapt resource value: 0x7F080058
-			public const int ifRoom = 2131230808;
-			
-			// aapt resource value: 0x7F080059
-			public const int image = 2131230809;
-			
-			// aapt resource value: 0x7F08005A
-			public const int info = 2131230810;
-			
 			// aapt resource value: 0x7F08005B
-			public const int italic = 2131230811;
+			public const int ghost_view = 2131230811;
 			
 			// aapt resource value: 0x7F08005C
-			public const int item_touch_helper_previous_elevation = 2131230812;
+			public const int group_divider = 2131230812;
 			
 			// aapt resource value: 0x7F08005D
-			public const int labeled = 2131230813;
+			public const int home = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int largeLabel = 2131230814;
+			public const int homeAsUp = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int left = 2131230815;
+			public const int icon = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int line1 = 2131230816;
+			public const int icon_group = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int line3 = 2131230817;
+			public const int ifRoom = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int listMode = 2131230818;
+			public const int image = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int list_item = 2131230819;
+			public const int info = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int main_appbar = 2131230820;
+			public const int italic = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int main_tablayout = 2131230821;
+			public const int item_touch_helper_previous_elevation = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int main_toolbar = 2131230822;
+			public const int labeled = 2131230822;
 			
 			// aapt resource value: 0x7F080067
-			public const int main_viewpager = 2131230823;
+			public const int largeLabel = 2131230823;
 			
 			// aapt resource value: 0x7F080068
-			public const int masked = 2131230824;
+			public const int left = 2131230824;
 			
 			// aapt resource value: 0x7F080069
-			public const int media_actions = 2131230825;
+			public const int line1 = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int message = 2131230826;
+			public const int line3 = 2131230826;
+			
+			// aapt resource value: 0x7F08006B
+			public const int listMode = 2131230827;
+			
+			// aapt resource value: 0x7F08006C
+			public const int list_item = 2131230828;
+			
+			// aapt resource value: 0x7F08006D
+			public const int main_appbar = 2131230829;
+			
+			// aapt resource value: 0x7F08006E
+			public const int main_tablayout = 2131230830;
+			
+			// aapt resource value: 0x7F08006F
+			public const int main_toolbar = 2131230831;
+			
+			// aapt resource value: 0x7F080070
+			public const int main_viewpager = 2131230832;
+			
+			// aapt resource value: 0x7F080071
+			public const int masked = 2131230833;
+			
+			// aapt resource value: 0x7F080072
+			public const int media_actions = 2131230834;
+			
+			// aapt resource value: 0x7F080073
+			public const int message = 2131230835;
 			
 			// aapt resource value: 0x7F080003
 			public const int META = 2131230723;
 			
-			// aapt resource value: 0x7F08006B
-			public const int middle = 2131230827;
-			
-			// aapt resource value: 0x7F08006C
-			public const int mini = 2131230828;
-			
-			// aapt resource value: 0x7F08006D
-			public const int mtrl_child_content_container = 2131230829;
-			
-			// aapt resource value: 0x7F08006E
-			public const int mtrl_internal_children_alpha_tag = 2131230830;
-			
-			// aapt resource value: 0x7F08006F
-			public const int multiply = 2131230831;
-			
-			// aapt resource value: 0x7F080070
-			public const int navigation_header_container = 2131230832;
-			
-			// aapt resource value: 0x7F080071
-			public const int never = 2131230833;
-			
-			// aapt resource value: 0x7F080072
-			public const int none = 2131230834;
-			
-			// aapt resource value: 0x7F080073
-			public const int normal = 2131230835;
-			
 			// aapt resource value: 0x7F080074
-			public const int notification_background = 2131230836;
+			public const int middle = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int notification_main_column = 2131230837;
+			public const int mini = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int notification_main_column_container = 2131230838;
+			public const int mtrl_child_content_container = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int outline = 2131230839;
+			public const int mtrl_internal_children_alpha_tag = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int parallax = 2131230840;
+			public const int multiply = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int parentPanel = 2131230841;
+			public const int navigation_header_container = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int parent_matrix = 2131230842;
+			public const int never = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int pin = 2131230843;
+			public const int none = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int progress_circular = 2131230844;
+			public const int normal = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int progress_horizontal = 2131230845;
+			public const int notification_background = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int radio = 2131230846;
+			public const int notification_main_column = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int right = 2131230847;
+			public const int notification_main_column_container = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int right_icon = 2131230848;
+			public const int outline = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int right_side = 2131230849;
+			public const int parallax = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int save_image_matrix = 2131230850;
+			public const int parentPanel = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int save_non_transition_alpha = 2131230851;
+			public const int parent_matrix = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int save_scale_type = 2131230852;
+			public const int pin = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int screen = 2131230853;
+			public const int progress_circular = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int scroll = 2131230854;
-			
-			// aapt resource value: 0x7F08008A
-			public const int scrollable = 2131230858;
+			public const int progress_horizontal = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int scrollIndicatorDown = 2131230855;
+			public const int radio = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int scrollIndicatorUp = 2131230856;
+			public const int right = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int scrollView = 2131230857;
+			public const int right_icon = 2131230857;
+			
+			// aapt resource value: 0x7F08008A
+			public const int right_side = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int search_badge = 2131230859;
+			public const int save_image_matrix = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int search_bar = 2131230860;
+			public const int save_non_transition_alpha = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int search_button = 2131230861;
+			public const int save_scale_type = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int search_close_btn = 2131230862;
+			public const int screen = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int search_edit_frame = 2131230863;
-			
-			// aapt resource value: 0x7F080090
-			public const int search_go_btn = 2131230864;
-			
-			// aapt resource value: 0x7F080091
-			public const int search_mag_icon = 2131230865;
-			
-			// aapt resource value: 0x7F080092
-			public const int search_plate = 2131230866;
+			public const int scroll = 2131230863;
 			
 			// aapt resource value: 0x7F080093
-			public const int search_src_text = 2131230867;
+			public const int scrollable = 2131230867;
+			
+			// aapt resource value: 0x7F080090
+			public const int scrollIndicatorDown = 2131230864;
+			
+			// aapt resource value: 0x7F080091
+			public const int scrollIndicatorUp = 2131230865;
+			
+			// aapt resource value: 0x7F080092
+			public const int scrollView = 2131230866;
 			
 			// aapt resource value: 0x7F080094
-			public const int search_voice_btn = 2131230868;
-			
-			// aapt resource value: 0x7F080096
-			public const int selected = 2131230870;
+			public const int search_badge = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int select_dialog_listview = 2131230869;
+			public const int search_bar = 2131230869;
+			
+			// aapt resource value: 0x7F080096
+			public const int search_button = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int shellcontent_appbar = 2131230871;
+			public const int search_close_btn = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int shellcontent_toolbar = 2131230872;
+			public const int search_edit_frame = 2131230872;
+			
+			// aapt resource value: 0x7F080099
+			public const int search_go_btn = 2131230873;
+			
+			// aapt resource value: 0x7F08009A
+			public const int search_mag_icon = 2131230874;
+			
+			// aapt resource value: 0x7F08009B
+			public const int search_plate = 2131230875;
+			
+			// aapt resource value: 0x7F08009C
+			public const int search_src_text = 2131230876;
+			
+			// aapt resource value: 0x7F08009D
+			public const int search_voice_btn = 2131230877;
+			
+			// aapt resource value: 0x7F08009F
+			public const int selected = 2131230879;
+			
+			// aapt resource value: 0x7F08009E
+			public const int select_dialog_listview = 2131230878;
+			
+			// aapt resource value: 0x7F0800A0
+			public const int shellcontent_appbar = 2131230880;
+			
+			// aapt resource value: 0x7F0800A1
+			public const int shellcontent_toolbar = 2131230881;
 			
 			// aapt resource value: 0x7F080004
 			public const int SHIFT = 2131230724;
 			
-			// aapt resource value: 0x7F080099
-			public const int shortcut = 2131230873;
-			
-			// aapt resource value: 0x7F08009A
-			public const int showCustom = 2131230874;
-			
-			// aapt resource value: 0x7F08009B
-			public const int showHome = 2131230875;
-			
-			// aapt resource value: 0x7F08009C
-			public const int showTitle = 2131230876;
-			
-			// aapt resource value: 0x7F08009D
-			public const int sliding_tabs = 2131230877;
-			
-			// aapt resource value: 0x7F08009E
-			public const int smallLabel = 2131230878;
-			
-			// aapt resource value: 0x7F08009F
-			public const int snackbar_action = 2131230879;
-			
-			// aapt resource value: 0x7F0800A0
-			public const int snackbar_text = 2131230880;
-			
-			// aapt resource value: 0x7F0800A1
-			public const int snap = 2131230881;
-			
 			// aapt resource value: 0x7F0800A2
-			public const int snapMargins = 2131230882;
+			public const int shortcut = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int spacer = 2131230883;
+			public const int showCustom = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int split_action_bar = 2131230884;
+			public const int showHome = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int src_atop = 2131230885;
+			public const int showTitle = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int src_in = 2131230886;
+			public const int sliding_tabs = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int src_over = 2131230887;
+			public const int smallLabel = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int start = 2131230888;
+			public const int snackbar_action = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int status_bar_latest_event_content = 2131230889;
+			public const int snackbar_text = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int stretch = 2131230890;
+			public const int snap = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int submenuarrow = 2131230891;
+			public const int snapMargins = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int submit_area = 2131230892;
+			public const int spacer = 2131230892;
+			
+			// aapt resource value: 0x7F0800AD
+			public const int split_action_bar = 2131230893;
+			
+			// aapt resource value: 0x7F0800AE
+			public const int src_atop = 2131230894;
+			
+			// aapt resource value: 0x7F0800AF
+			public const int src_in = 2131230895;
+			
+			// aapt resource value: 0x7F0800B0
+			public const int src_over = 2131230896;
+			
+			// aapt resource value: 0x7F0800B1
+			public const int start = 2131230897;
+			
+			// aapt resource value: 0x7F0800B2
+			public const int status_bar_latest_event_content = 2131230898;
+			
+			// aapt resource value: 0x7F0800B3
+			public const int stretch = 2131230899;
+			
+			// aapt resource value: 0x7F0800B4
+			public const int submenuarrow = 2131230900;
+			
+			// aapt resource value: 0x7F0800B5
+			public const int submit_area = 2131230901;
 			
 			// aapt resource value: 0x7F080005
 			public const int SYM = 2131230725;
 			
-			// aapt resource value: 0x7F0800AD
-			public const int tabMode = 2131230893;
-			
-			// aapt resource value: 0x7F0800AE
-			public const int tag_transition_group = 2131230894;
-			
-			// aapt resource value: 0x7F0800AF
-			public const int tag_unhandled_key_event_manager = 2131230895;
-			
-			// aapt resource value: 0x7F0800B0
-			public const int tag_unhandled_key_listeners = 2131230896;
-			
-			// aapt resource value: 0x7F0800B1
-			public const int text = 2131230897;
-			
-			// aapt resource value: 0x7F0800B2
-			public const int text2 = 2131230898;
+			// aapt resource value: 0x7F0800B6
+			public const int tabMode = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int textinput_counter = 2131230903;
+			public const int tag_transition_group = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int textinput_error = 2131230904;
+			public const int tag_unhandled_key_event_manager = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int textinput_helper_text = 2131230905;
-			
-			// aapt resource value: 0x7F0800B3
-			public const int textSpacerNoButtons = 2131230899;
-			
-			// aapt resource value: 0x7F0800B4
-			public const int textSpacerNoTitle = 2131230900;
-			
-			// aapt resource value: 0x7F0800B5
-			public const int textStart = 2131230901;
-			
-			// aapt resource value: 0x7F0800B6
-			public const int text_input_password_toggle = 2131230902;
+			public const int tag_unhandled_key_listeners = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int time = 2131230906;
+			public const int text = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int title = 2131230907;
-			
-			// aapt resource value: 0x7F0800BC
-			public const int titleDividerNoCustom = 2131230908;
-			
-			// aapt resource value: 0x7F0800BD
-			public const int title_template = 2131230909;
-			
-			// aapt resource value: 0x7F0800BE
-			public const int toolbar = 2131230910;
-			
-			// aapt resource value: 0x7F0800BF
-			public const int top = 2131230911;
+			public const int text2 = 2131230907;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int topPanel = 2131230912;
+			public const int textinput_counter = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int touch_outside = 2131230913;
+			public const int textinput_error = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int transition_current_scene = 2131230914;
+			public const int textinput_helper_text = 2131230914;
+			
+			// aapt resource value: 0x7F0800BC
+			public const int textSpacerNoButtons = 2131230908;
+			
+			// aapt resource value: 0x7F0800BD
+			public const int textSpacerNoTitle = 2131230909;
+			
+			// aapt resource value: 0x7F0800BE
+			public const int textStart = 2131230910;
+			
+			// aapt resource value: 0x7F0800BF
+			public const int text_input_password_toggle = 2131230911;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int transition_layout_save = 2131230915;
+			public const int time = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int transition_position = 2131230916;
+			public const int title = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int transition_scene_layoutid_cache = 2131230917;
+			public const int titleDividerNoCustom = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int transition_transform = 2131230918;
+			public const int title_template = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int uniform = 2131230919;
+			public const int toolbar = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int unlabeled = 2131230920;
+			public const int top = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int up = 2131230921;
+			public const int topPanel = 2131230921;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int useLogo = 2131230922;
+			public const int touch_outside = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int view_offset_helper = 2131230923;
+			public const int transition_current_scene = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int visible = 2131230924;
+			public const int transition_layout_save = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int withText = 2131230925;
+			public const int transition_position = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int wrap_content = 2131230926;
+			public const int transition_scene_layoutid_cache = 2131230926;
+			
+			// aapt resource value: 0x7F0800CF
+			public const int transition_transform = 2131230927;
+			
+			// aapt resource value: 0x7F0800D0
+			public const int uniform = 2131230928;
+			
+			// aapt resource value: 0x7F0800D1
+			public const int unlabeled = 2131230929;
+			
+			// aapt resource value: 0x7F0800D2
+			public const int up = 2131230930;
+			
+			// aapt resource value: 0x7F0800D3
+			public const int useLogo = 2131230931;
+			
+			// aapt resource value: 0x7F0800D4
+			public const int view_offset_helper = 2131230932;
+			
+			// aapt resource value: 0x7F0800D5
+			public const int visible = 2131230933;
+			
+			// aapt resource value: 0x7F0800D6
+			public const int withText = 2131230934;
+			
+			// aapt resource value: 0x7F0800D7
+			public const int wrap_content = 2131230935;
 			
 			static Id()
 			{
@@ -9186,133 +12337,148 @@ namespace DepremAlarmi.Droid
 			public const int abc_tooltip = 2131427355;
 			
 			// aapt resource value: 0x7F0B001C
-			public const int BottomTabLayout = 2131427356;
+			public const int bb_bottom_bar_item_container = 2131427356;
 			
 			// aapt resource value: 0x7F0B001D
-			public const int browser_actions_context_menu_page = 2131427357;
+			public const int bb_bottom_bar_item_container_tablet = 2131427357;
 			
 			// aapt resource value: 0x7F0B001E
-			public const int browser_actions_context_menu_row = 2131427358;
+			public const int bb_bottom_bar_item_fixed = 2131427358;
 			
 			// aapt resource value: 0x7F0B001F
-			public const int design_bottom_navigation_item = 2131427359;
+			public const int bb_bottom_bar_item_fixed_tablet = 2131427359;
 			
 			// aapt resource value: 0x7F0B0020
-			public const int design_bottom_sheet_dialog = 2131427360;
+			public const int bb_bottom_bar_item_shifting = 2131427360;
 			
 			// aapt resource value: 0x7F0B0021
-			public const int design_layout_snackbar = 2131427361;
+			public const int BottomTabLayout = 2131427361;
 			
 			// aapt resource value: 0x7F0B0022
-			public const int design_layout_snackbar_include = 2131427362;
+			public const int browser_actions_context_menu_page = 2131427362;
 			
 			// aapt resource value: 0x7F0B0023
-			public const int design_layout_tab_icon = 2131427363;
+			public const int browser_actions_context_menu_row = 2131427363;
 			
 			// aapt resource value: 0x7F0B0024
-			public const int design_layout_tab_text = 2131427364;
+			public const int design_bottom_navigation_item = 2131427364;
 			
 			// aapt resource value: 0x7F0B0025
-			public const int design_menu_item_action_area = 2131427365;
+			public const int design_bottom_sheet_dialog = 2131427365;
 			
 			// aapt resource value: 0x7F0B0026
-			public const int design_navigation_item = 2131427366;
+			public const int design_layout_snackbar = 2131427366;
 			
 			// aapt resource value: 0x7F0B0027
-			public const int design_navigation_item_header = 2131427367;
+			public const int design_layout_snackbar_include = 2131427367;
 			
 			// aapt resource value: 0x7F0B0028
-			public const int design_navigation_item_separator = 2131427368;
+			public const int design_layout_tab_icon = 2131427368;
 			
 			// aapt resource value: 0x7F0B0029
-			public const int design_navigation_item_subheader = 2131427369;
+			public const int design_layout_tab_text = 2131427369;
 			
 			// aapt resource value: 0x7F0B002A
-			public const int design_navigation_menu = 2131427370;
+			public const int design_menu_item_action_area = 2131427370;
 			
 			// aapt resource value: 0x7F0B002B
-			public const int design_navigation_menu_item = 2131427371;
+			public const int design_navigation_item = 2131427371;
 			
 			// aapt resource value: 0x7F0B002C
-			public const int design_text_input_password_icon = 2131427372;
+			public const int design_navigation_item_header = 2131427372;
 			
 			// aapt resource value: 0x7F0B002D
-			public const int FlyoutContent = 2131427373;
+			public const int design_navigation_item_separator = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int mtrl_layout_snackbar = 2131427374;
+			public const int design_navigation_item_subheader = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int mtrl_layout_snackbar_include = 2131427375;
+			public const int design_navigation_menu = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int notification_action = 2131427376;
+			public const int design_navigation_menu_item = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int notification_action_tombstone = 2131427377;
+			public const int design_text_input_password_icon = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int notification_media_action = 2131427378;
+			public const int FlyoutContent = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int notification_media_cancel_action = 2131427379;
+			public const int mtrl_layout_snackbar = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int notification_template_big_media = 2131427380;
+			public const int mtrl_layout_snackbar_include = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int notification_template_big_media_custom = 2131427381;
+			public const int notification_action = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int notification_template_big_media_narrow = 2131427382;
+			public const int notification_action_tombstone = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int notification_template_big_media_narrow_custom = 2131427383;
+			public const int notification_media_action = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int notification_template_custom_big = 2131427384;
+			public const int notification_media_cancel_action = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int notification_template_icon_group = 2131427385;
+			public const int notification_template_big_media = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int notification_template_lines_media = 2131427386;
+			public const int notification_template_big_media_custom = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int notification_template_media = 2131427387;
+			public const int notification_template_big_media_narrow = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int notification_template_media_custom = 2131427388;
+			public const int notification_template_big_media_narrow_custom = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int notification_template_part_chronometer = 2131427389;
+			public const int notification_template_custom_big = 2131427389;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int notification_template_part_time = 2131427390;
+			public const int notification_template_icon_group = 2131427390;
 			
 			// aapt resource value: 0x7F0B003F
-			public const int RootLayout = 2131427391;
+			public const int notification_template_lines_media = 2131427391;
 			
 			// aapt resource value: 0x7F0B0040
-			public const int select_dialog_item_material = 2131427392;
+			public const int notification_template_media = 2131427392;
 			
 			// aapt resource value: 0x7F0B0041
-			public const int select_dialog_multichoice_material = 2131427393;
+			public const int notification_template_media_custom = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int select_dialog_singlechoice_material = 2131427394;
+			public const int notification_template_part_chronometer = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int ShellContent = 2131427395;
+			public const int notification_template_part_time = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int support_simple_spinner_dropdown_item = 2131427396;
+			public const int RootLayout = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int Tabbar = 2131427397;
+			public const int select_dialog_item_material = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int Toolbar = 2131427398;
+			public const int select_dialog_multichoice_material = 2131427398;
+			
+			// aapt resource value: 0x7F0B0047
+			public const int select_dialog_singlechoice_material = 2131427399;
+			
+			// aapt resource value: 0x7F0B0048
+			public const int ShellContent = 2131427400;
+			
+			// aapt resource value: 0x7F0B0049
+			public const int support_simple_spinner_dropdown_item = 2131427401;
+			
+			// aapt resource value: 0x7F0B004A
+			public const int Tabbar = 2131427402;
+			
+			// aapt resource value: 0x7F0B004B
+			public const int Toolbar = 2131427403;
 			
 			static Layout()
 			{
@@ -9466,50 +12632,56 @@ namespace DepremAlarmi.Droid
 			// aapt resource value: 0x7F0D0026
 			public const int abc_toolbar_collapse_description = 2131558438;
 			
-			// aapt resource value: 0x7F0D0027
-			public const int appbar_scrolling_view_behavior = 2131558439;
-			
 			// aapt resource value: 0x7F0D0028
-			public const int bottom_sheet_behavior = 2131558440;
+			public const int appbar_scrolling_view_behavior = 2131558440;
+			
+			// aapt resource value: 0x7F0D0027
+			public const int app_name = 2131558439;
 			
 			// aapt resource value: 0x7F0D0029
-			public const int character_counter_content_description = 2131558441;
+			public const int bottom_sheet_behavior = 2131558441;
 			
 			// aapt resource value: 0x7F0D002A
-			public const int character_counter_pattern = 2131558442;
+			public const int character_counter_content_description = 2131558442;
 			
 			// aapt resource value: 0x7F0D002B
-			public const int fab_transformation_scrim_behavior = 2131558443;
+			public const int character_counter_pattern = 2131558443;
 			
 			// aapt resource value: 0x7F0D002C
-			public const int fab_transformation_sheet_behavior = 2131558444;
+			public const int fab_transformation_scrim_behavior = 2131558444;
 			
 			// aapt resource value: 0x7F0D002D
-			public const int hide_bottom_view_on_scroll_behavior = 2131558445;
+			public const int fab_transformation_sheet_behavior = 2131558445;
 			
 			// aapt resource value: 0x7F0D002E
-			public const int mtrl_chip_close_icon_content_description = 2131558446;
+			public const int hide_bottom_view_on_scroll_behavior = 2131558446;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int password_toggle_content_description = 2131558447;
+			public const int library_name = 2131558447;
 			
 			// aapt resource value: 0x7F0D0030
-			public const int path_password_eye = 2131558448;
+			public const int mtrl_chip_close_icon_content_description = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int path_password_eye_mask_strike_through = 2131558449;
+			public const int password_toggle_content_description = 2131558449;
 			
 			// aapt resource value: 0x7F0D0032
-			public const int path_password_eye_mask_visible = 2131558450;
+			public const int path_password_eye = 2131558450;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int path_password_strike_through = 2131558451;
+			public const int path_password_eye_mask_strike_through = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int search_menu_title = 2131558452;
+			public const int path_password_eye_mask_visible = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int status_bar_notification_info_overflow = 2131558453;
+			public const int path_password_strike_through = 2131558453;
+			
+			// aapt resource value: 0x7F0D0036
+			public const int search_menu_title = 2131558454;
+			
+			// aapt resource value: 0x7F0D0037
+			public const int status_bar_notification_info_overflow = 2131558455;
 			
 			static String()
 			{
@@ -9545,1499 +12717,1523 @@ namespace DepremAlarmi.Droid
 			// aapt resource value: 0x7F0E0006
 			public const int AppCompatDialogStyle = 2131623942;
 			
-			// aapt resource value: 0x7F0E0007
-			public const int Base_AlertDialog_AppCompat = 2131623943;
-			
-			// aapt resource value: 0x7F0E0008
-			public const int Base_AlertDialog_AppCompat_Light = 2131623944;
-			
-			// aapt resource value: 0x7F0E0009
-			public const int Base_Animation_AppCompat_Dialog = 2131623945;
-			
-			// aapt resource value: 0x7F0E000A
-			public const int Base_Animation_AppCompat_DropDownUp = 2131623946;
-			
-			// aapt resource value: 0x7F0E000B
-			public const int Base_Animation_AppCompat_Tooltip = 2131623947;
-			
-			// aapt resource value: 0x7F0E000C
-			public const int Base_CardView = 2131623948;
-			
-			// aapt resource value: 0x7F0E000E
-			public const int Base_DialogWindowTitleBackground_AppCompat = 2131623950;
-			
-			// aapt resource value: 0x7F0E000D
-			public const int Base_DialogWindowTitle_AppCompat = 2131623949;
-			
 			// aapt resource value: 0x7F0E000F
-			public const int Base_TextAppearance_AppCompat = 2131623951;
+			public const int Base_AlertDialog_AppCompat = 2131623951;
 			
 			// aapt resource value: 0x7F0E0010
-			public const int Base_TextAppearance_AppCompat_Body1 = 2131623952;
+			public const int Base_AlertDialog_AppCompat_Light = 2131623952;
 			
 			// aapt resource value: 0x7F0E0011
-			public const int Base_TextAppearance_AppCompat_Body2 = 2131623953;
+			public const int Base_Animation_AppCompat_Dialog = 2131623953;
 			
 			// aapt resource value: 0x7F0E0012
-			public const int Base_TextAppearance_AppCompat_Button = 2131623954;
+			public const int Base_Animation_AppCompat_DropDownUp = 2131623954;
 			
 			// aapt resource value: 0x7F0E0013
-			public const int Base_TextAppearance_AppCompat_Caption = 2131623955;
+			public const int Base_Animation_AppCompat_Tooltip = 2131623955;
 			
 			// aapt resource value: 0x7F0E0014
-			public const int Base_TextAppearance_AppCompat_Display1 = 2131623956;
-			
-			// aapt resource value: 0x7F0E0015
-			public const int Base_TextAppearance_AppCompat_Display2 = 2131623957;
+			public const int Base_CardView = 2131623956;
 			
 			// aapt resource value: 0x7F0E0016
-			public const int Base_TextAppearance_AppCompat_Display3 = 2131623958;
+			public const int Base_DialogWindowTitleBackground_AppCompat = 2131623958;
+			
+			// aapt resource value: 0x7F0E0015
+			public const int Base_DialogWindowTitle_AppCompat = 2131623957;
 			
 			// aapt resource value: 0x7F0E0017
-			public const int Base_TextAppearance_AppCompat_Display4 = 2131623959;
+			public const int Base_TextAppearance_AppCompat = 2131623959;
 			
 			// aapt resource value: 0x7F0E0018
-			public const int Base_TextAppearance_AppCompat_Headline = 2131623960;
+			public const int Base_TextAppearance_AppCompat_Body1 = 2131623960;
 			
 			// aapt resource value: 0x7F0E0019
-			public const int Base_TextAppearance_AppCompat_Inverse = 2131623961;
+			public const int Base_TextAppearance_AppCompat_Body2 = 2131623961;
 			
 			// aapt resource value: 0x7F0E001A
-			public const int Base_TextAppearance_AppCompat_Large = 2131623962;
+			public const int Base_TextAppearance_AppCompat_Button = 2131623962;
 			
 			// aapt resource value: 0x7F0E001B
-			public const int Base_TextAppearance_AppCompat_Large_Inverse = 2131623963;
+			public const int Base_TextAppearance_AppCompat_Caption = 2131623963;
 			
 			// aapt resource value: 0x7F0E001C
-			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131623964;
+			public const int Base_TextAppearance_AppCompat_Display1 = 2131623964;
 			
 			// aapt resource value: 0x7F0E001D
-			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131623965;
+			public const int Base_TextAppearance_AppCompat_Display2 = 2131623965;
 			
 			// aapt resource value: 0x7F0E001E
-			public const int Base_TextAppearance_AppCompat_Medium = 2131623966;
+			public const int Base_TextAppearance_AppCompat_Display3 = 2131623966;
 			
 			// aapt resource value: 0x7F0E001F
-			public const int Base_TextAppearance_AppCompat_Medium_Inverse = 2131623967;
+			public const int Base_TextAppearance_AppCompat_Display4 = 2131623967;
 			
 			// aapt resource value: 0x7F0E0020
-			public const int Base_TextAppearance_AppCompat_Menu = 2131623968;
+			public const int Base_TextAppearance_AppCompat_Headline = 2131623968;
 			
 			// aapt resource value: 0x7F0E0021
-			public const int Base_TextAppearance_AppCompat_SearchResult = 2131623969;
+			public const int Base_TextAppearance_AppCompat_Inverse = 2131623969;
 			
 			// aapt resource value: 0x7F0E0022
-			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131623970;
+			public const int Base_TextAppearance_AppCompat_Large = 2131623970;
 			
 			// aapt resource value: 0x7F0E0023
-			public const int Base_TextAppearance_AppCompat_SearchResult_Title = 2131623971;
+			public const int Base_TextAppearance_AppCompat_Large_Inverse = 2131623971;
 			
 			// aapt resource value: 0x7F0E0024
-			public const int Base_TextAppearance_AppCompat_Small = 2131623972;
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131623972;
 			
 			// aapt resource value: 0x7F0E0025
-			public const int Base_TextAppearance_AppCompat_Small_Inverse = 2131623973;
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131623973;
 			
 			// aapt resource value: 0x7F0E0026
-			public const int Base_TextAppearance_AppCompat_Subhead = 2131623974;
+			public const int Base_TextAppearance_AppCompat_Medium = 2131623974;
 			
 			// aapt resource value: 0x7F0E0027
-			public const int Base_TextAppearance_AppCompat_Subhead_Inverse = 2131623975;
+			public const int Base_TextAppearance_AppCompat_Medium_Inverse = 2131623975;
 			
 			// aapt resource value: 0x7F0E0028
-			public const int Base_TextAppearance_AppCompat_Title = 2131623976;
+			public const int Base_TextAppearance_AppCompat_Menu = 2131623976;
 			
 			// aapt resource value: 0x7F0E0029
-			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131623977;
+			public const int Base_TextAppearance_AppCompat_SearchResult = 2131623977;
 			
 			// aapt resource value: 0x7F0E002A
-			public const int Base_TextAppearance_AppCompat_Tooltip = 2131623978;
+			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131623978;
 			
 			// aapt resource value: 0x7F0E002B
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131623979;
+			public const int Base_TextAppearance_AppCompat_SearchResult_Title = 2131623979;
 			
 			// aapt resource value: 0x7F0E002C
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131623980;
+			public const int Base_TextAppearance_AppCompat_Small = 2131623980;
 			
 			// aapt resource value: 0x7F0E002D
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131623981;
+			public const int Base_TextAppearance_AppCompat_Small_Inverse = 2131623981;
 			
 			// aapt resource value: 0x7F0E002E
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title = 2131623982;
+			public const int Base_TextAppearance_AppCompat_Subhead = 2131623982;
 			
 			// aapt resource value: 0x7F0E002F
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131623983;
+			public const int Base_TextAppearance_AppCompat_Subhead_Inverse = 2131623983;
 			
 			// aapt resource value: 0x7F0E0030
-			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131623984;
+			public const int Base_TextAppearance_AppCompat_Title = 2131623984;
 			
 			// aapt resource value: 0x7F0E0031
-			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Title = 2131623985;
+			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131623985;
 			
 			// aapt resource value: 0x7F0E0032
-			public const int Base_TextAppearance_AppCompat_Widget_Button = 2131623986;
+			public const int Base_TextAppearance_AppCompat_Tooltip = 2131623986;
 			
 			// aapt resource value: 0x7F0E0033
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131623987;
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131623987;
 			
 			// aapt resource value: 0x7F0E0034
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131623988;
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131623988;
 			
 			// aapt resource value: 0x7F0E0035
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131623989;
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131623989;
 			
 			// aapt resource value: 0x7F0E0036
-			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131623990;
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title = 2131623990;
 			
 			// aapt resource value: 0x7F0E0037
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131623991;
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131623991;
 			
 			// aapt resource value: 0x7F0E0038
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131623992;
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131623992;
 			
 			// aapt resource value: 0x7F0E0039
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131623993;
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Title = 2131623993;
 			
 			// aapt resource value: 0x7F0E003A
-			public const int Base_TextAppearance_AppCompat_Widget_Switch = 2131623994;
+			public const int Base_TextAppearance_AppCompat_Widget_Button = 2131623994;
 			
 			// aapt resource value: 0x7F0E003B
-			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131623995;
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131623995;
 			
 			// aapt resource value: 0x7F0E003C
-			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131623996;
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131623996;
 			
 			// aapt resource value: 0x7F0E003D
-			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131623997;
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131623997;
 			
 			// aapt resource value: 0x7F0E003E
-			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131623998;
-			
-			// aapt resource value: 0x7F0E005E
-			public const int Base_ThemeOverlay_AppCompat = 2131624030;
-			
-			// aapt resource value: 0x7F0E005F
-			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131624031;
-			
-			// aapt resource value: 0x7F0E0060
-			public const int Base_ThemeOverlay_AppCompat_Dark = 2131624032;
-			
-			// aapt resource value: 0x7F0E0061
-			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131624033;
-			
-			// aapt resource value: 0x7F0E0062
-			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131624034;
-			
-			// aapt resource value: 0x7F0E0063
-			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131624035;
-			
-			// aapt resource value: 0x7F0E0064
-			public const int Base_ThemeOverlay_AppCompat_Light = 2131624036;
-			
-			// aapt resource value: 0x7F0E0065
-			public const int Base_ThemeOverlay_MaterialComponents_Dialog = 2131624037;
-			
-			// aapt resource value: 0x7F0E0066
-			public const int Base_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624038;
+			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131623998;
 			
 			// aapt resource value: 0x7F0E003F
-			public const int Base_Theme_AppCompat = 2131623999;
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131623999;
 			
 			// aapt resource value: 0x7F0E0040
-			public const int Base_Theme_AppCompat_CompactMenu = 2131624000;
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624000;
 			
 			// aapt resource value: 0x7F0E0041
-			public const int Base_Theme_AppCompat_Dialog = 2131624001;
-			
-			// aapt resource value: 0x7F0E0045
-			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131624005;
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624001;
 			
 			// aapt resource value: 0x7F0E0042
-			public const int Base_Theme_AppCompat_Dialog_Alert = 2131624002;
+			public const int Base_TextAppearance_AppCompat_Widget_Switch = 2131624002;
 			
 			// aapt resource value: 0x7F0E0043
-			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131624003;
+			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624003;
 			
 			// aapt resource value: 0x7F0E0044
-			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131624004;
+			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624004;
+			
+			// aapt resource value: 0x7F0E0045
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624005;
 			
 			// aapt resource value: 0x7F0E0046
-			public const int Base_Theme_AppCompat_Light = 2131624006;
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624006;
 			
-			// aapt resource value: 0x7F0E0047
-			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131624007;
-			
-			// aapt resource value: 0x7F0E0048
-			public const int Base_Theme_AppCompat_Light_Dialog = 2131624008;
-			
-			// aapt resource value: 0x7F0E004C
-			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131624012;
-			
-			// aapt resource value: 0x7F0E0049
-			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131624009;
-			
-			// aapt resource value: 0x7F0E004A
-			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131624010;
-			
-			// aapt resource value: 0x7F0E004B
-			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131624011;
-			
-			// aapt resource value: 0x7F0E004D
-			public const int Base_Theme_MaterialComponents = 2131624013;
-			
-			// aapt resource value: 0x7F0E004E
-			public const int Base_Theme_MaterialComponents_Bridge = 2131624014;
-			
-			// aapt resource value: 0x7F0E004F
-			public const int Base_Theme_MaterialComponents_CompactMenu = 2131624015;
-			
-			// aapt resource value: 0x7F0E0050
-			public const int Base_Theme_MaterialComponents_Dialog = 2131624016;
-			
-			// aapt resource value: 0x7F0E0054
-			public const int Base_Theme_MaterialComponents_DialogWhenLarge = 2131624020;
-			
-			// aapt resource value: 0x7F0E0051
-			public const int Base_Theme_MaterialComponents_Dialog_Alert = 2131624017;
-			
-			// aapt resource value: 0x7F0E0052
-			public const int Base_Theme_MaterialComponents_Dialog_FixedSize = 2131624018;
-			
-			// aapt resource value: 0x7F0E0053
-			public const int Base_Theme_MaterialComponents_Dialog_MinWidth = 2131624019;
-			
-			// aapt resource value: 0x7F0E0055
-			public const int Base_Theme_MaterialComponents_Light = 2131624021;
-			
-			// aapt resource value: 0x7F0E0056
-			public const int Base_Theme_MaterialComponents_Light_Bridge = 2131624022;
-			
-			// aapt resource value: 0x7F0E0057
-			public const int Base_Theme_MaterialComponents_Light_DarkActionBar = 2131624023;
-			
-			// aapt resource value: 0x7F0E0058
-			public const int Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624024;
-			
-			// aapt resource value: 0x7F0E0059
-			public const int Base_Theme_MaterialComponents_Light_Dialog = 2131624025;
-			
-			// aapt resource value: 0x7F0E005D
-			public const int Base_Theme_MaterialComponents_Light_DialogWhenLarge = 2131624029;
-			
-			// aapt resource value: 0x7F0E005A
-			public const int Base_Theme_MaterialComponents_Light_Dialog_Alert = 2131624026;
-			
-			// aapt resource value: 0x7F0E005B
-			public const int Base_Theme_MaterialComponents_Light_Dialog_FixedSize = 2131624027;
-			
-			// aapt resource value: 0x7F0E005C
-			public const int Base_Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624028;
-			
-			// aapt resource value: 0x7F0E006E
-			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog = 2131624046;
-			
-			// aapt resource value: 0x7F0E006F
-			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624047;
+			// aapt resource value: 0x7F0E0066
+			public const int Base_ThemeOverlay_AppCompat = 2131624038;
 			
 			// aapt resource value: 0x7F0E0067
-			public const int Base_V14_Theme_MaterialComponents = 2131624039;
+			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131624039;
 			
 			// aapt resource value: 0x7F0E0068
-			public const int Base_V14_Theme_MaterialComponents_Bridge = 2131624040;
+			public const int Base_ThemeOverlay_AppCompat_Dark = 2131624040;
 			
 			// aapt resource value: 0x7F0E0069
-			public const int Base_V14_Theme_MaterialComponents_Dialog = 2131624041;
+			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131624041;
 			
 			// aapt resource value: 0x7F0E006A
-			public const int Base_V14_Theme_MaterialComponents_Light = 2131624042;
+			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131624042;
 			
 			// aapt resource value: 0x7F0E006B
-			public const int Base_V14_Theme_MaterialComponents_Light_Bridge = 2131624043;
+			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131624043;
 			
 			// aapt resource value: 0x7F0E006C
-			public const int Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624044;
+			public const int Base_ThemeOverlay_AppCompat_Light = 2131624044;
 			
 			// aapt resource value: 0x7F0E006D
-			public const int Base_V14_Theme_MaterialComponents_Light_Dialog = 2131624045;
+			public const int Base_ThemeOverlay_MaterialComponents_Dialog = 2131624045;
 			
-			// aapt resource value: 0x7F0E0074
-			public const int Base_V21_ThemeOverlay_AppCompat_Dialog = 2131624052;
+			// aapt resource value: 0x7F0E006E
+			public const int Base_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624046;
 			
-			// aapt resource value: 0x7F0E0070
-			public const int Base_V21_Theme_AppCompat = 2131624048;
+			// aapt resource value: 0x7F0E0047
+			public const int Base_Theme_AppCompat = 2131624007;
 			
-			// aapt resource value: 0x7F0E0071
-			public const int Base_V21_Theme_AppCompat_Dialog = 2131624049;
+			// aapt resource value: 0x7F0E0048
+			public const int Base_Theme_AppCompat_CompactMenu = 2131624008;
 			
-			// aapt resource value: 0x7F0E0072
-			public const int Base_V21_Theme_AppCompat_Light = 2131624050;
+			// aapt resource value: 0x7F0E0049
+			public const int Base_Theme_AppCompat_Dialog = 2131624009;
 			
-			// aapt resource value: 0x7F0E0073
-			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131624051;
+			// aapt resource value: 0x7F0E004D
+			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131624013;
 			
-			// aapt resource value: 0x7F0E0075
-			public const int Base_V22_Theme_AppCompat = 2131624053;
+			// aapt resource value: 0x7F0E004A
+			public const int Base_Theme_AppCompat_Dialog_Alert = 2131624010;
+			
+			// aapt resource value: 0x7F0E004B
+			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131624011;
+			
+			// aapt resource value: 0x7F0E004C
+			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131624012;
+			
+			// aapt resource value: 0x7F0E004E
+			public const int Base_Theme_AppCompat_Light = 2131624014;
+			
+			// aapt resource value: 0x7F0E004F
+			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131624015;
+			
+			// aapt resource value: 0x7F0E0050
+			public const int Base_Theme_AppCompat_Light_Dialog = 2131624016;
+			
+			// aapt resource value: 0x7F0E0054
+			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131624020;
+			
+			// aapt resource value: 0x7F0E0051
+			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131624017;
+			
+			// aapt resource value: 0x7F0E0052
+			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131624018;
+			
+			// aapt resource value: 0x7F0E0053
+			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131624019;
+			
+			// aapt resource value: 0x7F0E0055
+			public const int Base_Theme_MaterialComponents = 2131624021;
+			
+			// aapt resource value: 0x7F0E0056
+			public const int Base_Theme_MaterialComponents_Bridge = 2131624022;
+			
+			// aapt resource value: 0x7F0E0057
+			public const int Base_Theme_MaterialComponents_CompactMenu = 2131624023;
+			
+			// aapt resource value: 0x7F0E0058
+			public const int Base_Theme_MaterialComponents_Dialog = 2131624024;
+			
+			// aapt resource value: 0x7F0E005C
+			public const int Base_Theme_MaterialComponents_DialogWhenLarge = 2131624028;
+			
+			// aapt resource value: 0x7F0E0059
+			public const int Base_Theme_MaterialComponents_Dialog_Alert = 2131624025;
+			
+			// aapt resource value: 0x7F0E005A
+			public const int Base_Theme_MaterialComponents_Dialog_FixedSize = 2131624026;
+			
+			// aapt resource value: 0x7F0E005B
+			public const int Base_Theme_MaterialComponents_Dialog_MinWidth = 2131624027;
+			
+			// aapt resource value: 0x7F0E005D
+			public const int Base_Theme_MaterialComponents_Light = 2131624029;
+			
+			// aapt resource value: 0x7F0E005E
+			public const int Base_Theme_MaterialComponents_Light_Bridge = 2131624030;
+			
+			// aapt resource value: 0x7F0E005F
+			public const int Base_Theme_MaterialComponents_Light_DarkActionBar = 2131624031;
+			
+			// aapt resource value: 0x7F0E0060
+			public const int Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624032;
+			
+			// aapt resource value: 0x7F0E0061
+			public const int Base_Theme_MaterialComponents_Light_Dialog = 2131624033;
+			
+			// aapt resource value: 0x7F0E0065
+			public const int Base_Theme_MaterialComponents_Light_DialogWhenLarge = 2131624037;
+			
+			// aapt resource value: 0x7F0E0062
+			public const int Base_Theme_MaterialComponents_Light_Dialog_Alert = 2131624034;
+			
+			// aapt resource value: 0x7F0E0063
+			public const int Base_Theme_MaterialComponents_Light_Dialog_FixedSize = 2131624035;
+			
+			// aapt resource value: 0x7F0E0064
+			public const int Base_Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624036;
 			
 			// aapt resource value: 0x7F0E0076
-			public const int Base_V22_Theme_AppCompat_Light = 2131624054;
+			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog = 2131624054;
 			
 			// aapt resource value: 0x7F0E0077
-			public const int Base_V23_Theme_AppCompat = 2131624055;
+			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624055;
 			
-			// aapt resource value: 0x7F0E0078
-			public const int Base_V23_Theme_AppCompat_Light = 2131624056;
+			// aapt resource value: 0x7F0E006F
+			public const int Base_V14_Theme_MaterialComponents = 2131624047;
 			
-			// aapt resource value: 0x7F0E0079
-			public const int Base_V26_Theme_AppCompat = 2131624057;
+			// aapt resource value: 0x7F0E0070
+			public const int Base_V14_Theme_MaterialComponents_Bridge = 2131624048;
 			
-			// aapt resource value: 0x7F0E007A
-			public const int Base_V26_Theme_AppCompat_Light = 2131624058;
+			// aapt resource value: 0x7F0E0071
+			public const int Base_V14_Theme_MaterialComponents_Dialog = 2131624049;
 			
-			// aapt resource value: 0x7F0E007B
-			public const int Base_V26_Widget_AppCompat_Toolbar = 2131624059;
+			// aapt resource value: 0x7F0E0072
+			public const int Base_V14_Theme_MaterialComponents_Light = 2131624050;
+			
+			// aapt resource value: 0x7F0E0073
+			public const int Base_V14_Theme_MaterialComponents_Light_Bridge = 2131624051;
+			
+			// aapt resource value: 0x7F0E0074
+			public const int Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624052;
+			
+			// aapt resource value: 0x7F0E0075
+			public const int Base_V14_Theme_MaterialComponents_Light_Dialog = 2131624053;
 			
 			// aapt resource value: 0x7F0E007C
-			public const int Base_V28_Theme_AppCompat = 2131624060;
+			public const int Base_V21_ThemeOverlay_AppCompat_Dialog = 2131624060;
+			
+			// aapt resource value: 0x7F0E0078
+			public const int Base_V21_Theme_AppCompat = 2131624056;
+			
+			// aapt resource value: 0x7F0E0079
+			public const int Base_V21_Theme_AppCompat_Dialog = 2131624057;
+			
+			// aapt resource value: 0x7F0E007A
+			public const int Base_V21_Theme_AppCompat_Light = 2131624058;
+			
+			// aapt resource value: 0x7F0E007B
+			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131624059;
 			
 			// aapt resource value: 0x7F0E007D
-			public const int Base_V28_Theme_AppCompat_Light = 2131624061;
-			
-			// aapt resource value: 0x7F0E0082
-			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131624066;
+			public const int Base_V22_Theme_AppCompat = 2131624061;
 			
 			// aapt resource value: 0x7F0E007E
-			public const int Base_V7_Theme_AppCompat = 2131624062;
+			public const int Base_V22_Theme_AppCompat_Light = 2131624062;
 			
 			// aapt resource value: 0x7F0E007F
-			public const int Base_V7_Theme_AppCompat_Dialog = 2131624063;
+			public const int Base_V23_Theme_AppCompat = 2131624063;
 			
 			// aapt resource value: 0x7F0E0080
-			public const int Base_V7_Theme_AppCompat_Light = 2131624064;
+			public const int Base_V23_Theme_AppCompat_Light = 2131624064;
 			
 			// aapt resource value: 0x7F0E0081
-			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131624065;
+			public const int Base_V26_Theme_AppCompat = 2131624065;
+			
+			// aapt resource value: 0x7F0E0082
+			public const int Base_V26_Theme_AppCompat_Light = 2131624066;
 			
 			// aapt resource value: 0x7F0E0083
-			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131624067;
+			public const int Base_V26_Widget_AppCompat_Toolbar = 2131624067;
 			
 			// aapt resource value: 0x7F0E0084
-			public const int Base_V7_Widget_AppCompat_EditText = 2131624068;
+			public const int Base_V28_Theme_AppCompat = 2131624068;
 			
 			// aapt resource value: 0x7F0E0085
-			public const int Base_V7_Widget_AppCompat_Toolbar = 2131624069;
-			
-			// aapt resource value: 0x7F0E0086
-			public const int Base_Widget_AppCompat_ActionBar = 2131624070;
-			
-			// aapt resource value: 0x7F0E0087
-			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131624071;
-			
-			// aapt resource value: 0x7F0E0088
-			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131624072;
-			
-			// aapt resource value: 0x7F0E0089
-			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131624073;
+			public const int Base_V28_Theme_AppCompat_Light = 2131624069;
 			
 			// aapt resource value: 0x7F0E008A
-			public const int Base_Widget_AppCompat_ActionBar_TabView = 2131624074;
+			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131624074;
+			
+			// aapt resource value: 0x7F0E0086
+			public const int Base_V7_Theme_AppCompat = 2131624070;
+			
+			// aapt resource value: 0x7F0E0087
+			public const int Base_V7_Theme_AppCompat_Dialog = 2131624071;
+			
+			// aapt resource value: 0x7F0E0088
+			public const int Base_V7_Theme_AppCompat_Light = 2131624072;
+			
+			// aapt resource value: 0x7F0E0089
+			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131624073;
 			
 			// aapt resource value: 0x7F0E008B
-			public const int Base_Widget_AppCompat_ActionButton = 2131624075;
+			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131624075;
 			
 			// aapt resource value: 0x7F0E008C
-			public const int Base_Widget_AppCompat_ActionButton_CloseMode = 2131624076;
+			public const int Base_V7_Widget_AppCompat_EditText = 2131624076;
 			
 			// aapt resource value: 0x7F0E008D
-			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131624077;
+			public const int Base_V7_Widget_AppCompat_Toolbar = 2131624077;
 			
 			// aapt resource value: 0x7F0E008E
-			public const int Base_Widget_AppCompat_ActionMode = 2131624078;
+			public const int Base_Widget_AppCompat_ActionBar = 2131624078;
 			
 			// aapt resource value: 0x7F0E008F
-			public const int Base_Widget_AppCompat_ActivityChooserView = 2131624079;
+			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131624079;
 			
 			// aapt resource value: 0x7F0E0090
-			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131624080;
+			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131624080;
 			
 			// aapt resource value: 0x7F0E0091
-			public const int Base_Widget_AppCompat_Button = 2131624081;
-			
-			// aapt resource value: 0x7F0E0097
-			public const int Base_Widget_AppCompat_ButtonBar = 2131624087;
-			
-			// aapt resource value: 0x7F0E0098
-			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131624088;
+			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131624081;
 			
 			// aapt resource value: 0x7F0E0092
-			public const int Base_Widget_AppCompat_Button_Borderless = 2131624082;
+			public const int Base_Widget_AppCompat_ActionBar_TabView = 2131624082;
 			
 			// aapt resource value: 0x7F0E0093
-			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131624083;
+			public const int Base_Widget_AppCompat_ActionButton = 2131624083;
 			
 			// aapt resource value: 0x7F0E0094
-			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624084;
+			public const int Base_Widget_AppCompat_ActionButton_CloseMode = 2131624084;
 			
 			// aapt resource value: 0x7F0E0095
-			public const int Base_Widget_AppCompat_Button_Colored = 2131624085;
+			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131624085;
 			
 			// aapt resource value: 0x7F0E0096
-			public const int Base_Widget_AppCompat_Button_Small = 2131624086;
+			public const int Base_Widget_AppCompat_ActionMode = 2131624086;
+			
+			// aapt resource value: 0x7F0E0097
+			public const int Base_Widget_AppCompat_ActivityChooserView = 2131624087;
+			
+			// aapt resource value: 0x7F0E0098
+			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131624088;
 			
 			// aapt resource value: 0x7F0E0099
-			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131624089;
-			
-			// aapt resource value: 0x7F0E009A
-			public const int Base_Widget_AppCompat_CompoundButton_RadioButton = 2131624090;
-			
-			// aapt resource value: 0x7F0E009B
-			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131624091;
-			
-			// aapt resource value: 0x7F0E009C
-			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131624092;
-			
-			// aapt resource value: 0x7F0E009D
-			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131624093;
-			
-			// aapt resource value: 0x7F0E009E
-			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131624094;
+			public const int Base_Widget_AppCompat_Button = 2131624089;
 			
 			// aapt resource value: 0x7F0E009F
-			public const int Base_Widget_AppCompat_EditText = 2131624095;
+			public const int Base_Widget_AppCompat_ButtonBar = 2131624095;
 			
 			// aapt resource value: 0x7F0E00A0
-			public const int Base_Widget_AppCompat_ImageButton = 2131624096;
+			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131624096;
+			
+			// aapt resource value: 0x7F0E009A
+			public const int Base_Widget_AppCompat_Button_Borderless = 2131624090;
+			
+			// aapt resource value: 0x7F0E009B
+			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131624091;
+			
+			// aapt resource value: 0x7F0E009C
+			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624092;
+			
+			// aapt resource value: 0x7F0E009D
+			public const int Base_Widget_AppCompat_Button_Colored = 2131624093;
+			
+			// aapt resource value: 0x7F0E009E
+			public const int Base_Widget_AppCompat_Button_Small = 2131624094;
 			
 			// aapt resource value: 0x7F0E00A1
-			public const int Base_Widget_AppCompat_Light_ActionBar = 2131624097;
+			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131624097;
 			
 			// aapt resource value: 0x7F0E00A2
-			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131624098;
+			public const int Base_Widget_AppCompat_CompoundButton_RadioButton = 2131624098;
 			
 			// aapt resource value: 0x7F0E00A3
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131624099;
+			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131624099;
 			
 			// aapt resource value: 0x7F0E00A4
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131624100;
+			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131624100;
 			
 			// aapt resource value: 0x7F0E00A5
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624101;
+			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131624101;
 			
 			// aapt resource value: 0x7F0E00A6
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabView = 2131624102;
+			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131624102;
 			
 			// aapt resource value: 0x7F0E00A7
-			public const int Base_Widget_AppCompat_Light_PopupMenu = 2131624103;
+			public const int Base_Widget_AppCompat_EditText = 2131624103;
 			
 			// aapt resource value: 0x7F0E00A8
-			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131624104;
+			public const int Base_Widget_AppCompat_ImageButton = 2131624104;
 			
 			// aapt resource value: 0x7F0E00A9
-			public const int Base_Widget_AppCompat_ListMenuView = 2131624105;
+			public const int Base_Widget_AppCompat_Light_ActionBar = 2131624105;
 			
 			// aapt resource value: 0x7F0E00AA
-			public const int Base_Widget_AppCompat_ListPopupWindow = 2131624106;
+			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131624106;
 			
 			// aapt resource value: 0x7F0E00AB
-			public const int Base_Widget_AppCompat_ListView = 2131624107;
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131624107;
 			
 			// aapt resource value: 0x7F0E00AC
-			public const int Base_Widget_AppCompat_ListView_DropDown = 2131624108;
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131624108;
 			
 			// aapt resource value: 0x7F0E00AD
-			public const int Base_Widget_AppCompat_ListView_Menu = 2131624109;
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624109;
 			
 			// aapt resource value: 0x7F0E00AE
-			public const int Base_Widget_AppCompat_PopupMenu = 2131624110;
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabView = 2131624110;
 			
 			// aapt resource value: 0x7F0E00AF
-			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131624111;
+			public const int Base_Widget_AppCompat_Light_PopupMenu = 2131624111;
 			
 			// aapt resource value: 0x7F0E00B0
-			public const int Base_Widget_AppCompat_PopupWindow = 2131624112;
+			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131624112;
 			
 			// aapt resource value: 0x7F0E00B1
-			public const int Base_Widget_AppCompat_ProgressBar = 2131624113;
+			public const int Base_Widget_AppCompat_ListMenuView = 2131624113;
 			
 			// aapt resource value: 0x7F0E00B2
-			public const int Base_Widget_AppCompat_ProgressBar_Horizontal = 2131624114;
+			public const int Base_Widget_AppCompat_ListPopupWindow = 2131624114;
 			
 			// aapt resource value: 0x7F0E00B3
-			public const int Base_Widget_AppCompat_RatingBar = 2131624115;
+			public const int Base_Widget_AppCompat_ListView = 2131624115;
 			
 			// aapt resource value: 0x7F0E00B4
-			public const int Base_Widget_AppCompat_RatingBar_Indicator = 2131624116;
+			public const int Base_Widget_AppCompat_ListView_DropDown = 2131624116;
 			
 			// aapt resource value: 0x7F0E00B5
-			public const int Base_Widget_AppCompat_RatingBar_Small = 2131624117;
+			public const int Base_Widget_AppCompat_ListView_Menu = 2131624117;
 			
 			// aapt resource value: 0x7F0E00B6
-			public const int Base_Widget_AppCompat_SearchView = 2131624118;
+			public const int Base_Widget_AppCompat_PopupMenu = 2131624118;
 			
 			// aapt resource value: 0x7F0E00B7
-			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131624119;
+			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131624119;
 			
 			// aapt resource value: 0x7F0E00B8
-			public const int Base_Widget_AppCompat_SeekBar = 2131624120;
+			public const int Base_Widget_AppCompat_PopupWindow = 2131624120;
 			
 			// aapt resource value: 0x7F0E00B9
-			public const int Base_Widget_AppCompat_SeekBar_Discrete = 2131624121;
+			public const int Base_Widget_AppCompat_ProgressBar = 2131624121;
 			
 			// aapt resource value: 0x7F0E00BA
-			public const int Base_Widget_AppCompat_Spinner = 2131624122;
+			public const int Base_Widget_AppCompat_ProgressBar_Horizontal = 2131624122;
 			
 			// aapt resource value: 0x7F0E00BB
-			public const int Base_Widget_AppCompat_Spinner_Underlined = 2131624123;
+			public const int Base_Widget_AppCompat_RatingBar = 2131624123;
 			
 			// aapt resource value: 0x7F0E00BC
-			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131624124;
+			public const int Base_Widget_AppCompat_RatingBar_Indicator = 2131624124;
 			
 			// aapt resource value: 0x7F0E00BD
-			public const int Base_Widget_AppCompat_Toolbar = 2131624125;
+			public const int Base_Widget_AppCompat_RatingBar_Small = 2131624125;
 			
 			// aapt resource value: 0x7F0E00BE
-			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131624126;
+			public const int Base_Widget_AppCompat_SearchView = 2131624126;
 			
 			// aapt resource value: 0x7F0E00BF
-			public const int Base_Widget_Design_TabLayout = 2131624127;
+			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131624127;
 			
 			// aapt resource value: 0x7F0E00C0
-			public const int Base_Widget_MaterialComponents_Chip = 2131624128;
+			public const int Base_Widget_AppCompat_SeekBar = 2131624128;
 			
 			// aapt resource value: 0x7F0E00C1
-			public const int Base_Widget_MaterialComponents_TextInputEditText = 2131624129;
+			public const int Base_Widget_AppCompat_SeekBar_Discrete = 2131624129;
 			
 			// aapt resource value: 0x7F0E00C2
-			public const int Base_Widget_MaterialComponents_TextInputLayout = 2131624130;
+			public const int Base_Widget_AppCompat_Spinner = 2131624130;
 			
 			// aapt resource value: 0x7F0E00C3
-			public const int CardView = 2131624131;
+			public const int Base_Widget_AppCompat_Spinner_Underlined = 2131624131;
 			
 			// aapt resource value: 0x7F0E00C4
-			public const int CardView_Dark = 2131624132;
+			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131624132;
 			
 			// aapt resource value: 0x7F0E00C5
-			public const int CardView_Light = 2131624133;
-			
-			// aapt resource value: 0x7F0E01F7
-			public const int collectionViewScrollBars = 2131624439;
-			
-			// aapt resource value: 0x7F0E01F8
-			public const int collectionViewTheme = 2131624440;
+			public const int Base_Widget_AppCompat_Toolbar = 2131624133;
 			
 			// aapt resource value: 0x7F0E00C6
-			public const int MainTheme = 2131624134;
+			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131624134;
 			
 			// aapt resource value: 0x7F0E00C7
-			public const int MainTheme_Base = 2131624135;
+			public const int Base_Widget_Design_TabLayout = 2131624135;
 			
 			// aapt resource value: 0x7F0E00C8
-			public const int Platform_AppCompat = 2131624136;
+			public const int Base_Widget_MaterialComponents_Chip = 2131624136;
 			
 			// aapt resource value: 0x7F0E00C9
-			public const int Platform_AppCompat_Light = 2131624137;
+			public const int Base_Widget_MaterialComponents_TextInputEditText = 2131624137;
 			
 			// aapt resource value: 0x7F0E00CA
-			public const int Platform_MaterialComponents = 2131624138;
+			public const int Base_Widget_MaterialComponents_TextInputLayout = 2131624138;
+			
+			// aapt resource value: 0x7F0E0007
+			public const int BB_BottomBarBadge_Text = 2131623943;
+			
+			// aapt resource value: 0x7F0E0008
+			public const int BB_BottomBarItem = 2131623944;
+			
+			// aapt resource value: 0x7F0E0009
+			public const int BB_BottomBarItem_Fixed = 2131623945;
+			
+			// aapt resource value: 0x7F0E000A
+			public const int BB_BottomBarItem_Fixed_TitleAppearance = 2131623946;
+			
+			// aapt resource value: 0x7F0E000B
+			public const int BB_BottomBarItem_Shifting = 2131623947;
+			
+			// aapt resource value: 0x7F0E000C
+			public const int BB_BottomBarItem_Shifting_TitleAppearance = 2131623948;
+			
+			// aapt resource value: 0x7F0E000D
+			public const int BB_BottomBarItem_Tablet = 2131623949;
+			
+			// aapt resource value: 0x7F0E000E
+			public const int BB_BottomBarItem_TitleStyle = 2131623950;
 			
 			// aapt resource value: 0x7F0E00CB
-			public const int Platform_MaterialComponents_Dialog = 2131624139;
+			public const int CardView = 2131624139;
 			
 			// aapt resource value: 0x7F0E00CC
-			public const int Platform_MaterialComponents_Light = 2131624140;
+			public const int CardView_Dark = 2131624140;
 			
 			// aapt resource value: 0x7F0E00CD
-			public const int Platform_MaterialComponents_Light_Dialog = 2131624141;
+			public const int CardView_Light = 2131624141;
+			
+			// aapt resource value: 0x7F0E01FF
+			public const int collectionViewScrollBars = 2131624447;
+			
+			// aapt resource value: 0x7F0E0200
+			public const int collectionViewTheme = 2131624448;
 			
 			// aapt resource value: 0x7F0E00CE
-			public const int Platform_ThemeOverlay_AppCompat = 2131624142;
+			public const int MainTheme = 2131624142;
 			
 			// aapt resource value: 0x7F0E00CF
-			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131624143;
+			public const int MainTheme_Base = 2131624143;
 			
 			// aapt resource value: 0x7F0E00D0
-			public const int Platform_ThemeOverlay_AppCompat_Light = 2131624144;
+			public const int Platform_AppCompat = 2131624144;
 			
 			// aapt resource value: 0x7F0E00D1
-			public const int Platform_V21_AppCompat = 2131624145;
+			public const int Platform_AppCompat_Light = 2131624145;
 			
 			// aapt resource value: 0x7F0E00D2
-			public const int Platform_V21_AppCompat_Light = 2131624146;
+			public const int Platform_MaterialComponents = 2131624146;
 			
 			// aapt resource value: 0x7F0E00D3
-			public const int Platform_V25_AppCompat = 2131624147;
+			public const int Platform_MaterialComponents_Dialog = 2131624147;
 			
 			// aapt resource value: 0x7F0E00D4
-			public const int Platform_V25_AppCompat_Light = 2131624148;
+			public const int Platform_MaterialComponents_Light = 2131624148;
 			
 			// aapt resource value: 0x7F0E00D5
-			public const int Platform_Widget_AppCompat_Spinner = 2131624149;
+			public const int Platform_MaterialComponents_Light_Dialog = 2131624149;
 			
 			// aapt resource value: 0x7F0E00D6
-			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131624150;
+			public const int Platform_ThemeOverlay_AppCompat = 2131624150;
 			
 			// aapt resource value: 0x7F0E00D7
-			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131624151;
+			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131624151;
 			
 			// aapt resource value: 0x7F0E00D8
-			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131624152;
+			public const int Platform_ThemeOverlay_AppCompat_Light = 2131624152;
 			
 			// aapt resource value: 0x7F0E00D9
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131624153;
+			public const int Platform_V21_AppCompat = 2131624153;
 			
 			// aapt resource value: 0x7F0E00DA
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131624154;
+			public const int Platform_V21_AppCompat_Light = 2131624154;
 			
 			// aapt resource value: 0x7F0E00DB
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131624155;
+			public const int Platform_V25_AppCompat = 2131624155;
 			
 			// aapt resource value: 0x7F0E00DC
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131624156;
+			public const int Platform_V25_AppCompat_Light = 2131624156;
 			
 			// aapt resource value: 0x7F0E00DD
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131624157;
+			public const int Platform_Widget_AppCompat_Spinner = 2131624157;
 			
 			// aapt resource value: 0x7F0E00DE
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131624158;
-			
-			// aapt resource value: 0x7F0E00E4
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624164;
+			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131624158;
 			
 			// aapt resource value: 0x7F0E00DF
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624159;
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131624159;
 			
 			// aapt resource value: 0x7F0E00E0
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624160;
+			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131624160;
 			
 			// aapt resource value: 0x7F0E00E1
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624161;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131624161;
 			
 			// aapt resource value: 0x7F0E00E2
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624162;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131624162;
 			
 			// aapt resource value: 0x7F0E00E3
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624163;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131624163;
+			
+			// aapt resource value: 0x7F0E00E4
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131624164;
 			
 			// aapt resource value: 0x7F0E00E5
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131624165;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131624165;
 			
 			// aapt resource value: 0x7F0E00E6
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624166;
-			
-			// aapt resource value: 0x7F0E00E7
-			public const int TextAppearance_AppCompat = 2131624167;
-			
-			// aapt resource value: 0x7F0E00E8
-			public const int TextAppearance_AppCompat_Body1 = 2131624168;
-			
-			// aapt resource value: 0x7F0E00E9
-			public const int TextAppearance_AppCompat_Body2 = 2131624169;
-			
-			// aapt resource value: 0x7F0E00EA
-			public const int TextAppearance_AppCompat_Button = 2131624170;
-			
-			// aapt resource value: 0x7F0E00EB
-			public const int TextAppearance_AppCompat_Caption = 2131624171;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131624166;
 			
 			// aapt resource value: 0x7F0E00EC
-			public const int TextAppearance_AppCompat_Display1 = 2131624172;
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624172;
+			
+			// aapt resource value: 0x7F0E00E7
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624167;
+			
+			// aapt resource value: 0x7F0E00E8
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624168;
+			
+			// aapt resource value: 0x7F0E00E9
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624169;
+			
+			// aapt resource value: 0x7F0E00EA
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624170;
+			
+			// aapt resource value: 0x7F0E00EB
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624171;
 			
 			// aapt resource value: 0x7F0E00ED
-			public const int TextAppearance_AppCompat_Display2 = 2131624173;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131624173;
 			
 			// aapt resource value: 0x7F0E00EE
-			public const int TextAppearance_AppCompat_Display3 = 2131624174;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624174;
 			
 			// aapt resource value: 0x7F0E00EF
-			public const int TextAppearance_AppCompat_Display4 = 2131624175;
+			public const int TextAppearance_AppCompat = 2131624175;
 			
 			// aapt resource value: 0x7F0E00F0
-			public const int TextAppearance_AppCompat_Headline = 2131624176;
+			public const int TextAppearance_AppCompat_Body1 = 2131624176;
 			
 			// aapt resource value: 0x7F0E00F1
-			public const int TextAppearance_AppCompat_Inverse = 2131624177;
+			public const int TextAppearance_AppCompat_Body2 = 2131624177;
 			
 			// aapt resource value: 0x7F0E00F2
-			public const int TextAppearance_AppCompat_Large = 2131624178;
+			public const int TextAppearance_AppCompat_Button = 2131624178;
 			
 			// aapt resource value: 0x7F0E00F3
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131624179;
+			public const int TextAppearance_AppCompat_Caption = 2131624179;
 			
 			// aapt resource value: 0x7F0E00F4
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131624180;
+			public const int TextAppearance_AppCompat_Display1 = 2131624180;
 			
 			// aapt resource value: 0x7F0E00F5
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131624181;
+			public const int TextAppearance_AppCompat_Display2 = 2131624181;
 			
 			// aapt resource value: 0x7F0E00F6
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131624182;
+			public const int TextAppearance_AppCompat_Display3 = 2131624182;
 			
 			// aapt resource value: 0x7F0E00F7
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131624183;
+			public const int TextAppearance_AppCompat_Display4 = 2131624183;
 			
 			// aapt resource value: 0x7F0E00F8
-			public const int TextAppearance_AppCompat_Medium = 2131624184;
+			public const int TextAppearance_AppCompat_Headline = 2131624184;
 			
 			// aapt resource value: 0x7F0E00F9
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131624185;
+			public const int TextAppearance_AppCompat_Inverse = 2131624185;
 			
 			// aapt resource value: 0x7F0E00FA
-			public const int TextAppearance_AppCompat_Menu = 2131624186;
+			public const int TextAppearance_AppCompat_Large = 2131624186;
 			
 			// aapt resource value: 0x7F0E00FB
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131624187;
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131624187;
 			
 			// aapt resource value: 0x7F0E00FC
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131624188;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131624188;
 			
 			// aapt resource value: 0x7F0E00FD
-			public const int TextAppearance_AppCompat_Small = 2131624189;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131624189;
 			
 			// aapt resource value: 0x7F0E00FE
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131624190;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131624190;
 			
 			// aapt resource value: 0x7F0E00FF
-			public const int TextAppearance_AppCompat_Subhead = 2131624191;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131624191;
 			
 			// aapt resource value: 0x7F0E0100
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131624192;
+			public const int TextAppearance_AppCompat_Medium = 2131624192;
 			
 			// aapt resource value: 0x7F0E0101
-			public const int TextAppearance_AppCompat_Title = 2131624193;
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131624193;
 			
 			// aapt resource value: 0x7F0E0102
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131624194;
+			public const int TextAppearance_AppCompat_Menu = 2131624194;
 			
 			// aapt resource value: 0x7F0E0103
-			public const int TextAppearance_AppCompat_Tooltip = 2131624195;
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131624195;
 			
 			// aapt resource value: 0x7F0E0104
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131624196;
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131624196;
 			
 			// aapt resource value: 0x7F0E0105
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131624197;
+			public const int TextAppearance_AppCompat_Small = 2131624197;
 			
 			// aapt resource value: 0x7F0E0106
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131624198;
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131624198;
 			
 			// aapt resource value: 0x7F0E0107
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131624199;
+			public const int TextAppearance_AppCompat_Subhead = 2131624199;
 			
 			// aapt resource value: 0x7F0E0108
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131624200;
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131624200;
 			
 			// aapt resource value: 0x7F0E0109
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131624201;
+			public const int TextAppearance_AppCompat_Title = 2131624201;
 			
 			// aapt resource value: 0x7F0E010A
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131624202;
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131624202;
 			
 			// aapt resource value: 0x7F0E010B
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131624203;
+			public const int TextAppearance_AppCompat_Tooltip = 2131624203;
 			
 			// aapt resource value: 0x7F0E010C
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131624204;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131624204;
 			
 			// aapt resource value: 0x7F0E010D
-			public const int TextAppearance_AppCompat_Widget_Button = 2131624205;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131624205;
 			
 			// aapt resource value: 0x7F0E010E
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131624206;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131624206;
 			
 			// aapt resource value: 0x7F0E010F
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131624207;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131624207;
 			
 			// aapt resource value: 0x7F0E0110
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131624208;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131624208;
 			
 			// aapt resource value: 0x7F0E0111
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131624209;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131624209;
 			
 			// aapt resource value: 0x7F0E0112
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131624210;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131624210;
 			
 			// aapt resource value: 0x7F0E0113
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624211;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131624211;
 			
 			// aapt resource value: 0x7F0E0114
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624212;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131624212;
 			
 			// aapt resource value: 0x7F0E0115
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131624213;
+			public const int TextAppearance_AppCompat_Widget_Button = 2131624213;
 			
 			// aapt resource value: 0x7F0E0116
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624214;
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131624214;
 			
 			// aapt resource value: 0x7F0E0117
-			public const int TextAppearance_Compat_Notification = 2131624215;
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131624215;
 			
 			// aapt resource value: 0x7F0E0118
-			public const int TextAppearance_Compat_Notification_Info = 2131624216;
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131624216;
 			
 			// aapt resource value: 0x7F0E0119
-			public const int TextAppearance_Compat_Notification_Info_Media = 2131624217;
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131624217;
 			
 			// aapt resource value: 0x7F0E011A
-			public const int TextAppearance_Compat_Notification_Line2 = 2131624218;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131624218;
 			
 			// aapt resource value: 0x7F0E011B
-			public const int TextAppearance_Compat_Notification_Line2_Media = 2131624219;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624219;
 			
 			// aapt resource value: 0x7F0E011C
-			public const int TextAppearance_Compat_Notification_Media = 2131624220;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624220;
 			
 			// aapt resource value: 0x7F0E011D
-			public const int TextAppearance_Compat_Notification_Time = 2131624221;
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131624221;
 			
 			// aapt resource value: 0x7F0E011E
-			public const int TextAppearance_Compat_Notification_Time_Media = 2131624222;
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624222;
 			
 			// aapt resource value: 0x7F0E011F
-			public const int TextAppearance_Compat_Notification_Title = 2131624223;
+			public const int TextAppearance_Compat_Notification = 2131624223;
 			
 			// aapt resource value: 0x7F0E0120
-			public const int TextAppearance_Compat_Notification_Title_Media = 2131624224;
+			public const int TextAppearance_Compat_Notification_Info = 2131624224;
 			
 			// aapt resource value: 0x7F0E0121
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131624225;
+			public const int TextAppearance_Compat_Notification_Info_Media = 2131624225;
 			
 			// aapt resource value: 0x7F0E0122
-			public const int TextAppearance_Design_Counter = 2131624226;
+			public const int TextAppearance_Compat_Notification_Line2 = 2131624226;
 			
 			// aapt resource value: 0x7F0E0123
-			public const int TextAppearance_Design_Counter_Overflow = 2131624227;
+			public const int TextAppearance_Compat_Notification_Line2_Media = 2131624227;
 			
 			// aapt resource value: 0x7F0E0124
-			public const int TextAppearance_Design_Error = 2131624228;
+			public const int TextAppearance_Compat_Notification_Media = 2131624228;
 			
 			// aapt resource value: 0x7F0E0125
-			public const int TextAppearance_Design_HelperText = 2131624229;
+			public const int TextAppearance_Compat_Notification_Time = 2131624229;
 			
 			// aapt resource value: 0x7F0E0126
-			public const int TextAppearance_Design_Hint = 2131624230;
+			public const int TextAppearance_Compat_Notification_Time_Media = 2131624230;
 			
 			// aapt resource value: 0x7F0E0127
-			public const int TextAppearance_Design_Snackbar_Message = 2131624231;
+			public const int TextAppearance_Compat_Notification_Title = 2131624231;
 			
 			// aapt resource value: 0x7F0E0128
-			public const int TextAppearance_Design_Tab = 2131624232;
+			public const int TextAppearance_Compat_Notification_Title_Media = 2131624232;
 			
 			// aapt resource value: 0x7F0E0129
-			public const int TextAppearance_MaterialComponents_Body1 = 2131624233;
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131624233;
 			
 			// aapt resource value: 0x7F0E012A
-			public const int TextAppearance_MaterialComponents_Body2 = 2131624234;
+			public const int TextAppearance_Design_Counter = 2131624234;
 			
 			// aapt resource value: 0x7F0E012B
-			public const int TextAppearance_MaterialComponents_Button = 2131624235;
+			public const int TextAppearance_Design_Counter_Overflow = 2131624235;
 			
 			// aapt resource value: 0x7F0E012C
-			public const int TextAppearance_MaterialComponents_Caption = 2131624236;
+			public const int TextAppearance_Design_Error = 2131624236;
 			
 			// aapt resource value: 0x7F0E012D
-			public const int TextAppearance_MaterialComponents_Chip = 2131624237;
+			public const int TextAppearance_Design_HelperText = 2131624237;
 			
 			// aapt resource value: 0x7F0E012E
-			public const int TextAppearance_MaterialComponents_Headline1 = 2131624238;
+			public const int TextAppearance_Design_Hint = 2131624238;
 			
 			// aapt resource value: 0x7F0E012F
-			public const int TextAppearance_MaterialComponents_Headline2 = 2131624239;
+			public const int TextAppearance_Design_Snackbar_Message = 2131624239;
 			
 			// aapt resource value: 0x7F0E0130
-			public const int TextAppearance_MaterialComponents_Headline3 = 2131624240;
+			public const int TextAppearance_Design_Tab = 2131624240;
 			
 			// aapt resource value: 0x7F0E0131
-			public const int TextAppearance_MaterialComponents_Headline4 = 2131624241;
+			public const int TextAppearance_MaterialComponents_Body1 = 2131624241;
 			
 			// aapt resource value: 0x7F0E0132
-			public const int TextAppearance_MaterialComponents_Headline5 = 2131624242;
+			public const int TextAppearance_MaterialComponents_Body2 = 2131624242;
 			
 			// aapt resource value: 0x7F0E0133
-			public const int TextAppearance_MaterialComponents_Headline6 = 2131624243;
+			public const int TextAppearance_MaterialComponents_Button = 2131624243;
 			
 			// aapt resource value: 0x7F0E0134
-			public const int TextAppearance_MaterialComponents_Overline = 2131624244;
+			public const int TextAppearance_MaterialComponents_Caption = 2131624244;
 			
 			// aapt resource value: 0x7F0E0135
-			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131624245;
+			public const int TextAppearance_MaterialComponents_Chip = 2131624245;
 			
 			// aapt resource value: 0x7F0E0136
-			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131624246;
+			public const int TextAppearance_MaterialComponents_Headline1 = 2131624246;
 			
 			// aapt resource value: 0x7F0E0137
-			public const int TextAppearance_MaterialComponents_Tab = 2131624247;
+			public const int TextAppearance_MaterialComponents_Headline2 = 2131624247;
 			
 			// aapt resource value: 0x7F0E0138
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624248;
+			public const int TextAppearance_MaterialComponents_Headline3 = 2131624248;
 			
 			// aapt resource value: 0x7F0E0139
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624249;
+			public const int TextAppearance_MaterialComponents_Headline4 = 2131624249;
 			
 			// aapt resource value: 0x7F0E013A
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624250;
-			
-			// aapt resource value: 0x7F0E016B
-			public const int ThemeOverlay_AppCompat = 2131624299;
-			
-			// aapt resource value: 0x7F0E016C
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131624300;
-			
-			// aapt resource value: 0x7F0E016D
-			public const int ThemeOverlay_AppCompat_Dark = 2131624301;
-			
-			// aapt resource value: 0x7F0E016E
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624302;
-			
-			// aapt resource value: 0x7F0E016F
-			public const int ThemeOverlay_AppCompat_Dialog = 2131624303;
-			
-			// aapt resource value: 0x7F0E0170
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624304;
-			
-			// aapt resource value: 0x7F0E0171
-			public const int ThemeOverlay_AppCompat_Light = 2131624305;
-			
-			// aapt resource value: 0x7F0E0172
-			public const int ThemeOverlay_MaterialComponents = 2131624306;
-			
-			// aapt resource value: 0x7F0E0173
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624307;
-			
-			// aapt resource value: 0x7F0E0174
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131624308;
-			
-			// aapt resource value: 0x7F0E0175
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624309;
-			
-			// aapt resource value: 0x7F0E0176
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624310;
-			
-			// aapt resource value: 0x7F0E0177
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624311;
-			
-			// aapt resource value: 0x7F0E0178
-			public const int ThemeOverlay_MaterialComponents_Light = 2131624312;
-			
-			// aapt resource value: 0x7F0E0179
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624313;
-			
-			// aapt resource value: 0x7F0E017A
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624314;
-			
-			// aapt resource value: 0x7F0E017B
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624315;
-			
-			// aapt resource value: 0x7F0E017C
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624316;
-			
-			// aapt resource value: 0x7F0E017D
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624317;
+			public const int TextAppearance_MaterialComponents_Headline5 = 2131624250;
 			
 			// aapt resource value: 0x7F0E013B
-			public const int Theme_AppCompat = 2131624251;
+			public const int TextAppearance_MaterialComponents_Headline6 = 2131624251;
 			
 			// aapt resource value: 0x7F0E013C
-			public const int Theme_AppCompat_CompactMenu = 2131624252;
+			public const int TextAppearance_MaterialComponents_Overline = 2131624252;
 			
 			// aapt resource value: 0x7F0E013D
-			public const int Theme_AppCompat_DayNight = 2131624253;
+			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131624253;
 			
 			// aapt resource value: 0x7F0E013E
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624254;
+			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131624254;
 			
 			// aapt resource value: 0x7F0E013F
-			public const int Theme_AppCompat_DayNight_Dialog = 2131624255;
-			
-			// aapt resource value: 0x7F0E0142
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624258;
+			public const int TextAppearance_MaterialComponents_Tab = 2131624255;
 			
 			// aapt resource value: 0x7F0E0140
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624256;
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624256;
 			
 			// aapt resource value: 0x7F0E0141
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624257;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624257;
 			
-			// aapt resource value: 0x7F0E0143
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624259;
+			// aapt resource value: 0x7F0E0142
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624258;
 			
-			// aapt resource value: 0x7F0E0144
-			public const int Theme_AppCompat_Dialog = 2131624260;
+			// aapt resource value: 0x7F0E0173
+			public const int ThemeOverlay_AppCompat = 2131624307;
 			
-			// aapt resource value: 0x7F0E0147
-			public const int Theme_AppCompat_DialogWhenLarge = 2131624263;
+			// aapt resource value: 0x7F0E0174
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131624308;
 			
-			// aapt resource value: 0x7F0E0145
-			public const int Theme_AppCompat_Dialog_Alert = 2131624261;
+			// aapt resource value: 0x7F0E0175
+			public const int ThemeOverlay_AppCompat_Dark = 2131624309;
 			
-			// aapt resource value: 0x7F0E0146
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131624262;
+			// aapt resource value: 0x7F0E0176
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624310;
 			
-			// aapt resource value: 0x7F0E0148
-			public const int Theme_AppCompat_Light = 2131624264;
+			// aapt resource value: 0x7F0E0177
+			public const int ThemeOverlay_AppCompat_Dialog = 2131624311;
 			
-			// aapt resource value: 0x7F0E0149
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131624265;
+			// aapt resource value: 0x7F0E0178
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624312;
 			
-			// aapt resource value: 0x7F0E014A
-			public const int Theme_AppCompat_Light_Dialog = 2131624266;
+			// aapt resource value: 0x7F0E0179
+			public const int ThemeOverlay_AppCompat_Light = 2131624313;
 			
-			// aapt resource value: 0x7F0E014D
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624269;
+			// aapt resource value: 0x7F0E017A
+			public const int ThemeOverlay_MaterialComponents = 2131624314;
 			
-			// aapt resource value: 0x7F0E014B
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624267;
+			// aapt resource value: 0x7F0E017B
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624315;
 			
-			// aapt resource value: 0x7F0E014C
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624268;
+			// aapt resource value: 0x7F0E017C
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131624316;
 			
-			// aapt resource value: 0x7F0E014E
-			public const int Theme_AppCompat_Light_NoActionBar = 2131624270;
-			
-			// aapt resource value: 0x7F0E014F
-			public const int Theme_AppCompat_NoActionBar = 2131624271;
-			
-			// aapt resource value: 0x7F0E0150
-			public const int Theme_Design = 2131624272;
-			
-			// aapt resource value: 0x7F0E0151
-			public const int Theme_Design_BottomSheetDialog = 2131624273;
-			
-			// aapt resource value: 0x7F0E0152
-			public const int Theme_Design_Light = 2131624274;
-			
-			// aapt resource value: 0x7F0E0153
-			public const int Theme_Design_Light_BottomSheetDialog = 2131624275;
-			
-			// aapt resource value: 0x7F0E0154
-			public const int Theme_Design_Light_NoActionBar = 2131624276;
-			
-			// aapt resource value: 0x7F0E0155
-			public const int Theme_Design_NoActionBar = 2131624277;
-			
-			// aapt resource value: 0x7F0E0156
-			public const int Theme_MaterialComponents = 2131624278;
-			
-			// aapt resource value: 0x7F0E0157
-			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624279;
-			
-			// aapt resource value: 0x7F0E0158
-			public const int Theme_MaterialComponents_Bridge = 2131624280;
-			
-			// aapt resource value: 0x7F0E0159
-			public const int Theme_MaterialComponents_CompactMenu = 2131624281;
-			
-			// aapt resource value: 0x7F0E015A
-			public const int Theme_MaterialComponents_Dialog = 2131624282;
-			
-			// aapt resource value: 0x7F0E015D
-			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624285;
-			
-			// aapt resource value: 0x7F0E015B
-			public const int Theme_MaterialComponents_Dialog_Alert = 2131624283;
-			
-			// aapt resource value: 0x7F0E015C
-			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624284;
-			
-			// aapt resource value: 0x7F0E015E
-			public const int Theme_MaterialComponents_Light = 2131624286;
-			
-			// aapt resource value: 0x7F0E015F
-			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624287;
-			
-			// aapt resource value: 0x7F0E0160
-			public const int Theme_MaterialComponents_Light_Bridge = 2131624288;
-			
-			// aapt resource value: 0x7F0E0161
-			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624289;
-			
-			// aapt resource value: 0x7F0E0162
-			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624290;
-			
-			// aapt resource value: 0x7F0E0163
-			public const int Theme_MaterialComponents_Light_Dialog = 2131624291;
-			
-			// aapt resource value: 0x7F0E0166
-			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624294;
-			
-			// aapt resource value: 0x7F0E0164
-			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624292;
-			
-			// aapt resource value: 0x7F0E0165
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624293;
-			
-			// aapt resource value: 0x7F0E0167
-			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624295;
-			
-			// aapt resource value: 0x7F0E0168
-			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624296;
-			
-			// aapt resource value: 0x7F0E0169
-			public const int Theme_MaterialComponents_NoActionBar = 2131624297;
-			
-			// aapt resource value: 0x7F0E016A
-			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624298;
+			// aapt resource value: 0x7F0E017D
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624317;
 			
 			// aapt resource value: 0x7F0E017E
-			public const int Widget_AppCompat_ActionBar = 2131624318;
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624318;
 			
 			// aapt resource value: 0x7F0E017F
-			public const int Widget_AppCompat_ActionBar_Solid = 2131624319;
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624319;
 			
 			// aapt resource value: 0x7F0E0180
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131624320;
+			public const int ThemeOverlay_MaterialComponents_Light = 2131624320;
 			
 			// aapt resource value: 0x7F0E0181
-			public const int Widget_AppCompat_ActionBar_TabText = 2131624321;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624321;
 			
 			// aapt resource value: 0x7F0E0182
-			public const int Widget_AppCompat_ActionBar_TabView = 2131624322;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624322;
 			
 			// aapt resource value: 0x7F0E0183
-			public const int Widget_AppCompat_ActionButton = 2131624323;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624323;
 			
 			// aapt resource value: 0x7F0E0184
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624324;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624324;
 			
 			// aapt resource value: 0x7F0E0185
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131624325;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624325;
+			
+			// aapt resource value: 0x7F0E0143
+			public const int Theme_AppCompat = 2131624259;
+			
+			// aapt resource value: 0x7F0E0144
+			public const int Theme_AppCompat_CompactMenu = 2131624260;
+			
+			// aapt resource value: 0x7F0E0145
+			public const int Theme_AppCompat_DayNight = 2131624261;
+			
+			// aapt resource value: 0x7F0E0146
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624262;
+			
+			// aapt resource value: 0x7F0E0147
+			public const int Theme_AppCompat_DayNight_Dialog = 2131624263;
+			
+			// aapt resource value: 0x7F0E014A
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624266;
+			
+			// aapt resource value: 0x7F0E0148
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624264;
+			
+			// aapt resource value: 0x7F0E0149
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624265;
+			
+			// aapt resource value: 0x7F0E014B
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624267;
+			
+			// aapt resource value: 0x7F0E014C
+			public const int Theme_AppCompat_Dialog = 2131624268;
+			
+			// aapt resource value: 0x7F0E014F
+			public const int Theme_AppCompat_DialogWhenLarge = 2131624271;
+			
+			// aapt resource value: 0x7F0E014D
+			public const int Theme_AppCompat_Dialog_Alert = 2131624269;
+			
+			// aapt resource value: 0x7F0E014E
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131624270;
+			
+			// aapt resource value: 0x7F0E0150
+			public const int Theme_AppCompat_Light = 2131624272;
+			
+			// aapt resource value: 0x7F0E0151
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131624273;
+			
+			// aapt resource value: 0x7F0E0152
+			public const int Theme_AppCompat_Light_Dialog = 2131624274;
+			
+			// aapt resource value: 0x7F0E0155
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624277;
+			
+			// aapt resource value: 0x7F0E0153
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624275;
+			
+			// aapt resource value: 0x7F0E0154
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624276;
+			
+			// aapt resource value: 0x7F0E0156
+			public const int Theme_AppCompat_Light_NoActionBar = 2131624278;
+			
+			// aapt resource value: 0x7F0E0157
+			public const int Theme_AppCompat_NoActionBar = 2131624279;
+			
+			// aapt resource value: 0x7F0E0158
+			public const int Theme_Design = 2131624280;
+			
+			// aapt resource value: 0x7F0E0159
+			public const int Theme_Design_BottomSheetDialog = 2131624281;
+			
+			// aapt resource value: 0x7F0E015A
+			public const int Theme_Design_Light = 2131624282;
+			
+			// aapt resource value: 0x7F0E015B
+			public const int Theme_Design_Light_BottomSheetDialog = 2131624283;
+			
+			// aapt resource value: 0x7F0E015C
+			public const int Theme_Design_Light_NoActionBar = 2131624284;
+			
+			// aapt resource value: 0x7F0E015D
+			public const int Theme_Design_NoActionBar = 2131624285;
+			
+			// aapt resource value: 0x7F0E015E
+			public const int Theme_MaterialComponents = 2131624286;
+			
+			// aapt resource value: 0x7F0E015F
+			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624287;
+			
+			// aapt resource value: 0x7F0E0160
+			public const int Theme_MaterialComponents_Bridge = 2131624288;
+			
+			// aapt resource value: 0x7F0E0161
+			public const int Theme_MaterialComponents_CompactMenu = 2131624289;
+			
+			// aapt resource value: 0x7F0E0162
+			public const int Theme_MaterialComponents_Dialog = 2131624290;
+			
+			// aapt resource value: 0x7F0E0165
+			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624293;
+			
+			// aapt resource value: 0x7F0E0163
+			public const int Theme_MaterialComponents_Dialog_Alert = 2131624291;
+			
+			// aapt resource value: 0x7F0E0164
+			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624292;
+			
+			// aapt resource value: 0x7F0E0166
+			public const int Theme_MaterialComponents_Light = 2131624294;
+			
+			// aapt resource value: 0x7F0E0167
+			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624295;
+			
+			// aapt resource value: 0x7F0E0168
+			public const int Theme_MaterialComponents_Light_Bridge = 2131624296;
+			
+			// aapt resource value: 0x7F0E0169
+			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624297;
+			
+			// aapt resource value: 0x7F0E016A
+			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624298;
+			
+			// aapt resource value: 0x7F0E016B
+			public const int Theme_MaterialComponents_Light_Dialog = 2131624299;
+			
+			// aapt resource value: 0x7F0E016E
+			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624302;
+			
+			// aapt resource value: 0x7F0E016C
+			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624300;
+			
+			// aapt resource value: 0x7F0E016D
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624301;
+			
+			// aapt resource value: 0x7F0E016F
+			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624303;
+			
+			// aapt resource value: 0x7F0E0170
+			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624304;
+			
+			// aapt resource value: 0x7F0E0171
+			public const int Theme_MaterialComponents_NoActionBar = 2131624305;
+			
+			// aapt resource value: 0x7F0E0172
+			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624306;
 			
 			// aapt resource value: 0x7F0E0186
-			public const int Widget_AppCompat_ActionMode = 2131624326;
+			public const int Widget_AppCompat_ActionBar = 2131624326;
 			
 			// aapt resource value: 0x7F0E0187
-			public const int Widget_AppCompat_ActivityChooserView = 2131624327;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131624327;
 			
 			// aapt resource value: 0x7F0E0188
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131624328;
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131624328;
 			
 			// aapt resource value: 0x7F0E0189
-			public const int Widget_AppCompat_Button = 2131624329;
-			
-			// aapt resource value: 0x7F0E018F
-			public const int Widget_AppCompat_ButtonBar = 2131624335;
-			
-			// aapt resource value: 0x7F0E0190
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624336;
+			public const int Widget_AppCompat_ActionBar_TabText = 2131624329;
 			
 			// aapt resource value: 0x7F0E018A
-			public const int Widget_AppCompat_Button_Borderless = 2131624330;
+			public const int Widget_AppCompat_ActionBar_TabView = 2131624330;
 			
 			// aapt resource value: 0x7F0E018B
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624331;
+			public const int Widget_AppCompat_ActionButton = 2131624331;
 			
 			// aapt resource value: 0x7F0E018C
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624332;
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624332;
 			
 			// aapt resource value: 0x7F0E018D
-			public const int Widget_AppCompat_Button_Colored = 2131624333;
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131624333;
 			
 			// aapt resource value: 0x7F0E018E
-			public const int Widget_AppCompat_Button_Small = 2131624334;
+			public const int Widget_AppCompat_ActionMode = 2131624334;
+			
+			// aapt resource value: 0x7F0E018F
+			public const int Widget_AppCompat_ActivityChooserView = 2131624335;
+			
+			// aapt resource value: 0x7F0E0190
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131624336;
 			
 			// aapt resource value: 0x7F0E0191
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624337;
-			
-			// aapt resource value: 0x7F0E0192
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624338;
-			
-			// aapt resource value: 0x7F0E0193
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131624339;
-			
-			// aapt resource value: 0x7F0E0194
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131624340;
-			
-			// aapt resource value: 0x7F0E0195
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624341;
-			
-			// aapt resource value: 0x7F0E0196
-			public const int Widget_AppCompat_EditText = 2131624342;
+			public const int Widget_AppCompat_Button = 2131624337;
 			
 			// aapt resource value: 0x7F0E0197
-			public const int Widget_AppCompat_ImageButton = 2131624343;
+			public const int Widget_AppCompat_ButtonBar = 2131624343;
 			
 			// aapt resource value: 0x7F0E0198
-			public const int Widget_AppCompat_Light_ActionBar = 2131624344;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624344;
+			
+			// aapt resource value: 0x7F0E0192
+			public const int Widget_AppCompat_Button_Borderless = 2131624338;
+			
+			// aapt resource value: 0x7F0E0193
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624339;
+			
+			// aapt resource value: 0x7F0E0194
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624340;
+			
+			// aapt resource value: 0x7F0E0195
+			public const int Widget_AppCompat_Button_Colored = 2131624341;
+			
+			// aapt resource value: 0x7F0E0196
+			public const int Widget_AppCompat_Button_Small = 2131624342;
 			
 			// aapt resource value: 0x7F0E0199
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624345;
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624345;
 			
 			// aapt resource value: 0x7F0E019A
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624346;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624346;
 			
 			// aapt resource value: 0x7F0E019B
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624347;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131624347;
 			
 			// aapt resource value: 0x7F0E019C
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624348;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131624348;
 			
 			// aapt resource value: 0x7F0E019D
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624349;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624349;
 			
 			// aapt resource value: 0x7F0E019E
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624350;
+			public const int Widget_AppCompat_EditText = 2131624350;
 			
 			// aapt resource value: 0x7F0E019F
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624351;
+			public const int Widget_AppCompat_ImageButton = 2131624351;
 			
 			// aapt resource value: 0x7F0E01A0
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624352;
+			public const int Widget_AppCompat_Light_ActionBar = 2131624352;
 			
 			// aapt resource value: 0x7F0E01A1
-			public const int Widget_AppCompat_Light_ActionButton = 2131624353;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624353;
 			
 			// aapt resource value: 0x7F0E01A2
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624354;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624354;
 			
 			// aapt resource value: 0x7F0E01A3
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624355;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624355;
 			
 			// aapt resource value: 0x7F0E01A4
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624356;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624356;
 			
 			// aapt resource value: 0x7F0E01A5
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624357;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624357;
 			
 			// aapt resource value: 0x7F0E01A6
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624358;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624358;
 			
 			// aapt resource value: 0x7F0E01A7
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624359;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624359;
 			
 			// aapt resource value: 0x7F0E01A8
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624360;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624360;
 			
 			// aapt resource value: 0x7F0E01A9
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624361;
+			public const int Widget_AppCompat_Light_ActionButton = 2131624361;
 			
 			// aapt resource value: 0x7F0E01AA
-			public const int Widget_AppCompat_Light_PopupMenu = 2131624362;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624362;
 			
 			// aapt resource value: 0x7F0E01AB
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624363;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624363;
 			
 			// aapt resource value: 0x7F0E01AC
-			public const int Widget_AppCompat_Light_SearchView = 2131624364;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624364;
 			
 			// aapt resource value: 0x7F0E01AD
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624365;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624365;
 			
 			// aapt resource value: 0x7F0E01AE
-			public const int Widget_AppCompat_ListMenuView = 2131624366;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624366;
 			
 			// aapt resource value: 0x7F0E01AF
-			public const int Widget_AppCompat_ListPopupWindow = 2131624367;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624367;
 			
 			// aapt resource value: 0x7F0E01B0
-			public const int Widget_AppCompat_ListView = 2131624368;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624368;
 			
 			// aapt resource value: 0x7F0E01B1
-			public const int Widget_AppCompat_ListView_DropDown = 2131624369;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624369;
 			
 			// aapt resource value: 0x7F0E01B2
-			public const int Widget_AppCompat_ListView_Menu = 2131624370;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131624370;
 			
 			// aapt resource value: 0x7F0E01B3
-			public const int Widget_AppCompat_PopupMenu = 2131624371;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624371;
 			
 			// aapt resource value: 0x7F0E01B4
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624372;
+			public const int Widget_AppCompat_Light_SearchView = 2131624372;
 			
 			// aapt resource value: 0x7F0E01B5
-			public const int Widget_AppCompat_PopupWindow = 2131624373;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624373;
 			
 			// aapt resource value: 0x7F0E01B6
-			public const int Widget_AppCompat_ProgressBar = 2131624374;
+			public const int Widget_AppCompat_ListMenuView = 2131624374;
 			
 			// aapt resource value: 0x7F0E01B7
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624375;
+			public const int Widget_AppCompat_ListPopupWindow = 2131624375;
 			
 			// aapt resource value: 0x7F0E01B8
-			public const int Widget_AppCompat_RatingBar = 2131624376;
+			public const int Widget_AppCompat_ListView = 2131624376;
 			
 			// aapt resource value: 0x7F0E01B9
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131624377;
+			public const int Widget_AppCompat_ListView_DropDown = 2131624377;
 			
 			// aapt resource value: 0x7F0E01BA
-			public const int Widget_AppCompat_RatingBar_Small = 2131624378;
+			public const int Widget_AppCompat_ListView_Menu = 2131624378;
 			
 			// aapt resource value: 0x7F0E01BB
-			public const int Widget_AppCompat_SearchView = 2131624379;
+			public const int Widget_AppCompat_PopupMenu = 2131624379;
 			
 			// aapt resource value: 0x7F0E01BC
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131624380;
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624380;
 			
 			// aapt resource value: 0x7F0E01BD
-			public const int Widget_AppCompat_SeekBar = 2131624381;
+			public const int Widget_AppCompat_PopupWindow = 2131624381;
 			
 			// aapt resource value: 0x7F0E01BE
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131624382;
+			public const int Widget_AppCompat_ProgressBar = 2131624382;
 			
 			// aapt resource value: 0x7F0E01BF
-			public const int Widget_AppCompat_Spinner = 2131624383;
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624383;
 			
 			// aapt resource value: 0x7F0E01C0
-			public const int Widget_AppCompat_Spinner_DropDown = 2131624384;
+			public const int Widget_AppCompat_RatingBar = 2131624384;
 			
 			// aapt resource value: 0x7F0E01C1
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624385;
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131624385;
 			
 			// aapt resource value: 0x7F0E01C2
-			public const int Widget_AppCompat_Spinner_Underlined = 2131624386;
+			public const int Widget_AppCompat_RatingBar_Small = 2131624386;
 			
 			// aapt resource value: 0x7F0E01C3
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624387;
+			public const int Widget_AppCompat_SearchView = 2131624387;
 			
 			// aapt resource value: 0x7F0E01C4
-			public const int Widget_AppCompat_Toolbar = 2131624388;
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131624388;
 			
 			// aapt resource value: 0x7F0E01C5
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624389;
+			public const int Widget_AppCompat_SeekBar = 2131624389;
 			
 			// aapt resource value: 0x7F0E01C6
-			public const int Widget_Compat_NotificationActionContainer = 2131624390;
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131624390;
 			
 			// aapt resource value: 0x7F0E01C7
-			public const int Widget_Compat_NotificationActionText = 2131624391;
+			public const int Widget_AppCompat_Spinner = 2131624391;
 			
 			// aapt resource value: 0x7F0E01C8
-			public const int Widget_Design_AppBarLayout = 2131624392;
+			public const int Widget_AppCompat_Spinner_DropDown = 2131624392;
 			
 			// aapt resource value: 0x7F0E01C9
-			public const int Widget_Design_BottomNavigationView = 2131624393;
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624393;
 			
 			// aapt resource value: 0x7F0E01CA
-			public const int Widget_Design_BottomSheet_Modal = 2131624394;
+			public const int Widget_AppCompat_Spinner_Underlined = 2131624394;
 			
 			// aapt resource value: 0x7F0E01CB
-			public const int Widget_Design_CollapsingToolbar = 2131624395;
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624395;
 			
 			// aapt resource value: 0x7F0E01CC
-			public const int Widget_Design_FloatingActionButton = 2131624396;
+			public const int Widget_AppCompat_Toolbar = 2131624396;
 			
 			// aapt resource value: 0x7F0E01CD
-			public const int Widget_Design_NavigationView = 2131624397;
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624397;
 			
 			// aapt resource value: 0x7F0E01CE
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624398;
+			public const int Widget_Compat_NotificationActionContainer = 2131624398;
 			
 			// aapt resource value: 0x7F0E01CF
-			public const int Widget_Design_Snackbar = 2131624399;
+			public const int Widget_Compat_NotificationActionText = 2131624399;
 			
 			// aapt resource value: 0x7F0E01D0
-			public const int Widget_Design_TabLayout = 2131624400;
+			public const int Widget_Design_AppBarLayout = 2131624400;
 			
 			// aapt resource value: 0x7F0E01D1
-			public const int Widget_Design_TextInputLayout = 2131624401;
+			public const int Widget_Design_BottomNavigationView = 2131624401;
 			
 			// aapt resource value: 0x7F0E01D2
-			public const int Widget_MaterialComponents_BottomAppBar = 2131624402;
+			public const int Widget_Design_BottomSheet_Modal = 2131624402;
 			
 			// aapt resource value: 0x7F0E01D3
-			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624403;
+			public const int Widget_Design_CollapsingToolbar = 2131624403;
 			
 			// aapt resource value: 0x7F0E01D4
-			public const int Widget_MaterialComponents_BottomNavigationView = 2131624404;
+			public const int Widget_Design_FloatingActionButton = 2131624404;
 			
 			// aapt resource value: 0x7F0E01D5
-			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624405;
+			public const int Widget_Design_NavigationView = 2131624405;
 			
 			// aapt resource value: 0x7F0E01D6
-			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624406;
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624406;
 			
 			// aapt resource value: 0x7F0E01D7
-			public const int Widget_MaterialComponents_Button = 2131624407;
+			public const int Widget_Design_Snackbar = 2131624407;
 			
 			// aapt resource value: 0x7F0E01D8
-			public const int Widget_MaterialComponents_Button_Icon = 2131624408;
+			public const int Widget_Design_TabLayout = 2131624408;
 			
 			// aapt resource value: 0x7F0E01D9
-			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624409;
+			public const int Widget_Design_TextInputLayout = 2131624409;
 			
 			// aapt resource value: 0x7F0E01DA
-			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624410;
+			public const int Widget_MaterialComponents_BottomAppBar = 2131624410;
 			
 			// aapt resource value: 0x7F0E01DB
-			public const int Widget_MaterialComponents_Button_TextButton = 2131624411;
+			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624411;
 			
 			// aapt resource value: 0x7F0E01DC
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624412;
+			public const int Widget_MaterialComponents_BottomNavigationView = 2131624412;
 			
 			// aapt resource value: 0x7F0E01DD
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624413;
+			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624413;
 			
 			// aapt resource value: 0x7F0E01DE
-			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624414;
+			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624414;
 			
 			// aapt resource value: 0x7F0E01DF
-			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624415;
+			public const int Widget_MaterialComponents_Button = 2131624415;
 			
 			// aapt resource value: 0x7F0E01E0
-			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624416;
+			public const int Widget_MaterialComponents_Button_Icon = 2131624416;
 			
 			// aapt resource value: 0x7F0E01E1
-			public const int Widget_MaterialComponents_CardView = 2131624417;
-			
-			// aapt resource value: 0x7F0E01E6
-			public const int Widget_MaterialComponents_ChipGroup = 2131624422;
+			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624417;
 			
 			// aapt resource value: 0x7F0E01E2
-			public const int Widget_MaterialComponents_Chip_Action = 2131624418;
+			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624418;
 			
 			// aapt resource value: 0x7F0E01E3
-			public const int Widget_MaterialComponents_Chip_Choice = 2131624419;
+			public const int Widget_MaterialComponents_Button_TextButton = 2131624419;
 			
 			// aapt resource value: 0x7F0E01E4
-			public const int Widget_MaterialComponents_Chip_Entry = 2131624420;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624420;
 			
 			// aapt resource value: 0x7F0E01E5
-			public const int Widget_MaterialComponents_Chip_Filter = 2131624421;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624421;
+			
+			// aapt resource value: 0x7F0E01E6
+			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624422;
 			
 			// aapt resource value: 0x7F0E01E7
-			public const int Widget_MaterialComponents_FloatingActionButton = 2131624423;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624423;
 			
 			// aapt resource value: 0x7F0E01E8
-			public const int Widget_MaterialComponents_NavigationView = 2131624424;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624424;
 			
 			// aapt resource value: 0x7F0E01E9
-			public const int Widget_MaterialComponents_Snackbar = 2131624425;
-			
-			// aapt resource value: 0x7F0E01EA
-			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624426;
-			
-			// aapt resource value: 0x7F0E01EB
-			public const int Widget_MaterialComponents_TabLayout = 2131624427;
-			
-			// aapt resource value: 0x7F0E01EC
-			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624428;
-			
-			// aapt resource value: 0x7F0E01ED
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624429;
+			public const int Widget_MaterialComponents_CardView = 2131624425;
 			
 			// aapt resource value: 0x7F0E01EE
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624430;
+			public const int Widget_MaterialComponents_ChipGroup = 2131624430;
+			
+			// aapt resource value: 0x7F0E01EA
+			public const int Widget_MaterialComponents_Chip_Action = 2131624426;
+			
+			// aapt resource value: 0x7F0E01EB
+			public const int Widget_MaterialComponents_Chip_Choice = 2131624427;
+			
+			// aapt resource value: 0x7F0E01EC
+			public const int Widget_MaterialComponents_Chip_Entry = 2131624428;
+			
+			// aapt resource value: 0x7F0E01ED
+			public const int Widget_MaterialComponents_Chip_Filter = 2131624429;
 			
 			// aapt resource value: 0x7F0E01EF
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624431;
+			public const int Widget_MaterialComponents_FloatingActionButton = 2131624431;
 			
 			// aapt resource value: 0x7F0E01F0
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624432;
+			public const int Widget_MaterialComponents_NavigationView = 2131624432;
 			
 			// aapt resource value: 0x7F0E01F1
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624433;
+			public const int Widget_MaterialComponents_Snackbar = 2131624433;
 			
 			// aapt resource value: 0x7F0E01F2
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624434;
+			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624434;
 			
 			// aapt resource value: 0x7F0E01F3
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624435;
+			public const int Widget_MaterialComponents_TabLayout = 2131624435;
 			
 			// aapt resource value: 0x7F0E01F4
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624436;
+			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624436;
 			
 			// aapt resource value: 0x7F0E01F5
-			public const int Widget_MaterialComponents_Toolbar = 2131624437;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624437;
 			
 			// aapt resource value: 0x7F0E01F6
-			public const int Widget_Support_CoordinatorLayout = 2131624438;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624438;
+			
+			// aapt resource value: 0x7F0E01F7
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624439;
+			
+			// aapt resource value: 0x7F0E01F8
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624440;
+			
+			// aapt resource value: 0x7F0E01F9
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624441;
+			
+			// aapt resource value: 0x7F0E01FA
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624442;
+			
+			// aapt resource value: 0x7F0E01FB
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624443;
+			
+			// aapt resource value: 0x7F0E01FC
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624444;
+			
+			// aapt resource value: 0x7F0E01FD
+			public const int Widget_MaterialComponents_Toolbar = 2131624445;
+			
+			// aapt resource value: 0x7F0E01FE
+			public const int Widget_Support_CoordinatorLayout = 2131624446;
 			
 			static Style()
 			{
