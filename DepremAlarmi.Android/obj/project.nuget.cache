@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fRyCJuMxSaTELimsGpouMNrFNS1EiLG2WAA+rcFspjZU6KmGHb792nTwDU5GgcaGY94/iaLPcaqWKwo/zBtibA==",
+  "dgSpecHash": "+V+V9KXuBoHktxfrLJYhkeBwkkDRf1px94hnOltKc29Yi4nrjQYcIdsDjFAeTpQ6JZ0kOGGq/hPrjTdu8WtPWQ==",
   "success": true,
   "projectFilePath": "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi.Android/DepremAlarmi.Android.csproj",
   "expectedPackageFiles": [
@@ -45,6 +45,8 @@
     "/Users/heranarchy/.nuget/packages/xamarin.android.support.versionedparcelable/28.0.0.3/xamarin.android.support.versionedparcelable.28.0.0.3.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/xamarin.android.support.viewpager/28.0.0.3/xamarin.android.support.viewpager.28.0.0.3.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/xamarin.ffimageloading/2.4.11.982/xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/xamarin.ffimageloading.forms/2.4.11.982/xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/xamarin.forms/4.7.0.1080/xamarin.forms.4.7.0.1080.nupkg.sha512"
   ],
   "logs": []

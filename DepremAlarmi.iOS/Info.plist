@@ -34,5 +34,12 @@
     <string>DepremAlarmi</string>
     <key>XSAppIconAssets</key>
     <string>Assets.xcassets/AppIcon.appiconset</string>
+    <key>UIAppFonts</key>
+    <array>
+	<string>Fonts/PoppinsRegular.tff</string>
+	<string>Fonts/PoppinsBold.ttf</string>
+	<string>Fonts/materialdesignicons-webfont.ttf</string>
+    </array>
+
 </dict>
 </plist>
