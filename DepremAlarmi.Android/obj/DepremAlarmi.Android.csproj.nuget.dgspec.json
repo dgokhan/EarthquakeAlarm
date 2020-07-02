@@ -1,0 +1,121 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi.Android/DepremAlarmi.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi.Android/DepremAlarmi.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi.Android/DepremAlarmi.Android.csproj",
+        "projectName": "DepremAlarmi.Android",
+        "projectPath": "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi.Android/DepremAlarmi.Android.csproj",
+        "packagesPath": "/Users/heranarchy/.nuget/packages/",
+        "outputPath": "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/heranarchy/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi/DepremAlarmi.csproj": {
+                "projectPath": "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi/DepremAlarmi.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "FreshMvvm": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.7.0.1080, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi/DepremAlarmi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi/DepremAlarmi.csproj",
+        "projectName": "DepremAlarmi",
+        "projectPath": "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi/DepremAlarmi.csproj",
+        "packagesPath": "/Users/heranarchy/.nuget/packages/",
+        "outputPath": "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/heranarchy/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FreshMvvm": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.7.0.1080, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

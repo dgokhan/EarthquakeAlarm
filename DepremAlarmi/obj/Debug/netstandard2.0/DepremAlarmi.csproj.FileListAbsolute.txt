@@ -1,0 +1,13 @@
+/Users/heranarchy/Projects/DepremAlarmi/DepremAlarmi/bin/Debug/netstandard2.0/DepremAlarmi.deps.json
+/Users/heranarchy/Projects/DepremAlarmi/DepremAlarmi/bin/Debug/netstandard2.0/DepremAlarmi.dll
+/Users/heranarchy/Projects/DepremAlarmi/DepremAlarmi/bin/Debug/netstandard2.0/ref/DepremAlarmi.dll
+/Users/heranarchy/Projects/DepremAlarmi/DepremAlarmi/bin/Debug/netstandard2.0/DepremAlarmi.pdb
+/Users/heranarchy/Projects/DepremAlarmi/DepremAlarmi/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/heranarchy/Projects/DepremAlarmi/DepremAlarmi/obj/Debug/netstandard2.0/Pages/MainPage.xaml.g.cs
+/Users/heranarchy/Projects/DepremAlarmi/DepremAlarmi/obj/Debug/netstandard2.0/DepremAlarmi.AssemblyInfoInputs.cache
+/Users/heranarchy/Projects/DepremAlarmi/DepremAlarmi/obj/Debug/netstandard2.0/DepremAlarmi.AssemblyInfo.cs
+/Users/heranarchy/Projects/DepremAlarmi/DepremAlarmi/obj/Debug/netstandard2.0/DepremAlarmi.csproj.CoreCompileInputs.cache
+/Users/heranarchy/Projects/DepremAlarmi/DepremAlarmi/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/heranarchy/Projects/DepremAlarmi/DepremAlarmi/obj/Debug/netstandard2.0/DepremAlarmi.dll
+/Users/heranarchy/Projects/DepremAlarmi/DepremAlarmi/obj/Debug/netstandard2.0/ref/DepremAlarmi.dll
+/Users/heranarchy/Projects/DepremAlarmi/DepremAlarmi/obj/Debug/netstandard2.0/DepremAlarmi.pdb
