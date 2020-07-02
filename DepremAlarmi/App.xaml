@@ -7,14 +7,6 @@
              x:Class="DepremAlarmi.App">
     <Application.Resources>
         <ResourceDictionary>
-             <OnPlatform x:TypeArguments="x:String" x:Key="FontAwesome5FreeRegular">
-                <On Platform="iOS" Value="FontAwesome5Free-Regular" />
-                <On Platform="Android" Value="fontawesome_regular.otf#Regular" />
-            </OnPlatform>
-            <OnPlatform x:TypeArguments="x:String" x:Key="FontAwesome5FreeSolid">
-                <On Platform="iOS" Value="FontAwesome5Free-Solid" />
-                <On Platform="Android" Value="fontawesome_solid.otf#Solid" />
-            </OnPlatform>
             <OnPlatform x:TypeArguments="x:String" x:Key="PoppinsRegular">
                 <On Platform="iOS" Value="Poppins-Regular" />
                 <On Platform="Android" Value="PoppinsRegular.ttf#Regular" />
@@ -23,12 +15,16 @@
                 <On Platform="iOS" Value="Poppins-Bold" />
                 <On Platform="Android" Value="PoppinsBold.ttf#Bold" />
             </OnPlatform>
+            <OnPlatform x:TypeArguments="x:String" x:Key="MaterialFontFamily">
+                <On Platform="iOS" Value="Material Design Icons" />
+                <On Platform="Android" Value="materialdesignicons-webfont.ttf#Material Design Icons" />
+            </OnPlatform>
 
             <Style TargetType="{x:Type Label}">
                 <Setter Property="TextColor" Value="#5d5d5d" />
                 <Setter Property="FontSize" Value="14" />
                 <Setter Property="FontFamily" Value="{StaticResource PoppinsRegular}" />
-            </Style> 
+            </Style>
             <Style x:Key="bold_label" TargetType="{x:Type Label}">
                 <Setter Property="FontFamily" Value="{StaticResource PoppinsBold}" />
             </Style>

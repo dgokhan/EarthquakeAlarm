@@ -2,8 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:controls="clr-namespace:DepremAlarmi.Controls.CustomHelpers"
-             NavigationPage.HasNavigationBar="false" 
-             x:Class="DepremAlarmi.Pages.MainPage">
+             xmlns:helpers="clr-namespace:DepremAlarmi.Controls.Helpers" 
+             x:Class="DepremAlarmi.Pages.MainPage"
+             NavigationPage.HasNavigationBar="false"
+             >
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -32,21 +34,21 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <StackLayout Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand">
-                    <Image Source="humidity.png" HeightRequest="25" HorizontalOptions="Center"/>
+                     <Label Text="{x:Static helpers:IconFont.Arch}" FontFamily="{StaticResource MaterialFontFamily}" FontSize="20" HeightRequest="25" TextColor="#019287" HorizontalOptions="Center"/>
                     <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
                         <Label Text="{Binding EarthQuakeList[0].Size}" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
                         <Label Text="Büyüklük" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Center"/>
                     </StackLayout>
                 </StackLayout>
                 <StackLayout Grid.Column="1" Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand">
-                    <Image Source="wind.png" HeightRequest="25" HorizontalOptions="Center"/>
+                    <Label Text="{x:Static helpers:IconFont.ApproximatelyEqual}" FontFamily="{StaticResource MaterialFontFamily}" FontSize="25" HeightRequest="25" TextColor="#019287" HorizontalOptions="Center"/>
                     <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
                         <Label Text="{Binding EarthQuakeList[0].Depth}" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
                         <Label Text="Derinlik" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Center"/>
                     </StackLayout>
                 </StackLayout>
                 <StackLayout Grid.Column="2" Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand">
-                    <Image Source="pressure.png" HeightRequest="25" HorizontalOptions="Center"/>
+                      <Label Text="{x:Static helpers:IconFont.City}" FontFamily="{StaticResource MaterialFontFamily}" FontSize="20" HeightRequest="25" TextColor="#019287" HorizontalOptions="Center"/>
                     <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
                         <Label Text="{Binding EarthQuakeList[0].CityInformation}" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
                         <Label Text="Şehir" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Center"/>
@@ -73,13 +75,14 @@
                                 <ColumnDefinition Width="Auto" />
                                 <ColumnDefinition Width="*" />
                             </Grid.ColumnDefinitions>
-                            <Label Grid.RowSpan="3" Margin="0,2,0,0" FontSize="36" TextColor="#000000" HorizontalTextAlignment="Start" Text="{Binding Size}" Style="{StaticResource bold_label}"  />
+                            <Label Grid.RowSpan="3" FontSize="36" TextColor="#000000" HorizontalTextAlignment="Start" Text="{Binding Size}" Style="{StaticResource bold_label}"  />
 
                             <Label Grid.Column="1" Grid.Row="0" TextColor="#019287" FontSize="13" HorizontalTextAlignment="Start" Text="{Binding CityInformation}" />
-                            <Label Grid.Column="1" Grid.Row="1" FontSize="10" HorizontalTextAlignment="Start" Text="{Binding Depth}" />
+                            <Label Grid.Column="1" Grid.Row="1" FontSize="10" HorizontalTextAlignment="Start" Text="Derinlik: " />
+                            <Label Grid.Column="1" Grid.Row="1" FontSize="10" Text="{Binding Depth}" Margin="43,0,0,0"/>
                             <Label Grid.Column="1" Grid.Row="2" FontSize="10" HorizontalTextAlignment="Start" Text="{Binding Date}" Margin="0,-4,0,0" />
 
-                            <Grid Margin="0,0,5,0" ColumnSpacing="17" Grid.Column="3" Grid.Row="0" VerticalOptions="End" HorizontalOptions="End">
+                            <Grid Margin="0,0,5,0" ColumnSpacing="5" Grid.Column="3" Grid.Row="0" VerticalOptions="End" HorizontalOptions="End">
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="37"/>
                                 </Grid.RowDefinitions>
@@ -87,8 +90,8 @@
                                     <ColumnDefinition Width="40" />
                                     <ColumnDefinition Width="40" />
                                 </Grid.ColumnDefinitions>
-                                <Button TextColor="#019287" FontSize="17" Text="" FontFamily="{StaticResource FontAwesome5FreeSolid}" BackgroundColor="White"/>
-                                <Button TextColor="#73b7b2" Grid.Column="1" FontSize="17" Text=""  FontFamily="{StaticResource FontAwesome5FreeSolid}" BackgroundColor="White"/>
+                                <Button TextColor="#019287" Text="{x:Static helpers:IconFont.ShareVariant}" FontFamily="{StaticResource MaterialFontFamily}" FontSize="17"  BackgroundColor="White"/>
+                                <Button TextColor="#73b7b2" Grid.Column="1" Text="{x:Static helpers:IconFont.MapMarkerRight}" FontFamily="{StaticResource MaterialFontFamily}" FontSize="17" BackgroundColor="White"/>
                             </Grid>
 
                         </Grid>

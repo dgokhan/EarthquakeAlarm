@@ -101,10 +101,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\fontawesome_regular.otf" />
-    <AndroidAsset Include="Assets\fontawesome_solid.otf" />
     <AndroidAsset Include="Assets\PoppinsBold.ttf" />
     <AndroidAsset Include="Assets\PoppinsRegular.ttf" />
+    <AndroidAsset Include="Assets\materialdesignicons-webfont.ttf" />
   </ItemGroup>
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
