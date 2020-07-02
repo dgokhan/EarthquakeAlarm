@@ -5,7 +5,9 @@ Get notifications from the moment you set formed by the provinces and the earthq
 
 ## NuGet Packages
 
-[★ FreshMvvm](https://github.com/rid00z/FreshMvvm) 
+[★ FreshMvvm](https://github.com/rid00z/FreshMvvm)
 [★ FFImageLoading](https://github.com/luberda-molinet/FFImageLoading) 
+[★ BottomNavigationBar](https://github.com/pocheshire/BottomNavigationBar) 
+[★ Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json) 
 
 ![ss1.png](https://i.hizliresim.com/1IcFvo.png) 
