@@ -36,6 +36,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "AiForms.Dialogs": {
+              "target": "Package",
+              "version": "[1.0.7, )"
+            },
             "FreshMvvm": {
               "target": "Package",
               "version": "[3.0.0, )"
@@ -50,9 +54,17 @@
               "target": "Package",
               "version": "[12.0.3, )"
             },
+            "Plugin.Share": {
+              "target": "Package",
+              "version": "[7.1.1, )"
+            },
             "ThriveGmbH.BottomNavigationBar.XF": {
               "target": "Package",
               "version": "[1.0.2, )"
+            },
+            "Xam.Plugin.ExternalMaps": {
+              "target": "Package",
+              "version": "[4.0.1, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

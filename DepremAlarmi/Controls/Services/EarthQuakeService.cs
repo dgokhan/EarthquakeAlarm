@@ -10,7 +10,7 @@ namespace DepremAlarmi.Controls.Services
 {
     public class EarthQuakeService
     {
-        public static async Task<List<EarthQuake>> InfoEarthQuake(string regionName)
+        public static async Task<EarthQuake> InfoEarthQuake(string regionName)
         {
         tekrarDene:
             try
@@ -31,7 +31,7 @@ namespace DepremAlarmi.Controls.Services
 
                     if (jsonVerisi.Length > 0)
                     {
-                        return JsonConvert.DeserializeObject<List<EarthQuake>>(jsonVerisi);
+                        return JsonConvert.DeserializeObject<EarthQuake>(jsonVerisi) ;
                     }
                     else
                         return null;

@@ -2,6 +2,20 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v9.0": {
+      "AiForms.Dialogs/1.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.482510"
+        },
+        "compile": {
+          "lib/MonoAndroid/AiForms.Dialogs.Abstractions.dll": {},
+          "lib/MonoAndroid/AiForms.Dialogs.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid/AiForms.Dialogs.Abstractions.dll": {},
+          "lib/MonoAndroid/AiForms.Dialogs.dll": {}
+        }
+      },
       "BottomNavigationBar/1.1.2": {
         "type": "package",
         "dependencies": {
@@ -44,6 +58,30 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "Plugin.CurrentActivity/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/Plugin.CurrentActivity.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Plugin.CurrentActivity.dll": {}
+        }
+      },
+      "Plugin.Share/7.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.CurrentActivity": "1.0.1",
+          "Xamarin.Android.Support.CustomTabs": "25.4.0.2"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Plugin.Share.Abstractions.dll": {},
+          "lib/MonoAndroid10/Plugin.Share.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Plugin.Share.Abstractions.dll": {},
+          "lib/MonoAndroid10/Plugin.Share.dll": {}
+        }
+      },
       "System.Reactive/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -77,6 +115,17 @@
         "runtime": {
           "lib/MonoAndroid10/BottomBar.Droid.dll": {},
           "lib/MonoAndroid10/BottomBar.XamarinForms.dll": {}
+        }
+      },
+      "Xam.Plugin.ExternalMaps/4.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/Plugin.ExternalMaps.Abstractions.dll": {},
+          "lib/MonoAndroid10/Plugin.ExternalMaps.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Plugin.ExternalMaps.Abstractions.dll": {},
+          "lib/MonoAndroid10/Plugin.ExternalMaps.dll": {}
         }
       },
       "Xamarin.Android.Arch.Core.Common/1.1.1.3": {
@@ -891,9 +940,12 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "AiForms.Dialogs": "1.0.7",
           "FreshMvvm": "3.0.0",
           "Newtonsoft.Json": "12.0.3",
+          "Plugin.Share": "7.1.1",
           "ThriveGmbH.BottomNavigationBar.XF": "1.0.2",
+          "Xam.Plugin.ExternalMaps": "4.0.1",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.Forms": "4.7.0.1080"
@@ -908,6 +960,33 @@
     }
   },
   "libraries": {
+    "AiForms.Dialogs/1.0.7": {
+      "sha512": "uAEXLUZACBvou1RcIJY+CqF2XmrkSC7lBY/I2/xXS/zPDIzzr+uHgI0GJN7iEmTf0dAP+WiJ8j9h6lG6+NX3kg==",
+      "type": "package",
+      "path": "aiforms.dialogs/1.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aiforms.dialogs.1.0.7.nupkg.sha512",
+        "aiforms.dialogs.nuspec",
+        "lib/MonoAndroid/AiForms.Dialogs.Abstractions.dll",
+        "lib/MonoAndroid/AiForms.Dialogs.Abstractions.xml",
+        "lib/MonoAndroid/AiForms.Dialogs.dll",
+        "lib/MonoAndroid/AiForms.Dialogs.xml",
+        "lib/MonoTouch/AiForms.Dialogs.Abstractions.dll",
+        "lib/MonoTouch/AiForms.Dialogs.Abstractions.xml",
+        "lib/MonoTouch/AiForms.Dialogs.dll",
+        "lib/MonoTouch/AiForms.Dialogs.xml",
+        "lib/Xamarin.iOS10/AiForms.Dialogs.Abstractions.dll",
+        "lib/Xamarin.iOS10/AiForms.Dialogs.Abstractions.xml",
+        "lib/Xamarin.iOS10/AiForms.Dialogs.dll",
+        "lib/Xamarin.iOS10/AiForms.Dialogs.xml",
+        "lib/netstandard2.0/AiForms.Dialogs.Abstractions.dll",
+        "lib/netstandard2.0/AiForms.Dialogs.Abstractions.xml",
+        "lib/netstandard2.0/AiForms.Dialogs.dll",
+        "lib/netstandard2.0/AiForms.Dialogs.xml"
+      ]
+    },
     "BottomNavigationBar/1.1.2": {
       "sha512": "HV5iFmTSMZo8UI98l82gQJ4zmtQ9GHhRqiczjc580byZWQpiBY9H3r5PtAPF8JFmYs0/jSImKbh8DXd8ncWcRg==",
       "type": "package",
@@ -965,6 +1044,58 @@
         "newtonsoft.json.12.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
+      ]
+    },
+    "Plugin.CurrentActivity/1.0.1": {
+      "sha512": "lzspruFRwQRo5T1K4JNOJVvSNBLE9+jOvX9CGWB6sJ7q2GeXxY76LLTdirkhiq1/yYgBXkXsXIBzlRoCGJDuJA==",
+      "type": "package",
+      "path": "plugin.currentactivity/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/MonoAndroid10/MainApplication.cs.pp",
+        "lib/MonoAndroid10/Plugin.CurrentActivity.dll",
+        "lib/MonoAndroid10/Plugin.CurrentActivity.xml",
+        "plugin.currentactivity.1.0.1.nupkg.sha512",
+        "plugin.currentactivity.nuspec",
+        "readme.txt"
+      ]
+    },
+    "Plugin.Share/7.1.1": {
+      "sha512": "07mFq3H9eeX2TGNKitmByjDKZl/3KXZrT2jv/27mEEnY7me/lHQSX52mI0B1mVTZquCloNmZm12EcV1t4fFSSA==",
+      "type": "package",
+      "path": "plugin.share/7.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Plugin.Share.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Share.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Share.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Share.dll",
+        "lib/MonoAndroid10/Plugin.Share.dll.mdb",
+        "lib/MonoAndroid10/Plugin.Share.pdb",
+        "lib/MonoAndroid10/Plugin.Share.xml",
+        "lib/UAP10/Plugin.Share.Abstractions.dll",
+        "lib/UAP10/Plugin.Share.Abstractions.pdb",
+        "lib/UAP10/Plugin.Share.Abstractions.xml",
+        "lib/UAP10/Plugin.Share.XML",
+        "lib/UAP10/Plugin.Share.dll",
+        "lib/UAP10/Plugin.Share.pdb",
+        "lib/UAP10/Plugin.Share.pri",
+        "lib/Xamarin.iOS10/Plugin.Share.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Share.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.Share.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Share.dll",
+        "lib/Xamarin.iOS10/Plugin.Share.xml",
+        "lib/netstandard1.0/Plugin.Share.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.Share.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.Share.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.Share.deps.json",
+        "lib/netstandard1.0/Plugin.Share.dll",
+        "lib/netstandard1.0/Plugin.Share.pdb",
+        "lib/netstandard1.0/Plugin.Share.xml",
+        "plugin.share.7.1.1.nupkg.sha512",
+        "plugin.share.nuspec"
       ]
     },
     "System.Reactive/4.0.0": {
@@ -1062,6 +1193,48 @@
         "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll",
         "thrivegmbh.bottomnavigationbar.xf.1.0.2.nupkg.sha512",
         "thrivegmbh.bottomnavigationbar.xf.nuspec"
+      ]
+    },
+    "Xam.Plugin.ExternalMaps/4.0.1": {
+      "sha512": "FeZWVG56+x+N9/CuYVK44/TgG2TSDmmtz13u3+iC1RdUtb2TYvcxULpQ+YpCW3ICGGxa05uoMvRMk2M2Jd4e7w==",
+      "type": "package",
+      "path": "xam.plugin.externalmaps/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Plugin.ExternalMaps.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.ExternalMaps.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.ExternalMaps.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.ExternalMaps.dll",
+        "lib/MonoAndroid10/Plugin.ExternalMaps.dll.mdb",
+        "lib/MonoAndroid10/Plugin.ExternalMaps.pdb",
+        "lib/MonoAndroid10/Plugin.ExternalMaps.xml",
+        "lib/UAP10/Plugin.ExternalMaps.Abstractions.dll",
+        "lib/UAP10/Plugin.ExternalMaps.Abstractions.pdb",
+        "lib/UAP10/Plugin.ExternalMaps.Abstractions.xml",
+        "lib/UAP10/Plugin.ExternalMaps.XML",
+        "lib/UAP10/Plugin.ExternalMaps.dll",
+        "lib/UAP10/Plugin.ExternalMaps.pdb",
+        "lib/UAP10/Plugin.ExternalMaps.pri",
+        "lib/Xamarin.Mac20/Plugin.ExternalMaps.Abstractions.dll",
+        "lib/Xamarin.Mac20/Plugin.ExternalMaps.Abstractions.pdb",
+        "lib/Xamarin.Mac20/Plugin.ExternalMaps.Abstractions.xml",
+        "lib/Xamarin.Mac20/Plugin.ExternalMaps.XML",
+        "lib/Xamarin.Mac20/Plugin.ExternalMaps.dll",
+        "lib/Xamarin.iOS10/Plugin.ExternalMaps.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.ExternalMaps.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.ExternalMaps.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.ExternalMaps.dll",
+        "lib/Xamarin.iOS10/Plugin.ExternalMaps.xml",
+        "lib/netstandard1.0/Plugin.ExternalMaps.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.ExternalMaps.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.ExternalMaps.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.ExternalMaps.deps.json",
+        "lib/netstandard1.0/Plugin.ExternalMaps.dll",
+        "lib/netstandard1.0/Plugin.ExternalMaps.pdb",
+        "lib/netstandard1.0/Plugin.ExternalMaps.xml",
+        "xam.plugin.externalmaps.4.0.1.nupkg.sha512",
+        "xam.plugin.externalmaps.nuspec"
       ]
     },
     "Xamarin.Android.Arch.Core.Common/1.1.1.3": {
@@ -2298,9 +2471,12 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v9.0": [
+      "AiForms.Dialogs >= 1.0.7",
       "DepremAlarmi >= 1.0.0",
       "FreshMvvm >= 3.0.0",
+      "Plugin.Share >= 7.1.1",
       "ThriveGmbH.BottomNavigationBar.XF >= 1.0.2",
+      "Xam.Plugin.ExternalMaps >= 4.0.1",
       "Xamarin.Essentials >= 1.5.3.2",
       "Xamarin.FFImageLoading.Forms >= 2.4.11.982",
       "Xamarin.Forms >= 4.7.0.1080"
@@ -2341,13 +2517,25 @@
     "frameworks": {
       "monoandroid90": {
         "dependencies": {
+          "AiForms.Dialogs": {
+            "target": "Package",
+            "version": "[1.0.7, )"
+          },
           "FreshMvvm": {
             "target": "Package",
             "version": "[3.0.0, )"
           },
+          "Plugin.Share": {
+            "target": "Package",
+            "version": "[7.1.1, )"
+          },
           "ThriveGmbH.BottomNavigationBar.XF": {
             "target": "Package",
             "version": "[1.0.2, )"
+          },
+          "Xam.Plugin.ExternalMaps": {
+            "target": "Package",
+            "version": "[4.0.1, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",
