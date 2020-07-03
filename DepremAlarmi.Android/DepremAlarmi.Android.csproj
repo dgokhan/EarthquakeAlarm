@@ -61,9 +61,6 @@
     <PackageReference Include="Xamarin.FFImageLoading.Forms">
       <Version>2.4.11.982</Version>
     </PackageReference>
-    <PackageReference Include="ThriveGmbH.BottomNavigationBar.XF">
-      <Version>1.0.2</Version>
-    </PackageReference>
     <PackageReference Include="AiForms.Dialogs">
       <Version>1.0.7</Version>
     </PackageReference>

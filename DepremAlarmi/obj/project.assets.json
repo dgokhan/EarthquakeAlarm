@@ -130,15 +130,6 @@
           "lib/netstandard1.3/System.Runtime.InteropServices.WindowsRuntime.dll": {}
         }
       },
-      "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll": {}
-        }
-      },
       "Xam.Plugin.ExternalMaps/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -699,21 +690,6 @@
         "system.runtime.interopservices.windowsruntime.nuspec"
       ]
     },
-    "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
-      "sha512": "CAxjraz7v27mWxrChvLLggDRq5Icf3OA0IL3lpGY+rfUGH488kZzBB3WJmfbgh7q5yfBbva51Iuv4tFleepV2A==",
-      "type": "package",
-      "path": "thrivegmbh.bottomnavigationbar.xf/1.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/MonoAndroid10/BottomBar.Droid.dll",
-        "lib/MonoAndroid10/BottomBar.XamarinForms.dll",
-        "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll",
-        "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll",
-        "thrivegmbh.bottomnavigationbar.xf.1.0.2.nupkg.sha512",
-        "thrivegmbh.bottomnavigationbar.xf.nuspec"
-      ]
-    },
     "Xam.Plugin.ExternalMaps/4.0.1": {
       "sha512": "FeZWVG56+x+N9/CuYVK44/TgG2TSDmmtz13u3+iC1RdUtb2TYvcxULpQ+YpCW3ICGGxa05uoMvRMk2M2Jd4e7w==",
       "type": "package",
@@ -1236,7 +1212,6 @@
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.3",
       "Plugin.Share >= 7.1.1",
-      "ThriveGmbH.BottomNavigationBar.XF >= 1.0.2",
       "Xam.Plugin.ExternalMaps >= 4.0.1",
       "Xamarin.Essentials >= 1.5.3.2",
       "Xamarin.FFImageLoading.Forms >= 2.4.11.982",
@@ -1300,10 +1275,6 @@
             "target": "Package",
             "version": "[7.1.1, )"
           },
-          "ThriveGmbH.BottomNavigationBar.XF": {
-            "target": "Package",
-            "version": "[1.0.2, )"
-          },
           "Xam.Plugin.ExternalMaps": {
             "target": "Package",
             "version": "[4.0.1, )"
@@ -1334,17 +1305,5 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'ThriveGmbH.BottomNavigationBar.XF 1.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "ThriveGmbH.BottomNavigationBar.XF",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    }
-  ]
+  }
 }

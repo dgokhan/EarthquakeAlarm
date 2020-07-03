@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "S/lLWlrpi2LhHVp/wTrTpJc5XyVfAVq7/+OgD11Pxo5auQsviJIgoW8QxjqJ5N0YwuPjaSVUWUtomCJwxfH3cA==",
+  "dgSpecHash": "+jHaZAx3yi2Y9Wl9Uc+qnLxj/bZoEHA6UO7S3bgEBlO9YlABwuEU/07ujWxNVni+dD5016/MeTyM5sJq65fBlA==",
   "success": true,
   "projectFilePath": "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi.iOS/DepremAlarmi.iOS.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,6 @@
     "/Users/heranarchy/.nuget/packages/plugin.share/7.1.1/plugin.share.7.1.1.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/system.reactive/4.0.0/system.reactive.4.0.0.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/system.runtime.interopservices.windowsruntime/4.3.0/system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
-    "/Users/heranarchy/.nuget/packages/thrivegmbh.bottomnavigationbar.xf/1.0.2/thrivegmbh.bottomnavigationbar.xf.1.0.2.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/webp.touch/1.0.8/webp.touch.1.0.8.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/xam.plugin.externalmaps/4.0.1/xam.plugin.externalmaps.4.0.1.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",

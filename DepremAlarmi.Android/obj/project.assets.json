@@ -16,24 +16,6 @@
           "lib/MonoAndroid/AiForms.Dialogs.dll": {}
         }
       },
-      "BottomNavigationBar/1.1.2": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "8.0.3",
-          "Xamarin.Android.Support.Animated.Vector.Drawable": "23.3.0",
-          "Xamarin.Android.Support.Design": "23.3.0",
-          "Xamarin.Android.Support.Vector.Drawable": "23.3.0",
-          "Xamarin.Android.Support.v4": "23.3.0",
-          "Xamarin.Android.Support.v7.AppCompat": "23.3.0",
-          "Xamarin.Android.Support.v7.RecyclerView": "23.3.0"
-        },
-        "compile": {
-          "lib/MonoAndroid403/BottomNavigationBar.dll": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid403/BottomNavigationBar.dll": {}
-        }
-      },
       "FreshMvvm/3.0.0": {
         "type": "package",
         "dependencies": {
@@ -101,20 +83,6 @@
         },
         "runtime": {
           "lib/MonoAndroid10/_._": {}
-        }
-      },
-      "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
-        "type": "package",
-        "dependencies": {
-          "BottomNavigationBar": "1.1.2"
-        },
-        "compile": {
-          "lib/MonoAndroid10/BottomBar.Droid.dll": {},
-          "lib/MonoAndroid10/BottomBar.XamarinForms.dll": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid10/BottomBar.Droid.dll": {},
-          "lib/MonoAndroid10/BottomBar.XamarinForms.dll": {}
         }
       },
       "Xam.Plugin.ExternalMaps/4.0.1": {
@@ -944,7 +912,6 @@
           "FreshMvvm": "3.0.0",
           "Newtonsoft.Json": "12.0.3",
           "Plugin.Share": "7.1.1",
-          "ThriveGmbH.BottomNavigationBar.XF": "1.0.2",
           "Xam.Plugin.ExternalMaps": "4.0.1",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
@@ -985,19 +952,6 @@
         "lib/netstandard2.0/AiForms.Dialogs.Abstractions.xml",
         "lib/netstandard2.0/AiForms.Dialogs.dll",
         "lib/netstandard2.0/AiForms.Dialogs.xml"
-      ]
-    },
-    "BottomNavigationBar/1.1.2": {
-      "sha512": "HV5iFmTSMZo8UI98l82gQJ4zmtQ9GHhRqiczjc580byZWQpiBY9H3r5PtAPF8JFmYs0/jSImKbh8DXd8ncWcRg==",
-      "type": "package",
-      "path": "bottomnavigationbar/1.1.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "bottomnavigationbar.1.1.2.nupkg.sha512",
-        "bottomnavigationbar.nuspec",
-        "lib/MonoAndroid403/BottomNavigationBar.dll",
-        "lib/MonoAndroid403/BottomNavigationBar.xml"
       ]
     },
     "FreshMvvm/3.0.0": {
@@ -1178,21 +1132,6 @@
         "runtimes/aot/lib/netcore50/System.Runtime.InteropServices.WindowsRuntime.dll",
         "system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
         "system.runtime.interopservices.windowsruntime.nuspec"
-      ]
-    },
-    "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
-      "sha512": "CAxjraz7v27mWxrChvLLggDRq5Icf3OA0IL3lpGY+rfUGH488kZzBB3WJmfbgh7q5yfBbva51Iuv4tFleepV2A==",
-      "type": "package",
-      "path": "thrivegmbh.bottomnavigationbar.xf/1.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/MonoAndroid10/BottomBar.Droid.dll",
-        "lib/MonoAndroid10/BottomBar.XamarinForms.dll",
-        "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll",
-        "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll",
-        "thrivegmbh.bottomnavigationbar.xf.1.0.2.nupkg.sha512",
-        "thrivegmbh.bottomnavigationbar.xf.nuspec"
       ]
     },
     "Xam.Plugin.ExternalMaps/4.0.1": {
@@ -2475,7 +2414,6 @@
       "DepremAlarmi >= 1.0.0",
       "FreshMvvm >= 3.0.0",
       "Plugin.Share >= 7.1.1",
-      "ThriveGmbH.BottomNavigationBar.XF >= 1.0.2",
       "Xam.Plugin.ExternalMaps >= 4.0.1",
       "Xamarin.Essentials >= 1.5.3.2",
       "Xamarin.FFImageLoading.Forms >= 2.4.11.982",
@@ -2528,10 +2466,6 @@
           "Plugin.Share": {
             "target": "Package",
             "version": "[7.1.1, )"
-          },
-          "ThriveGmbH.BottomNavigationBar.XF": {
-            "target": "Package",
-            "version": "[1.0.2, )"
           },
           "Xam.Plugin.ExternalMaps": {
             "target": "Package",

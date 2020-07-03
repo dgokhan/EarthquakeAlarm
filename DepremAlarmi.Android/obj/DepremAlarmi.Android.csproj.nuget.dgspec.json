@@ -48,10 +48,6 @@
               "target": "Package",
               "version": "[7.1.1, )"
             },
-            "ThriveGmbH.BottomNavigationBar.XF": {
-              "target": "Package",
-              "version": "[1.0.2, )"
-            },
             "Xam.Plugin.ExternalMaps": {
               "target": "Package",
               "version": "[4.0.1, )"
@@ -125,10 +121,6 @@
             "Plugin.Share": {
               "target": "Package",
               "version": "[7.1.1, )"
-            },
-            "ThriveGmbH.BottomNavigationBar.XF": {
-              "target": "Package",
-              "version": "[1.0.2, )"
             },
             "Xam.Plugin.ExternalMaps": {
               "target": "Package",

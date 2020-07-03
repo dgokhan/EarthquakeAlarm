@@ -73,15 +73,6 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll": {}
-        }
-      },
       "WebP.Touch/1.0.8": {
         "type": "package",
         "compile": {
@@ -273,7 +264,6 @@
           "FreshMvvm": "3.0.0",
           "Newtonsoft.Json": "12.0.3",
           "Plugin.Share": "7.1.1",
-          "ThriveGmbH.BottomNavigationBar.XF": "1.0.2",
           "Xam.Plugin.ExternalMaps": "4.0.1",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
@@ -359,15 +349,6 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll": {}
-        }
-      },
       "WebP.Touch/1.0.8": {
         "type": "package",
         "compile": {
@@ -559,7 +540,6 @@
           "FreshMvvm": "3.0.0",
           "Newtonsoft.Json": "12.0.3",
           "Plugin.Share": "7.1.1",
-          "ThriveGmbH.BottomNavigationBar.XF": "1.0.2",
           "Xam.Plugin.ExternalMaps": "4.0.1",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
@@ -645,15 +625,6 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll": {}
-        }
-      },
       "WebP.Touch/1.0.8": {
         "type": "package",
         "compile": {
@@ -845,7 +816,6 @@
           "FreshMvvm": "3.0.0",
           "Newtonsoft.Json": "12.0.3",
           "Plugin.Share": "7.1.1",
-          "ThriveGmbH.BottomNavigationBar.XF": "1.0.2",
           "Xam.Plugin.ExternalMaps": "4.0.1",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
@@ -931,15 +901,6 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll": {}
-        }
-      },
       "WebP.Touch/1.0.8": {
         "type": "package",
         "compile": {
@@ -1131,7 +1092,6 @@
           "FreshMvvm": "3.0.0",
           "Newtonsoft.Json": "12.0.3",
           "Plugin.Share": "7.1.1",
-          "ThriveGmbH.BottomNavigationBar.XF": "1.0.2",
           "Xam.Plugin.ExternalMaps": "4.0.1",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
@@ -1337,21 +1297,6 @@
         "runtimes/aot/lib/netcore50/System.Runtime.InteropServices.WindowsRuntime.dll",
         "system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
         "system.runtime.interopservices.windowsruntime.nuspec"
-      ]
-    },
-    "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
-      "sha512": "CAxjraz7v27mWxrChvLLggDRq5Icf3OA0IL3lpGY+rfUGH488kZzBB3WJmfbgh7q5yfBbva51Iuv4tFleepV2A==",
-      "type": "package",
-      "path": "thrivegmbh.bottomnavigationbar.xf/1.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/MonoAndroid10/BottomBar.Droid.dll",
-        "lib/MonoAndroid10/BottomBar.XamarinForms.dll",
-        "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll",
-        "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll",
-        "thrivegmbh.bottomnavigationbar.xf.1.0.2.nupkg.sha512",
-        "thrivegmbh.bottomnavigationbar.xf.nuspec"
       ]
     },
     "WebP.Touch/1.0.8": {

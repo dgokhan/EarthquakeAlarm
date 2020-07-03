@@ -10,8 +10,7 @@ namespace DepremAlarmi
         {
             InitializeComponent();
 
-            var loginPage = FreshPageModelResolver.ResolvePageModel<MainPageModel>();
-            MainPage = new FreshNavigationContainer(loginPage);
+            MainPage = new FreshNavigationContainer(FreshPageModelResolver.ResolvePageModel<MainPageModel>());
 
         }
 

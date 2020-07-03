@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:controls="clr-namespace:DepremAlarmi.Controls.CustomHelpers"
+             xmlns:controls="clr-namespace:DepremAlarmi.Controls"
+             xmlns:customhelpers="clr-namespace:DepremAlarmi.Controls.CustomHelpers"
              xmlns:helpers="clr-namespace:DepremAlarmi.Controls.Helpers"
              xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" 
              x:Class="DepremAlarmi.Pages.MainPage"
-              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"  ios:Page.UseSafeArea="True" 
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"  ios:Page.UseSafeArea="True" 
              NavigationPage.HasNavigationBar="false" >
     <Grid>
         <Grid.RowDefinitions>
@@ -13,6 +14,7 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="60"/>
         </Grid.RowDefinitions>
 
         <!-- Üst / Son Deprem Bilgisi -->
@@ -62,7 +64,7 @@
 
         <!-- İl Arama Bölgesi -->
         <Grid Grid.Row="2" RowSpacing="0" BackgroundColor="#ffffff" Padding="20,0,20,0" >
-            <controls:CustomSearchBar x:Name="txtSearchRegionName" Text="" FontSize="13" HorizontalTextAlignment="Start" TextColor="#019287"
+            <customhelpers:CustomSearchBar x:Name="txtSearchRegionName" Text="" FontSize="13" HorizontalTextAlignment="Start" TextColor="#019287"
                       Placeholder="il veya ilçe ismi yazınız..." PlaceholderColor="#d6d7d7"/>
         </Grid>
 
@@ -102,5 +104,8 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+
+        <controls:BottomBar Grid.Row="4" />
+
     </Grid>
 </ContentPage>

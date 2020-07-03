@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Grid xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DepremAlarmi.Controls.BottomBar"
+             xmlns:helpers="clr-namespace:DepremAlarmi.Controls.Helpers">
+
+    <Grid VerticalOptions="EndAndExpand" BackgroundColor="#019287" HeightRequest="60">
+        <Button Grid.Column="0" Text="{x:Static helpers:IconFont.Earth}" FontFamily="{StaticResource MaterialFontFamily}" FontSize="22" BackgroundColor="#019387" TextColor="#ffffff" />
+        <Button Grid.Column="1" Text="{x:Static helpers:IconFont.Charity}" FontFamily="{StaticResource MaterialFontFamily}" FontSize="22" BackgroundColor="#019387" TextColor="#ffffff" />
+        <Button Grid.Column="2" Text="{x:Static helpers:IconFont.Information}" FontFamily="{StaticResource MaterialFontFamily}" FontSize="22" BackgroundColor="#019387" TextColor="#ffffff" />
+        <Button Grid.Column="3" Text="{x:Static helpers:IconFont.CogTransfer}" FontFamily="{StaticResource MaterialFontFamily}" FontSize="22" BackgroundColor="#019387" TextColor="#ffffff" />
+    </Grid>
+</Grid>
