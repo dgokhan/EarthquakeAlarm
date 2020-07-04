@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "+jHaZAx3yi2Y9Wl9Uc+qnLxj/bZoEHA6UO7S3bgEBlO9YlABwuEU/07ujWxNVni+dD5016/MeTyM5sJq65fBlA==",
+  "dgSpecHash": "N92cunuP20bM792QrljLm06dGa4pc0IHRDNz16XAjl+ddj+ReTW6ug4j6dlIDK1CBLcWOSMJbXCSUuw1jEfk/w==",
   "success": true,
   "projectFilePath": "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi.iOS/DepremAlarmi.iOS.csproj",
   "expectedPackageFiles": [
     "/Users/heranarchy/.nuget/packages/aiforms.dialogs/1.0.7/aiforms.dialogs.1.0.7.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/freshmvvm/3.0.0/freshmvvm.3.0.0.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/lh.bottomnavigationbar.xf/1.0.42/lh.bottomnavigationbar.xf.1.0.42.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/plugin.share/7.1.1/plugin.share.7.1.1.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/system.reactive/4.0.0/system.reactive.4.0.0.nupkg.sha512",

@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
+            "LH.BottomNavigationBar.XF": {
+              "target": "Package",
+              "version": "[1.0.42, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

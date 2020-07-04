@@ -140,6 +140,9 @@
     <PackageReference Include="Plugin.Share">
       <Version>7.1.1</Version>
     </PackageReference>
+    <PackageReference Include="LH.BottomNavigationBar.XF">
+      <Version>1.0.42</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>

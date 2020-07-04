@@ -16,6 +16,24 @@
           "lib/MonoAndroid/AiForms.Dialogs.dll": {}
         }
       },
+      "BottomNavigationBar/1.4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1",
+          "Xamarin.Android.Support.Animated.Vector.Drawable": "23.4.0.1",
+          "Xamarin.Android.Support.Design": "23.4.0.1",
+          "Xamarin.Android.Support.Vector.Drawable": "23.4.0.1",
+          "Xamarin.Android.Support.v4": "23.4.0.1",
+          "Xamarin.Android.Support.v7.AppCompat": "23.4.0.1",
+          "Xamarin.Android.Support.v7.RecyclerView": "23.4.0.1"
+        },
+        "compile": {
+          "lib/MonoAndroid403/BottomNavigationBar.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid403/BottomNavigationBar.dll": {}
+        }
+      },
       "FreshMvvm/3.0.0": {
         "type": "package",
         "dependencies": {
@@ -29,6 +47,20 @@
         "runtime": {
           "lib/netstandard2.0/FreshIOC.dll": {},
           "lib/netstandard2.0/FreshMvvm.dll": {}
+        }
+      },
+      "LH.BottomNavigationBar.XF/1.0.42": {
+        "type": "package",
+        "dependencies": {
+          "BottomNavigationBar": "1.4.0"
+        },
+        "compile": {
+          "lib/MonoAndroid10/BottomBar.Droid.dll": {},
+          "lib/MonoAndroid10/LH.BottomBar.XamarinForms.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/BottomBar.Droid.dll": {},
+          "lib/MonoAndroid10/LH.BottomBar.XamarinForms.dll": {}
         }
       },
       "Newtonsoft.Json/12.0.3": {
@@ -910,6 +942,7 @@
         "dependencies": {
           "AiForms.Dialogs": "1.0.7",
           "FreshMvvm": "3.0.0",
+          "LH.BottomNavigationBar.XF": "1.0.42",
           "Newtonsoft.Json": "12.0.3",
           "Plugin.Share": "7.1.1",
           "Xam.Plugin.ExternalMaps": "4.0.1",
@@ -954,6 +987,19 @@
         "lib/netstandard2.0/AiForms.Dialogs.xml"
       ]
     },
+    "BottomNavigationBar/1.4.0.1": {
+      "sha512": "gG3jxp3RM/29e/T+E/rTrE8NQXB5pZrK+ltzGm4Lhz0s+koDQha6mELLzOySdYsLboQxxPvIV9Sg0NS0lyoN5A==",
+      "type": "package",
+      "path": "bottomnavigationbar/1.4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bottomnavigationbar.1.4.0.1.nupkg.sha512",
+        "bottomnavigationbar.nuspec",
+        "lib/MonoAndroid403/BottomNavigationBar.dll",
+        "lib/MonoAndroid403/BottomNavigationBar.xml"
+      ]
+    },
     "FreshMvvm/3.0.0": {
       "sha512": "/XDZFT3hQP7Vbz44BJYkeWgPIDUenA2KHxROV95syRcARH/5r//Upx+Z6MVXcAioW9KvTOivrBvU+Q47Wy7Arg==",
       "type": "package",
@@ -967,6 +1013,21 @@
         "lib/netstandard2.0/FreshIOC.pdb",
         "lib/netstandard2.0/FreshMvvm.dll",
         "lib/netstandard2.0/FreshMvvm.pdb"
+      ]
+    },
+    "LH.BottomNavigationBar.XF/1.0.42": {
+      "sha512": "UT28WmXVhR3+MP5lltloYYgRCMonloBZFhFldpkTxqqxknB9wN/OpBsr5QJJbzDEgYcoKdNNDiDYRTBB+BSXEA==",
+      "type": "package",
+      "path": "lh.bottomnavigationbar.xf/1.0.42",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lh.bottomnavigationbar.xf.1.0.42.nupkg.sha512",
+        "lh.bottomnavigationbar.xf.nuspec",
+        "lib/MonoAndroid10/BottomBar.Droid.dll",
+        "lib/MonoAndroid10/LH.BottomBar.XamarinForms.dll",
+        "lib/Xamarin.iOS10/LH.BottomBar.XamarinForms.dll",
+        "lib/netstandard1.4/LH.BottomBar.XamarinForms.dll"
       ]
     },
     "Newtonsoft.Json/12.0.3": {
@@ -2413,6 +2474,7 @@
       "AiForms.Dialogs >= 1.0.7",
       "DepremAlarmi >= 1.0.0",
       "FreshMvvm >= 3.0.0",
+      "LH.BottomNavigationBar.XF >= 1.0.42",
       "Plugin.Share >= 7.1.1",
       "Xam.Plugin.ExternalMaps >= 4.0.1",
       "Xamarin.Essentials >= 1.5.3.2",
@@ -2463,6 +2525,10 @@
             "target": "Package",
             "version": "[3.0.0, )"
           },
+          "LH.BottomNavigationBar.XF": {
+            "target": "Package",
+            "version": "[1.0.42, )"
+          },
           "Plugin.Share": {
             "target": "Package",
             "version": "[7.1.1, )"
@@ -2486,5 +2552,17 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "LH.BottomNavigationBar.XF 1.0.42 depends on BottomNavigationBar (>= 1.4.0) but BottomNavigationBar 1.4.0 was not found. An approximate best match of BottomNavigationBar 1.4.0.1 was resolved.",
+      "libraryId": "BottomNavigationBar",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    }
+  ]
 }

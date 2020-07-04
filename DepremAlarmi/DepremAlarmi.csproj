@@ -19,6 +19,7 @@
     <PackageReference Include="AiForms.Dialogs" Version="1.0.7" />
     <PackageReference Include="Xam.Plugin.ExternalMaps" Version="4.0.1" />
     <PackageReference Include="Plugin.Share" Version="7.1.1" />
+    <PackageReference Include="LH.BottomNavigationBar.XF" Version="1.0.42" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\" />
@@ -32,12 +33,32 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="UI\overlay.png" />
+    <None Remove="UI\coffee.png" />
+    <None Remove="UI\github.png" />
+    <None Remove="UI\xamarin.png" />
+    <None Remove="UI\kandilli.png" />
+    <None Remove="UI\phpsql.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="UI\overlay.png">
       <SubType></SubType>
       <Generator></Generator>
       <LogicalName>overlay.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\coffee.png">
+      <LogicalName>coffee.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\github.png">
+      <LogicalName>github.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\xamarin.png">
+      <LogicalName>xamarin.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\kandilli.png">
+      <LogicalName>kandilli.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\phpsql.png">
+      <LogicalName>phpsql.png</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
 </Project>

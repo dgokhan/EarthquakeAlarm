@@ -1,5 +1,5 @@
-﻿using DepremAlarmi.ViewModels;
-using FreshMvvm;
+﻿using DepremAlarmi.Controls.CustomHelpers;
+using DepremAlarmi.PageModels;
 using Xamarin.Forms; 
 namespace DepremAlarmi
 {
@@ -9,8 +9,19 @@ namespace DepremAlarmi
         {
             InitializeComponent();
 
-            MainPage = new FreshNavigationContainer(FreshPageModelResolver.ResolvePageModel<SettingPageModel>());
+            //MainPage = new FreshNavigationContainer(FreshPageModelResolver.ResolvePageModel<SettingPageModel>());
+            var bottomBarPage = new CustomNavigation()
+            {
+                BarTextColor = Color.White,
+                BackgroundColor = Color.FromRgb(1, 146, 135),
+            };
 
+            bottomBarPage.AddTab<MainPageModel>("DEPREMLER", "menu_tr.png");
+            bottomBarPage.AddTab<SettingPageModel>("TARTIŞMA", "chat_tr.png");
+            bottomBarPage.AddTab<SettingPageModel>("AYARLAR", "settings_tr.png");
+            bottomBarPage.AddTab<InformationPageModel>("HAKKIMIZDA", "info_tr.png");
+
+            MainPage = bottomBarPage;
         }
 
         protected override void OnStart()

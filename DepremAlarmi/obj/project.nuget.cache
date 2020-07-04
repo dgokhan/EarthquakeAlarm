@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "EMiOUFuLL/Eugq0m7nORrMUCOBpGHP94fWSvh1NWVlLbBkHiMsJDlXW6oCabxMMNAElmQpY2V5Xzp2Uwd2upXw==",
+  "dgSpecHash": "9bD5BSunS1pk44jERcvZ5wonZkSZiVNiqkApFc6i7MgJSnsY9MFkihZ3JD8pSD40Q2NOvstFurfLL6kFONczpQ==",
   "success": true,
   "projectFilePath": "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi/DepremAlarmi.csproj",
   "expectedPackageFiles": [
     "/Users/heranarchy/.nuget/packages/aiforms.dialogs/1.0.7/aiforms.dialogs.1.0.7.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/freshmvvm/3.0.0/freshmvvm.3.0.0.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/lh.bottomnavigationbar.xf/1.0.42/lh.bottomnavigationbar.xf.1.0.42.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",

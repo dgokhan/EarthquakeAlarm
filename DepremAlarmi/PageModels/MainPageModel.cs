@@ -5,7 +5,7 @@ using DepremAlarmi.Controls.Services;
 using DepremAlarmi.Models;
 using FreshMvvm;
 
-namespace DepremAlarmi.ViewModels
+namespace DepremAlarmi.PageModels
 {
     public class MainPageModel : FreshBasePageModel, INotifyPropertyChanged
     {

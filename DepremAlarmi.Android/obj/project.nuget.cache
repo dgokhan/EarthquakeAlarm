@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "7/yM2h7JMGSXfYVyHTIP9yQAlFiIUCkyUmSpFWcJarmDYQ38wWHQg6JRB5ETQ8/CtrZ4H2TFQnDQcOzqt33wWw==",
+  "dgSpecHash": "aVV18jUzEnbhcQd2AaromWTBdjHXcvoNARkXFBMA3XUlEORzjuR/9W8k0NeN8vVmhTUNTZQuwaDghCRJG65/cw==",
   "success": true,
   "projectFilePath": "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi.Android/DepremAlarmi.Android.csproj",
   "expectedPackageFiles": [
     "/Users/heranarchy/.nuget/packages/aiforms.dialogs/1.0.7/aiforms.dialogs.1.0.7.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/bottomnavigationbar/1.4.0.1/bottomnavigationbar.1.4.0.1.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/freshmvvm/3.0.0/freshmvvm.3.0.0.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/lh.bottomnavigationbar.xf/1.0.42/lh.bottomnavigationbar.xf.1.0.42.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/plugin.currentactivity/1.0.1/plugin.currentactivity.1.0.1.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/plugin.share/7.1.1/plugin.share.7.1.1.nupkg.sha512",
@@ -54,5 +56,16 @@
     "/Users/heranarchy/.nuget/packages/xamarin.ffimageloading.forms/2.4.11.982/xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/xamarin.forms/4.7.0.1080/xamarin.forms.4.7.0.1080.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "LH.BottomNavigationBar.XF 1.0.42 depends on BottomNavigationBar (>= 1.4.0) but BottomNavigationBar 1.4.0 was not found. An approximate best match of BottomNavigationBar 1.4.0.1 was resolved.",
+      "libraryId": "BottomNavigationBar",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    }
+  ]
 }

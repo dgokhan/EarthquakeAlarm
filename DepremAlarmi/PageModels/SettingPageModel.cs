@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using FreshMvvm;
 
-namespace DepremAlarmi.ViewModels
+namespace DepremAlarmi.PageModels
 {
     public class SettingPageModel : FreshBasePageModel, INotifyPropertyChanged
     {
@@ -72,8 +72,7 @@ namespace DepremAlarmi.ViewModels
                 OnPropertyChanged("notifyAllTurkey");
             }
         }
-
-        // AŞAĞI AÇIKSA VE KENDİSİ KAPALIYSA ON OLMA.
+         
         bool _notifyFilterTurkey = false;
         public bool notifyFilterTurkey
         {
