@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aVV18jUzEnbhcQd2AaromWTBdjHXcvoNARkXFBMA3XUlEORzjuR/9W8k0NeN8vVmhTUNTZQuwaDghCRJG65/cw==",
+  "dgSpecHash": "bq8m4dELV7Qlu1WtpWxXltnJahbcLLW1SJpzWRi9o48xJwN7Zx0+rGu+iC8zcFQe4UtUUGMaeHYAOtlvv5j2WA==",
   "success": true,
   "projectFilePath": "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi.Android/DepremAlarmi.Android.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "/Users/heranarchy/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/plugin.currentactivity/1.0.1/plugin.currentactivity.1.0.1.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/plugin.share/7.1.1/plugin.share.7.1.1.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/rg.plugins.popup/2.0.0.3/rg.plugins.popup.2.0.0.3.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/system.reactive/4.0.0/system.reactive.4.0.0.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/system.runtime.interopservices.windowsruntime/4.3.0/system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/xam.plugin.externalmaps/4.0.1/xam.plugin.externalmaps.4.0.1.nupkg.sha512",

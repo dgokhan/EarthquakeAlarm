@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9bD5BSunS1pk44jERcvZ5wonZkSZiVNiqkApFc6i7MgJSnsY9MFkihZ3JD8pSD40Q2NOvstFurfLL6kFONczpQ==",
+  "dgSpecHash": "RPoocHBlxkrOeUKr92YoIdKC4ti693kjerYRiwBEA6S9jIfbrVWj5WtEaraUEaeYJSBySxp3hxlBzY/73kk9Bg==",
   "success": true,
   "projectFilePath": "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi/DepremAlarmi.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "/Users/heranarchy/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/plugin.share/7.1.1/plugin.share.7.1.1.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/rg.plugins.popup/2.0.0.3/rg.plugins.popup.2.0.0.3.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/system.reactive/4.0.0/system.reactive.4.0.0.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",

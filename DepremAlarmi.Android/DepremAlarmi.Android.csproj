@@ -73,6 +73,9 @@
     <PackageReference Include="LH.BottomNavigationBar.XF">
       <Version>1.0.42</Version>
     </PackageReference>
+    <PackageReference Include="Rg.Plugins.Popup">
+      <Version>2.0.0.3</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />

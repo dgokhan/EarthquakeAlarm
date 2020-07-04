@@ -1,31 +1,14 @@
-﻿<Properties StartupConfiguration="{DEC91CE5-DBFA-4FF7-8A61-A9F3FAFD8142}|Default">
+﻿<Properties StartupConfiguration="{6202DC07-E24E-4C52-B7A1-549A8124FDD2}|Default">
   <MonoDevelop.Ide.ItemProperties.DepremAlarmi.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9E5F3AC4-730D-453F-ACFB-67DF2D491F7D" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DepremAlarmi/Pages/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DepremAlarmi/App.xaml.cs">
     <Files>
-      <File FileName="DepremAlarmi/Pages/InformationPage.xaml" Line="58" Column="39" />
-      <File FileName="DepremAlarmi/Pages/MainPage.xaml" Line="5" Column="73" />
+      <File FileName="DepremAlarmi/PageModels/DonatePageModel.cs" Line="1" Column="1" />
+      <File FileName="DepremAlarmi/App.xaml.cs" Line="19" Column="47" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="DepremAlarmi" expanded="True">
-            <Node name="DepremAlarmi" expanded="True">
-              <Node name="Controls" expanded="True">
-                <Node name="CustomHelpers" expanded="True" />
-              </Node>
-              <Node name="Models" expanded="True" />
-              <Node name="PageModels" expanded="True" />
-              <Node name="Pages" expanded="True">
-                <Node name="MainPage.xaml" selected="True" />
-              </Node>
-              <Node name="UI" expanded="True" />
-              <Node name="App.xaml" expanded="True" />
-            </Node>
-            <Node name="DepremAlarmi.Android" expanded="True" />
-            <Node name="DepremAlarmi.iOS" expanded="True">
-              <Node name="Resources" expanded="True" />
-            </Node>
-          </Node>
+          <Node name="DepremAlarmi" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

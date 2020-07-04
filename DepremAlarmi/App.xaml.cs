@@ -16,7 +16,7 @@ namespace DepremAlarmi
                 BackgroundColor = Color.FromRgb(1, 146, 135),
             };
 
-            bottomBarPage.AddTab<MainPageModel>("DEPREMLER", "menu_tr.png");
+            bottomBarPage.AddTab<MainPageModel>("", "menu_tr.png");
             bottomBarPage.AddTab<SettingPageModel>("TARTIŞMA", "chat_tr.png");
             bottomBarPage.AddTab<SettingPageModel>("AYARLAR", "settings_tr.png");
             bottomBarPage.AddTab<InformationPageModel>("HAKKIMIZDA", "info_tr.png");

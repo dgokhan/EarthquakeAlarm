@@ -62,6 +62,10 @@
               "target": "Package",
               "version": "[7.1.1, )"
             },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.0.0.3, )"
+            },
             "Xam.Plugin.ExternalMaps": {
               "target": "Package",
               "version": "[4.0.1, )"
