@@ -1,11 +1,9 @@
 ﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Threading.Tasks;
-using System.Windows.Input;
 using DepremAlarmi.Controls.Services;
 using DepremAlarmi.Models;
 using FreshMvvm;
-using Xamarin.Forms;
 
 namespace DepremAlarmi.ViewModels
 {

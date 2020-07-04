@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             x:Class="DepremAlarmi.Pages.SettingPage"
+             xmlns:helpers="clr-namespace:DepremAlarmi.Controls.Helpers"
+             NavigationPage.HasNavigationBar="false">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <ff:CachedImage Margin="0,-120,0,0" Source="resource://overlay.png" Aspect="Fill" HeightRequest="275" VerticalOptions="StartAndExpand"/>
+
+                <Frame Grid.Row="1" HasShadow="True" CornerRadius="10" Margin="20,-75,20,0" Padding="0,10,0,10" HeightRequest="85" VerticalOptions="Start">
+                    <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackLayout Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand">
+                            <Label Text="{x:Static helpers:IconFont.Tune}" FontFamily="{StaticResource MaterialFontFamily}" FontSize="20" HeightRequest="25" TextColor="#019287" HorizontalOptions="Center"/>
+                            <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
+                                <Label x:Name="lblSeverityTOPP" Text="Program Ayarları" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
+                                <Label Text="Program ayarlarınızı bu bölümden yapabilirsiniz..." TextColor="#7D7D7D" FontSize="10" HorizontalOptions="Center"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Grid>
+                </Frame>
+
+
+                <ScrollView Grid.Row="2" BackgroundColor="Transparent" Padding="30,0,30,0" >
+                    <Grid >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="200"/>
+                        </Grid.RowDefinitions>
+
+                        <StackLayout Grid.Row="0" Orientation="Horizontal" Spacing="0" IsVisible="True">
+                            <Label Text="{Binding txtNotify , Mode=TwoWay}" FontAttributes="Bold" FontFamily="{Binding PoppinsBold}" FontSize="11"  VerticalOptions="Center" />
+                            <StackLayout Orientation="Horizontal" Spacing="0" HorizontalOptions="EndAndExpand">
+                                <Switch  OnColor="#73b7b2" ThumbColor="#019287" IsToggled="{Binding notifyStatus, Mode=TwoWay}" HorizontalOptions="EndAndExpand"/>
+                            </StackLayout>
+                        </StackLayout>
+
+                        <StackLayout Margin="20,-20,0,0" Grid.Row="1" Orientation="Horizontal" Spacing="0" IsVisible="True">
+                            <Label Text="Türkiye'deki bütün depremlerin bildirimi gelsin." FontSize="11"  VerticalOptions="Center" />
+                            <StackLayout Orientation="Horizontal" Spacing="0" HorizontalOptions="EndAndExpand">
+                                <Switch OnColor="#73b7b2" ThumbColor="#019287" IsVisible="{Binding notifyAllTurkeyVisible, Mode=TwoWay}" IsToggled="{Binding notifyAllTurkey, Mode=TwoWay}" IsEnabled="{Binding notifyAllTurkeyEnable}"/>
+                            </StackLayout>
+                        </StackLayout>
+
+                        <StackLayout Margin="20,-30,0,0" Grid.Row="2" Orientation="Horizontal" Spacing="0" IsVisible="True">
+                            <Label Text="Sadece seçtiğim illerden bildirim almak istiyorum." FontSize="11"  VerticalOptions="Center" />
+                            <StackLayout Orientation="Horizontal" Spacing="0" HorizontalOptions="EndAndExpand">
+                                <Switch OnColor="#73b7b2" ThumbColor="#019287" IsVisible="{Binding notifyFilterTurkeyVisible, Mode=TwoWay}"  IsToggled="{Binding notifyFilterTurkey, Mode=TwoWay}" IsEnabled="{Binding notifyFilterTurkeyEnable}" HorizontalOptions="EndAndExpand"/>
+                            </StackLayout>
+                        </StackLayout>
+
+                        <StackLayout  Margin="0,-30,0,0" Grid.Row="3" Orientation="Horizontal" Spacing="0" IsVisible="True">
+                            <Label Text="Bildirim Ayarları" FontAttributes="Bold" FontFamily="{Binding PoppinsBold}" FontSize="11"  VerticalOptions="Center" />
+                        </StackLayout>
+
+                        <StackLayout  Margin="20,-10,0,0" Grid.Row="4" Spacing="10" IsVisible="True">
+                            <Label x:Name="valueOneText" Text="{Binding txtEQNotify , Mode=TwoWay}" VerticalOptions="Start" FontSize="11"/>
+                            <Slider MaximumTrackColor="#019287" MinimumTrackColor="#019287" ThumbColor="#019287" VerticalOptions="End" Grid.Row="1" Maximum="10" Minimum="1"  Value="{Binding SliderValue}"/>
+                        </StackLayout>
+
+                        <StackLayout  Margin="20,10,0,0" Grid.Row="5" Spacing="10" IsVisible="True">
+                            <Label Text="{Binding txtEQSound , Mode=TwoWay}" FontSize="11"  VerticalOptions="Start" />
+                            <Slider  MaximumTrackColor="#019287" MinimumTrackColor="#019287" ThumbColor="#019287" VerticalOptions="End" Grid.Row="1" Maximum="10" Minimum="5" Value="{Binding SliderValueTwo}"/>
+                        </StackLayout>
+
+                        <StackLayout  Margin="0,30,0,0" Grid.Row="6" Orientation="Horizontal" Spacing="0" IsVisible="True">
+                            <Label Text="Şehir Listesi" FontAttributes="Bold" FontFamily="{Binding PoppinsBold}" FontSize="11"  VerticalOptions="Center" />
+                        </StackLayout>
+
+                        <StackLayout  Margin="20,0,0,0"  Grid.Row="7" >
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="60"/>
+                                </Grid.ColumnDefinitions>
+                                <Entry x:Name="txtCountry" Grid.Column="0" Text="{Binding txtCountryName, Mode=TwoWay}" Placeholder="İzmir" FontSize="11" />
+                                <Button x:Name="btnCountryAdd" Command="{Binding addCountryCommand}" Text="Ekle" Grid.Column="1" HorizontalOptions="EndAndExpand" BackgroundColor="#019287" TextColor="White" />
+                            </Grid>
+                        </StackLayout>
+
+                        <Grid Grid.Row="8" Margin="20,-10,0,0" >
+                            <StackLayout >
+                                <ListView x:Name="lstCountry" ItemsSource="{Binding CountryList}" ItemTapped="lstCountry_ItemTapped"
+                                          BackgroundColor="#019287">
+                                    <ListView.ItemTemplate>
+                                        <DataTemplate>
+                                            <TextCell Text="{Binding countryName}" TextColor="White" />
+                                        </DataTemplate>
+                                    </ListView.ItemTemplate>
+                                </ListView>
+                                <Button Text="SEÇİLİ İLİ LİSTEDEN SİL!" Command="{Binding deleteCountryCommand}" BackgroundColor="#019287" TextColor="White"/>
+                            </StackLayout>
+                        </Grid>
+                    </Grid>
+                </ScrollView>
+            </Grid>
+
+            <Grid Margin="0,-2,0,0" VerticalOptions="EndAndExpand" Grid.Row="2" HeightRequest="70">
+                <Button TextColor="White"  CornerRadius="0" Text="Ayarları Kaydet!" Command="{Binding saveSettingsCommand}" BackgroundColor="#019287" />
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,5 +1,4 @@
-﻿using DepremAlarmi.Controls.CustomHelpers;
-using DepremAlarmi.ViewModels;
+﻿using DepremAlarmi.ViewModels;
 using FreshMvvm;
 using Xamarin.Forms; 
 namespace DepremAlarmi
@@ -10,7 +9,7 @@ namespace DepremAlarmi
         {
             InitializeComponent();
 
-            MainPage = new FreshNavigationContainer(FreshPageModelResolver.ResolvePageModel<MainPageModel>());
+            MainPage = new FreshNavigationContainer(FreshPageModelResolver.ResolvePageModel<SettingPageModel>());
 
         }
 
