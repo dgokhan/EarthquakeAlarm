@@ -72,7 +72,7 @@
                 </Grid>
             </Grid>
 
-            <Grid Margin="0,20,0,0" BackgroundColor="WhiteSmoke" VerticalOptions="EndAndExpand">
+            <!--<Grid Margin="0,20,0,0" BackgroundColor="WhiteSmoke" VerticalOptions="EndAndExpand">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="50"/>
                 </Grid.RowDefinitions>
@@ -90,7 +90,7 @@
                             </ff:CachedImage.GestureRecognizers>
                     </ff:CachedImage>
                 </Grid>
-            </Grid>
+            </Grid>-->
 
         </StackLayout>
     </ContentPage.Content>

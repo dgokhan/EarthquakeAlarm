@@ -18,10 +18,14 @@ namespace DepremAlarmi.PageModels
         }
         #endregion
 
+        #region | CTOR |
+
         public SettingPageModel()
         {
 
         }
+
+        #endregion
 
         #region | Variable Types |
 
@@ -221,6 +225,5 @@ namespace DepremAlarmi.PageModels
         }
 
         #endregion
-
     }
 }

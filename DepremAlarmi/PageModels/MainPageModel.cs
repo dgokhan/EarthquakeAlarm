@@ -1,9 +1,11 @@
 ﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Threading.Tasks;
+using System.Windows.Input;
 using DepremAlarmi.Controls.Services;
 using DepremAlarmi.Models;
 using FreshMvvm;
+using Xamarin.Forms;
 
 namespace DepremAlarmi.PageModels
 {
@@ -15,34 +17,7 @@ namespace DepremAlarmi.PageModels
         {
             Task.Run(async () =>
             {
-                var data = await EarthQuakeService.InfoEarthQuake(null);
-                try
-                {
-                    foreach (var item in data.result)
-                    {
-                        EarthQuakeList.Add(new Result
-                        {
-                            Location = item.Location,
-                            Date = item.Date,
-                            Ml = item.Ml,
-                            Depth = item.Depth,
-                            ShareButton = item.Location + "@" + item.Ml + "@" + item.Date,
-                            LocationButton = item.Location + "@" + item.Longitude + "@" + item.Latitude
-                        });
-                    }
-
-                    TopLocation = data.result[0].Location;
-                    TopMl = data.result[0].Ml;
-                    TopDepth = data.result[0].Depth;
-                    TopDate = data.result[0].Date;
-                    char[] ayrac = { '(' };
-                    var shortLocation = data.result[0].Location.Split(ayrac);
-                    TopShortLocation = data.result[0].Location.Split(ayrac)[1].ToString().Replace(")", "");
-                }
-                catch (System.Exception ex)
-                {
-                    TopShortLocation = data.result[0].Location;
-                }
+                await RefreshData();
             });
         }
 
@@ -66,12 +41,15 @@ namespace DepremAlarmi.PageModels
         public ObservableCollection<Result> EarthQuakeList
         {
             get { return earthQuakeList; }
-            set { earthQuakeList = value; OnPropertyChanged("EarthQuakeList"); }
+            set { earthQuakeList = value; }
         }
 
         #endregion
 
-        #region | Variable Types |
+        #region | Variable Types / Encapsulation |
+
+        private bool _isRefreshing = false;
+        public bool IsRefreshing { get { return _isRefreshing; } set { _isRefreshing = value; OnPropertyChanged(nameof(IsRefreshing)); } }
 
         private string topLocation;
         public string TopLocation { get { return topLocation; } set { topLocation = value; OnPropertyChanged("TopLocation"); } }
@@ -92,13 +70,59 @@ namespace DepremAlarmi.PageModels
 
         #region | Commands |
 
-        //public ICommand ShareSocialButton => new Command(InstagramLogin);
+        public ICommand RefreshCommand
+        {
+            get
+            {
+                return new Command(async () =>
+                {
+                    IsRefreshing = true;
+
+                    await RefreshData();
+
+                    IsRefreshing = false;
+                });
+            }
+        }
+
 
         #endregion
 
         #region | Voids |
 
+        private async Task RefreshData()
+        {
+            EarthQuakeList.Clear(); earthQuakeList.Clear();
+            var data = await EarthQuakeService.InfoEarthQuake(null);
+            try
+            {
+                foreach (var item in data.result)
+                {
+                    EarthQuakeList.Add(new Result
+                    {
+                        Location = item.Location,
+                        Date = item.Date,
+                        Ml = item.Ml,
+                        Depth = item.Depth,
+                        ShareButton = item.Location + "@" + item.Ml + "@" + item.Date,
+                        LocationButton = item.Location + "@" + item.Longitude + "@" + item.Latitude
+                    });
+                }
 
+                TopLocation = data.result[0].Location;
+                TopMl = data.result[0].Ml;
+                TopDepth = data.result[0].Depth;
+                TopDate = data.result[0].Date;
+                char[] ayrac = { '(' };
+                var shortLocation = data.result[0].Location.Split(ayrac);
+                TopShortLocation = data.result[0].Location.Split(ayrac)[1].ToString().Replace(")", "");
+                OnPropertyChanged(nameof(EarthQuakeList));
+            }
+            catch (System.Exception ex)
+            {
+                TopShortLocation = data.result[0].Location;
+            }
+        }
 
         #endregion
     }

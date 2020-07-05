@@ -26,15 +26,6 @@ namespace DepremAlarmi.PageModels
 
         public ICommand GithubClickCommand => new Command(async () => await Browser.OpenAsync("https://github.com/dgokhan/EarthquakeAlarm", BrowserLaunchMode.SystemPreferred));
 
-        public ICommand CoffeeClickCommand => new Command(CoffeeClickedCommand);
-
-        private async void CoffeeClickedCommand()
-        {
-            await CoreMethods.PushPageModel<DonatePageModel>();
-
-        }
-
-
         public InformationPageModel()
         {
         }
