@@ -63,8 +63,10 @@
 
         <!-- İl Arama Bölgesi -->
         <Grid Grid.Row="2" RowSpacing="0" BackgroundColor="#ffffff" Padding="20,0,20,0" >
-            <customhelpers:CustomSearchBar x:Name="txtSearchRegionName" Text="" FontSize="13" HorizontalTextAlignment="Start" TextColor="#019287"
-                      Placeholder="il veya ilçe ismi yazınız..." PlaceholderColor="#d6d7d7"/>
+            <customhelpers:CustomSearchBar x:Name="searchBar" Text="" FontSize="13" HorizontalTextAlignment="Start" TextColor="#019287"
+                      Placeholder="il veya ilçe ismi yazınız..." PlaceholderColor="#d6d7d7"
+                      SearchCommand="{Binding PerformSearch}"
+                      SearchCommandParameter="{Binding Text, Source={x:Reference searchBar}}"/>
         </Grid>
 
         <!-- Deprem Bilgileri -->
