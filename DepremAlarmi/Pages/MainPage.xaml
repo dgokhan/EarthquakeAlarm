@@ -63,15 +63,30 @@
 
         <!-- İl Arama Bölgesi -->
         <Grid Grid.Row="2" RowSpacing="0" BackgroundColor="#ffffff" Padding="20,0,20,0" >
-            <customhelpers:CustomSearchBar x:Name="searchBar" Text="" FontSize="13" HorizontalTextAlignment="Start" TextColor="#019287"
-                      Placeholder="il veya ilçe ismi yazınız..." PlaceholderColor="#d6d7d7"
-                      SearchCommand="{Binding PerformSearch}"
-                      SearchCommandParameter="{Binding Text, Source={x:Reference searchBar}}"/>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+
+                <Button Grid.Column="0" BackgroundColor="White" TextColor="#858585" Text="Tümü" CornerRadius="7" FontSize="9" Clicked="SearchSizeButton_Clicked"/>
+                <Button Grid.Column="1" BackgroundColor="White" TextColor="#9C9C9C" Text="1 >" CornerRadius="7" FontSize="9" Clicked="SearchSizeButton_Clicked"/>
+                <Button Grid.Column="2" BackgroundColor="White" TextColor="#9C9C9C" Text="2 >" CornerRadius="7" FontSize="9" Clicked="SearchSizeButton_Clicked"/>
+                <Button Grid.Column="3" BackgroundColor="White" TextColor="#9C9C9C" Text="3 >" CornerRadius="7" FontSize="9" Clicked="SearchSizeButton_Clicked"/>
+                <Button Grid.Column="4" BackgroundColor="White" TextColor="#9C9C9C" Text="4 >" CornerRadius="7" FontSize="9" Clicked="SearchSizeButton_Clicked"/>
+                <Button Grid.Column="5" BackgroundColor="White" TextColor="#9C9C9C" Text="5 >" CornerRadius="7" FontSize="9" Clicked="SearchSizeButton_Clicked"/>
+                <Button Grid.Column="6" BackgroundColor="White" TextColor="#9C9C9C" Text="6 >" CornerRadius="7" FontSize="9" Clicked="SearchSizeButton_Clicked"/>
+            </Grid> 
+
+            <customhelpers:CustomSearchBar x:Name="searchBar" FontSize="13" HorizontalTextAlignment="Start" TextColor="#019287" Grid.Row="1"
+                      Placeholder="il veya ilçe ismi yazınız..." PlaceholderColor="#d6d7d7" TextChanged="searchBar_TextChanged" />
         </Grid>
 
         <!-- Deprem Bilgileri -->
         <ListView Grid.Row="3" Margin="0,-10,0,0" BackgroundColor="#ffffff" ItemsSource="{Binding EarthQuakeList}" RowHeight="100"
-                      HorizontalScrollBarVisibility="Never" VerticalScrollBarVisibility="Never"
+                      HorizontalScrollBarVisibility="Never" VerticalScrollBarVisibility="Never" x:Name="EarthQuakeLists"
                       IsPullToRefreshEnabled="True" RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}">
             <ListView.ItemTemplate>
                 <DataTemplate>

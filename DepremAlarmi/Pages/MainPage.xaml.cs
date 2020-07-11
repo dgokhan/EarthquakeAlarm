@@ -1,8 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using AiForms.Dialogs;
 using AiForms.Dialogs.Abstractions;
+using DepremAlarmi.Controls.Interfaces;
+using DepremAlarmi.PageModels;
 using Plugin.ExternalMaps;
 using Plugin.Share;
 using Xamarin.Forms;
@@ -11,9 +13,11 @@ namespace DepremAlarmi.Pages
 {
     public partial class MainPage : ContentPage
     {
+        string searchQuery = string.Empty;
+
         public MainPage()
         {
-            InitializeComponent();
+            InitializeComponent(); 
         }
 
         private async void btnShare_Clicked(object sender, EventArgs e)
@@ -76,6 +80,44 @@ namespace DepremAlarmi.Pages
             {
                 await Application.Current.MainPage.DisplayAlert("Harita açılırken hata oluştu!", m.Message, "Tamam");
             }
+        }
+
+        void searchBar_TextChanged(System.Object sender, Xamarin.Forms.TextChangedEventArgs e)
+        {
+            try
+            {
+                var _container = BindingContext as MainPageModel;
+
+                if (string.IsNullOrWhiteSpace(e.NewTextValue))
+                { 
+                    EarthQuakeLists.ItemsSource = _container.EarthQuakeList;
+                    searchBar.Text = string.Empty; searchQuery = string.Empty;
+                }
+                else
+                {
+                    searchQuery = e.NewTextValue.ToUpper().Replace("Ğ", "G").Replace("İ", "I").Replace("Ş", "S").Replace("Ö", "O").Replace("Ç", "C");
+                    EarthQuakeLists.ItemsSource = _container.EarthQuakeList.Where(i => i.Location.Contains(searchQuery));
+                }
+            } catch (Exception ex) { DependencyService.Get<IMessage>().LongMessage("Hooaydaağğ..\n"+ex.Message ); }
+        }
+
+        void SearchSizeButton_Clicked(System.Object sender, System.EventArgs e)
+        {
+            try
+            {
+                var _container = BindingContext as MainPageModel;
+
+                var selectedButtonText = (sender as Button).Text;
+                if (selectedButtonText == "Tümü")
+                {
+                    EarthQuakeLists.ItemsSource = _container.EarthQuakeList;
+                    searchBar.Text = string.Empty; searchQuery = string.Empty;
+                }
+                else
+                {
+                    EarthQuakeLists.ItemsSource = _container.EarthQuakeList.Where(x => Convert.ToDouble(x.Ml) >= Convert.ToDouble(selectedButtonText.Replace(" >", "")) && x.Location.Contains(searchQuery));
+                }
+            } catch (Exception ex) { DependencyService.Get<IMessage>().LongMessage("Hooaydaağğ..\n" + ex.Message); }
         }
     }
 }

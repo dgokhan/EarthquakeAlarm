@@ -12,7 +12,7 @@
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
-                <ff:CachedImage Margin="0,-120,0,0"  Source="resource://overlay.png"  Aspect="Fill" HeightRequest="275" VerticalOptions="StartAndExpand"/>
+                <ff:CachedImage Margin="0,-120,0,0"  Source="resource://overlay.png"  Aspect="AspectFill" HeightRequest="275" VerticalOptions="StartAndExpand"/>
 
                 <Frame Grid.Row="1" HasShadow="True" CornerRadius="10" Margin="20,-75,20,0" Padding="0,10,0,10" HeightRequest="85" VerticalOptions="Start">
                     <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
@@ -55,7 +55,7 @@
                 <Label Padding="30,0,30,0" Grid.Row="0" Text="'Deprem Bildirimi' uygulaması kâr amacı gütmeksizin halkımızı bilgilendirmek ve deprem anında yardımcı olmak için açık kaynak olarak geliştirilen bir Xamarin projedir. Deprem verilerini Boğaziçi Üniversitesi - Kandilli Rasathanesi tarafından sağlanmaktadır. Herhangi bir telif hakkı ihlali için lütfen info@gokhandogru.net adresinden bizimle iletişime geçiniz...
 &#10;&#10;Kullanılan Teknolojiler;&#10;" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Start" />
 
-                <Grid Grid.Row="2" Padding="30,0,30,0" HorizontalOptions="Start" ColumnSpacing="20" >
+                <Grid Grid.Row="2" Padding="30,0,30,0" HorizontalOptions="Center" ColumnSpacing="20" >
                     <ff:CachedImage HeightRequest="100" WidthRequest="100"  Grid.Column="0"  Source="resource://kandilli.png" />
                     <ff:CachedImage HeightRequest="100" WidthRequest="100"  Grid.Column="2"  Source="resource://xamarin.png" />
                     <ff:CachedImage HeightRequest="100" WidthRequest="100"  Grid.Column="1"  Source="resource://phpsql.png" />
