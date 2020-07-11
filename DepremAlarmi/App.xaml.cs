@@ -11,15 +11,12 @@ namespace DepremAlarmi
 
             //MainPage = new FreshNavigationContainer(FreshPageModelResolver.ResolvePageModel<SettingPageModel>());
             var bottomBarPage = new CustomNavigation()
-            {
-                BarTextColor = Color.White,
+            { 
                 BackgroundColor = Color.FromRgb(1, 146, 135),
             };
 
-            bottomBarPage.AddTab<MainPageModel>("", "menu_tr.png");
-            bottomBarPage.AddTab<SettingPageModel>("TARTIŞMA", "chat_tr.png");
-            bottomBarPage.AddTab<SettingPageModel>("AYARLAR", "settings_tr.png");
-            bottomBarPage.AddTab<InformationPageModel>("HAKKIMIZDA", "info_tr.png");
+            bottomBarPage.AddTab<MainPageModel>("", "earthqauke.png");
+            bottomBarPage.AddTab<InformationPageModel>("", "information.png");
 
             MainPage = bottomBarPage;
         }

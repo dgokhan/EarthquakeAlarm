@@ -18,12 +18,13 @@
 
         <!-- Üst / Son Deprem Bilgisi -->
         <ff:CachedImage Source="resource://overlay.png" Aspect="Fill" HeightRequest="275" VerticalOptions="StartAndExpand"/>
-        <Label x:Name="lblTodayInfo" Text="Bugün yaşanan en büyük deprem : KIRKAGAC (MANISA) - Şiddet 3.2" Margin="0,10,0,0" TextColor="White" FontSize="9" HorizontalOptions="Center"/>
+        <Label x:Name="lblTodayInfo" Text="{Binding TodayHighestEarthQuake}" Margin="0,10,0,0" TextColor="White" FontSize="9" HorizontalOptions="Center"/>
 
 
         <StackLayout Margin="0,-10,0,0"  Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                <Label Text="{Binding TopMl}" TextColor="White" FontSize="70" FontAttributes="Bold" VerticalOptions="Center"/>
+                <Label  Margin="75,0,0,0" Text="{Binding TopMl}" TextColor="White" FontSize="70" FontAttributes="Bold" VerticalOptions="Center"/>
+                <Button Margin="-25,-15,0,0" Text="{x:Static helpers:IconFont.ShareAllOutline}" FontFamily="{StaticResource MaterialFontFamily}" BackgroundColor="Transparent" FontSize="30" TextColor="White" VerticalOptions="Center" ClassId="{Binding TopShareInformation}" Clicked="btnShare_Clicked"/>
             </StackLayout>
             <Label Margin="0,-20,0,0" Text="{Binding TopLocation}" TextColor="White" FontSize="16" HorizontalOptions="Center"/>
             <Label  Margin="0,0,0,50" Text="{Binding TopDate}" TextColor="White" FontSize="12" HorizontalOptions="Center"/>

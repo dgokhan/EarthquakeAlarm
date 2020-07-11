@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
@@ -68,7 +69,12 @@ namespace DepremAlarmi.PageModels
 
         private string topDate;
         public string TopDate { get { return topDate; } set { topDate = value; OnPropertyChanged("TopDate"); } }
-         
+
+        private string topShareInformation;
+        public string TopShareInformation { get { return topShareInformation; } set { topShareInformation = value; OnPropertyChanged(nameof(TopShareInformation)); } }
+
+        private string todayHighestEarthQuake;
+        public string TodayHighestEarthQuake { get { return todayHighestEarthQuake; } set { todayHighestEarthQuake = value; OnPropertyChanged(nameof(TodayHighestEarthQuake)); } }
 
         #endregion
 
@@ -118,9 +124,17 @@ namespace DepremAlarmi.PageModels
                 char[] ayrac = { '(' };
                 var shortLocation = data.result[0].Location.Split(ayrac);
                 TopShortLocation = shortLocation[1].ToString().Replace(")", "");
+                TopShareInformation = data.result[0].Location + "@" + data.result[0].Ml + "@" + data.result[0].Date;
+
+                var res = (from s in EarthQuakeList 
+                          where Convert.ToDateTime(s.Date) >= DateTime.Now.AddDays(-1)
+                          select s).OrderByDescending(c => c.Ml).First(); 
+
+                TodayHighestEarthQuake = "Bugün yaşanan en büyük deprem : " + res.Location + " - Şiddet " + res.Ml + "";
+
                 OnPropertyChanged(nameof(EarthQuakeList));
 
-                DependencyService.Get<IMessage>().LongMessage("Deprem verileri güncellendi..."); 
+                DependencyService.Get<IMessage>().LongMessage("Deprem verileri güncellendi...");
             }
             catch (System.Exception ex)
             {

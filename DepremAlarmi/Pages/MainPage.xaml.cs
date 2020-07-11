@@ -38,7 +38,6 @@ namespace DepremAlarmi.Pages
                 char[] ayrac = { '@' };
                 string[] parcalar = btnInfo.Split(ayrac);
 
-
                 await CrossShare.Current.Share(new Plugin.Share.Abstractions.ShareMessage
                 {
                     Text = $"{parcalar[0]} bölgesinde {parcalar[2]} saatinde {parcalar[1]} büyüklüğünde deprem gerçekleşti! #deprem bilylink",
@@ -82,7 +81,7 @@ namespace DepremAlarmi.Pages
             }
         }
 
-        void searchBar_TextChanged(System.Object sender, Xamarin.Forms.TextChangedEventArgs e)
+        private void searchBar_TextChanged(System.Object sender, Xamarin.Forms.TextChangedEventArgs e)
         {
             try
             {
@@ -101,7 +100,7 @@ namespace DepremAlarmi.Pages
             } catch (Exception ex) { DependencyService.Get<IMessage>().LongMessage("Hooaydaağğ..\n"+ex.Message ); }
         }
 
-        void SearchSizeButton_Clicked(System.Object sender, System.EventArgs e)
+        private void SearchSizeButton_Clicked(System.Object sender, System.EventArgs e)
         {
             try
             {
