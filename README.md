@@ -10,4 +10,4 @@ Get notifications from the moment you set formed by the provinces and the earthq
 
 [★ AiForms.Dialogs](https://github.com/muak/AiForms.Dialogs)   [★ SharePlugin](https://github.com/jguertl/SharePlugin) [★ FFImageLoading](https://github.com/luberda-molinet/FFImageLoading)   [★ ExternalMaps](https://github.com/jamesmontemagno/LaunchMapsPlugin) 
 
-![ss1.png](https://im2.ezgif.com/tmp/ezgif-2-d0680ac1e753.gif) 
+![ss1.png](https://i.hizliresim.com/n7HT3W.gif) 
