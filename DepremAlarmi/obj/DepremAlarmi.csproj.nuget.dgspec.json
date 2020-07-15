@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[1.0.42, )"
             },
+            "Microsoft.AspNet.SignalR.Client": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

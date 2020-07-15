@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "rf1Onm3HNGzXIS52T29owoPvFr/G3Dtq9bZIjX5fW/EphzCJlBwzOx9GIdxm0QZxH5QEdDXnTINUUFcbMD4EOQ==",
+  "dgSpecHash": "A1grbsYQRcCO44gCX3tjfE8hosQMC5fUAQRb7pfxRd2wjvhTNm/1Y13BcU7XapJSKOZp8/3DUxEFYsBlwL6i8Q==",
   "success": true,
   "projectFilePath": "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi.iOS/DepremAlarmi.iOS.csproj",
   "expectedPackageFiles": [
     "/Users/heranarchy/.nuget/packages/aiforms.dialogs/1.0.7/aiforms.dialogs.1.0.7.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/freshmvvm/3.0.0/freshmvvm.3.0.0.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/lh.bottomnavigationbar.xf/1.0.42/lh.bottomnavigationbar.xf.1.0.42.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/microsoft.aspnet.signalr.client/2.4.1/microsoft.aspnet.signalr.client.2.4.1.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/plugin.share/7.1.1/plugin.share.7.1.1.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/rg.plugins.popup/2.0.0.3/rg.plugins.popup.2.0.0.3.nupkg.sha512",

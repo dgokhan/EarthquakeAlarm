@@ -134,7 +134,8 @@ namespace DepremAlarmi.PageModels
 
                 OnPropertyChanged(nameof(EarthQuakeList));
 
-                DependencyService.Get<IMessage>().LongMessage("Deprem verileri güncellendi...");
+                // TODO : bug / check..
+                //DependencyService.Get<IMessage>().LongMessage("Deprem verileri güncellendi..."); 
             }
             catch (System.Exception ex)
             {

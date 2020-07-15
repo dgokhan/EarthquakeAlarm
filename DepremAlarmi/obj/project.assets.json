@@ -40,6 +40,18 @@
           "lib/netstandard1.4/LH.BottomBar.XamarinForms.dll": {}
         }
       },
+      "Microsoft.AspNet.SignalR.Client/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNet.SignalR.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNet.SignalR.Client.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -276,6 +288,29 @@
         "lib/MonoAndroid10/LH.BottomBar.XamarinForms.dll",
         "lib/Xamarin.iOS10/LH.BottomBar.XamarinForms.dll",
         "lib/netstandard1.4/LH.BottomBar.XamarinForms.dll"
+      ]
+    },
+    "Microsoft.AspNet.SignalR.Client/2.4.1": {
+      "sha512": "x5Bc1LkjBZV9GEjflBF0zsKgXbpFkTAArQMAdbhKKC1MopLaFPUYQZrCAPgGSAW8OudHGhyEfMZ5vJbdBu8IsA==",
+      "type": "package",
+      "path": "microsoft.aspnet.signalr.client/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.AspNet.SignalR.Client.dll",
+        "lib/net40/Microsoft.AspNet.SignalR.Client.pdb",
+        "lib/net40/Microsoft.AspNet.SignalR.Client.xml",
+        "lib/net45/Microsoft.AspNet.SignalR.Client.dll",
+        "lib/net45/Microsoft.AspNet.SignalR.Client.pdb",
+        "lib/net45/Microsoft.AspNet.SignalR.Client.xml",
+        "lib/netstandard1.3/Microsoft.AspNet.SignalR.Client.dll",
+        "lib/netstandard1.3/Microsoft.AspNet.SignalR.Client.pdb",
+        "lib/netstandard1.3/Microsoft.AspNet.SignalR.Client.xml",
+        "lib/netstandard2.0/Microsoft.AspNet.SignalR.Client.dll",
+        "lib/netstandard2.0/Microsoft.AspNet.SignalR.Client.pdb",
+        "lib/netstandard2.0/Microsoft.AspNet.SignalR.Client.xml",
+        "microsoft.aspnet.signalr.client.2.4.1.nupkg.sha512",
+        "microsoft.aspnet.signalr.client.nuspec"
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
@@ -1294,6 +1329,7 @@
       "AiForms.Dialogs >= 1.0.7",
       "FreshMvvm >= 3.0.0",
       "LH.BottomNavigationBar.XF >= 1.0.42",
+      "Microsoft.AspNet.SignalR.Client >= 2.4.1",
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.3",
       "Plugin.Share >= 7.1.1",
@@ -1350,6 +1386,10 @@
           "LH.BottomNavigationBar.XF": {
             "target": "Package",
             "version": "[1.0.42, )"
+          },
+          "Microsoft.AspNet.SignalR.Client": {
+            "target": "Package",
+            "version": "[2.4.1, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",

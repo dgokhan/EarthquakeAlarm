@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bq8m4dELV7Qlu1WtpWxXltnJahbcLLW1SJpzWRi9o48xJwN7Zx0+rGu+iC8zcFQe4UtUUGMaeHYAOtlvv5j2WA==",
+  "dgSpecHash": "6PjlF6Tt8qZj701bI+BcjnEngq32o5PX04D3mzjk99uFUcMm8XjmwByTDpQuLpnPSJLTzWV2KOLa67d3BNX2lA==",
   "success": true,
   "projectFilePath": "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi.Android/DepremAlarmi.Android.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "/Users/heranarchy/.nuget/packages/bottomnavigationbar/1.4.0.1/bottomnavigationbar.1.4.0.1.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/freshmvvm/3.0.0/freshmvvm.3.0.0.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/lh.bottomnavigationbar.xf/1.0.42/lh.bottomnavigationbar.xf.1.0.42.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/microsoft.aspnet.signalr.client/2.4.1/microsoft.aspnet.signalr.client.2.4.1.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/plugin.currentactivity/1.0.1/plugin.currentactivity.1.0.1.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/plugin.share/7.1.1/plugin.share.7.1.1.nupkg.sha512",

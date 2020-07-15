@@ -16,6 +16,7 @@ namespace DepremAlarmi
             };
 
             bottomBarPage.AddTab<MainPageModel>("", "earthqauke.png");
+            bottomBarPage.AddTab<MessagePageModel>("", "earthqauke.png");
             bottomBarPage.AddTab<InformationPageModel>("", "information.png");
 
             MainPage = bottomBarPage;

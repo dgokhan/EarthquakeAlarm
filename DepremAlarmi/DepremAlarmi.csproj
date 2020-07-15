@@ -21,6 +21,7 @@
     <PackageReference Include="Plugin.Share" Version="7.1.1" />
     <PackageReference Include="LH.BottomNavigationBar.XF" Version="1.0.42" />
     <PackageReference Include="Rg.Plugins.Popup" Version="2.0.0.3" />
+    <PackageReference Include="Microsoft.AspNet.SignalR.Client" Version="2.4.1" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\" />
@@ -32,6 +33,7 @@
     <Folder Include="Controls\Helpers\" />
     <Folder Include="Controls\Services\" />
     <Folder Include="Controls\Interfaces\" />
+    <Folder Include="Controls\Client\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="UI\overlay.png" />
@@ -67,5 +69,8 @@
     <Reference Include="Mono.Android">
       <HintPath>..\..\..\..\..\..\Library\Frameworks\Xamarin.Android.framework\Versions\10.3.1.4\lib\xamarin.android\xbuild-frameworks\MonoAndroid\v9.0\Mono.Android.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Pages\InformationPage %28kopyala%29.xaml.cs" />
   </ItemGroup>
 </Project>
