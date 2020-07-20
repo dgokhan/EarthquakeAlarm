@@ -1,28 +1,22 @@
 ﻿<Properties StartupConfiguration="{6202DC07-E24E-4C52-B7A1-549A8124FDD2}|Default">
   <MonoDevelop.Ide.ItemProperties.DepremAlarmi.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9E5F3AC4-730D-453F-ACFB-67DF2D491F7D" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DepremAlarmi/Controls/Client/SignalRClient.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DepremAlarmi/PageModels/MainPageModel.cs">
     <Files>
-      <File FileName="DepremAlarmi/Pages/MainPage.xaml" Line="16" Column="1" />
-      <File FileName="DepremAlarmi/Controls/Client/SignalRClient.cs" Line="11" Column="47" />
-      <File FileName="DepremAlarmi/Pages/MessagePage.xaml.cs" Line="23" Column="1" />
+      <File FileName="DepremAlarmi/Pages/MainPage.xaml" Line="1" Column="39" />
+      <File FileName="DepremAlarmi/PageModels/MainPageModel.cs" Line="115" Column="1" />
+      <File FileName="DepremAlarmi/Controls/Services/EarthQuakeService.cs" Line="35" Column="1" />
+      <File FileName="DepremAlarmi/Models/EarthQuake.cs" Line="42" Column="75" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DepremAlarmi" expanded="True">
             <Node name="DepremAlarmi" expanded="True">
-              <Node name="Controls" expanded="True">
-                <Node name="Client" expanded="True">
-                  <Node name="SignalRClient.cs" selected="True" />
-                </Node>
-                <Node name="CustomHelpers" expanded="True" />
-              </Node>
-              <Node name="Models" expanded="True" />
-              <Node name="PageModels" expanded="True" />
-              <Node name="Pages" expanded="True">
-                <Node name="MessagePage.xaml" expanded="True" />
+              <Node name="PageModels" expanded="True">
+                <Node name="MainPageModel.cs" selected="True" />
               </Node>
             </Node>
+            <Node name="DepremAlarmi.Android" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -35,9 +29,7 @@
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi/Controls/Client/SignalRClient.cs" relfile="DepremAlarmi/Controls/Client/SignalRClient.cs" line="22" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

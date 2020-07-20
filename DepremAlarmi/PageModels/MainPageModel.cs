@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
@@ -107,12 +108,22 @@ namespace DepremAlarmi.PageModels
             {
                 foreach (var item in data.result)
                 {
+                    if (item.Location == "- (-)")
+                    {
+                        char[] _ayrac = { '(' };
+                        item.Other = item.Other + "(";
+                        var newValue = item.Other.Split(_ayrac);
+                        item.Location = newValue[1].ToString().Replace(")", "").Replace(" ", "");
+                    }
+
                     EarthQuakeList.Add(new Result
                     {
                         Location = item.Location,
                         Date = item.Date,
                         Ml = item.Ml,
                         Depth = item.Depth,
+                        Latitude = item.Latitude,
+                        Longitude = item.Longitude,
                         ShareButton = item.Location + "@" + item.Ml + "@" + item.Date,
                         LocationButton = item.Location + "@" + item.Longitude + "@" + item.Latitude
                     });
@@ -121,18 +132,19 @@ namespace DepremAlarmi.PageModels
                 TopMl = data.result[0].Ml;
                 TopDepth = data.result[0].Depth;
                 TopDate = data.result[0].Date;
-                char[] ayrac = { '(' };
-                var shortLocation = data.result[0].Location.Split(ayrac);
-                TopShortLocation = shortLocation[1].ToString().Replace(")", "");
                 TopShareInformation = data.result[0].Location + "@" + data.result[0].Ml + "@" + data.result[0].Date;
 
-                var res = (from s in EarthQuakeList 
-                          where Convert.ToDateTime(s.Date) >= DateTime.Now.AddDays(-1)
-                          select s).OrderByDescending(c => c.Ml).First(); 
+                var res = (from s in EarthQuakeList
+                           where Convert.ToDateTime(s.Date) >= DateTime.Now.AddDays(-1)
+                           select s).OrderByDescending(c => c.Ml).First();
 
                 TodayHighestEarthQuake = "Bugün yaşanan en büyük deprem : " + res.Location + " - Şiddet " + res.Ml + "";
 
                 OnPropertyChanged(nameof(EarthQuakeList));
+
+                char[] ayrac = { '(' };
+                var shortLocation = data.result[0].Location.Split(ayrac);
+                TopShortLocation = shortLocation[1].ToString().Replace(")", "").Replace(" ", "");
 
                 // TODO : bug / check..
                 //DependencyService.Get<IMessage>().LongMessage("Deprem verileri güncellendi..."); 

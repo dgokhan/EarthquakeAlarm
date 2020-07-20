@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "A1grbsYQRcCO44gCX3tjfE8hosQMC5fUAQRb7pfxRd2wjvhTNm/1Y13BcU7XapJSKOZp8/3DUxEFYsBlwL6i8Q==",
+  "dgSpecHash": "4d9T+FnnXAihfNMTErJLsNubycmKaD3ouZxBGoZug6G4u4APdVBTsi74fLJ1DRqk0aixdPglXVCffBfds4CZoQ==",
   "success": true,
   "projectFilePath": "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi.iOS/DepremAlarmi.iOS.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "/Users/heranarchy/.nuget/packages/microsoft.aspnet.signalr.client/2.4.1/microsoft.aspnet.signalr.client.2.4.1.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/plugin.share/7.1.1/plugin.share.7.1.1.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/restsharp/106.11.4/restsharp.106.11.4.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/rg.plugins.popup/2.0.0.3/rg.plugins.popup.2.0.0.3.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/system.reactive/4.0.0/system.reactive.4.0.0.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/system.runtime.interopservices.windowsruntime/4.3.0/system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",

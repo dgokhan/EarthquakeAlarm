@@ -66,6 +66,10 @@
               "target": "Package",
               "version": "[7.1.1, )"
             },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.4, )"
+            },
             "Rg.Plugins.Popup": {
               "target": "Package",
               "version": "[2.0.0.3, )"

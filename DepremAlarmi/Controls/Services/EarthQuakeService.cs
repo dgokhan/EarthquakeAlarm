@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Net;
 using System.Threading.Tasks;
 using DepremAlarmi.Models;
 using Newtonsoft.Json;
+using RestSharp;
 
 namespace DepremAlarmi.Controls.Services
 {
@@ -14,14 +16,11 @@ namespace DepremAlarmi.Controls.Services
         {
         tekrarDene:
             try
-            {
-                #region // JSON URL HAZIRLAMA
-                string url = "https://gokhandogru.net/earthquake/api.php";
-                if (regionName != null)
-                    url = "http://54.36.38.150:8080/?location=" + regionName + "";
-                #endregion
-
+            {  
                 #region // JSON VERİ ÇEKME İŞLEMLERİ
+
+                string url = "http://54.36.38.150:4477/api/Afad";
+
                 HttpWebRequest request = WebRequest.Create(url) as HttpWebRequest;
 
                 using (HttpWebResponse response = await request.GetResponseAsync() as HttpWebResponse)
@@ -31,14 +30,24 @@ namespace DepremAlarmi.Controls.Services
 
                     if (jsonVerisi.Length > 0)
                     {
-                        return JsonConvert.DeserializeObject<EarthQuake>(jsonVerisi) ;
+                        var value = JsonConvert.DeserializeObject<EarthQuake>(jsonVerisi);
+                        Debug.WriteLine("Getirilen deprem sayısı: " + value.result.Count);
+
+                        if (value.result.Count < 500)
+                        {
+                            goto tekrarDene;
+                        }
+                        else
+                        {
+                            return value;
+                        }
                     }
                     else
                         return null;
                 }
                 #endregion
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 await Task.Delay(10000);
                 goto tekrarDene;
