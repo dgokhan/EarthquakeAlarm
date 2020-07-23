@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2gLlGCnBeh/3Q8UAJ1z1aEKZG23lC2RpRYG0UHUO1k9CTDTxljcnx2DI1NBWm7GvVYSVskB8ON+9xYe/gctNQQ==",
+  "dgSpecHash": "ANkKeMBdM8CvvdAJ13Jp/FdTyY5EOw8COesjZawIif36AIuXlHgg24DSZFCqGqzcr3PLNnR6dUpL5q8K+bb+Cg==",
   "success": true,
   "projectFilePath": "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi/DepremAlarmi.csproj",
   "expectedPackageFiles": [
@@ -12,14 +12,11 @@
     "/Users/heranarchy/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
-    "/Users/heranarchy/.nuget/packages/plugin.share/7.1.1/plugin.share.7.1.1.nupkg.sha512",
-    "/Users/heranarchy/.nuget/packages/restsharp/106.11.4/restsharp.106.11.4.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/rg.plugins.popup/2.0.0.3/rg.plugins.popup.2.0.0.3.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/system.reactive/4.0.0/system.reactive.4.0.0.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/system.runtime.interopservices.windowsruntime/4.3.0/system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
-    "/Users/heranarchy/.nuget/packages/xam.plugin.externalmaps/4.0.1/xam.plugin.externalmaps.4.0.1.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/xamarin.ffimageloading/2.4.11.982/xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/xamarin.ffimageloading.forms/2.4.11.982/xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",

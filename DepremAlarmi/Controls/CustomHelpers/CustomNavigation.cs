@@ -7,10 +7,11 @@ using Xamarin.Forms;
 
 namespace DepremAlarmi.Controls.CustomHelpers
 {
-    class CustomNavigation : BottomBarPage, IFreshNavigationService
+    public class CustomNavigation : BottomBarPage, IFreshNavigationService
     {
         List<Page> _tabs = new List<Page>();
         public IEnumerable<Page> TabbedPages { get { return _tabs; } }
+
         public CustomNavigation() : this(Constants.DefaultNavigationServiceName)
         {
 
@@ -21,6 +22,7 @@ namespace DepremAlarmi.Controls.CustomHelpers
             NavigationServiceName = navigationServiceName;
             RegisterNavigation();
         }
+
         protected void RegisterNavigation()
         {
             FreshIOC.Container.Register<IFreshNavigationService>(this, NavigationServiceName);
@@ -96,5 +98,5 @@ namespace DepremAlarmi.Controls.CustomHelpers
             }
             return null;
         }
-    }   
+    }
 }

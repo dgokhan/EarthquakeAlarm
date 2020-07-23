@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using DepremAlarmi.Controls.Client;
 using DepremAlarmi.Models;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace DepremAlarmi.Pages
@@ -35,19 +36,33 @@ namespace DepremAlarmi.Pages
             DisplayAlert("Connection", "Error", "Ok");
         }
 
-        void Button_Clicked(System.Object sender, System.EventArgs e)
-        { 
-            client.SendMessage("gokhan", message.Text);
+        async void Button_Clicked(System.Object sender, System.EventArgs e)
+        {
+            try
+            {
+                var message = new SmsMessage("test", "905546889731");
+                await Sms.ComposeAsync(message);
+            }
+            catch (FeatureNotSupportedException ex)
+            {
+                // Sms is not supported on this device.
+            }
+            catch (Exception ex)
+            {
+                // Other error has occurred.
+            }
+
+            //client.SendMessage("gokhan", message.Text);
         }
 
-        void SendMessage(object sender, EventArgs e)
-        {
-            Device.BeginInvokeOnMainThread(() =>
-            {
-                client.SendMessage("gokhan", message.Text);
-                message.Text = "";
-                message.Focus();
-            });
+        async void SendMessage(object sender, EventArgs e)
+        { 
+             Device.BeginInvokeOnMainThread(() =>
+             {
+                 client.SendMessage("gokhan", message.Text);
+                 message.Text = "";
+                 message.Focus();
+             });
         }
 
     }

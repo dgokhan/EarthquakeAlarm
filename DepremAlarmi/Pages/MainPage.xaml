@@ -15,9 +15,9 @@
         <Label x:Name="lblTodayInfo" Text="{Binding TodayHighestEarthQuake}" Margin="0,10,0,0" TextColor="White" FontSize="9" HorizontalOptions="Center"/>
 
         <StackLayout Margin="0,-10,0,0"  Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
-            <Grid ColumnDefinitions="Auto,50">
-                <Label  Grid.Column="0" Text="{Binding TopMl}" TextColor="White" FontSize="70" FontAttributes="Bold" VerticalOptions="Center"/>
-                <Button Grid.Column="1" Text="{x:Static helpers:IconFont.ShareAllOutline}" FontFamily="{StaticResource MaterialFontFamily}" BackgroundColor="Transparent" FontSize="30" TextColor="White" HorizontalOptions="End" VerticalOptions="Center" ClassId="{Binding TopShareInformation}" Clicked="btnShare_Clicked"/>
+            <Grid ColumnDefinitions="Auto,60" Margin="80,0,0,0">
+                <Label Grid.Column="0" Text="{Binding TopMl}" TextColor="White" FontSize="70" FontAttributes="Bold" VerticalOptions="Center"/>
+                <Button Margin="0,0,0,0" Grid.Column="1" Text="{x:Static helpers:IconFont.ShareAllOutline}" FontFamily="{StaticResource MaterialFontFamily}" BackgroundColor="Transparent" FontSize="30" TextColor="White" VerticalOptions="Center" ClassId="{Binding TopShareInformation}" Clicked="btnShare_Clicked"/>
             </Grid>
             <Label Margin="0,-20,0,0" Text="{Binding TopLocation}" TextColor="White" FontSize="16" HorizontalOptions="Center"/>
             <Label  Margin="0,0,0,50" Text="{Binding TopDate}" TextColor="White" FontSize="12" HorizontalOptions="Center"/>
@@ -62,36 +62,46 @@
                 <Button Grid.Column="4" BackgroundColor="White" TextColor="#9C9C9C" Text="4 >" CornerRadius="7" FontSize="9" Clicked="SearchSizeButton_Clicked"/>
                 <Button Grid.Column="5" BackgroundColor="White" TextColor="#9C9C9C" Text="5 >" CornerRadius="7" FontSize="9" Clicked="SearchSizeButton_Clicked"/>
                 <Button Grid.Column="6" BackgroundColor="White" TextColor="#9C9C9C" Text="6 >" CornerRadius="7" FontSize="9" Clicked="SearchSizeButton_Clicked"/>
-            </Grid> 
+            </Grid>
 
             <customhelpers:CustomSearchBar x:Name="searchBar" FontSize="13" HorizontalTextAlignment="Start" TextColor="#019287" Grid.Row="1"
                       Placeholder="il veya ilçe ismi yazınız..." PlaceholderColor="#d6d7d7" TextChanged="searchBar_TextChanged" />
         </Grid>
 
+        <!--
+        RowHeight="100"
+        RefreshCommand="{Binding RefreshCommand}" "
+
+        -->
+
         <!-- Deprem Bilgileri -->
-        <ListView Grid.Row="3" Margin="0,-10,0,0" BackgroundColor="#ffffff" ItemsSource="{Binding EarthQuakeList}" RowHeight="100"
-                      HorizontalScrollBarVisibility="Never" VerticalScrollBarVisibility="Never" x:Name="EarthQuakeLists"
-                      IsPullToRefreshEnabled="True" RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
+        <!-- <RefreshView Grid.Row="3" Command="{Binding RefreshCommand}"
+                     IsRefreshing="{Binding IsRefreshing}">
+            <CollectionView BackgroundColor="#ffffff" ItemsSource="{Binding EarthQuakeList}" 
+            HorizontalScrollBarVisibility="Never" VerticalScrollBarVisibility="Never" x:Name="EarthQuakeLists">
+               <CollectionView.ItemsLayout>
+                   <LinearItemsLayout ItemSpacing="0" Orientation="Vertical"/>
+               </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
                         <Grid RowSpacing="0" BackgroundColor="#ffffff" Padding="20"
-                              ColumnDefinitions="64,Auto,*,80">
+                              ColumnDefinitions="64,Auto,*,80" RowDefinitions="17">
+
                             <Label Grid.RowSpan="3" FontSize="36" TextColor="#000000" HorizontalTextAlignment="Start" Text="{Binding Ml}" Style="{StaticResource bold_label}"  />
-                            <Label Grid.Column="1" Grid.Row="0" TextColor="#019287" FontSize="13" HorizontalTextAlignment="Start" Text="{Binding Location}" />
-                            <Label Grid.Column="1" Grid.Row="1" FontSize="10" HorizontalTextAlignment="Start" Text="Derinlik: " />
-                            <Label Grid.Column="1" Grid.Row="1" FontSize="10" Text="{Binding Depth}" Margin="43,0,0,0" />
-                            <Label Grid.Column="1" Grid.Row="2" FontSize="10" HorizontalTextAlignment="Start" Text="{Binding Date}" Margin="0,-4,0,0" />
+                            <Label Grid.Column="1" Grid.Row="0" Margin="0,0,0,0" TextColor="#019287" FontSize="13" HorizontalTextAlignment="Start" Text="{Binding Location}" FontFamily="{StaticResource bold_label}"/>
+                            <Label Grid.Column="1" Grid.Row="1" Margin="0,3,0,0" FontSize="10" HorizontalTextAlignment="Start" Text="Derinlik: " />
+                            <Label Grid.Column="1" Grid.Row="1" Margin="43,3,0,0" FontSize="10" Text="{Binding Depth}" FontAttributes="Bold" FontFamily="{StaticResource bold_label}"/>
+                            <Label Grid.Column="1" Grid.Row="2" Margin="0,2,0,0" FontSize="10" HorizontalTextAlignment="Start" Text="{Binding Date}"/>
                             <Grid Margin="0,0,5,0" ColumnSpacing="5" Grid.Column="3" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand"
                                   RowDefinitions="37" ColumnDefinitions="40,40">
-
+                                -->
                                 <Button TextColor="#019287" Text="{x:Static helpers:IconFont.ShareVariant}" FontFamily="{StaticResource MaterialFontFamily}" FontSize="17" ClassId="{Binding ShareButton}" BackgroundColor="White" Clicked="btnShare_Clicked"/>
                                 <Button TextColor="#73b7b2" Grid.Column="1" Text="{x:Static helpers:IconFont.MapMarkerRight}" FontFamily="{StaticResource MaterialFontFamily}" FontSize="17" ClassId="{Binding LocationButton}" BackgroundColor="White" Clicked="btnLocation_Clicked"/>
-                            </Grid>
+                            <!-- </Grid>
                         </Grid>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </RefreshView>  -->
     </Grid>
 </ContentPage>

@@ -5,9 +5,9 @@ using AiForms.Dialogs;
 using AiForms.Dialogs.Abstractions;
 using DepremAlarmi.Controls.Interfaces;
 using DepremAlarmi.PageModels;
-using Plugin.ExternalMaps;
-using Plugin.Share;
+using Xamarin.Essentials;
 using Xamarin.Forms;
+using Xamarin.Forms.Markup;
 
 namespace DepremAlarmi.Pages
 {
@@ -17,7 +17,7 @@ namespace DepremAlarmi.Pages
 
         public MainPage()
         {
-            InitializeComponent(); 
+            InitializeComponent();
         }
 
         private async void btnShare_Clicked(object sender, EventArgs e)
@@ -38,11 +38,13 @@ namespace DepremAlarmi.Pages
                 char[] ayrac = { '@' };
                 string[] parcalar = btnInfo.Split(ayrac);
 
-                await CrossShare.Current.Share(new Plugin.Share.Abstractions.ShareMessage
+                await Share.RequestAsync(new ShareTextRequest
                 {
-                    Text = $"{parcalar[0]} bölgesinde {parcalar[2]} saatinde {parcalar[1]} büyüklüğünde deprem gerçekleşti! #deprem bilylink",
-                    Title = "Paylaş!"
+                    Text = $"{parcalar[0]} bölgesinde {parcalar[2]} saatinde {parcalar[1]} büyüklüğünde deprem gerçekleşti! #deprem",
+                    Uri = "https://bit.ly/depremalarmi",
+                    Title = "Deprem Bilgisini Paylaş!"
                 });
+                 
                 await Task.Delay(1000);
                 progress.Report(100);
             });
@@ -68,10 +70,18 @@ namespace DepremAlarmi.Pages
                     char[] ayrac = { '@' };
                     string[] parcalar = btnInfo.Split(ayrac);
 
-                    var success = await CrossExternalMaps.Current.NavigateTo(parcalar[0], Convert.ToDouble(parcalar[2]), Convert.ToDouble(parcalar[1]));
+                    var location = new Location(Convert.ToDouble(parcalar[2]), Convert.ToDouble(parcalar[1]));
+                    var options = new MapLaunchOptions { Name = parcalar[0] };
 
-                    await Task.Delay(1000);
-
+                    try
+                    {
+                        await Map.OpenAsync(location, options);
+                    }
+                    catch (Exception ex)
+                    {
+                        await Application.Current.MainPage.DisplayAlert("Harita açılırken hata oluştu!", ex.Message, "Tamam");
+                    }
+                      
                     progress.Report(100);
                 });
             }
@@ -88,7 +98,7 @@ namespace DepremAlarmi.Pages
                 var _container = BindingContext as MainPageModel;
 
                 if (string.IsNullOrWhiteSpace(e.NewTextValue))
-                { 
+                {
                     EarthQuakeLists.ItemsSource = _container.EarthQuakeList;
                     searchBar.Text = string.Empty; searchQuery = string.Empty;
                 }
@@ -97,7 +107,8 @@ namespace DepremAlarmi.Pages
                     searchQuery = e.NewTextValue.ToUpper().Replace("Ğ", "G").Replace("İ", "I").Replace("Ş", "S").Replace("Ö", "O").Replace("Ç", "C");
                     EarthQuakeLists.ItemsSource = _container.EarthQuakeList.Where(i => i.Location.Contains(searchQuery));
                 }
-            } catch (Exception ex) { DependencyService.Get<IMessage>().LongMessage("Hooaydaağğ..\n"+ex.Message ); }
+            }
+            catch (Exception ex) { DependencyService.Get<IMessage>().LongMessage("Hooaydaağğ..\n" + ex.Message); }
         }
 
         private void SearchSizeButton_Clicked(System.Object sender, System.EventArgs e)
@@ -116,7 +127,8 @@ namespace DepremAlarmi.Pages
                 {
                     EarthQuakeLists.ItemsSource = _container.EarthQuakeList.Where(x => Convert.ToDouble(x.Ml) >= Convert.ToDouble(selectedButtonText.Replace(" >", "")) && x.Location.Contains(searchQuery));
                 }
-            } catch (Exception ex) { DependencyService.Get<IMessage>().LongMessage("Hooaydaağğ..\n" + ex.Message); }
+            }
+            catch (Exception ex) { DependencyService.Get<IMessage>().LongMessage("Hooaydaağğ..\n" + ex.Message); }
         }
     }
 }

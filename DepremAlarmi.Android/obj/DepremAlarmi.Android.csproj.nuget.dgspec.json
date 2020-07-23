@@ -52,17 +52,9 @@
               "target": "Package",
               "version": "[2.4.1, )"
             },
-            "Plugin.Share": {
-              "target": "Package",
-              "version": "[7.1.1, )"
-            },
             "Rg.Plugins.Popup": {
               "target": "Package",
               "version": "[2.0.0.3, )"
-            },
-            "Xam.Plugin.ExternalMaps": {
-              "target": "Package",
-              "version": "[4.0.1, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -138,21 +130,9 @@
               "target": "Package",
               "version": "[12.0.3, )"
             },
-            "Plugin.Share": {
-              "target": "Package",
-              "version": "[7.1.1, )"
-            },
-            "RestSharp": {
-              "target": "Package",
-              "version": "[106.11.4, )"
-            },
             "Rg.Plugins.Popup": {
               "target": "Package",
               "version": "[2.0.0.3, )"
-            },
-            "Xam.Plugin.ExternalMaps": {
-              "target": "Package",
-              "version": "[4.0.1, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

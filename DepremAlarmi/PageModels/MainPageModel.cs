@@ -59,8 +59,8 @@ namespace DepremAlarmi.PageModels
         private string topLocation;
         public string TopLocation { get { return topLocation; } set { topLocation = value; OnPropertyChanged("TopLocation"); } }
 
-        private string topShortLocation;
-        public string TopShortLocation { get { return topShortLocation; } set { topShortLocation = value; OnPropertyChanged(nameof(TopShortLocation)); } }
+        private string _topShortLocation;
+        public string TopShortLocation { get { return _topShortLocation; } set { _topShortLocation = value; OnPropertyChanged(nameof(TopShortLocation)); } }
 
         private string topMl;
         public string TopMl { get { return topMl; } set { topMl = value; OnPropertyChanged("TopMl"); } }
@@ -134,17 +134,15 @@ namespace DepremAlarmi.PageModels
                 TopDate = data.result[0].Date;
                 TopShareInformation = data.result[0].Location + "@" + data.result[0].Ml + "@" + data.result[0].Date;
 
+                char[] ayrac = { '(' };
+                var shortLocation = data.result[0].Location.Split(ayrac);
+                TopShortLocation = shortLocation[1].ToString().Replace(")", "").Replace(" ", "");
+
                 var res = (from s in EarthQuakeList
                            where Convert.ToDateTime(s.Date) >= DateTime.Now.AddDays(-1)
                            select s).OrderByDescending(c => c.Ml).First();
 
                 TodayHighestEarthQuake = "Bugün yaşanan en büyük deprem : " + res.Location + " - Şiddet " + res.Ml + "";
-
-                OnPropertyChanged(nameof(EarthQuakeList));
-
-                char[] ayrac = { '(' };
-                var shortLocation = data.result[0].Location.Split(ayrac);
-                TopShortLocation = shortLocation[1].ToString().Replace(")", "").Replace(" ", "");
 
                 // TODO : bug / check..
                 //DependencyService.Get<IMessage>().LongMessage("Deprem verileri güncellendi..."); 

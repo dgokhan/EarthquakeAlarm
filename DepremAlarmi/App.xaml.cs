@@ -9,17 +9,38 @@ namespace DepremAlarmi
         {
             InitializeComponent();
 
+            if (Device.RuntimePlatform == Device.iOS)
+            {
+                var tabs = new FreshMvvm.FreshTabbedNavigationContainer()
+                {
+                    BarTextColor = Color.White,
+                    BarBackgroundColor = Color.Black
+                };
+
+                tabs.AddTab<MainPageModel>("", "earthqauke.png");
+                tabs.AddTab<MessagePageModel>("", "chat.png");
+
+                MainPage = tabs;
+            }
+            else
+            {
+                var bottomBarPage = new CustomNavigation()
+                {
+                    SelectedTabColor = Color.FromRgb(1, 146, 135),
+                    BackgroundColor = Color.FromRgb(1, 146, 135)
+                };
+
+                bottomBarPage.AddTab<MainPageModel>("", "earthqauke.png");
+                bottomBarPage.AddTab<MessagePageModel>("", "chat.png");
+
+                MainPage = bottomBarPage;
+
+            }
+
+            
+
+            
             //MainPage = new FreshNavigationContainer(FreshPageModelResolver.ResolvePageModel<SettingPageModel>());
-            var bottomBarPage = new CustomNavigation()
-            { 
-                BackgroundColor = Color.FromRgb(1, 146, 135),
-            };
-
-            bottomBarPage.AddTab<MainPageModel>("", "earthqauke.png");
-            bottomBarPage.AddTab<MessagePageModel>("", "earthqauke.png");
-            bottomBarPage.AddTab<InformationPageModel>("", "information.png");
-
-            MainPage = bottomBarPage;
         }
 
         protected override void OnStart()

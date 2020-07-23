@@ -134,12 +134,6 @@
     <PackageReference Include="AiForms.Dialogs">
       <Version>1.0.7</Version>
     </PackageReference>
-    <PackageReference Include="Xam.Plugin.ExternalMaps">
-      <Version>4.0.1</Version>
-    </PackageReference>
-    <PackageReference Include="Plugin.Share">
-      <Version>7.1.1</Version>
-    </PackageReference>
     <PackageReference Include="LH.BottomNavigationBar.XF">
       <Version>1.0.42</Version>
     </PackageReference>

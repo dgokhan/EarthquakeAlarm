@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System; 
 using System.Diagnostics;
 using System.IO;
 using System.Net;
 using System.Threading.Tasks;
 using DepremAlarmi.Models;
 using Newtonsoft.Json;
-using RestSharp;
 
 namespace DepremAlarmi.Controls.Services
 {
