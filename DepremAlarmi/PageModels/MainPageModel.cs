@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
-using System.Globalization;
-using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using DepremAlarmi.Controls.Interfaces;
+using AiForms.Dialogs;
+using AiForms.Dialogs.Abstractions;
+using DepremAlarmi.Controls.Helpers;
 using DepremAlarmi.Controls.Services;
 using DepremAlarmi.Models;
 using FreshMvvm;
@@ -100,59 +98,81 @@ namespace DepremAlarmi.PageModels
 
         #region | Voids |
 
-        private async Task RefreshData()
+        public async Task RefreshData()
         {
-            earthQuakeList.Clear();
-            var data = await EarthQuakeService.InfoEarthQuake(null);
-            try
+            Configurations.LoadingConfig = new LoadingConfig
             {
-                foreach (var item in data.result)
+                IndicatorColor = Color.White,
+                OverlayColor = Color.Black,
+                Opacity = 0.4,
+                DefaultMessage = "Deprem verileri getiriliyor.."
+            };
+
+            await Loading.Instance.StartAsync(async progress =>
+            {
+                try
                 {
-                    if (item.Location == "- (-)")
+
+                    earthQuakeList.Clear();
+                    EarthQuake data = await EarthQuakeService.InfoEarthQuake(null);
+                    foreach (var item in data.result)
                     {
-                        char[] _ayrac = { '(' };
-                        item.Other = item.Other + "(";
-                        var newValue = item.Other.Split(_ayrac);
-                        item.Location = newValue[1].ToString().Replace(")", "").Replace(" ", "");
+                        if (item.Location == "- (-)")
+                        {
+                            char[] _ayrac = { '(' };
+                            item.Other = item.Other + "(";
+                            var newValue = item.Other.Split(_ayrac);
+                            item.Location = newValue[1].ToString().Replace(")", "").Replace(" ", "");
+                        }
+
+                        EarthQuakeList.Add(new Result
+                        {
+                            Location = item.Location,
+                            Date = item.Date,
+                            Ml = item.Ml,
+                            Depth = item.Depth,
+                            Latitude = item.Latitude,
+                            Longitude = item.Longitude,
+                            ShareButton = item.Location + "@" + item.Ml + "@" + item.Date,
+                            LocationButton = item.Location + "@" + item.Longitude + "@" + item.Latitude
+                        });
+                    }
+                    TopLocation = data.result[0].Location;
+                    TopMl = data.result[0].Ml;
+                    TopDepth = data.result[0].Depth;
+                    TopDate = data.result[0].Date;
+                    TopShareInformation = data.result[0].Location + "@" + data.result[0].Ml + "@" + data.result[0].Date;
+
+                    char[] ayrac = { '(' };
+                    var shortLocation = data.result[0].Location.Split(ayrac);
+                    if (shortLocation.Length > 0)
+                    {
+                        TopShortLocation = shortLocation[1].ToString().Replace(")", "").Replace(" ", "");
+                    }
+                    else
+                    {
+                        TopShortLocation = data.result[0].Location;
                     }
 
-                    EarthQuakeList.Add(new Result
-                    {
-                        Location = item.Location,
-                        Date = item.Date,
-                        Ml = item.Ml,
-                        Depth = item.Depth,
-                        Latitude = item.Latitude,
-                        Longitude = item.Longitude,
-                        ShareButton = item.Location + "@" + item.Ml + "@" + item.Date,
-                        LocationButton = item.Location + "@" + item.Longitude + "@" + item.Latitude
-                    });
+                    //var res = (from s in EarthQuakeList
+                    //           where Convert.ToDateTime(s.Date) >= DateTime.Now.AddDays(-1)
+                    //           select s).OrderByDescending(c => c.Ml).First();
+
+                    //TodayHighestEarthQuake = "Bugün yaşanan en büyük deprem : " + res.Location + " - Şiddet " + res.Ml + "";
+
+                    // TODO : bug / check..
+                    //DependencyService.Get<IMessage>().LongMessage("Deprem verileri güncellendi...");
+
+                    //await CoreMethods.PushPopupPageModel<PlayStoreVotingPageModel>(1);
+
+
                 }
-                TopLocation = data.result[0].Location;
-                TopMl = data.result[0].Ml;
-                TopDepth = data.result[0].Depth;
-                TopDate = data.result[0].Date;
-                TopShareInformation = data.result[0].Location + "@" + data.result[0].Ml + "@" + data.result[0].Date;
+                catch (System.Exception ex)
+                {
 
-                char[] ayrac = { '(' };
-                var shortLocation = data.result[0].Location.Split(ayrac);
-                TopShortLocation = shortLocation[1].ToString().Replace(")", "").Replace(" ", "");
-
-                var res = (from s in EarthQuakeList
-                           where Convert.ToDateTime(s.Date) >= DateTime.Now.AddDays(-1)
-                           select s).OrderByDescending(c => c.Ml).First();
-
-                TodayHighestEarthQuake = "Bugün yaşanan en büyük deprem : " + res.Location + " - Şiddet " + res.Ml + "";
-
-                // TODO : bug / check..
-                //DependencyService.Get<IMessage>().LongMessage("Deprem verileri güncellendi..."); 
-            }
-            catch (System.Exception ex)
-            {
-                TopShortLocation = data.result[0].Location;
-            }
+                }
+            });
         }
-
         #endregion
     }
 }

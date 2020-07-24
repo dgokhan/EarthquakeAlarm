@@ -1,12 +1,9 @@
-﻿<Properties StartupConfiguration="{6202DC07-E24E-4C52-B7A1-549A8124FDD2}|Default">
+﻿<Properties StartupConfiguration="{DEC91CE5-DBFA-4FF7-8A61-A9F3FAFD8142}|Default">
   <MonoDevelop.Ide.ItemProperties.DepremAlarmi.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9E5F3AC4-730D-453F-ACFB-67DF2D491F7D" />
   <MonoDevelop.Ide.Workbench ActiveDocument="DepremAlarmi/Pages/MainPage.xaml">
     <Files>
-      <File FileName="DepremAlarmi/PageModels/MainPageModel.cs" Line="126" Column="11" />
-      <File FileName="DepremAlarmi/App.xaml.cs" Line="9" Column="10" />
-      <File FileName="DepremAlarmi.Android/Resources/values/styles.xml" Line="12" Column="54" />
-      <File FileName="DepremAlarmi/Controls/CustomHelpers/CustomNavigation.cs" Line="101" Column="6" />
-      <File FileName="DepremAlarmi/Pages/MainPage.xaml" Line="97" Column="1" />
+      <File FileName="DepremAlarmi/PageModels/MainPageModel.cs" Line="24" Column="1" />
+      <File FileName="DepremAlarmi/Pages/MainPage.xaml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,36 +11,32 @@
           <Node name="DepremAlarmi" expanded="True">
             <Node name="DepremAlarmi" expanded="True">
               <Node name="Controls" expanded="True">
-                <Node name="CustomHelpers" expanded="True" />
+                <Node name="Helpers" expanded="True" />
                 <Node name="Services" expanded="True" />
               </Node>
               <Node name="PageModels" expanded="True" />
               <Node name="Pages" expanded="True">
-                <Node name="MainPage.xaml" expanded="True" selected="True" />
-                <Node name="MessagePage.xaml" expanded="True" />
+                <Node name="MainPage.xaml" selected="True" />
               </Node>
               <Node name="App.xaml" expanded="True" />
             </Node>
-            <Node name="DepremAlarmi.Android" expanded="True">
-              <Node name="Resources" expanded="True">
-                <Node name="drawable" expanded="True" />
-                <Node name="values" expanded="True" />
-              </Node>
-            </Node>
+            <Node name="DepremAlarmi.Android" expanded="True" />
             <Node name="DepremAlarmi.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.DepremAlarmi.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.5200b1c1f4e3a485" />
+  <MonoDevelop.Ide.ItemProperties.DepremAlarmi.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.tablet_m-dpi_10_1in_pie_9_0_-_api_28" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <DisabledProjects>
     <String>DepremAlarmi.SignalR/DepremAlarmi.SignalR.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi/PageModels/MainPageModel.cs" relfile="DepremAlarmi/PageModels/MainPageModel.cs" line="195" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

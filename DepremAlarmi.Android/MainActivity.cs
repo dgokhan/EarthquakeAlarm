@@ -16,6 +16,7 @@ namespace DepremAlarmi.Droid
 
             base.OnCreate(savedInstanceState);
             CachedImageRenderer.Init(true);
+            Rg.Plugins.Popup.Popup.Init(this, savedInstanceState);
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);

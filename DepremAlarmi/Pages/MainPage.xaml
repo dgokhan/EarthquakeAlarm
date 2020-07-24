@@ -75,7 +75,7 @@
         -->
 
         <!-- Deprem Bilgileri -->
-        <!-- <RefreshView Grid.Row="3" Command="{Binding RefreshCommand}"
+        <RefreshView Grid.Row="3" Command="{Binding RefreshCommand}"
                      IsRefreshing="{Binding IsRefreshing}">
             <CollectionView BackgroundColor="#ffffff" ItemsSource="{Binding EarthQuakeList}" 
             HorizontalScrollBarVisibility="Never" VerticalScrollBarVisibility="Never" x:Name="EarthQuakeLists">
@@ -94,14 +94,14 @@
                             <Label Grid.Column="1" Grid.Row="2" Margin="0,2,0,0" FontSize="10" HorizontalTextAlignment="Start" Text="{Binding Date}"/>
                             <Grid Margin="0,0,5,0" ColumnSpacing="5" Grid.Column="3" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand"
                                   RowDefinitions="37" ColumnDefinitions="40,40">
-                                -->
+
                                 <Button TextColor="#019287" Text="{x:Static helpers:IconFont.ShareVariant}" FontFamily="{StaticResource MaterialFontFamily}" FontSize="17" ClassId="{Binding ShareButton}" BackgroundColor="White" Clicked="btnShare_Clicked"/>
                                 <Button TextColor="#73b7b2" Grid.Column="1" Text="{x:Static helpers:IconFont.MapMarkerRight}" FontFamily="{StaticResource MaterialFontFamily}" FontSize="17" ClassId="{Binding LocationButton}" BackgroundColor="White" Clicked="btnLocation_Clicked"/>
-                            <!-- </Grid>
+                            </Grid>
                         </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
-        </RefreshView>  -->
+        </RefreshView>
     </Grid>
 </ContentPage>

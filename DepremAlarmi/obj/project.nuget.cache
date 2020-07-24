@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ANkKeMBdM8CvvdAJ13Jp/FdTyY5EOw8COesjZawIif36AIuXlHgg24DSZFCqGqzcr3PLNnR6dUpL5q8K+bb+Cg==",
+  "dgSpecHash": "NmGVz45kPoRnNNVKxKOnuukNHUY8HinEntrMWBbg6r1DsiEE2Jh5ymMnNLvM6+7kXEwi/1eLw9/ageJttendkQ==",
   "success": true,
   "projectFilePath": "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi/DepremAlarmi.csproj",
   "expectedPackageFiles": [
@@ -20,7 +20,7 @@
     "/Users/heranarchy/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/xamarin.ffimageloading/2.4.11.982/xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/xamarin.ffimageloading.forms/2.4.11.982/xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
-    "/Users/heranarchy/.nuget/packages/xamarin.forms/4.7.0.1080/xamarin.forms.4.7.0.1080.nupkg.sha512"
+    "/Users/heranarchy/.nuget/packages/xamarin.forms/4.7.0.1179/xamarin.forms.4.7.0.1179.nupkg.sha512"
   ],
   "logs": []
 }

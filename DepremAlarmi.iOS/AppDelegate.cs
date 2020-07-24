@@ -23,7 +23,9 @@ namespace DepremAlarmi.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            CachedImageRenderer.Init(); AiForms.Dialogs.Dialogs.Init();
+            Rg.Plugins.Popup.Popup.Init();
+            CachedImageRenderer.Init();
+            AiForms.Dialogs.Dialogs.Init();
             LoadApplication(new App());
             return base.FinishedLaunching(app, options);
         }
