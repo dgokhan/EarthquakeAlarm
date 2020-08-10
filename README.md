@@ -8,6 +8,6 @@ Get notifications from the moment you set formed by the provinces and the earthq
 
 [★ FreshMvvm](https://github.com/rid00z/FreshMvvm)   [★ FFImageLoading](https://github.com/luberda-molinet/FFImageLoading) [★ BottomNavigationBar](https://github.com/pocheshire/BottomNavigationBar)   [★ Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json) 
 
-[★ AiForms.Dialogs](https://github.com/muak/AiForms.Dialogs)   [★ SharePlugin](https://github.com/jguertl/SharePlugin) [★ FFImageLoading](https://github.com/luberda-molinet/FFImageLoading)   [★ ExternalMaps](https://github.com/jamesmontemagno/LaunchMapsPlugin) 
+[★ AiForms.Dialogs](https://github.com/muak/AiForms.Dialogs)  [★ FFImageLoading](https://github.com/luberda-molinet/FFImageLoading)   
 
 ![ss1.png](https://i.hizliresim.com/n7HT3W.gif) 
