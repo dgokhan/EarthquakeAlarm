@@ -1,0 +1,13 @@
+values/attrs.xml;values/attrs.xml
+values/bools.xml;values/bools.xml
+values/colors.xml;values/colors.xml
+values/strings.xml;values/strings.xml
+values/styles.xml;values/styles.xml
+layout/bb_bottom_bar_item_container_tablet.xml;layout/bb_bottom_bar_item_container_tablet.xml
+layout/bb_bottom_bar_item_container.xml;layout/bb_bottom_bar_item_container.xml
+layout/bb_bottom_bar_item_fixed_tablet.xml;layout/bb_bottom_bar_item_fixed_tablet.xml
+layout/bb_bottom_bar_item_fixed.xml;layout/bb_bottom_bar_item_fixed.xml
+layout/bb_bottom_bar_item_shifting.xml;layout/bb_bottom_bar_item_shifting.xml
+drawable/bb_bottom_bar_top_shadow.xml;drawable/bb_bottom_bar_top_shadow.xml
+values-sw600dp/bools.xml;values-sw600dp/bools.xml
+values/dimens.xml;values/dimens.xml

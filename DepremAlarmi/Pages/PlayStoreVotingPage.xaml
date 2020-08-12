@@ -3,17 +3,69 @@
                  xmlns="http://xamarin.com/schemas/2014/forms"
                  xmlns:popup="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"  
                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+                 xmlns:helpers="clr-namespace:DepremAlarmi.Controls.Helpers"
+                 xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
                  x:Class="DepremAlarmi.Pages.PlayStoreVotingPage">
+    <popup:PopupPage.Animation>
+        <animations:ScaleAnimation DurationIn="500"
+                                   DurationOut="700"
+                                   EasingIn="BounceIn"
+                                   EasingOut="Linear"
+                                   HasBackgroundAnimation="True"
+                                   PositionIn="Center"
+                                   PositionOut="Center"
+                                   ScaleIn="1.2"
+                                   ScaleOut="0.3" />
+    </popup:PopupPage.Animation>
+
     <popup:PopupPage.Content>
-         <StackLayout Padding="10"  
-                     BackgroundColor="White"  
-                     HorizontalOptions="Center"  
-                     VerticalOptions="Center">  
-            <Label Text="Fresh MVVM Rg.Plugin.Popup"  
-                VerticalOptions="CenterAndExpand"   
-                HorizontalOptions="CenterAndExpand" />  
-            <Button Command="{Binding ClosePopupCommand}"  
-                    Text="Close Popup"/>  
-        </StackLayout>  
+        <StackLayout Padding="10" 
+                     HorizontalOptions="Center" Margin="35,0,35,0" 
+                     VerticalOptions="Center">
+            <Frame BackgroundColor="White" CornerRadius="20">
+                <Grid RowDefinitions="50,60,60,*" RowSpacing="10">
+
+                    <Grid ColumnDefinitions="70,*">
+                        <ff:CachedImage Source="icon" />
+                        <Grid Grid.Column="1" RowSpacing="0" Margin="0,0,5,0">
+                            <Label Margin="0,5,0,0" Grid.Row="0" Text="Deprem Alarmı" VerticalOptions="End" FontFamily="{StaticResource PoppinsRegular}"/>
+                            <Label Grid.Row="1" Text="F8 Tech " FontSize="9" FontFamily="{StaticResource PoppinsRegular}"/>
+                            <Label Grid.Row="1" Text="★★★★★ (18)" HorizontalOptions="EndAndExpand" FontSize="9" FontFamily="{StaticResource PoppinsRegular}"/>
+                        </Grid>
+                    </Grid>
+
+                    <Label Grid.Row="1" Text="Uygulamayı geliştirmek adına yorumlarınız ve yıldızlamanız bizim için çok önemli. Uygulamayı oylamak ister misiniz?"  
+                           VerticalOptions="CenterAndExpand"   
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="Black" FontSize="12" Margin="0,0,0,-10"
+                           FontFamily="{StaticResource PoppinsRegular}"/>
+
+                    <Grid Grid.Row="2" ColumnDefinitions="50,50,50,50,50" ColumnSpacing="0" HorizontalOptions="Center" >
+                        <Button Text="{x:Static helpers:IconFont.Star}" FontFamily="{StaticResource MaterialFontFamily}"
+                                 BackgroundColor="White" FontSize="20" TextColor="Orange" HorizontalOptions="Start" />
+
+                        <Button Grid.Column="1" Text="{x:Static helpers:IconFont.Star}" FontFamily="{StaticResource MaterialFontFamily}"
+                                 BackgroundColor="White" FontSize="20" TextColor="Orange" HorizontalOptions="Start" />
+
+                        <Button Grid.Column="2" Text="{x:Static helpers:IconFont.Star}" FontFamily="{StaticResource MaterialFontFamily}"
+                                 BackgroundColor="White" FontSize="20" TextColor="Orange" HorizontalOptions="Start" />
+
+                        <Button Grid.Column="3" Text="{x:Static helpers:IconFont.Star}" FontFamily="{StaticResource MaterialFontFamily}"
+                                 BackgroundColor="White" FontSize="20" TextColor="Orange" HorizontalOptions="Start" />
+
+                        <Button Grid.Column="4" Text="{x:Static helpers:IconFont.Star}" FontFamily="{StaticResource MaterialFontFamily}"
+                                 BackgroundColor="White" FontSize="20" TextColor="Orange" HorizontalOptions="Start" />
+                    </Grid>
+
+                    <Grid RowDefinitions="50" Grid.Row="3" ColumnSpacing="0">
+                        <Button Grid.Row="1" Command="{Binding ClosePopupCommand}"  
+                        Text="Henüz değil.." FontSize="7" BackgroundColor="White"/>
+                        <Button Grid.Row="0" Command="{Binding OpenPlayStore}"  
+                        Text="Uygulamayı OYLA!" FontSize="12" FontFamily="{StaticResource PoppinsBold}" BackgroundColor="#019287" TextColor="White"/>
+                    </Grid>
+                </Grid>
+            </Frame>
+        </StackLayout>
     </popup:PopupPage.Content>
 </popup:PopupPage>

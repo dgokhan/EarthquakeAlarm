@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
-      "AiForms.Dialogs/1.0.7": {
+      "AiForms.Dialogs/1.0.8": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "3.0.0.482510"
@@ -59,6 +59,21 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.Permissions/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
         }
       },
       "Rg.Plugins.Popup/2.0.0.3": {
@@ -146,7 +161,7 @@
           "lib/Xamarin.iOS10/FFImageLoading.Forms.dll": {}
         }
       },
-      "Xamarin.Forms/4.7.0.1179": {
+      "Xamarin.Forms/4.8.0.1269": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -271,15 +286,16 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "AiForms.Dialogs": "1.0.7",
+          "AiForms.Dialogs": "1.0.8",
           "FreshMvvm": "3.0.0",
           "LH.BottomNavigationBar.XF": "1.0.42",
           "Microsoft.AspNet.SignalR.Client": "2.4.1",
           "Newtonsoft.Json": "12.0.3",
+          "Plugin.Permissions": "6.0.1",
           "Rg.Plugins.Popup": "2.0.0.3",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
-          "Xamarin.Forms": "4.7.0.1179"
+          "Xamarin.Forms": "4.8.0.1269"
         },
         "compile": {
           "bin/placeholder/DepremAlarmi.dll": {}
@@ -290,7 +306,7 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
-      "AiForms.Dialogs/1.0.7": {
+      "AiForms.Dialogs/1.0.8": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "3.0.0.482510"
@@ -347,6 +363,21 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.Permissions/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
         }
       },
       "Rg.Plugins.Popup/2.0.0.3": {
@@ -434,7 +465,7 @@
           "lib/Xamarin.iOS10/FFImageLoading.Forms.dll": {}
         }
       },
-      "Xamarin.Forms/4.7.0.1179": {
+      "Xamarin.Forms/4.8.0.1269": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -559,15 +590,16 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "AiForms.Dialogs": "1.0.7",
+          "AiForms.Dialogs": "1.0.8",
           "FreshMvvm": "3.0.0",
           "LH.BottomNavigationBar.XF": "1.0.42",
           "Microsoft.AspNet.SignalR.Client": "2.4.1",
           "Newtonsoft.Json": "12.0.3",
+          "Plugin.Permissions": "6.0.1",
           "Rg.Plugins.Popup": "2.0.0.3",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
-          "Xamarin.Forms": "4.7.0.1179"
+          "Xamarin.Forms": "4.8.0.1269"
         },
         "compile": {
           "bin/placeholder/DepremAlarmi.dll": {}
@@ -578,7 +610,7 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
-      "AiForms.Dialogs/1.0.7": {
+      "AiForms.Dialogs/1.0.8": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "3.0.0.482510"
@@ -635,6 +667,21 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.Permissions/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
         }
       },
       "Rg.Plugins.Popup/2.0.0.3": {
@@ -722,7 +769,7 @@
           "lib/Xamarin.iOS10/FFImageLoading.Forms.dll": {}
         }
       },
-      "Xamarin.Forms/4.7.0.1179": {
+      "Xamarin.Forms/4.8.0.1269": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -847,15 +894,16 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "AiForms.Dialogs": "1.0.7",
+          "AiForms.Dialogs": "1.0.8",
           "FreshMvvm": "3.0.0",
           "LH.BottomNavigationBar.XF": "1.0.42",
           "Microsoft.AspNet.SignalR.Client": "2.4.1",
           "Newtonsoft.Json": "12.0.3",
+          "Plugin.Permissions": "6.0.1",
           "Rg.Plugins.Popup": "2.0.0.3",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
-          "Xamarin.Forms": "4.7.0.1179"
+          "Xamarin.Forms": "4.8.0.1269"
         },
         "compile": {
           "bin/placeholder/DepremAlarmi.dll": {}
@@ -866,7 +914,7 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
-      "AiForms.Dialogs/1.0.7": {
+      "AiForms.Dialogs/1.0.8": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "3.0.0.482510"
@@ -923,6 +971,21 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.Permissions/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
         }
       },
       "Rg.Plugins.Popup/2.0.0.3": {
@@ -1010,7 +1073,7 @@
           "lib/Xamarin.iOS10/FFImageLoading.Forms.dll": {}
         }
       },
-      "Xamarin.Forms/4.7.0.1179": {
+      "Xamarin.Forms/4.8.0.1269": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -1135,15 +1198,16 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "AiForms.Dialogs": "1.0.7",
+          "AiForms.Dialogs": "1.0.8",
           "FreshMvvm": "3.0.0",
           "LH.BottomNavigationBar.XF": "1.0.42",
           "Microsoft.AspNet.SignalR.Client": "2.4.1",
           "Newtonsoft.Json": "12.0.3",
+          "Plugin.Permissions": "6.0.1",
           "Rg.Plugins.Popup": "2.0.0.3",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
-          "Xamarin.Forms": "4.7.0.1179"
+          "Xamarin.Forms": "4.8.0.1269"
         },
         "compile": {
           "bin/placeholder/DepremAlarmi.dll": {}
@@ -1155,14 +1219,14 @@
     }
   },
   "libraries": {
-    "AiForms.Dialogs/1.0.7": {
-      "sha512": "uAEXLUZACBvou1RcIJY+CqF2XmrkSC7lBY/I2/xXS/zPDIzzr+uHgI0GJN7iEmTf0dAP+WiJ8j9h6lG6+NX3kg==",
+    "AiForms.Dialogs/1.0.8": {
+      "sha512": "ng4NUMf1ixfsOx+ZG24I4RtZP8dHf+NLEAX6kRu0GdEMXu4F0nfqgC54Rqip31Bq10YYv/El4fSczvyCyXHY+g==",
       "type": "package",
-      "path": "aiforms.dialogs/1.0.7",
+      "path": "aiforms.dialogs/1.0.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "aiforms.dialogs.1.0.7.nupkg.sha512",
+        "aiforms.dialogs.1.0.8.nupkg.sha512",
         "aiforms.dialogs.nuspec",
         "lib/MonoAndroid/AiForms.Dialogs.Abstractions.dll",
         "lib/MonoAndroid/AiForms.Dialogs.Abstractions.xml",
@@ -1264,6 +1328,37 @@
         "newtonsoft.json.12.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
+      ]
+    },
+    "Plugin.Permissions/6.0.1": {
+      "sha512": "na/0FNhyKmSicANWZMLSM0y/FW2AvLoawX3lsvBpELwP15sdJRyuBhRKk1OQjRoNrmTIewcON1tJFyydjMGWcA==",
+      "type": "package",
+      "path": "plugin.permissions/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid10.0/Plugin.Permissions.dll",
+        "lib/monoandroid10.0/Plugin.Permissions.pdb",
+        "lib/monoandroid80/Plugin.Permissions.dll",
+        "lib/monoandroid80/Plugin.Permissions.pdb",
+        "lib/monoandroid81/Plugin.Permissions.dll",
+        "lib/monoandroid81/Plugin.Permissions.pdb",
+        "lib/monoandroid90/Plugin.Permissions.dll",
+        "lib/monoandroid90/Plugin.Permissions.pdb",
+        "lib/netstandard1.0/Plugin.Permissions.dll",
+        "lib/netstandard1.0/Plugin.Permissions.pdb",
+        "lib/netstandard2.0/Plugin.Permissions.dll",
+        "lib/netstandard2.0/Plugin.Permissions.pdb",
+        "lib/uap10.0.16299/Plugin.Permissions.dll",
+        "lib/uap10.0.16299/Plugin.Permissions.pdb",
+        "lib/uap10.0.16299/Plugin.Permissions.pri",
+        "lib/xamarinios10/Plugin.Permissions.dll",
+        "lib/xamarinios10/Plugin.Permissions.pdb",
+        "lib/xamarintvos10/Plugin.Permissions.dll",
+        "lib/xamarintvos10/Plugin.Permissions.pdb",
+        "plugin.permissions.6.0.1.nupkg.sha512",
+        "plugin.permissions.nuspec",
+        "readme.txt"
       ]
     },
     "Rg.Plugins.Popup/2.0.0.3": {
@@ -1569,10 +1664,10 @@
         "xamarin.ffimageloading.forms.nuspec"
       ]
     },
-    "Xamarin.Forms/4.7.0.1179": {
-      "sha512": "QY/wwwG/OTOK9UGUalL4u3fKDQ5bh86nVa+M8bmKCq8/QdgZSXRQ/YVwDh0Mew0MaKsZZwTZUNGOGRc52fb+/Q==",
+    "Xamarin.Forms/4.8.0.1269": {
+      "sha512": "3UFTlfJvF9l8HB+gWVmYUEVRSPU+c3H0G/h09RVG8/P5i/QRiDBg/YHEGfPR3HNuWlJ9S9TgZjrFruTUS1ZYiQ==",
       "type": "package",
-      "path": "xamarin.forms/4.7.0.1179",
+      "path": "xamarin.forms/4.8.0.1269",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1879,7 +1974,7 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.7.0.1179.nupkg.sha512",
+        "xamarin.forms.4.8.0.1269.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -1891,15 +1986,16 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
-      "AiForms.Dialogs >= 1.0.7",
+      "AiForms.Dialogs >= 1.0.8",
       "DepremAlarmi >= 1.0.0",
       "FreshMvvm >= 3.0.0",
       "LH.BottomNavigationBar.XF >= 1.0.42",
       "Microsoft.AspNet.SignalR.Client >= 2.4.1",
+      "Plugin.Permissions >= 6.0.1",
       "Rg.Plugins.Popup >= 2.0.0.3",
       "Xamarin.Essentials >= 1.5.3.2",
       "Xamarin.FFImageLoading.Forms >= 2.4.11.982",
-      "Xamarin.Forms >= 4.7.0.1179"
+      "Xamarin.Forms >= 4.8.0.1269"
     ]
   },
   "packageFolders": {
@@ -1939,7 +2035,7 @@
         "dependencies": {
           "AiForms.Dialogs": {
             "target": "Package",
-            "version": "[1.0.7, )"
+            "version": "[1.0.8, )"
           },
           "FreshMvvm": {
             "target": "Package",
@@ -1952,6 +2048,10 @@
           "Microsoft.AspNet.SignalR.Client": {
             "target": "Package",
             "version": "[2.4.1, )"
+          },
+          "Plugin.Permissions": {
+            "target": "Package",
+            "version": "[6.0.1, )"
           },
           "Rg.Plugins.Popup": {
             "target": "Package",
@@ -1967,7 +2067,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.7.0.1179, )"
+            "version": "[4.8.0.1269, )"
           }
         }
       }

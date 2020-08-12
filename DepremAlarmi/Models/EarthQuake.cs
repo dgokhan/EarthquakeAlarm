@@ -31,11 +31,12 @@ namespace DepremAlarmi.Models
         public string Ml { get; set; }
 
         [JsonProperty("city")]
-        private string City { get; set; }
+        public string City { get; set; }
 
         [JsonProperty("district")]
         private string District { set { Location = value + " (" +City.ToUpper() + ")"; } }
 
+        public string Country { get; set; }
 
         public string _Location { get; set; }
         [JsonProperty("location")]
@@ -46,6 +47,7 @@ namespace DepremAlarmi.Models
 
         public string ShareButton { get; set; }
         public string LocationButton { get; set; }
+        public string Distance { get; set; }
     }
 
     public class EarthQuake

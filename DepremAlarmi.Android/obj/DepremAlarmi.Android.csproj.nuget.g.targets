@@ -41,6 +41,6 @@
     <Import Project="$(NuGetPackageRoot)xamarin.android.support.transition/28.0.0.3/build/monoandroid90/Xamarin.Android.Support.Transition.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.android.support.transition/28.0.0.3/build/monoandroid90/Xamarin.Android.Support.Transition.targets')" />
     <Import Project="$(NuGetPackageRoot)xamarin.android.support.design/28.0.0.3/build/monoandroid90/Xamarin.Android.Support.Design.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.android.support.design/28.0.0.3/build/monoandroid90/Xamarin.Android.Support.Design.targets')" />
     <Import Project="$(NuGetPackageRoot)xamarin.android.support.customtabs/28.0.0.3/build/monoandroid90/Xamarin.Android.Support.CustomTabs.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.android.support.customtabs/28.0.0.3/build/monoandroid90/Xamarin.Android.Support.CustomTabs.targets')" />
-    <Import Project="$(NuGetPackageRoot)xamarin.forms/4.7.0.1179/buildTransitive/Xamarin.Forms.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.forms/4.7.0.1179/buildTransitive/Xamarin.Forms.targets')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.forms/4.8.0.1269/buildTransitive/Xamarin.Forms.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.forms/4.8.0.1269/buildTransitive/Xamarin.Forms.targets')" />
   </ImportGroup>
 </Project>

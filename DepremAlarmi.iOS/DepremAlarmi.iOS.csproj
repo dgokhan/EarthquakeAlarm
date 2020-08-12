@@ -77,34 +77,13 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon1024.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon180.png">
-      <Visible>false</Visible>
-    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon167.png">
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon152.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon120.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon87.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon80.png">
-      <Visible>false</Visible>
-    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon76.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon60.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon58.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon40.png">
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon29.png">
@@ -113,6 +92,14 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\New Project %2810%29.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\New Project %2812%29.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\New Project %2813%29.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\New Project %2814%29.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\New Project %2815%29.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\New Project %2816%29.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\New Project %2816%29-1.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\New Project %2817%29.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -123,7 +110,7 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.7.0.1179" />
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1269" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
     <PackageReference Include="FreshMvvm">
       <Version>3.0.0</Version>
@@ -132,7 +119,7 @@
       <Version>2.4.11.982</Version>
     </PackageReference>
     <PackageReference Include="AiForms.Dialogs">
-      <Version>1.0.7</Version>
+      <Version>1.0.8</Version>
     </PackageReference>
     <PackageReference Include="LH.BottomNavigationBar.XF">
       <Version>1.0.42</Version>
@@ -142,6 +129,9 @@
     </PackageReference>
     <PackageReference Include="Microsoft.AspNet.SignalR.Client">
       <Version>2.4.1</Version>
+    </PackageReference>
+    <PackageReference Include="Plugin.Permissions">
+      <Version>6.0.1</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
@@ -158,5 +148,9 @@
     <BundleResource Include="Resources\Fonts\materialdesignicons-webfont.ttf" />
     <BundleResource Include="Resources\Fonts\PoppinsBold.ttf" />
     <BundleResource Include="Resources\Fonts\PoppinsRegular.ttf" />
+    <BundleResource Include="Resources\chat.png" />
+    <BundleResource Include="Resources\earthqauke.png" />
+    <BundleResource Include="Resources\information.png" />
+    <BundleResource Include="Resources\settings.png" />
   </ItemGroup>
 </Project>

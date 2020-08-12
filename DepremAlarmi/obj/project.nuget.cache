@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NmGVz45kPoRnNNVKxKOnuukNHUY8HinEntrMWBbg6r1DsiEE2Jh5ymMnNLvM6+7kXEwi/1eLw9/ageJttendkQ==",
+  "dgSpecHash": "DJA487Po0HIhrHaK/5Ra93UbYDCpFeD/ZsXsq96i40mF3+4+BBEkN3bp2wF9VBSyKUl+jAsMWTJKEeddfzLiaw==",
   "success": true,
   "projectFilePath": "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi/DepremAlarmi.csproj",
   "expectedPackageFiles": [
-    "/Users/heranarchy/.nuget/packages/aiforms.dialogs/1.0.7/aiforms.dialogs.1.0.7.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/aiforms.dialogs/1.0.8/aiforms.dialogs.1.0.8.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/freshmvvm/3.0.0/freshmvvm.3.0.0.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/lh.bottomnavigationbar.xf/1.0.42/lh.bottomnavigationbar.xf.1.0.42.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/microsoft.aspnet.signalr.client/2.4.1/microsoft.aspnet.signalr.client.2.4.1.nupkg.sha512",
@@ -12,6 +12,7 @@
     "/Users/heranarchy/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/plugin.permissions/6.0.1/plugin.permissions.6.0.1.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/rg.plugins.popup/2.0.0.3/rg.plugins.popup.2.0.0.3.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/system.reactive/4.0.0/system.reactive.4.0.0.nupkg.sha512",
@@ -20,7 +21,7 @@
     "/Users/heranarchy/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/xamarin.ffimageloading/2.4.11.982/xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/xamarin.ffimageloading.forms/2.4.11.982/xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
-    "/Users/heranarchy/.nuget/packages/xamarin.forms/4.7.0.1179/xamarin.forms.4.7.0.1179.nupkg.sha512"
+    "/Users/heranarchy/.nuget/packages/xamarin.forms/4.8.0.1269/xamarin.forms.4.8.0.1269.nupkg.sha512"
   ],
   "logs": []
 }

@@ -3,15 +3,15 @@
     <style name="MainTheme" parent="MainTheme.Base">
     </style>
     <!-- Base theme applied no matter what API -->
-    <style name="MainTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="MainTheme.Base" parent="Theme.AppCompat.Light">
         <!--If you are using revision 22.1 please use just windowNoTitle. Without android:-->
         <item name="windowNoTitle">true</item>
         <!--We will be using the toolbar so no need to show ActionBar-->
         <item name="windowActionBar">false</item>
         <!-- Set theme colors from https://aka.ms/material-colors -->
         <!-- colorPrimary is used for the default action bar background -->
-        <item name="colorPrimary">#ffffff</item>
-        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimary">#019287</item>
+        <!-- colorPrimaryDark is used for the status bar 019287-->
         <item name="colorPrimaryDark">#019287</item>
         <!-- colorAccent is used as the default value for colorControlActivated
          which is used to tint widgets -->
@@ -21,7 +21,17 @@
         <item name="windowActionModeOverlay">true</item>
         <item name="android:datePickerDialogTheme">@style/AppCompatDialogStyle</item>
     </style>
+
     <style name="AppCompatDialogStyle" parent="Theme.AppCompat.Light.Dialog">
         <item name="colorAccent">#FF4081</item>
     </style>
+
+    <style name="MyTheme.Splash" parent="Theme.AppCompat.Light">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimary">#ffffff</item>
+        <item name="colorPrimaryDark">#ffffff</item>
+    </style>
+
+    <color name="splash_background">#ffffff</color>
 </resources>

@@ -1,13 +1,18 @@
-﻿using System.Collections.ObjectModel;
+﻿using System;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Globalization;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using AiForms.Dialogs;
 using AiForms.Dialogs.Abstractions;
 using DepremAlarmi.Controls.Helpers;
+using DepremAlarmi.Controls.Interfaces;
 using DepremAlarmi.Controls.Services;
 using DepremAlarmi.Models;
 using FreshMvvm;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace DepremAlarmi.PageModels
@@ -20,11 +25,57 @@ namespace DepremAlarmi.PageModels
         {
             Task.Run(async () =>
             {
-                await RefreshData();
+                try
+                {
+                    Configurations.LoadingConfig = new LoadingConfig
+                    {
+                        IndicatorColor = Color.White,
+                        OverlayColor = Color.Black,
+                        Opacity = 0.4,
+                        DefaultMessage = "Deprem verileri yükleniyor.."
+                    };
+
+                    await Loading.Instance.StartAsync(async progress =>
+                    {
+                        //EarthQuakeList.Add(new Result
+                        //{
+                        //    Location = "BUCA (İZMİR)",
+                        //    Date = "2020.05.02 11:11:11",
+                        //    Ml = "2.7",
+                        //    Depth = "3.2",
+                        //    Latitude = "",
+                        //    Longitude = "",  
+                        //});
+
+                        RequestPermissionsHelpers req = new RequestPermissionsHelpers();
+                        var permissionLocation = await req.RequestLocationPermission();
+                        if (permissionLocation)
+                        {
+                            var request = new GeolocationRequest(GeolocationAccuracy.High);
+                            var locationInformation = await Geolocation.GetLocationAsync(request);
+                            if (locationInformation != null)
+                            {
+                                Latitude = locationInformation.Latitude;
+                                Longitude = locationInformation.Longitude;
+                                Altitude = locationInformation.Altitude;
+                            }
+
+                            await RefreshData();
+
+                            await CoreMethods.PushPopupPageModel<PlayStoreVotingPageModel>(1);
+                        }
+                    });
+                }
+                catch (System.Exception ex)
+                {
+                    await RefreshData();
+                }
             });
         }
 
         #endregion
+
+       
 
         #region | PropertyChanged |
 
@@ -75,6 +126,10 @@ namespace DepremAlarmi.PageModels
         private string todayHighestEarthQuake;
         public string TodayHighestEarthQuake { get { return todayHighestEarthQuake; } set { todayHighestEarthQuake = value; OnPropertyChanged(nameof(TodayHighestEarthQuake)); } }
 
+        public double Latitude { get; set; }
+        public double Longitude { get; set; }
+        public double? Altitude { get; set; }
+
         #endregion
 
         #region | Commands |
@@ -100,79 +155,108 @@ namespace DepremAlarmi.PageModels
 
         public async Task RefreshData()
         {
-            Configurations.LoadingConfig = new LoadingConfig
-            {
-                IndicatorColor = Color.White,
-                OverlayColor = Color.Black,
-                Opacity = 0.4,
-                DefaultMessage = "Deprem verileri getiriliyor.."
-            };
 
-            await Loading.Instance.StartAsync(async progress =>
+            try
             {
-                try
+
+                #region | Veri Çekimi İşlemi |
+
+                earthQuakeList.Clear();
+
+                EarthQuake data = await EarthQuakeService.InfoEarthQuake(null);
+
+                var res = (from s in data.result
+                           where s.Other == "-" && s.Country == "Türkiye"
+                           select s).ToList();
+
+                #endregion
+
+                foreach (var item in res)
                 {
+                    #region | Boş gelen Location değerini doldurma işlemi |
 
-                    earthQuakeList.Clear();
-                    EarthQuake data = await EarthQuakeService.InfoEarthQuake(null);
-                    foreach (var item in data.result)
+                    if (item.Location == "- (-)")
                     {
-                        if (item.Location == "- (-)")
+                        char[] _ayrac = { '(' };
+                        item.Other = item.Other + "(";
+                        var newValue = item.Other.Split(_ayrac);
+                        if (newValue.Length > 1)
                         {
-                            char[] _ayrac = { '(' };
-                            item.Other = item.Other + "(";
-                            var newValue = item.Other.Split(_ayrac);
-                            item.Location = newValue[1].ToString().Replace(")", "").Replace(" ", "");
+                            /*char[] _ayracTwo = { '.' }; 
+                            var newValueTwo = item.Other.Split(_ayracTwo);
+                            var _countyValue = newValueTwo[1].ToString();
+                              
+                            string _city = newValue[1].ToString().Replace(")", "").Replace(" ", "").Replace(",", "");
+
+                            string _county = _countyValue.Replace((_city),"").Replace(")", "").Replace("(", "");*/
+                            item.Location = newValue[1].ToString().Replace(")", "").Replace(" ", "").Replace(",", "");
                         }
 
-                        EarthQuakeList.Add(new Result
-                        {
-                            Location = item.Location,
-                            Date = item.Date,
-                            Ml = item.Ml,
-                            Depth = item.Depth,
-                            Latitude = item.Latitude,
-                            Longitude = item.Longitude,
-                            ShareButton = item.Location + "@" + item.Ml + "@" + item.Date,
-                            LocationButton = item.Location + "@" + item.Longitude + "@" + item.Latitude
-                        });
+                        if (newValue[1].ToString() == "")
+                            item.Location = newValue[0].ToString().Replace(")", "").Replace(" ", "").Replace(",", "");
                     }
-                    TopLocation = data.result[0].Location;
-                    TopMl = data.result[0].Ml;
-                    TopDepth = data.result[0].Depth;
-                    TopDate = data.result[0].Date;
-                    TopShareInformation = data.result[0].Location + "@" + data.result[0].Ml + "@" + data.result[0].Date;
+                    #endregion
 
-                    char[] ayrac = { '(' };
-                    var shortLocation = data.result[0].Location.Split(ayrac);
-                    if (shortLocation.Length > 0)
+                    #region | Veri basma işlemi |
+
+                    Location userLocation = new Location(Latitude, Longitude);
+                    Location earthquakeLocation = new Location(Convert.ToDouble(item.Latitude), Convert.ToDouble(item.Longitude));
+                    double distanceKM = Location.CalculateDistance(userLocation, earthquakeLocation, DistanceUnits.Kilometers);
+
+                    EarthQuakeList.Add(new Result
                     {
-                        TopShortLocation = shortLocation[1].ToString().Replace(")", "").Replace(" ", "");
-                    }
-                    else
-                    {
-                        TopShortLocation = data.result[0].Location;
-                    }
+                        Location = item.Location,
+                        Date = item.Date,
+                        Ml = item.Ml,
+                        Depth = item.Depth,
+                        Latitude = item.Latitude,
+                        Longitude = item.Longitude,
+                        ShareButton = item.Location + "@" + item.Ml + "@" + item.Date + "@" + item.City,
+                        LocationButton = item.Location + "@" + item.Longitude + "@" + item.Latitude,
+                        Distance = Convert.ToInt32(distanceKM).ToString() + "km"
+                    });
 
-                    //var res = (from s in EarthQuakeList
-                    //           where Convert.ToDateTime(s.Date) >= DateTime.Now.AddDays(-1)
-                    //           select s).OrderByDescending(c => c.Ml).First();
-
-                    //TodayHighestEarthQuake = "Bugün yaşanan en büyük deprem : " + res.Location + " - Şiddet " + res.Ml + "";
-
-                    // TODO : bug / check..
-                    //DependencyService.Get<IMessage>().LongMessage("Deprem verileri güncellendi...");
-
-                    //await CoreMethods.PushPopupPageModel<PlayStoreVotingPageModel>(1);
-
-
+                    #endregion
                 }
-                catch (System.Exception ex)
+
+                #region | En üstteki deprem verilerini gösterme işlemi |
+
+                TopLocation = res[0].Location;
+                TopMl = res[0].Ml;
+                TopDepth = res[0].Depth;
+                TopDate = res[0].Date;
+                TopShareInformation = res[0].Location + "@" + res[0].Ml + "@" + res[0].Date + "@" + res[0].City;
+
+                char[] ayrac = { '(' };
+                var shortLocation = res[0].Location.Split(ayrac);
+                if (shortLocation.Length > 1)
                 {
-
+                    TopShortLocation = shortLocation[1].ToString().Replace(")", "").Replace(" ", "");
                 }
-            });
+                else
+                {
+                    TopShortLocation = res[0].Location;
+                }
+                #endregion
+
+                #region | Bugün yaşanan en büyük deprem |
+
+                var todayRes = (from s in res
+                                where DateTime.ParseExact(s.Date, "dd.MM.yyyy HH:mm:ss", CultureInfo.InvariantCulture) >= DateTime.Now.AddDays(-1)
+                                select s).OrderByDescending(c => c.Ml).First();
+
+                TodayHighestEarthQuake = "Bugün yaşanan en büyük deprem : " + todayRes.Location + " - Şiddet " + todayRes.Ml + "";
+                #endregion
+
+                DependencyService.Get<IMessage>().LongMessage("Deprem verileri güncellendi..."); 
+            }
+            catch (System.Exception ex)
+            {
+
+            }
+
         }
+
         #endregion
     }
 }

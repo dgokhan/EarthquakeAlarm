@@ -38,7 +38,7 @@
           "dependencies": {
             "AiForms.Dialogs": {
               "target": "Package",
-              "version": "[1.0.7, )"
+              "version": "[1.0.8, )"
             },
             "FreshMvvm": {
               "target": "Package",
@@ -62,6 +62,10 @@
               "target": "Package",
               "version": "[12.0.3, )"
             },
+            "Plugin.Permissions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
             "Rg.Plugins.Popup": {
               "target": "Package",
               "version": "[2.0.0.3, )"
@@ -76,7 +80,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.7.0.1179, )"
+              "version": "[4.8.0.1269, )"
             }
           },
           "imports": [

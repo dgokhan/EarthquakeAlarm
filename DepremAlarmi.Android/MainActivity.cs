@@ -1,14 +1,25 @@
 ﻿using Android.App;
 using Android.Content.PM;
-using Android.Runtime; 
+using Android.Runtime;
 using Android.OS;
 using FFImageLoading.Forms.Platform;
+using Android;
+using Plugin.Permissions;
 
 namespace DepremAlarmi.Droid
 {
-    [Activity(Label = "Deprem Alarmi", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "Deprem Alarmi", Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
+       readonly string[] Permission =
+       {
+            Manifest.Permission.AccessCoarseLocation,
+            Manifest.Permission.AccessFineLocation, 
+        };
+
+        const int RequestId = 0;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             TabLayoutResource = Resource.Layout.Tabbar;
@@ -19,14 +30,17 @@ namespace DepremAlarmi.Droid
             Rg.Plugins.Popup.Popup.Init(this, savedInstanceState);
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
+            RequestPermissions(Permission, RequestId);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             AiForms.Dialogs.Dialogs.Init(this);
 
             LoadApplication(new App());
         }
+
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+            PermissionsImplementation.Current.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }

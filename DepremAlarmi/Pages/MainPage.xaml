@@ -75,7 +75,7 @@
         -->
 
         <!-- Deprem Bilgileri -->
-        <RefreshView Grid.Row="3" Command="{Binding RefreshCommand}"
+        <RefreshView Grid.Row="3" Command="{Binding RefreshCommand}" Margin="0,0,0,-5"
                      IsRefreshing="{Binding IsRefreshing}">
             <CollectionView BackgroundColor="#ffffff" ItemsSource="{Binding EarthQuakeList}" 
             HorizontalScrollBarVisibility="Never" VerticalScrollBarVisibility="Never" x:Name="EarthQuakeLists">
@@ -85,17 +85,19 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Grid RowSpacing="0" BackgroundColor="#ffffff" Padding="20"
-                              ColumnDefinitions="64,Auto,*,80" RowDefinitions="17">
+                              ColumnDefinitions="64,Auto,*,100" RowDefinitions="17">
 
                             <Label Grid.RowSpan="3" FontSize="36" TextColor="#000000" HorizontalTextAlignment="Start" Text="{Binding Ml}" Style="{StaticResource bold_label}"  />
                             <Label Grid.Column="1" Grid.Row="0" Margin="0,0,0,0" TextColor="#019287" FontSize="13" HorizontalTextAlignment="Start" Text="{Binding Location}" FontFamily="{StaticResource bold_label}"/>
                             <Label Grid.Column="1" Grid.Row="1" Margin="0,3,0,0" FontSize="10" HorizontalTextAlignment="Start" Text="Derinlik: " />
                             <Label Grid.Column="1" Grid.Row="1" Margin="43,3,0,0" FontSize="10" Text="{Binding Depth}" FontAttributes="Bold" FontFamily="{StaticResource bold_label}"/>
                             <Label Grid.Column="1" Grid.Row="2" Margin="0,2,0,0" FontSize="10" HorizontalTextAlignment="Start" Text="{Binding Date}"/>
-                            <Grid Margin="0,0,5,0" ColumnSpacing="5" Grid.Column="3" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand"
+
+                            <Grid ColumnSpacing="2" Grid.Column="3" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand"
                                   RowDefinitions="37" ColumnDefinitions="40,40">
 
-                                <Button TextColor="#019287" Text="{x:Static helpers:IconFont.ShareVariant}" FontFamily="{StaticResource MaterialFontFamily}" FontSize="17" ClassId="{Binding ShareButton}" BackgroundColor="White" Clicked="btnShare_Clicked"/>
+                                <Label Text="{Binding Distance}" VerticalOptions="Center" FontSize="9.5" Margin="-35,0,0,0" />
+                                <Button TextColor="#019287" Grid.Column="0" Text="{x:Static helpers:IconFont.ShareVariant}" FontFamily="{StaticResource MaterialFontFamily}" FontSize="17" ClassId="{Binding ShareButton}" BackgroundColor="White" Clicked="btnShare_Clicked"/>
                                 <Button TextColor="#73b7b2" Grid.Column="1" Text="{x:Static helpers:IconFont.MapMarkerRight}" FontFamily="{StaticResource MaterialFontFamily}" FontSize="17" ClassId="{Binding LocationButton}" BackgroundColor="White" Clicked="btnLocation_Clicked"/>
                             </Grid>
                         </Grid>

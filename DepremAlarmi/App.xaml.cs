@@ -13,12 +13,13 @@ namespace DepremAlarmi
             {
                 var tabs = new FreshMvvm.FreshTabbedNavigationContainer()
                 {
-                    BarTextColor = Color.White,
-                    BarBackgroundColor = Color.Black
+                    BarTextColor = Color.FromRgb(1, 146, 135),
+                    BarBackgroundColor = Color.FromRgb(1, 146, 135)
                 };
 
                 tabs.AddTab<MainPageModel>("", "earthqauke.png");
                 tabs.AddTab<MessagePageModel>("", "chat.png");
+                tabs.AddTab<InformationPageModel>("", "information.png");
 
                 MainPage = tabs;
             }
@@ -31,7 +32,8 @@ namespace DepremAlarmi
                 };
 
                 bottomBarPage.AddTab<MainPageModel>("", "earthqauke.png");
-                bottomBarPage.AddTab<MessagePageModel>("", "chat.png");
+                bottomBarPage.AddTab<SettingPageModel>("", "settings.png");
+                bottomBarPage.AddTab<InformationPageModel>("", "information.png");
 
                 MainPage = bottomBarPage;
 

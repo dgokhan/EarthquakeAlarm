@@ -40,7 +40,7 @@ namespace DepremAlarmi.Pages
 
                 await Share.RequestAsync(new ShareTextRequest
                 {
-                    Text = $"{parcalar[0]} bölgesinde {parcalar[2]} saatinde {parcalar[1]} büyüklüğünde deprem gerçekleşti! #deprem",
+                    Text = $"( {parcalar[1]} ) büyüklüğünde {parcalar[0]} bölgesinde {parcalar[2]} saatinde deprem gerçekleşti! #deprem #{parcalar[3].ToLower()}",
                     Uri = "https://bit.ly/depremalarmi",
                     Title = "Deprem Bilgisini Paylaş!"
                 });
