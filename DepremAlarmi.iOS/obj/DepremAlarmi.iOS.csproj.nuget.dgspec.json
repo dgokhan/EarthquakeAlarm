@@ -60,6 +60,10 @@
               "target": "Package",
               "version": "[2.0.0.3, )"
             },
+            "Shiny.Core": {
+              "target": "Package",
+              "version": "[1.2.0.1755, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.5.3.2, )"
@@ -153,6 +157,14 @@
               "target": "Package",
               "version": "[2.0.0.3, )"
             },
+            "Shiny.Core": {
+              "target": "Package",
+              "version": "[1.2.0.1755, )"
+            },
+            "Shiny.Notifications": {
+              "target": "Package",
+              "version": "[1.2.0.1755, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.5.3.2, )"
@@ -164,6 +176,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.8.0.1269, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
             }
           },
           "imports": [

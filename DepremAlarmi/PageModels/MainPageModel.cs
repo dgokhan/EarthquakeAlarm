@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
@@ -9,9 +10,12 @@ using AiForms.Dialogs;
 using AiForms.Dialogs.Abstractions;
 using DepremAlarmi.Controls.Helpers;
 using DepremAlarmi.Controls.Interfaces;
+using DepremAlarmi.Controls.Jobs;
 using DepremAlarmi.Controls.Services;
 using DepremAlarmi.Models;
 using FreshMvvm;
+using Shiny;
+using Shiny.Jobs;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 
@@ -21,10 +25,14 @@ namespace DepremAlarmi.PageModels
     {
         #region | CTOR |
 
+        IJobManager jobManager;
         public MainPageModel()
         {
             Task.Run(async () =>
             {
+                await ShinyHost.Resolve<IJobManager>().RequestAccess();  
+                await ShinyHost.Resolve<IJobManager>().Cancel("EarthQuakeJobX");
+
                 try
                 {
                     Configurations.LoadingConfig = new LoadingConfig
@@ -37,15 +45,32 @@ namespace DepremAlarmi.PageModels
 
                     await Loading.Instance.StartAsync(async progress =>
                     {
-                        //EarthQuakeList.Add(new Result
-                        //{
-                        //    Location = "BUCA (İZMİR)",
-                        //    Date = "2020.05.02 11:11:11",
-                        //    Ml = "2.7",
-                        //    Depth = "3.2",
-                        //    Latitude = "",
-                        //    Longitude = "",  
-                        //});
+                        #region | Job |
+
+
+                        JobInfo job = new JobInfo(typeof(GetDataJob), "EarthQuakeJobX")
+                        {
+                            Repeat = true,
+                            BatteryNotLow = true,
+                            DeviceCharging = true,
+                            RunOnForeground = false,
+                            RequiredInternetAccess = InternetAccess.None
+                        };
+                        job.SetParameter("SecondsToRun", 10);
+
+                        await ShinyHost.Resolve<IJobManager>().RequestAccess(); 
+                        await ShinyHost.Resolve<IJobManager>().Schedule(job);
+
+                        var jobs = ShinyHost.Resolve<IJobManager>().GetJobs();
+                        var jobx = ShinyHost.Resolve<IJobManager>().GetJob("EarthQuakeJobX");
+                        Debug.WriteLine(jobx.IsCompleted);
+                        Debug.WriteLine(jobx.Status);
+                        Debug.WriteLine(jobx);
+
+                        await ShinyHost.Resolve<IJobManager>().RequestAccess();  // necessary? where to put best?
+                        await ShinyHost.Resolve<IJobManager>().Run("EarthQuakeJobX");
+
+                        #endregion
 
                         RequestPermissionsHelpers req = new RequestPermissionsHelpers();
                         var permissionLocation = await req.RequestLocationPermission();

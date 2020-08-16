@@ -92,6 +92,7 @@
     <Compile Include="Services\Firebase\MyFirebaseIIDService.cs" />
     <Compile Include="Services\Firebase\MyFirebaseMessagingService.cs" />
     <Compile Include="Helpers\NotificationHelper.cs" />
+    <Compile Include="MainApplication.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

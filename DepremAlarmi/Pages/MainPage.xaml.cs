@@ -4,20 +4,19 @@ using System.Threading.Tasks;
 using AiForms.Dialogs;
 using AiForms.Dialogs.Abstractions;
 using DepremAlarmi.Controls.Interfaces;
-using DepremAlarmi.PageModels;
+using DepremAlarmi.PageModels; 
 using Xamarin.Essentials;
-using Xamarin.Forms;
-using Xamarin.Forms.Markup;
+using Xamarin.Forms; 
 
 namespace DepremAlarmi.Pages
 {
     public partial class MainPage : ContentPage
     {
-        string searchQuery = string.Empty;
+        string searchQuery = string.Empty; 
 
         public MainPage()
         {
-            InitializeComponent();
+            InitializeComponent(); 
         }
 
         private async void btnShare_Clicked(object sender, EventArgs e)

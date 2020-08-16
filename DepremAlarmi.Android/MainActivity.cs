@@ -6,6 +6,8 @@ using FFImageLoading.Forms.Platform;
 using Android;
 using Plugin.Permissions;
 using Android.Gms.Common;
+using Shiny;
+using Android.Content;
 
 namespace DepremAlarmi.Droid
 {
@@ -16,7 +18,8 @@ namespace DepremAlarmi.Droid
        readonly string[] Permission =
        {
             Manifest.Permission.AccessCoarseLocation,
-            Manifest.Permission.AccessFineLocation, 
+            Manifest.Permission.AccessFineLocation,
+            Manifest.Permission.ForegroundService,
         };
 
         const int RequestId = 0;
@@ -25,7 +28,7 @@ namespace DepremAlarmi.Droid
         {
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
-
+             
             base.OnCreate(savedInstanceState);
             CachedImageRenderer.Init(true);
             Rg.Plugins.Popup.Popup.Init(this, savedInstanceState);
@@ -37,13 +40,22 @@ namespace DepremAlarmi.Droid
 
             LoadApplication(new App());
             IsPlayServicesAvailable();
+            this.ShinyOnCreate();
+        }
 
+        protected override void OnNewIntent(Intent intent)
+        {
+            base.OnNewIntent(intent);
+            this.ShinyOnNewIntent(intent);
         }
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+
             PermissionsImplementation.Current.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+
+            this.ShinyRequestPermissionsResult(requestCode, permissions, grantResults);
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
