@@ -48,6 +48,8 @@ namespace DepremAlarmi.Models
         public string ShareButton { get; set; }
         public string LocationButton { get; set; }
         public string Distance { get; set; }
+
+        public string EventId { get; set; }
     }
 
     public class EarthQuake

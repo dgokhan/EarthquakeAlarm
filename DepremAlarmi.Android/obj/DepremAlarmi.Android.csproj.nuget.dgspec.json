@@ -68,9 +68,17 @@
               "target": "Package",
               "version": "[2.4.11.982, )"
             },
+            "Xamarin.Firebase.Messaging": {
+              "target": "Package",
+              "version": "[71.1740.4, )"
+            },
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.8.0.1269, )"
+            },
+            "Xamarin.GooglePlayServices.Base": {
+              "target": "Package",
+              "version": "[71.1610.4, )"
             }
           }
         }

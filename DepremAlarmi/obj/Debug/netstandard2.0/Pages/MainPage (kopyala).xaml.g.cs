@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("DepremAlarmi.Pages.MainPage.xaml", "Pages/MainPage.xaml", typeof(global::DepremAlarmi.Pages.MainPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("DepremAlarmi.Pages.MainPage (kopyala).xaml", "Pages/MainPage (kopyala).xaml", typeof(global::DepremAlarmi.Pages.MainPage))]
 
 namespace DepremAlarmi.Pages {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Pages/MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Pages/MainPage (kopyala).xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bbJQG1GQvdZenrW1TcQwoaLRrmJzOO7ujbjco7mekC8SX4cgPYHofwiDy4lVNTQfZnREx7AHuFTpRE1SCLJpYg==",
+  "dgSpecHash": "4ElIxKkHNPTohG63SLOWZeKxSd/7IyGDKcy1FrgFLhUifbGeZjXyl+7nZniBBhyXK1DQPz2+DBj83HA/L3fjhA==",
   "success": true,
   "projectFilePath": "/Users/heranarchy/Documents/GitHub/DepremAlarmi/DepremAlarmi.Android/DepremAlarmi.Android.csproj",
   "expectedPackageFiles": [
@@ -51,10 +51,21 @@
     "/Users/heranarchy/.nuget/packages/xamarin.android.support.vector.drawable/28.0.0.3/xamarin.android.support.vector.drawable.28.0.0.3.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/xamarin.android.support.versionedparcelable/28.0.0.3/xamarin.android.support.versionedparcelable.28.0.0.3.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/xamarin.android.support.viewpager/28.0.0.3/xamarin.android.support.viewpager.28.0.0.3.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/xamarin.build.download/0.7.0/xamarin.build.download.0.7.0.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/xamarin.ffimageloading/2.4.11.982/xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
     "/Users/heranarchy/.nuget/packages/xamarin.ffimageloading.forms/2.4.11.982/xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
-    "/Users/heranarchy/.nuget/packages/xamarin.forms/4.8.0.1269/xamarin.forms.4.8.0.1269.nupkg.sha512"
+    "/Users/heranarchy/.nuget/packages/xamarin.firebase.common/71.1610.4/xamarin.firebase.common.71.1610.4.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/xamarin.firebase.iid/71.1710.4/xamarin.firebase.iid.71.1710.4.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/xamarin.firebase.iid.interop/71.1601.4/xamarin.firebase.iid.interop.71.1601.4.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/xamarin.firebase.measurement.connector/71.1701.4/xamarin.firebase.measurement.connector.71.1701.4.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/xamarin.firebase.messaging/71.1740.4/xamarin.firebase.messaging.71.1740.4.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/xamarin.forms/4.8.0.1269/xamarin.forms.4.8.0.1269.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/xamarin.google.autovalue.annotations/1.6.5/xamarin.google.autovalue.annotations.1.6.5.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/xamarin.googleplayservices.base/71.1610.4/xamarin.googleplayservices.base.71.1610.4.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/xamarin.googleplayservices.basement/71.1620.4/xamarin.googleplayservices.basement.71.1620.4.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/xamarin.googleplayservices.stats/71.1601.4/xamarin.googleplayservices.stats.71.1601.4.nupkg.sha512",
+    "/Users/heranarchy/.nuget/packages/xamarin.googleplayservices.tasks/71.1601.4/xamarin.googleplayservices.tasks.71.1601.4.nupkg.sha512"
   ],
   "logs": [
     {

@@ -76,6 +76,12 @@
     <PackageReference Include="Plugin.Permissions">
       <Version>6.0.1</Version>
     </PackageReference>
+    <PackageReference Include="Xamarin.GooglePlayServices.Base">
+      <Version>71.1610.4</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Firebase.Messaging">
+      <Version>71.1740.4</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -83,6 +89,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\XamarinToast.cs" />
     <Compile Include="SplashActivity.cs" />
+    <Compile Include="Services\Firebase\MyFirebaseIIDService.cs" />
+    <Compile Include="Services\Firebase\MyFirebaseMessagingService.cs" />
+    <Compile Include="Helpers\NotificationHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -134,11 +143,18 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
+    <AndroidResource Include="Resources\Raw\notification.wav">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
     <Folder Include="Renderers\" />
     <Folder Include="Services\" />
+    <Folder Include="Services\Firebase\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Resources\Raw\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DepremAlarmi\DepremAlarmi.csproj">
@@ -153,6 +169,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidEnvironment Include="GarbageCollector.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <GoogleServicesJson Include="google-services.json" />
   </ItemGroup>
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

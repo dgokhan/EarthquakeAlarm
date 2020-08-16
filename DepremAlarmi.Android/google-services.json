@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "175182444758",
+    "firebase_url": "https://deprem-alarmi.firebaseio.com",
+    "project_id": "deprem-alarmi",
+    "storage_bucket": "deprem-alarmi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175182444758:android:0a7498aec9f66c95ee3177",
+        "android_client_info": {
+          "package_name": "net.f8filter.depremalarmi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175182444758-2d0osu5qj0h54u1hm34931ghtjep4b5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK7YdZ4ORqVVMzwHALEpejmn4QfoAAzm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175182444758-2d0osu5qj0h54u1hm34931ghtjep4b5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

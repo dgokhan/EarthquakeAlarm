@@ -14,13 +14,31 @@
         <ff:CachedImage Source="resource://overlay.png" Aspect="Fill" HeightRequest="275" VerticalOptions="StartAndExpand"/>
         <Label x:Name="lblTodayInfo" Text="{Binding TodayHighestEarthQuake}" Margin="0,10,0,0" TextColor="White" FontSize="9" HorizontalOptions="Center"/>
 
-        <StackLayout Margin="0,-10,0,0"  Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
-            <Grid ColumnDefinitions="Auto,60" Margin="80,0,0,0">
-                <Label Grid.Column="0" Text="{Binding TopMl}" TextColor="White" FontSize="70" FontAttributes="Bold" VerticalOptions="Center"/>
-                <Button Margin="0,0,0,0" Grid.Column="1" Text="{x:Static helpers:IconFont.ShareAllOutline}" FontFamily="{StaticResource MaterialFontFamily}" BackgroundColor="Transparent" FontSize="30" TextColor="White" VerticalOptions="Center" ClassId="{Binding TopShareInformation}" Clicked="btnShare_Clicked"/>
+        <StackLayout Margin="0,10,0,0"  Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
+            <Grid ColumnDefinitions="70,Auto,60" Margin="0,0,0,0" ColumnSpacing="0">
+
+                <Grid Grid.Row="0" Margin="-40,35,0,0">
+                    <Label Margin="0,4,0,0" FontSize="19" Text="{x:Static helpers:IconFont.Flag}" FontFamily="{StaticResource MaterialFontFamily}" TextColor="White">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding SwitchOff}" />
+                        </Label.GestureRecognizers>
+                    </Label>
+                    <Switch Margin="20,0,0,0" VerticalOptions="Start" HorizontalOptions="Start" IsToggled="{Binding SwitchEarthQuakeInformation}" OnColor="White"/>
+                    <Label Margin="70,4,0,0" FontSize="19" Text="{x:Static helpers:IconFont.Earth}" FontFamily="{StaticResource MaterialFontFamily}" TextColor="White" >
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding SwitchOn}" />
+                        </Label.GestureRecognizers>
+                    </Label>
+                </Grid>
+
+                <Label Grid.Column="1" Text="{Binding TopMl}" TextColor="White" FontSize="70" FontAttributes="Bold" VerticalOptions="Center"/>
+                <Button Margin="0,0,0,0" Grid.Column="2" Text="{x:Static helpers:IconFont.ShareAllOutline}" FontFamily="{StaticResource MaterialFontFamily}" BackgroundColor="Transparent" FontSize="30" TextColor="White" VerticalOptions="Center" ClassId="{Binding TopShareInformation}" Clicked="btnShare_Clicked"/>
             </Grid>
+
             <Label Margin="0,-20,0,0" Text="{Binding TopLocation}" TextColor="White" FontSize="16" HorizontalOptions="Center"/>
-            <Label  Margin="0,0,0,50" Text="{Binding TopDate}" TextColor="White" FontSize="12" HorizontalOptions="Center"/>
+
+            <Label Margin="0,0,0,50" Text="{Binding TopDate}" TextColor="White" FontSize="12" HorizontalOptions="Center"/>
+
         </StackLayout>
 
         <!-- Üst / Son Deprem Bilgisi - Grid Panel -->
@@ -68,20 +86,14 @@
                       Placeholder="il veya ilçe ismi yazınız..." PlaceholderColor="#d6d7d7" TextChanged="searchBar_TextChanged" />
         </Grid>
 
-        <!--
-        RowHeight="100"
-        RefreshCommand="{Binding RefreshCommand}" "
-
-        -->
-
         <!-- Deprem Bilgileri -->
         <RefreshView Grid.Row="3" Command="{Binding RefreshCommand}" Margin="0,0,0,-5"
                      IsRefreshing="{Binding IsRefreshing}">
-            <CollectionView BackgroundColor="#ffffff" ItemsSource="{Binding EarthQuakeList}" 
-            HorizontalScrollBarVisibility="Never" VerticalScrollBarVisibility="Never" x:Name="EarthQuakeLists">
-               <CollectionView.ItemsLayout>
-                   <LinearItemsLayout ItemSpacing="0" Orientation="Vertical"/>
-               </CollectionView.ItemsLayout>
+            <CollectionView BackgroundColor="#ffffff" ItemsSource="{Binding EarthQuakeList}" SelectionChangedCommand="{Binding SelectionChangedCommand}" SelectionChangedCommandParameter="{Binding SelectedItem,Source={x:Reference EarthQuakeLists}}"
+                            SelectionMode="Single" HorizontalScrollBarVisibility="Never" VerticalScrollBarVisibility="Never" x:Name="EarthQuakeLists">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout ItemSpacing="0" Orientation="Vertical"/>
+                </CollectionView.ItemsLayout>
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Grid RowSpacing="0" BackgroundColor="#ffffff" Padding="20"

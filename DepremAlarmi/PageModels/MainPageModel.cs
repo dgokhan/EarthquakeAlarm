@@ -75,8 +75,6 @@ namespace DepremAlarmi.PageModels
 
         #endregion
 
-       
-
         #region | PropertyChanged |
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -126,6 +124,9 @@ namespace DepremAlarmi.PageModels
         private string todayHighestEarthQuake;
         public string TodayHighestEarthQuake { get { return todayHighestEarthQuake; } set { todayHighestEarthQuake = value; OnPropertyChanged(nameof(TodayHighestEarthQuake)); } }
 
+        private bool _switchEarthQuakeInformation = false;
+        public bool SwitchEarthQuakeInformation { get { return _switchEarthQuakeInformation; } set { _switchEarthQuakeInformation = value; OnPropertyChanged(nameof(SwitchEarthQuakeInformation)); } }
+
         public double Latitude { get; set; }
         public double Longitude { get; set; }
         public double? Altitude { get; set; }
@@ -149,13 +150,49 @@ namespace DepremAlarmi.PageModels
             }
         }
 
+        public ICommand SelectionChangedCommand
+        {
+            get
+            {
+                return new Command<Result>(item =>
+                {
+                    #region | En üstteki deprem verilerini değiştirme işlemi |
+
+                    TopInformation(item);
+
+                    #endregion
+                });
+            }
+        }
+
+        public ICommand SwitchOff
+        {
+            get
+            {
+                return new Command(() =>
+                {
+                    SwitchEarthQuakeInformation = false;
+                });
+            }
+        }
+
+        public ICommand SwitchOn
+        {
+            get
+            {
+                return new Command(async () =>
+                {
+                    SwitchEarthQuakeInformation = true;
+                });
+            }
+        }
+
         #endregion
 
         #region | Voids |
 
         public async Task RefreshData()
         {
-
             try
             {
 
@@ -219,26 +256,6 @@ namespace DepremAlarmi.PageModels
                     #endregion
                 }
 
-                #region | En üstteki deprem verilerini gösterme işlemi |
-
-                TopLocation = res[0].Location;
-                TopMl = res[0].Ml;
-                TopDepth = res[0].Depth;
-                TopDate = res[0].Date;
-                TopShareInformation = res[0].Location + "@" + res[0].Ml + "@" + res[0].Date + "@" + res[0].City;
-
-                char[] ayrac = { '(' };
-                var shortLocation = res[0].Location.Split(ayrac);
-                if (shortLocation.Length > 1)
-                {
-                    TopShortLocation = shortLocation[1].ToString().Replace(")", "").Replace(" ", "");
-                }
-                else
-                {
-                    TopShortLocation = res[0].Location;
-                }
-                #endregion
-
                 #region | Bugün yaşanan en büyük deprem |
 
                 var todayRes = (from s in res
@@ -248,13 +265,38 @@ namespace DepremAlarmi.PageModels
                 TodayHighestEarthQuake = "Bugün yaşanan en büyük deprem : " + todayRes.Location + " - Şiddet " + todayRes.Ml + "";
                 #endregion
 
-                DependencyService.Get<IMessage>().LongMessage("Deprem verileri güncellendi..."); 
+                #region | En üstteki deprem verilerini gösterme işlemi |
+
+                TopInformation(res[0]);
+
+                #endregion
+
+                DependencyService.Get<IMessage>().LongMessage("Deprem verileri güncellendi...");
             }
             catch (System.Exception ex)
             {
 
             }
+        }
 
+        public void TopInformation(Result EarthQuakeInformation)
+        {
+            TopLocation = EarthQuakeInformation.Location;
+            TopMl = EarthQuakeInformation.Ml;
+            TopDepth = EarthQuakeInformation.Depth;
+            TopDate = EarthQuakeInformation.Date;
+            TopShareInformation = EarthQuakeInformation.Location + "@" + EarthQuakeInformation.Ml + "@" + EarthQuakeInformation.Date + "@" + EarthQuakeInformation.City;
+
+            char[] ayrac = { '(' };
+            var shortLocation = EarthQuakeInformation.Location.Split(ayrac);
+            if (shortLocation.Length > 1)
+            {
+                TopShortLocation = shortLocation[1].ToString().Replace(")", "").Replace(" ", "");
+            }
+            else
+            {
+                TopShortLocation = EarthQuakeInformation.Location;
+            }
         }
 
         #endregion
