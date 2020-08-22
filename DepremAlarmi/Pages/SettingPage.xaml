@@ -35,9 +35,9 @@
                 <ScrollView Grid.Row="2" BackgroundColor="Transparent" Padding="30,0,30,0" >
                     <Grid >
                         <Grid.RowDefinitions>
-                            <RowDefinition Height="*"/>
-                            <RowDefinition Height="*"/>
-                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="40"/>
+                            <RowDefinition Height="40"/>
+                            <RowDefinition Height="40"/>
                             <RowDefinition Height="*"/>
                             <RowDefinition Height="*"/>
                             <RowDefinition Height="*"/>
@@ -46,26 +46,20 @@
                             <RowDefinition Height="200"/>
                         </Grid.RowDefinitions>
 
-                        <StackLayout Grid.Row="0" Orientation="Horizontal" Spacing="0" IsVisible="True">
+                        <Grid>
                             <Label Text="{Binding txtNotify , Mode=TwoWay}" FontAttributes="Bold" FontFamily="{Binding PoppinsBold}" FontSize="11"  VerticalOptions="Center" />
-                            <StackLayout Orientation="Horizontal" Spacing="0" HorizontalOptions="EndAndExpand">
-                                <Switch  OnColor="#73b7b2" ThumbColor="#019287" IsToggled="{Binding notifyStatus, Mode=TwoWay}" HorizontalOptions="EndAndExpand"/>
-                            </StackLayout>
-                        </StackLayout>
+                            <Switch  OnColor="#73b7b2" ThumbColor="#019287" IsToggled="{Binding notifyStatus, Mode=TwoWay}" HorizontalOptions="EndAndExpand"/>
+                        </Grid>
 
-                        <StackLayout Margin="20,-20,0,0" Grid.Row="1" Orientation="Horizontal" Spacing="0" IsVisible="True">
+                        <Grid Grid.Row="1" Margin="15,0,0,0">
                             <Label Text="Türkiye'deki bütün depremlerin bildirimi gelsin." FontSize="11"  VerticalOptions="Center" />
-                            <StackLayout Orientation="Horizontal" Spacing="0" HorizontalOptions="EndAndExpand">
-                                <Switch OnColor="#73b7b2" ThumbColor="#019287" IsVisible="{Binding notifyAllTurkeyVisible, Mode=TwoWay}" IsToggled="{Binding notifyAllTurkey, Mode=TwoWay}" IsEnabled="{Binding notifyAllTurkeyEnable}"/>
-                            </StackLayout>
-                        </StackLayout>
+                            <Switch OnColor="#73b7b2" ThumbColor="#019287" IsVisible="{Binding notifyAllTurkeyVisible, Mode=TwoWay}" IsToggled="{Binding notifyAllTurkey, Mode=TwoWay}" IsEnabled="{Binding notifyAllTurkeyEnable}"/>
+                        </Grid>
 
-                        <StackLayout Margin="20,-30,0,0" Grid.Row="2" Orientation="Horizontal" Spacing="0" IsVisible="True">
+                        <Grid Grid.Row="2" Margin="15,0,0,0">
                             <Label Text="Sadece seçtiğim illerden bildirim almak istiyorum." FontSize="11"  VerticalOptions="Center" />
-                            <StackLayout Orientation="Horizontal" Spacing="0" HorizontalOptions="EndAndExpand">
-                                <Switch OnColor="#73b7b2" ThumbColor="#019287" IsVisible="{Binding notifyFilterTurkeyVisible, Mode=TwoWay}"  IsToggled="{Binding notifyFilterTurkey, Mode=TwoWay}" IsEnabled="{Binding notifyFilterTurkeyEnable}" HorizontalOptions="EndAndExpand"/>
-                            </StackLayout>
-                        </StackLayout>
+                            <Switch OnColor="#73b7b2" ThumbColor="#019287" IsVisible="{Binding notifyFilterTurkeyVisible, Mode=TwoWay}"  IsToggled="{Binding notifyFilterTurkey, Mode=TwoWay}" IsEnabled="{Binding notifyFilterTurkeyEnable}" HorizontalOptions="EndAndExpand"/>
+                        </Grid>
 
                         <StackLayout  Margin="0,-30,0,0" Grid.Row="3" Orientation="Horizontal" Spacing="0" IsVisible="True">
                             <Label Text="Bildirim Ayarları" FontAttributes="Bold" FontFamily="{Binding PoppinsBold}" FontSize="11"  VerticalOptions="Center" />

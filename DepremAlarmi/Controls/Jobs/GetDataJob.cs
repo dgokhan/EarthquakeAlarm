@@ -19,9 +19,7 @@ namespace DepremAlarmi.Controls.Jobs
                 $"{jobInfo.Identifier} Started bro! " 
                                                  
             );
-
-            jobInfo.Repeat = true;
-            // you really shouldn't lie about this on iOS as it is watching :)
+              
             return true;
         }
     }

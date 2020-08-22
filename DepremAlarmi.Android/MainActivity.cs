@@ -38,8 +38,9 @@ namespace DepremAlarmi.Droid
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             AiForms.Dialogs.Dialogs.Init(this);
 
-            LoadApplication(new App());
             IsPlayServicesAvailable();
+
+            LoadApplication(new App());
             this.ShinyOnCreate();
         }
 

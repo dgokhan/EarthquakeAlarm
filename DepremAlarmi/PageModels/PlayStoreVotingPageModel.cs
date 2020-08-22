@@ -2,6 +2,8 @@
 using System.Windows.Input;
 using DepremAlarmi.Controls.Helpers;
 using FreshMvvm;
+using Shiny;
+using Shiny.Jobs;
 using Xamarin.Forms;
 
 namespace DepremAlarmi.PageModels
@@ -27,6 +29,10 @@ namespace DepremAlarmi.PageModels
             {
                 return new Command(async () =>
                 {
+
+                    //await ShinyHost.Resolve<IJobManager>().RequestAccess();
+                    //await ShinyHost.Resolve<IJobManager>().Run(MainPageModel.mJobName);
+
                     await CoreMethods.PopPopupPageModel();
                     await CoreMethods.PopToRoot(false);
                 });

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Diagnostics;
+using System.ComponentModel; 
 using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
@@ -25,16 +24,14 @@ namespace DepremAlarmi.PageModels
     {
         #region | CTOR |
 
+        public static string mJobName = "myEQJob";
         IJobManager jobManager;
         public MainPageModel()
         {
             Task.Run(async () =>
             {
-                await ShinyHost.Resolve<IJobManager>().RequestAccess();  
-                await ShinyHost.Resolve<IJobManager>().Cancel("EarthQuakeJobX");
-
                 try
-                {
+                {  
                     Configurations.LoadingConfig = new LoadingConfig
                     {
                         IndicatorColor = Color.White,
@@ -44,34 +41,7 @@ namespace DepremAlarmi.PageModels
                     };
 
                     await Loading.Instance.StartAsync(async progress =>
-                    {
-                        #region | Job |
-
-
-                        JobInfo job = new JobInfo(typeof(GetDataJob), "EarthQuakeJobX")
-                        {
-                            Repeat = true,
-                            BatteryNotLow = true,
-                            DeviceCharging = true,
-                            RunOnForeground = false,
-                            RequiredInternetAccess = InternetAccess.None
-                        };
-                        job.SetParameter("SecondsToRun", 10);
-
-                        await ShinyHost.Resolve<IJobManager>().RequestAccess(); 
-                        await ShinyHost.Resolve<IJobManager>().Schedule(job);
-
-                        var jobs = ShinyHost.Resolve<IJobManager>().GetJobs();
-                        var jobx = ShinyHost.Resolve<IJobManager>().GetJob("EarthQuakeJobX");
-                        Debug.WriteLine(jobx.IsCompleted);
-                        Debug.WriteLine(jobx.Status);
-                        Debug.WriteLine(jobx);
-
-                        await ShinyHost.Resolve<IJobManager>().RequestAccess();  // necessary? where to put best?
-                        await ShinyHost.Resolve<IJobManager>().Run("EarthQuakeJobX");
-
-                        #endregion
-
+                    { 
                         RequestPermissionsHelpers req = new RequestPermissionsHelpers();
                         var permissionLocation = await req.RequestLocationPermission();
                         if (permissionLocation)
@@ -88,12 +58,28 @@ namespace DepremAlarmi.PageModels
                             await RefreshData();
 
                             await CoreMethods.PushPopupPageModel<PlayStoreVotingPageModel>(1);
+
+                            #region | Job |
+
+                            JobInfo job = new JobInfo(typeof(GetDataJob), mJobName)
+                            {
+                                Repeat = true,
+                                BatteryNotLow = true,
+                                RunOnForeground = false,
+                                RequiredInternetAccess = InternetAccess.None
+                            };
+                            job.SetParameter("SecondsToRun", 10);
+
+                            await ShinyHost.Resolve<IJobManager>().RequestAccess();
+                            await ShinyHost.Resolve<IJobManager>().Schedule(job);
+
+                            #endregion
                         }
                     });
                 }
                 catch (System.Exception ex)
                 {
-                    await RefreshData();
+
                 }
             });
         }
@@ -219,8 +205,7 @@ namespace DepremAlarmi.PageModels
         public async Task RefreshData()
         {
             try
-            {
-
+            { 
                 #region | Veri Çekimi İşlemi |
 
                 earthQuakeList.Clear();
@@ -230,9 +215,7 @@ namespace DepremAlarmi.PageModels
                 var res = (from s in data.result
                            where s.Other == "-" && s.Country == "Türkiye"
                            select s).ToList();
-
-                #endregion
-
+                 
                 foreach (var item in res)
                 {
                     #region | Boş gelen Location değerini doldurma işlemi |
@@ -280,6 +263,8 @@ namespace DepremAlarmi.PageModels
 
                     #endregion
                 }
+
+                #endregion
 
                 #region | Bugün yaşanan en büyük deprem |
 
