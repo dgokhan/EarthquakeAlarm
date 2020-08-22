@@ -28,7 +28,7 @@ namespace DepremAlarmi.Droid
         {
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
-             
+
             base.OnCreate(savedInstanceState);
             CachedImageRenderer.Init(true);
             Rg.Plugins.Popup.Popup.Init(this, savedInstanceState);
@@ -41,7 +41,7 @@ namespace DepremAlarmi.Droid
             IsPlayServicesAvailable();
 
             LoadApplication(new App());
-            this.ShinyOnCreate();
+            this.ShinyOnCreate(); 
         }
 
         protected override void OnNewIntent(Intent intent)

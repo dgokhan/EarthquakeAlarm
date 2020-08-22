@@ -31,15 +31,6 @@
           "lib/netstandard2.0/FreshMvvm.dll": {}
         }
       },
-      "LH.BottomNavigationBar.XF/1.0.42": {
-        "type": "package",
-        "compile": {
-          "lib/Xamarin.iOS10/LH.BottomBar.XamarinForms.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS10/LH.BottomBar.XamarinForms.dll": {}
-        }
-      },
       "Microsoft.AspNet.SignalR.Client/2.4.1": {
         "type": "package",
         "dependencies": {
@@ -249,6 +240,15 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll": {}
+        }
+      },
       "WebP.Touch/1.0.8": {
         "type": "package",
         "compile": {
@@ -427,13 +427,13 @@
         "dependencies": {
           "AiForms.Dialogs": "1.0.8",
           "FreshMvvm": "3.0.0",
-          "LH.BottomNavigationBar.XF": "1.0.42",
           "Microsoft.AspNet.SignalR.Client": "2.4.1",
           "Newtonsoft.Json": "12.0.3",
           "Plugin.Permissions": "6.0.1",
           "Rg.Plugins.Popup": "2.0.0.3",
           "Shiny.Core": "1.2.0.1755",
           "Shiny.Notifications": "1.2.0.1755",
+          "ThriveGmbH.BottomNavigationBar.XF": "1.0.2",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.Forms": "4.8.0.1269",
@@ -477,15 +477,6 @@
           "lib/netstandard2.0/FreshMvvm.dll": {}
         }
       },
-      "LH.BottomNavigationBar.XF/1.0.42": {
-        "type": "package",
-        "compile": {
-          "lib/Xamarin.iOS10/LH.BottomBar.XamarinForms.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS10/LH.BottomBar.XamarinForms.dll": {}
-        }
-      },
       "Microsoft.AspNet.SignalR.Client/2.4.1": {
         "type": "package",
         "dependencies": {
@@ -695,6 +686,15 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll": {}
+        }
+      },
       "WebP.Touch/1.0.8": {
         "type": "package",
         "compile": {
@@ -873,13 +873,13 @@
         "dependencies": {
           "AiForms.Dialogs": "1.0.8",
           "FreshMvvm": "3.0.0",
-          "LH.BottomNavigationBar.XF": "1.0.42",
           "Microsoft.AspNet.SignalR.Client": "2.4.1",
           "Newtonsoft.Json": "12.0.3",
           "Plugin.Permissions": "6.0.1",
           "Rg.Plugins.Popup": "2.0.0.3",
           "Shiny.Core": "1.2.0.1755",
           "Shiny.Notifications": "1.2.0.1755",
+          "ThriveGmbH.BottomNavigationBar.XF": "1.0.2",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.Forms": "4.8.0.1269",
@@ -923,15 +923,6 @@
           "lib/netstandard2.0/FreshMvvm.dll": {}
         }
       },
-      "LH.BottomNavigationBar.XF/1.0.42": {
-        "type": "package",
-        "compile": {
-          "lib/Xamarin.iOS10/LH.BottomBar.XamarinForms.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS10/LH.BottomBar.XamarinForms.dll": {}
-        }
-      },
       "Microsoft.AspNet.SignalR.Client/2.4.1": {
         "type": "package",
         "dependencies": {
@@ -1141,6 +1132,15 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll": {}
+        }
+      },
       "WebP.Touch/1.0.8": {
         "type": "package",
         "compile": {
@@ -1319,13 +1319,13 @@
         "dependencies": {
           "AiForms.Dialogs": "1.0.8",
           "FreshMvvm": "3.0.0",
-          "LH.BottomNavigationBar.XF": "1.0.42",
           "Microsoft.AspNet.SignalR.Client": "2.4.1",
           "Newtonsoft.Json": "12.0.3",
           "Plugin.Permissions": "6.0.1",
           "Rg.Plugins.Popup": "2.0.0.3",
           "Shiny.Core": "1.2.0.1755",
           "Shiny.Notifications": "1.2.0.1755",
+          "ThriveGmbH.BottomNavigationBar.XF": "1.0.2",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.Forms": "4.8.0.1269",
@@ -1369,15 +1369,6 @@
           "lib/netstandard2.0/FreshMvvm.dll": {}
         }
       },
-      "LH.BottomNavigationBar.XF/1.0.42": {
-        "type": "package",
-        "compile": {
-          "lib/Xamarin.iOS10/LH.BottomBar.XamarinForms.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS10/LH.BottomBar.XamarinForms.dll": {}
-        }
-      },
       "Microsoft.AspNet.SignalR.Client/2.4.1": {
         "type": "package",
         "dependencies": {
@@ -1587,6 +1578,15 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll": {}
+        }
+      },
       "WebP.Touch/1.0.8": {
         "type": "package",
         "compile": {
@@ -1765,13 +1765,13 @@
         "dependencies": {
           "AiForms.Dialogs": "1.0.8",
           "FreshMvvm": "3.0.0",
-          "LH.BottomNavigationBar.XF": "1.0.42",
           "Microsoft.AspNet.SignalR.Client": "2.4.1",
           "Newtonsoft.Json": "12.0.3",
           "Plugin.Permissions": "6.0.1",
           "Rg.Plugins.Popup": "2.0.0.3",
           "Shiny.Core": "1.2.0.1755",
           "Shiny.Notifications": "1.2.0.1755",
+          "ThriveGmbH.BottomNavigationBar.XF": "1.0.2",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.Forms": "4.8.0.1269",
@@ -1827,21 +1827,6 @@
         "lib/netstandard2.0/FreshIOC.pdb",
         "lib/netstandard2.0/FreshMvvm.dll",
         "lib/netstandard2.0/FreshMvvm.pdb"
-      ]
-    },
-    "LH.BottomNavigationBar.XF/1.0.42": {
-      "sha512": "UT28WmXVhR3+MP5lltloYYgRCMonloBZFhFldpkTxqqxknB9wN/OpBsr5QJJbzDEgYcoKdNNDiDYRTBB+BSXEA==",
-      "type": "package",
-      "path": "lh.bottomnavigationbar.xf/1.0.42",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lh.bottomnavigationbar.xf.1.0.42.nupkg.sha512",
-        "lh.bottomnavigationbar.xf.nuspec",
-        "lib/MonoAndroid10/BottomBar.Droid.dll",
-        "lib/MonoAndroid10/LH.BottomBar.XamarinForms.dll",
-        "lib/Xamarin.iOS10/LH.BottomBar.XamarinForms.dll",
-        "lib/netstandard1.4/LH.BottomBar.XamarinForms.dll"
       ]
     },
     "Microsoft.AspNet.SignalR.Client/2.4.1": {
@@ -2328,6 +2313,21 @@
         "system.threading.tasks.extensions.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
+      "sha512": "CAxjraz7v27mWxrChvLLggDRq5Icf3OA0IL3lpGY+rfUGH488kZzBB3WJmfbgh7q5yfBbva51Iuv4tFleepV2A==",
+      "type": "package",
+      "path": "thrivegmbh.bottomnavigationbar.xf/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/BottomBar.Droid.dll",
+        "lib/MonoAndroid10/BottomBar.XamarinForms.dll",
+        "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll",
+        "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll",
+        "thrivegmbh.bottomnavigationbar.xf.1.0.2.nupkg.sha512",
+        "thrivegmbh.bottomnavigationbar.xf.nuspec"
       ]
     },
     "WebP.Touch/1.0.8": {
@@ -2828,11 +2828,11 @@
       "AiForms.Dialogs >= 1.0.8",
       "DepremAlarmi >= 1.0.0",
       "FreshMvvm >= 3.0.0",
-      "LH.BottomNavigationBar.XF >= 1.0.42",
       "Microsoft.AspNet.SignalR.Client >= 2.4.1",
       "Plugin.Permissions >= 6.0.1",
       "Rg.Plugins.Popup >= 2.0.0.3",
       "Shiny.Core >= 1.2.0.1755",
+      "ThriveGmbH.BottomNavigationBar.XF >= 1.0.2",
       "Xamarin.Essentials >= 1.5.3.2",
       "Xamarin.FFImageLoading.Forms >= 2.4.11.982",
       "Xamarin.Forms >= 4.8.0.1269"
@@ -2881,10 +2881,6 @@
             "target": "Package",
             "version": "[3.0.0, )"
           },
-          "LH.BottomNavigationBar.XF": {
-            "target": "Package",
-            "version": "[1.0.42, )"
-          },
           "Microsoft.AspNet.SignalR.Client": {
             "target": "Package",
             "version": "[2.4.1, )"
@@ -2900,6 +2896,10 @@
           "Shiny.Core": {
             "target": "Package",
             "version": "[1.2.0.1755, )"
+          },
+          "ThriveGmbH.BottomNavigationBar.XF": {
+            "target": "Package",
+            "version": "[1.0.2, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

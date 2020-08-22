@@ -121,9 +121,6 @@
     <PackageReference Include="AiForms.Dialogs">
       <Version>1.0.8</Version>
     </PackageReference>
-    <PackageReference Include="LH.BottomNavigationBar.XF">
-      <Version>1.0.42</Version>
-    </PackageReference>
     <PackageReference Include="Rg.Plugins.Popup">
       <Version>2.0.0.3</Version>
     </PackageReference>
@@ -135,6 +132,9 @@
     </PackageReference>
     <PackageReference Include="Shiny.Core">
       <Version>1.2.0.1755</Version>
+    </PackageReference>
+    <PackageReference Include="ThriveGmbH.BottomNavigationBar.XF">
+      <Version>1.0.2</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

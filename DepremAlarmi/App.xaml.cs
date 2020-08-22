@@ -1,4 +1,5 @@
-﻿using DepremAlarmi.Controls.CustomHelpers;
+﻿using BottomBar.XamarinForms;
+using DepremAlarmi.Controls.CustomHelpers; 
 using DepremAlarmi.PageModels;
 using Xamarin.Forms; 
 namespace DepremAlarmi
@@ -25,24 +26,20 @@ namespace DepremAlarmi
             }
             else
             {
-                var bottomBarPage = new CustomNavigation()
-                {
-                    SelectedTabColor = Color.FromRgb(1, 146, 135),
-                    BackgroundColor = Color.FromRgb(1, 146, 135)
-                };
+                var bottomBarPage = new CustomNavigation() { BarTextColor = Color.Black, BarBackgroundColor = Color.Black };
 
-                bottomBarPage.AddTab<MainPageModel>("", "earthqauke.png");
-                bottomBarPage.AddTab<SettingPageModel>("", "settings.png");
-                bottomBarPage.AddTab<InformationPageModel>("", "information.png");
+                bottomBarPage.FixedMode = true;
+                bottomBarPage.BarTheme = BottomBarPage.BarThemeTypes.Light;
+                bottomBarPage.BarTextColor = Color.FromHex("#019287");
+
+                bottomBarPage.AddTab<MainPageModel>("Anasayfa", "icon_home.png");
+                bottomBarPage.AddTab<SettingPageModel>("Ayarlar", "icon_library.png");
+                bottomBarPage.AddTab<SettingPageModel>("Ayarlar", "settings.png");
+                bottomBarPage.AddTab<InformationPageModel>("Hakkında", "information.png");
 
                 MainPage = bottomBarPage;
 
-            }
-
-            
-
-            
-            //MainPage = new FreshNavigationContainer(FreshPageModelResolver.ResolvePageModel<SettingPageModel>());
+            }  
         }
 
         protected override void OnStart()

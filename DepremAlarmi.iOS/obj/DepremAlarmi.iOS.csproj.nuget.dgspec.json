@@ -44,10 +44,6 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
-            "LH.BottomNavigationBar.XF": {
-              "target": "Package",
-              "version": "[1.0.42, )"
-            },
             "Microsoft.AspNet.SignalR.Client": {
               "target": "Package",
               "version": "[2.4.1, )"
@@ -63,6 +59,10 @@
             "Shiny.Core": {
               "target": "Package",
               "version": "[1.2.0.1755, )"
+            },
+            "ThriveGmbH.BottomNavigationBar.XF": {
+              "target": "Package",
+              "version": "[1.0.2, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -131,10 +131,6 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
-            "LH.BottomNavigationBar.XF": {
-              "target": "Package",
-              "version": "[1.0.42, )"
-            },
             "Microsoft.AspNet.SignalR.Client": {
               "target": "Package",
               "version": "[2.4.1, )"
@@ -164,6 +160,10 @@
             "Shiny.Notifications": {
               "target": "Package",
               "version": "[1.2.0.1755, )"
+            },
+            "ThriveGmbH.BottomNavigationBar.XF": {
+              "target": "Package",
+              "version": "[1.0.2, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

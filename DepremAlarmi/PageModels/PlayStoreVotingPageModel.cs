@@ -16,7 +16,7 @@ namespace DepremAlarmi.PageModels
         {
             get
             {
-                return new Command(async () =>
+                return new Command(() =>
                 {
                     Device.OpenUri(new Uri("market://details?id=net.f8filter.depremalarmi"));
                 });
@@ -29,10 +29,6 @@ namespace DepremAlarmi.PageModels
             {
                 return new Command(async () =>
                 {
-
-                    //await ShinyHost.Resolve<IJobManager>().RequestAccess();
-                    //await ShinyHost.Resolve<IJobManager>().Run(MainPageModel.mJobName);
-
                     await CoreMethods.PopPopupPageModel();
                     await CoreMethods.PopToRoot(false);
                 });
