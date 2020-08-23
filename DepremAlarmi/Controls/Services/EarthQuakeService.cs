@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using System.IO;
 using System.Net;
+using System.Threading;
 using System.Threading.Tasks;
 using DepremAlarmi.Models;
 using Newtonsoft.Json;
@@ -10,11 +11,11 @@ namespace DepremAlarmi.Controls.Services
 {
     public class EarthQuakeService
     {
-        public static async Task<EarthQuake> InfoEarthQuake(string regionName)
+        public static async Task<EarthQuake> InfoEarthQuake()
         {
         tekrarDene:
             try
-            {  
+            {
                 #region // JSON VERİ ÇEKME İŞLEMLERİ
 
                 string url = "http://54.36.38.150:4477/api/Afad";

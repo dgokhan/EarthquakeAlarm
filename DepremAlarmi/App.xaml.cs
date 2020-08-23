@@ -14,28 +14,33 @@ namespace DepremAlarmi
             {
                 var tabs = new FreshMvvm.FreshTabbedNavigationContainer()
                 {
-                    BarTextColor = Color.FromRgb(1, 146, 135),
-                    BarBackgroundColor = Color.FromRgb(1, 146, 135)
+                    BarTextColor = Color.Black,
+                    BarBackgroundColor = Color.FromHex("#019287")
                 };
+                 
+                tabs.BarTextColor = Color.FromHex("#019287");
 
-                tabs.AddTab<MainPageModel>("", "earthqauke.png");
-                tabs.AddTab<MessagePageModel>("", "chat.png");
-                tabs.AddTab<InformationPageModel>("", "information.png");
+                tabs.AddTab<InformationPageModel>("Anasayfa", "icon_home.png");
+                tabs.AddTab<MainPageModel>("Depremler", "icon_earthquake.png");
+                tabs.AddTab<SettingPageModel>("Güvendeyim", "icon_safe.png");
+                tabs.AddTab<SettingPageModel>("Ayarlar", "icon_settings.png");
+                tabs.AddTab<InformationPageModel>("Hakkında", "icon_information.png");
 
                 MainPage = tabs;
             }
             else
             {
-                var bottomBarPage = new CustomNavigation() { BarTextColor = Color.Black, BarBackgroundColor = Color.Black };
+                var bottomBarPage = new CustomNavigation() { BarTextColor = Color.Black, BarBackgroundColor = Color.FromHex("#019287") };
 
                 bottomBarPage.FixedMode = true;
                 bottomBarPage.BarTheme = BottomBarPage.BarThemeTypes.Light;
                 bottomBarPage.BarTextColor = Color.FromHex("#019287");
 
-                bottomBarPage.AddTab<MainPageModel>("Anasayfa", "icon_home.png");
-                bottomBarPage.AddTab<SettingPageModel>("Ayarlar", "icon_library.png");
-                bottomBarPage.AddTab<SettingPageModel>("Ayarlar", "settings.png");
-                bottomBarPage.AddTab<InformationPageModel>("Hakkında", "information.png");
+                bottomBarPage.AddTab<InformationPageModel>("Anasayfa", "icon_home.png");
+                bottomBarPage.AddTab<MainPageModel>("Depremler", "icon_earthquake.png");
+                bottomBarPage.AddTab<SettingPageModel>("Güvendeyim", "icon_safe.png");
+                bottomBarPage.AddTab<SettingPageModel>("Ayarlar", "icon_settings.png");
+                bottomBarPage.AddTab<InformationPageModel>("Hakkında", "icon_information.png");
 
                 MainPage = bottomBarPage;
 

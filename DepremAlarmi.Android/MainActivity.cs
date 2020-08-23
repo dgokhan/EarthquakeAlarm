@@ -7,7 +7,11 @@ using Android;
 using Plugin.Permissions;
 using Android.Gms.Common;
 using Shiny;
-using Android.Content;
+using Android.Content; 
+using Xamarin.Forms;
+using System;
+using DepremAlarmi.Controls.Services.AndroidEarthQuakeServices;
+using DepremAlarmi.Droid.Services;
 
 namespace DepremAlarmi.Droid
 {
@@ -22,7 +26,8 @@ namespace DepremAlarmi.Droid
             Manifest.Permission.ForegroundService,
         };
 
-        const int RequestId = 0;
+        public static string CHANNEL_ID = "AlarmChnnelId";
+        private const int RequestId = 0;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -41,7 +46,34 @@ namespace DepremAlarmi.Droid
             IsPlayServicesAvailable();
 
             LoadApplication(new App());
-            this.ShinyOnCreate(); 
+            this.ShinyOnCreate();
+
+            _CreateNotificationChannel();
+            MessagingCenter.Subscribe<StartLongRunningTaskMessage>(this, "StartLongRunningTaskMessage", message => {
+                var intent = new Intent(this, typeof(AndroidEarthQuakeService));
+                try
+                {
+                    StartService(intent);
+                }
+                catch (Exception ex)
+                { 
+                    throw;
+                }
+            });
+            MessagingCenter.Subscribe<StopLongRunningTaskMessage>(this, "StopLongRunningTaskMessage", message => {
+                var intent = new Intent(this, typeof(AndroidEarthQuakeService));
+                StopService(intent);
+            }); 
+        }
+
+        private void _CreateNotificationChannel()
+        {
+            if (Build.VERSION.SdkInt >= BuildVersionCodes.O)
+            {
+                NotificationChannel serviceChannel = new NotificationChannel(CHANNEL_ID, "Alarm Channel", NotificationImportance.Low);
+                NotificationManager manager = GetSystemService(Context.NotificationService) as NotificationManager;
+                manager.CreateNotificationChannel(serviceChannel);
+            }
         }
 
         protected override void OnNewIntent(Intent intent)

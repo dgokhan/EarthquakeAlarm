@@ -38,6 +38,7 @@
     <Folder Include="Controls\Client\" />
     <Folder Include="Controls\Jobs\" />
     <Folder Include="Controls\AppState\" />
+    <Folder Include="Controls\Services\AndroidEarthQuakeServices\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="UI\overlay.png" />

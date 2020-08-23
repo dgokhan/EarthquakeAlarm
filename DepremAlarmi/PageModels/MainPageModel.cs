@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.ObjectModel;
-using System.ComponentModel; 
+using System.ComponentModel;
 using System.Globalization;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using AiForms.Dialogs;
@@ -11,6 +12,7 @@ using DepremAlarmi.Controls.Helpers;
 using DepremAlarmi.Controls.Interfaces;
 using DepremAlarmi.Controls.Jobs;
 using DepremAlarmi.Controls.Services;
+using DepremAlarmi.Controls.Services.AndroidEarthQuakeServices;
 using DepremAlarmi.Models;
 using FreshMvvm;
 using Shiny;
@@ -22,16 +24,16 @@ namespace DepremAlarmi.PageModels
 {
     public class MainPageModel : FreshBasePageModel, INotifyPropertyChanged
     {
-        #region | CTOR |
+        #region | CTOR | 
 
         public static string mJobName = "myEQJob";
-        IJobManager jobManager;
+
         public MainPageModel()
-        {
+        {  
             Task.Run(async () =>
             {
                 try
-                {  
+                {
                     Configurations.LoadingConfig = new LoadingConfig
                     {
                         IndicatorColor = Color.White,
@@ -41,7 +43,7 @@ namespace DepremAlarmi.PageModels
                     };
 
                     await Loading.Instance.StartAsync(async progress =>
-                    { 
+                    {
                         RequestPermissionsHelpers req = new RequestPermissionsHelpers();
                         var permissionLocation = await req.RequestLocationPermission();
                         if (permissionLocation)
@@ -55,7 +57,19 @@ namespace DepremAlarmi.PageModels
                                 Altitude = locationInformation.Altitude;
                             }
 
-                            await RefreshData();
+                            MessagingCenter.Subscribe<EarthQuake>(this, "TickedMessage", alarmMessage =>
+                            {
+                                Device.BeginInvokeOnMainThread(async () =>
+                                {
+                                    if (alarmMessage != null)
+                                        await RefreshData(alarmMessage);
+                                    else
+                                        await RefreshData(null);
+
+                                });
+                            });
+
+                            await RefreshData(null);
 
                             await CoreMethods.PushPopupPageModel<PlayStoreVotingPageModel>(1);
 
@@ -74,6 +88,9 @@ namespace DepremAlarmi.PageModels
                             await ShinyHost.Resolve<IJobManager>().Schedule(job);
 
                             #endregion
+
+                            var message = new StartLongRunningTaskMessage();
+                            MessagingCenter.Send(message, "StartLongRunningTaskMessage");
                         }
                     });
                 }
@@ -154,7 +171,7 @@ namespace DepremAlarmi.PageModels
                 {
                     IsRefreshing = true;
 
-                    await RefreshData();
+                    await RefreshData(null);
 
                     IsRefreshing = false;
                 });
@@ -202,20 +219,21 @@ namespace DepremAlarmi.PageModels
 
         #region | Voids |
 
-        public async Task RefreshData()
+        public async Task RefreshData(EarthQuake earthQuakeData)
         {
             try
-            { 
+            {
                 #region | Veri Çekimi İşlemi |
 
                 earthQuakeList.Clear();
 
-                EarthQuake data = await EarthQuakeService.InfoEarthQuake(null);
+                if (earthQuakeData == null)
+                    earthQuakeData = await EarthQuakeService.InfoEarthQuake();
 
-                var res = (from s in data.result
+                var res = (from s in earthQuakeData.result
                            where s.Other == "-" && s.Country == "Türkiye"
                            select s).ToList();
-                 
+
                 foreach (var item in res)
                 {
                     #region | Boş gelen Location değerini doldurma işlemi |
